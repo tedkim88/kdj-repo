@@ -7,6 +7,10 @@ Welcome to my portfolio repository! Below are the details of the projects I am w
 ## 1. **WordSmith** (JavaScript-based Web App)
 **Description**:  
 WordSmith is a JavaScript-based web application designed to help users learn vocabulary and manage their own word lists using Firebase Database. The app includes a quiz feature, allowing users to search for words, view their meanings, add words to a personal list, and then quiz themselves on the saved words.
+To prevent some possible errors, I just uploaded some files that might be a little unnecessary, sorry about that.
+
+Usage: This app is using parcel so, you can download the wordsmith folder and in the terminal if you type, 'npm run dev' it will be executed.
+you can click create account, log in, and word screen will pop up.
 
 **Features**:
 - **Search Functionality**: Search for words and view their meanings.
