@@ -1,0 +1,146 @@
+﻿@page "/SalesReturn/Shopping"
+@rendermode InteractiveServer
+<h3>Shopping</h3>
+<PageTitle>Shopping</PageTitle>
+
+
+<!--need to change the UI for feedback and errormessage-->
+<h4><label for="category" class="form-label">Select your Category</label></h4>
+
+@if (feedbackMessage.Length > 0)
+{
+    <p class="alert-info">@feedbackMessage</p>
+}
+
+<div>
+    <p class="alert-danger">
+        @errorMessage
+    </p>
+    @if (errorDetails.Count > 0)
+    {
+        <ul>
+            @foreach (var error in errorDetails)
+            {
+                <li class="alert-danger">@error</li>
+            }
+        </ul>
+    }
+</div>
+
+<SimpleDialog IsVisible="@showDialog"
+              Message="@dialogMessage"
+              OnClose="@(async result => { await SimpleDialogResult(result); })">
+</SimpleDialog>
+
+
+<select id="category" @bind="categoryID" class="input-mini">
+    <option value = "">Select a category...</option>
+    <option value = "0">All Items (@countOfAllItems Items)</option>
+    @foreach (var item in categories)
+    {
+        <option value="@item.CategoryID">@item.Description (@item.NumberOfItems items)</option>
+    }
+
+</select>
+<br />
+<br />
+<button class="btn btn-primary" @onclick="() => GetItems(categoryID)">Search</button>
+&nbsp;&nbsp;&nbsp;<button class="btn btn-primary" @onclick="(()=>MoveToCart())">Move to Cart</button>
+&nbsp;&nbsp;&nbsp;<button class="btn btn-secondary" @onclick="Clear">Clear</button>
+<br />
+
+
+
+
+@if (stockItems != null && stockItems.Any())
+{
+    <br />
+    <strong style="color:red; font-size:15px;">Category Items</strong>
+     <div class="overflow-scroll" style="height:350px;">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Selling Price</th>
+                <th>Quantity</th>
+                <th>Add</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var stockItem in stockItems)
+            {
+                <tr>
+                    <td>@stockItem.Description</td>
+                    <td>@stockItem.SellingPrice.ToString("C2")</td>
+                    <td>
+                        <input type="number" @bind="stockItem.Quantity" min="1" class="form-control" />
+                    </td>
+                    <td>
+
+                        <button @onclick="() => AddToShoppingList(stockItem.StockItemID, stockItem.Quantity)" class="btn btn-primary">Add</button>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    </div>
+}
+
+
+@if (cartItems.Any())
+{
+    <br />
+    <h5>Cart Item</h5>
+    <table class="table">
+
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in cartItems)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.UnitPrice.ToString("C2")</td>
+                    <td>@item.Subtotal.ToString("C2")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
+@*
+<footer>
+    @if (hasFeedback)
+    {
+        <blockquote>@feedbackMessage</blockquote>
+    }
+    @if (hasError)
+    {
+        <blockquote>
+            @errorMessage
+            <ul>
+                @foreach (var detail in errorDetails)
+                {
+                    <li>@detail</li>
+                }
+            </ul>
+
+
+        </blockquote>
+    }
+
+</footer> *@
+
+@code {
+
+}

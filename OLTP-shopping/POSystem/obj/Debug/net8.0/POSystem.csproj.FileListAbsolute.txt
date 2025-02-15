@@ -1,0 +1,39 @@
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\bin\Debug\net8.0\POSystem.deps.json
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\bin\Debug\net8.0\POSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\bin\Debug\net8.0\POSystem.pdb
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.AssemblyInfoInputs.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.AssemblyInfo.cs
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.sourcelink.json
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\obj\Debug\net8.0\refint\POSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.pdb
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\obj\Debug\net8.0\ref\POSystem.dll
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\bin\Debug\net8.0\POSystem.deps.json
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\bin\Debug\net8.0\POSystem.dll
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\bin\Debug\net8.0\POSystem.pdb
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.AssemblyInfoInputs.cache
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.AssemblyInfo.cs
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.csproj.CoreCompileInputs.cache
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.sourcelink.json
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.dll
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\obj\Debug\net8.0\refint\POSystem.dll
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.pdb
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\obj\Debug\net8.0\ref\POSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.csproj.AssemblyReference.cache
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.csproj.AssemblyReference.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\bin\Debug\net8.0\POSystem.deps.json
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\bin\Debug\net8.0\POSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\bin\Debug\net8.0\POSystem.pdb
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.csproj.AssemblyReference.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.AssemblyInfoInputs.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.AssemblyInfo.cs
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.sourcelink.json
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\obj\Debug\net8.0\refint\POSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\obj\Debug\net8.0\POSystem.pdb
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\POSystem\obj\Debug\net8.0\ref\POSystem.dll

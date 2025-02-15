@@ -1,0 +1,96 @@
+﻿@page "/SalesReturn/Cart"
+<PageTitle>Shopping Cart</PageTitle>
+
+
+<h3>Cart</h3>
+
+@if (feedbackMessage.Length > 0)
+{
+    <div class="alert alert-info">
+        @feedbackMessage
+    </div>
+}
+
+
+
+@if (shoppingCart.Any())
+{
+    <br />
+     <EditForm EditContext="editContext">
+        <h4>Cart Item</h4>
+    <table class="table">
+
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Subtotal</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in shoppingCart)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td>
+                        <!-- I found bind:event could be used to prevent rendering error. but changed my code into this one given in class-->
+                            <input type="number" @bind="item.Quantity" style="background:lightgray;"
+                                   @oninput="(e) =>
+                                   {
+                                       // Synchronize the input value (from UI) with the corresponding field in the data model
+                                       SyncQuantity(e.Value, item);
+
+                                       // Update the subtotal and tax whenever the quantity changes
+                                      
+                                       // Notify the EditContext that the Quantity field has changed
+                                       // This triggers validation and updates the UI if there are any errors
+                                       NotifyFieldChanged(item, nameof(item.Quantity));
+                                   }" />
+                            <!-- Display validation messages specific to the Quantity field -->
+                            <ValidationMessage For="@(() => item.Quantity)"  />
+
+                                <!--delieverable 2 requirement changed, so image deleted-->
+                        @* <img src="img/refresh.png" alt="refresh image" style="width:30px; height:30px; cursor: pointer;" @onclick="() => EditQuantity(item.ProductID,item.Quantity)" />(Update) *@
+                    </td>
+               
+                    <td>@item.UnitPrice.ToString("C2")</td>
+                    <td>@item.Subtotal.ToString("C2")</td>
+                    <img src="/img/remove.png" alt="image for removing item" style="width:35px; height:35px; cursor: pointer;" @onclick="()=>RemoveItem(item.ProductID)" />
+                </tr>
+            }
+        </tbody>
+    </table>
+        <DataAnnotationsValidator />
+    </EditForm>
+}
+
+@if (total > 0)
+{
+    <p style="font-size:16px; color:red;">SubTotal : @subtotal.ToString("C2")</p>
+    <p style="font-size:16px; color:red;">Tax : @tax.ToString("C2")</p>
+    <p style="font-size:16px; color:red;">Total : @total.ToString("C2")</p>
+
+    <p style="font-weight:bold">You can apply coupon in the next page(checkout).</p>
+}
+
+<button class="btn btn-primary" @onclick="MovetoShopping">Continue Shopping</button>
+&nbsp;&nbsp;&nbsp;
+
+
+<button class="btn btn-primary" @onclick="MovetoCheckout">Checkout</button>
+
+
+
+
+
+
+
+
+
+
+
+@code {
+
+}

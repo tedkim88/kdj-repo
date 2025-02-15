@@ -1,0 +1,340 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\dmit2018project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ifeel\\AppData\\Roaming\\Microsoft\\UserSecrets\\c8ca1e63-3eeb-499d-8dde-b240e06e1c75\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\salessystem\\salessystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\salessystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\salessystem\\bll\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\bll\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\salessystem\\bll\\refundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\bll\\refundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\dmit2018project\\components\\pages\\salesreturn\\refund.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\components\\pages\\salesreturn\\refund.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\dmit2018project\\components\\pages\\salesreturn\\refund.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\components\\pages\\salesreturn\\refund.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\salessystem\\bll\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\bll\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\salessystem\\salesreturnextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\salesreturnextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\dmit2018project\\components\\pages\\salesreturn\\checkout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\components\\pages\\salesreturn\\checkout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\dmit2018project\\components\\pages\\purchaseorders\\vendors.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\components\\pages\\purchaseorders\\vendors.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\dmit2018project\\components\\pages\\purchaseorders\\vendors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\components\\pages\\purchaseorders\\vendors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\dmit2018project\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\salessystem\\viewmodels\\returnitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\viewmodels\\returnitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\posystem\\bll\\vendorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|solutionrelative:posystem\\bll\\vendorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\posystem\\bll\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|solutionrelative:posystem\\bll\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|c:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - copy\\dmit2018project\\posystem\\bll\\stockitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|solutionrelative:posystem\\bll\\stockitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 43,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\appsettings.json",
+              "RelativeDocumentMoniker": "DMIT2018Project\\appsettings.json",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\appsettings.json",
+              "RelativeToolTip": "DMIT2018Project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-01T06:27:44.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\ifeel\\AppData\\Roaming\\Microsoft\\UserSecrets\\c8ca1e63-3eeb-499d-8dde-b240e06e1c75\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\ifeel\\AppData\\Roaming\\Microsoft\\UserSecrets\\c8ca1e63-3eeb-499d-8dde-b240e06e1c75\\secrets.json",
+              "ToolTip": "C:\\Users\\ifeel\\AppData\\Roaming\\Microsoft\\UserSecrets\\c8ca1e63-3eeb-499d-8dde-b240e06e1c75\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\ifeel\\AppData\\Roaming\\Microsoft\\UserSecrets\\c8ca1e63-3eeb-499d-8dde-b240e06e1c75\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-01T06:27:29.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalesSystem.csproj",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\SalesSystem.csproj",
+              "RelativeDocumentMoniker": "SalesSystem\\SalesSystem.csproj",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\SalesSystem.csproj",
+              "RelativeToolTip": "SalesSystem\\SalesSystem.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T06:19:19.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RefundService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\BLL\\RefundService.cs",
+              "RelativeDocumentMoniker": "SalesSystem\\BLL\\RefundService.cs",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\BLL\\RefundService.cs",
+              "RelativeToolTip": "SalesSystem\\BLL\\RefundService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:57:29.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Refund.razor.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor.cs",
+              "RelativeDocumentMoniker": "DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor.cs",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor.cs",
+              "RelativeToolTip": "DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAawBMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:45:02.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PurchaseOrderService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\POSystem\\BLL\\PurchaseOrderService.cs",
+              "RelativeDocumentMoniker": "POSystem\\BLL\\PurchaseOrderService.cs",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\POSystem\\BLL\\PurchaseOrderService.cs",
+              "RelativeToolTip": "POSystem\\BLL\\PurchaseOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:41:31.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Vendors.razor",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor",
+              "RelativeDocumentMoniker": "DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor",
+              "RelativeToolTip": "DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T00:41:15.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Vendors.razor.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor.cs",
+              "RelativeDocumentMoniker": "DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor.cs",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor.cs",
+              "RelativeToolTip": "DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:41:17.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SaleService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\BLL\\SaleService.cs",
+              "RelativeDocumentMoniker": "SalesSystem\\BLL\\SaleService.cs",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\BLL\\SaleService.cs",
+              "RelativeToolTip": "SalesSystem\\BLL\\SaleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:44:27.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SalesReturnExtension.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\SalesReturnExtension.cs",
+              "RelativeDocumentMoniker": "SalesSystem\\SalesReturnExtension.cs",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\SalesReturnExtension.cs",
+              "RelativeToolTip": "SalesSystem\\SalesReturnExtension.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAYwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:57:47.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CouponService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\BLL\\CouponService.cs",
+              "RelativeDocumentMoniker": "SalesSystem\\BLL\\CouponService.cs",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\BLL\\CouponService.cs",
+              "RelativeToolTip": "SalesSystem\\BLL\\CouponService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAEwDEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:59:11.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Refund.razor",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor",
+              "RelativeDocumentMoniker": "DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor",
+              "RelativeToolTip": "DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T17:22:20.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Checkout.razor.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Checkout.razor.cs",
+              "RelativeDocumentMoniker": "DMIT2018Project\\Components\\Pages\\SalesReturn\\Checkout.razor.cs",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Checkout.razor.cs",
+              "RelativeToolTip": "DMIT2018Project\\Components\\Pages\\SalesReturn\\Checkout.razor.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwFUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:36:19.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReturnItemView.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\ViewModels\\ReturnItemView.cs",
+              "RelativeDocumentMoniker": "SalesSystem\\ViewModels\\ReturnItemView.cs",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\ViewModels\\ReturnItemView.cs",
+              "RelativeToolTip": "SalesSystem\\ViewModels\\ReturnItemView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:43:43.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Auth.razor",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\Components\\Pages\\Auth.razor",
+              "RelativeDocumentMoniker": "DMIT2018Project\\Components\\Pages\\Auth.razor",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\Components\\Pages\\Auth.razor",
+              "RelativeToolTip": "DMIT2018Project\\Components\\Pages\\Auth.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T05:00:44.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StockItemService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\POSystem\\BLL\\StockItemService.cs",
+              "RelativeDocumentMoniker": "POSystem\\BLL\\StockItemService.cs",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\POSystem\\BLL\\StockItemService.cs",
+              "RelativeToolTip": "POSystem\\BLL\\StockItemService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:41:30.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VendorService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\POSystem\\BLL\\VendorService.cs",
+              "RelativeDocumentMoniker": "POSystem\\BLL\\VendorService.cs",
+              "ToolTip": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\POSystem\\BLL\\VendorService.cs",
+              "RelativeToolTip": "POSystem\\BLL\\VendorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:41:29.424Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

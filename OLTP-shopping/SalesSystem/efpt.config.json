@@ -1,0 +1,126 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "SalesContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "DAL",
+   "OutputPath": "Entities",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "SalesSystem",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Categories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Coupons]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Customers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Employees]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Positions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Provinces]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseOrderDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PurchaseOrders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReceiveOrderDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReceiveOrders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RentalDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RentalEquipment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Rentals]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReturnedOrderDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SaleDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SaleRefundDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SaleRefunds]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Sales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StockItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnOrderedItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Vendors]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

@@ -1,0 +1,100 @@
+﻿@page "/SalesReturn/Refund"
+<PageTitle>Refund Page</PageTitle>
+<h3>Returns</h3>
+
+@if (feedbackMessage.Length > 0)
+{
+    <div class="alert alert-info">
+        @feedbackMessage
+    </div>
+}
+
+<div>
+    @if (errorMessage.Length > 0)
+    {
+        <div class="alert alert-danger">
+            @errorMessage
+        </div>
+    }
+    @if (errorDetails.Count > 0)
+    {
+        <ul>
+            @foreach (var error in errorDetails)
+            {
+                <li class="alert-danger">@error</li>
+            }
+        </ul>
+    }
+</div>
+
+<SimpleDialog IsVisible="@showDialog"
+              Message="@dialogMessage"
+              OnClose="@(async result => { await SimpleDialogResult(result); })">
+</SimpleDialog>
+
+
+<div >
+    <div class="col-2">
+        <label for="saleid">Please Enter SaleID:</label>
+    </div>
+    
+        <input type="number" @bind="saleID" min="1" id="saleid" style="background-color:lightgray" />
+    
+</div>
+
+<br />
+<button @onclick="GetSale" class="btn btn-primary">Submit</button>
+<button @onclick="AddSaleRefund" class="btn btn-primary">Refund</button>
+<button @onclick="Clear" class="btn btn-secondary">Clear</button>
+
+
+<div>
+    @if (refundList.Count > 0)
+    {
+        <br />
+        <br />
+        <h5 class="color:red;">Sale</h5>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>SaleID</th>
+                    <th>AvailQTY</th>
+                    <th>Original Price</th>
+                    <th>RtnQty</th>
+                    <th>QtyToRtn</th>
+                    <th>Update</th>
+                    <th>Discounted(Y/N)</th>
+                    <th>Discounted Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in refundList)
+                {
+                    <tr>
+                        <td>@item.Item</td>
+                        <td>@item.SaleID</td>
+                        <td>@item.AvailQTY</td>
+                        <td>@item.OriginalPrice</td>
+                        <td>@item.RtnQty</td>
+                        <td><input style="background-color:lightgray" type="number" @bind="item.qtyPlaceholder" /></td>
+                        <td><button class="btn btn-success" @onclick="()=>EditReturnQty(item.qtyPlaceholder,item.StockItemID)">Change Qty</button></td>
+                        <td style="color:red">@item.discountFlag</td>
+                        <td style="color:red">@item.discountRate</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+        <p>Subtotal(Before discount) : @subTotalOfReturnItems.ToString("C2")</p>
+        <p>Tax(Before discount): @taxOfReturnItems.ToString("C2")        </p>
+        <p style="color:red;">Total Return(Discount applied if applicable): @totalReturn.ToString("C2")</p>
+
+
+    }
+</div>
+
+
+@code {
+
+}

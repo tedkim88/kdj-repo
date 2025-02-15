@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RMSApp", "RMSApp\RMSApp.csproj", "{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RMSSystem", "RMSSystem\RMSSystem.csproj", "{EAA00670-C773-4197-8987-3C77D618134D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA00670-C773-4197-8987-3C77D618134D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA00670-C773-4197-8987-3C77D618134D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA00670-C773-4197-8987-3C77D618134D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA00670-C773-4197-8987-3C77D618134D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13CB07CF-DBA8-4538-89B7-06BFA26B0BAF}
+	EndGlobalSection
+EndGlobal

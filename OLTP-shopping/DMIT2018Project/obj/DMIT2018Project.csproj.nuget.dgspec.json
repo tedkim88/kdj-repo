@@ -1,0 +1,553 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\DMIT2018Project.csproj": {}
+  },
+  "projects": {
+    "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\DMIT2018Project.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\DMIT2018Project.csproj",
+        "projectName": "DMIT2018Project",
+        "projectPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\DMIT2018Project.csproj",
+        "packagesPath": "C:\\Users\\ifeel\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ifeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\POSystem\\POSystem.csproj": {
+                "projectPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\POSystem\\POSystem.csproj"
+              },
+              "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\ReceivingSystem\\ReceivingSystem.csproj": {
+                "projectPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\ReceivingSystem\\ReceivingSystem.csproj"
+              },
+              "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\RentalSystem\\RentalSystem.csproj": {
+                "projectPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\RentalSystem\\RentalSystem.csproj"
+              },
+              "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\SalesSystem.csproj": {
+                "projectPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\SalesSystem.csproj"
+              },
+              "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\ServiceSystem\\ServiceSystem.csproj": {
+                "projectPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\ServiceSystem\\ServiceSystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[7.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\POSystem\\POSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\POSystem\\POSystem.csproj",
+        "projectName": "POSystem",
+        "projectPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\POSystem\\POSystem.csproj",
+        "packagesPath": "C:\\Users\\ifeel\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\POSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ifeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\ReceivingSystem\\ReceivingSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\ReceivingSystem\\ReceivingSystem.csproj",
+        "projectName": "ReceivingSystem",
+        "projectPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\ReceivingSystem\\ReceivingSystem.csproj",
+        "packagesPath": "C:\\Users\\ifeel\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\ReceivingSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ifeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\RentalSystem\\RentalSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\RentalSystem\\RentalSystem.csproj",
+        "projectName": "RentalSystem",
+        "projectPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\RentalSystem\\RentalSystem.csproj",
+        "packagesPath": "C:\\Users\\ifeel\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\RentalSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ifeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\SalesSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\SalesSystem.csproj",
+        "projectName": "SalesSystem",
+        "projectPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\SalesSystem.csproj",
+        "packagesPath": "C:\\Users\\ifeel\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\SalesSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ifeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\ServiceSystem\\ServiceSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\ServiceSystem\\ServiceSystem.csproj",
+        "projectName": "ServiceSystem",
+        "projectPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\ServiceSystem\\ServiceSystem.csproj",
+        "packagesPath": "C:\\Users\\ifeel\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\ServiceSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ifeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.12, 8.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

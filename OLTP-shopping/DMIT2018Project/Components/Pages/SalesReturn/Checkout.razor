@@ -1,0 +1,167 @@
+﻿@page "/SalesReturn/Checkout"
+<PageTitle>Check out</PageTitle>
+<h3>Checkout</h3>
+
+@if (AppState.cartView.Count > 0 && feedbackMessage.Length > 0)
+{
+    <div class="alert alert-info">
+        @feedbackMessage
+    </div>
+}
+
+
+@if (errorMessage.Length > 0)
+{
+    <div class="alert alert-danger">
+        @errorMessage
+    </div>
+}
+
+@if (errorDetails.Count > 0)
+{
+    <ul>
+        @foreach (var error in errorDetails)
+        {
+
+            <li class="alert-danger">@error</li>
+
+        }
+    </ul>
+}
+
+
+
+
+
+
+@if (AppState.cartView.Any())
+{
+    <br />
+    <h4>Checkout Items</h4>
+    <table class="table">
+
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in AppState.cartView)
+            {
+                if (discount == 0)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.UnitPrice.ToString("C2")</td>
+                        <td>@item.Subtotal.ToString("C2")</td>
+
+                    </tr>
+                }
+                else
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td style="color:red;">@((item.UnitPrice * (100 - discount) / 100).ToString("C2"))(discount applied!)</td>
+                        <td style="color:red;">@((item.Subtotal * (100 - discount) / 100).ToString("C2"))(discount applied!)</td>
+                    </tr>
+                }
+
+            }
+        </tbody>
+    </table>
+
+    <br />
+    <div>
+
+        <div class="col-auto">
+            <strong>
+                <label for="coupon" class="form-label text-danger">
+                    Coupon (case-sensitive):
+                </label>
+            </strong>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <input class="form-control bg-light"
+                       id="coupon"
+                       type="text"
+                       @bind="couponInput"
+                       placeholder="Enter your coupon" />
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <br />
+
+
+
+    
+        <br />
+        <h5>
+            Select your Payment Method
+        </h5>
+    
+       @foreach (var item in @paymentMethods)
+    {        @*  Loop through the meals list and create radio buttons for each meal option *@    //here(checked) I had to use tostring, because item[0]here is considered a 'char' value, so couldn't use == with paymentMethod which is a string.'
+        <input type="radio" name="payment" value="@item[0]" @onchange="HandlePaymentSelection" /> @item
+        @* checked="@(item[0].ToString() == paymentMethod) *@
+        <br />
+    }
+
+    <br />
+    @if (total > 0 && discount == 0)
+    {
+        <p style="font-size:16px; color:red;">SubTotal : @subtotal.ToString("C2")</p>
+        <p style="font-size:16px; color:red;">Tax : @tax.ToString("C2")</p>
+        <p style="font-size:16px; color:red;">Total : @total.ToString("C2")</p>
+    }
+
+    @if (total > 0 && discount != 0)
+    {
+        <p style="font-size:16px; color:red;">SubTotal : @discountedSubtotal.ToString("C2") (discount applied!)</p>
+        <p style="font-size:16px; color:red;">Tax : @discountedTax.ToString("C2") (discount applied!)</p>
+        <p style="font-size:16px; color:red;">Total : @discountedTotal.ToString("C2") (discount applied!)</p>
+    }
+
+}
+
+<button class="btn btn-primary" @onclick="MovetoCart">Go back to Cart</button>
+    &nbsp; &nbsp; &nbsp;
+<!--need to figure out what to do with employeeID here. Authentication issue remains unsolved. -->
+<button class="btn btn-primary" @onclick="Save">Place Order</button>
+  &nbsp; &nbsp; &nbsp;
+  @if(AppState.cartView.Count>0)
+  {
+<button class="btn btn-primary" @onclick="CouponCheck">
+    Coupon Validation
+</button>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@code {
+
+}

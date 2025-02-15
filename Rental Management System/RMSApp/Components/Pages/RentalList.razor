@@ -1,0 +1,103 @@
+﻿@page "/RentalList"
+@using RMSApp.Components.Layout
+@using Microsoft.AspNetCore.Components.QuickGrid
+@using RMSSystem.BLL
+<PageTitle>Rental List</PageTitle>
+<h3>Rental List</h3>
+
+<header>
+
+    <h4>Search</h4>
+    <div class="row align-items-center mb-3">
+        <div class="col-3">
+            <label for="city">City:</label>
+            <InputText id="city" style="width: 100%; background-color: lightgray" @bind-Value="cityName" />
+        </div>
+        <div class="col-3">
+            <label for="community">Community:</label>
+            <InputText id="community" style="width: 100%; background-color: lightgray" @bind-Value="commuName" />
+        </div>
+
+    </div>
+
+    <button class="btn btn-success" @onclick="Search">Search</button>
+
+    <button class="btn btn-success" @onclick="New">New</button>
+
+</header>
+
+<body>
+
+    @if (Rentals.Count > 0)
+    {
+        <div class="page-size-chooser">
+            Items per Page:
+            <select @bind="@Pagination.ItemsPerPage">
+                <option>5</option>
+                <option>10</option>
+                <option>15</option>
+                <option>20</option>
+            </select>
+
+        </div>
+
+        <!--This section defines a quickgrid for displaying customer information-->
+        <QuickGrid Items="@Rentals.AsQueryable()" Pagination="@Pagination" class="quickgrid-row-divider">
+            <!--Add buttons using TemplateColumn-->
+            <TemplateColumn>
+                <button class="btn-primary" @onclick="() => EditRental(context.RentalID)">Edit</button>
+
+            </TemplateColumn>
+            <PropertyColumn Property="@(p => p.RentalID)" Sortable="true" />
+            <PropertyColumn Property="@(p => p.City)" Sortable="true" />
+            <PropertyColumn Property="@(p => p.Community)" Sortable="true" />
+            <PropertyColumn Property="@(p => p.RentalType)" Sortable="true" />
+            <PropertyColumn Property="@(p => p.MaxVacancy)" Sortable="true" />
+            <PropertyColumn Property="@(p => p.AvailableVacancy)" Sortable="true" />
+            <PropertyColumn Property="@(p => p.MonthlyRent)" Sortable="true" />
+            <PropertyColumn Property="@(p => p.DamageDeposit)" Sortable="true" />
+
+        </QuickGrid>
+        <Paginator State="@Pagination" />
+
+
+    }
+
+</body>
+<br />
+
+<footer>
+
+    @if (hasFeedback)
+    {
+        <blockquote style="background-color:skyblue;">@feedbackMessage</blockquote>
+    }
+    @if (hasError)
+    {
+        <blockquote class="alert alert-danger">
+            @errorMessage
+            <ul>
+                @foreach (var detail in errorDetails)
+                {
+                    <li>@detail</li>
+                }
+            </ul>
+
+
+        </blockquote>
+    }
+
+</footer>
+
+
+
+
+
+
+
+
+@*
+@code {
+
+}
+ *@

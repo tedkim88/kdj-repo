@@ -1,0 +1,136 @@
+﻿@page "/PurchaseOrders/Vendors"
+
+<h3>Vendor Purchasing & Ordering System</h3>
+
+<div class="flex-column flex">
+    <div>
+        <label>Select A Vendor:</label>
+    </div>
+    <div class="mb-5">
+        <select @onchange="OnVendorSelected" class="input-mini">
+            <option value="0">Select ...</option>
+            @foreach (var vendor in vendorList)
+            {
+                <option value="@vendor.VendorID">@vendor.VendorName @vendor.Address</option>
+            }
+        </select>
+    </div>
+</div>
+
+@if (purchaseOrderView != null)
+{
+    <div>
+        <h4>Current Active Purchase Order</h4>
+        <div class="top-row">
+            <div class="info">
+                <p><strong>PurchaseOrderID:</strong> @purchaseOrderView.PurchaseOrderID</p>
+                <p><strong>Vendor:</strong> @purchaseOrderView.Vendor</p>
+                <p><strong>Phone Number:</strong> @purchaseOrderView.Phone</p>
+                <p class="flex-wrap">@purchaseOrderView.Address, <br />@purchaseOrderView.City, @purchaseOrderView.PostalCode</p>
+            </div>
+            <div class="buttons">
+                <button class="btn btn-sm btn-primary" @onclick="UpdateOrder">Update Order</button>
+                <button class="btn btn-sm btn-success" @onclick="ShowPlaceDialog">Place Order</button>
+                <button class="btn btn-sm btn-danger" @onclick="DeleteOrder">Delete Order</button>
+                <button class="btn btn-sm btn-secondary" @onclick="ShowClearDialog">Clear</button>
+                <button class="btn btn-sm btn-secondary" @onclick="ShowCancelDialog">Cancel</button>
+            </div>
+        </div>
+
+        <div class="flex-row">
+            <div>
+                <h5>Purchase Order Details</h5>
+                <div>
+                    @if (hasError)
+                    {
+                        <blockquote style="color: red;">
+                            @errorMessage
+                            <ul>
+                                @foreach (var detail in errorDetails)
+                                {
+                                    <li>@detail</li>
+                                }
+                            </ul>
+                        </blockquote>
+                    }
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>StockItemID</th>
+                            <th>Description</th>
+                            <th>Quantity To Order</th>
+                            <th>Price</th>
+                            <th>Original Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var detail in purchaseOrderView.PurchaseOrderDetails)
+                        {
+                            <tr>
+                                <td>@detail.StockItemID</td>
+                                <td>@detail.Description</td>
+                                <td>
+                                    <input type="number" value="@detail.QuantityToOrder"
+                                           @oninput="(e) => OnQuantityOrPriceChanged(detail, e.Value.ToString(), isQuantity: true)"
+                                           class="input-mini" />
+                                </td>
+                                <td>
+                                    <input type="number" step="0.01" value="@detail.Price"
+                                           @oninput="(e) => OnQuantityOrPriceChanged(detail, e.Value.ToString(), isQuantity: false)"
+                                           class="input-mini" />
+                                </td>
+                                <td>@detail.OriginalPrice.ToString("C")</td>
+                                <td>
+                                    <button class="btn btn-danger" @onclick="() => RemoveFromPurchaseOrder(detail)">Remove</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="totals-row">
+                <p><strong>SubTotal:</strong> @purchaseOrderView.SubTotal.ToString("C")</p>
+                <p><strong>GST (5%):</strong> @purchaseOrderView.GST.ToString("C")</p>
+                <p><strong>Total:</strong> @purchaseOrderView.Total.ToString("C")</p>
+            </div>
+            <div>
+                <h5>Inventory</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>StockItemID</th>
+                            <th>Description</th>
+                            <th>Quantity On Hand</th>
+                            <th>Reorder Level</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in inventory)
+                        {
+                            <tr>
+                                <td>@item.StockItemID</td>
+                                <td>@item.Description</td>
+                                <td>@item.QuantityOnHand</td>
+                                <td>@item.ReorderLevel</td>
+                                <td>@item.Price.ToString("C")</td>
+                                <td>
+                                    <button class="btn btn-success" @onclick="() => AddToPurchaseOrder(item)">Add</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+else if (!string.IsNullOrWhiteSpace(feedback))
+{
+    <blockquote style="color: blue;">@feedback</blockquote>
+}
+
+<SimpleDialog IsVisible="@showDialog"
+              Message="@dialogMessage"
+              OnClose="@(e => SimpleDialogResult(e))"></SimpleDialog>

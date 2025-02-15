@@ -1,0 +1,26 @@
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\obj\Debug\net8.0\RMSSystem.csproj.AssemblyReference.cache
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\obj\Debug\net8.0\RMSSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\obj\Debug\net8.0\RMSSystem.AssemblyInfoInputs.cache
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\obj\Debug\net8.0\RMSSystem.AssemblyInfo.cs
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\obj\Debug\net8.0\RMSSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\obj\Debug\net8.0\RMSSystem.sourcelink.json
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\bin\Debug\net8.0\RMSSystem.deps.json
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\bin\Debug\net8.0\RMSSystem.dll
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\bin\Debug\net8.0\RMSSystem.pdb
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\obj\Debug\net8.0\RMSSystem.dll
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\obj\Debug\net8.0\refint\RMSSystem.dll
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\obj\Debug\net8.0\RMSSystem.pdb
+C:\github\ted88\2018-sept-2024-a03-weboltp-take-home4-tedkim88\RMSSystem\RMSSystem\obj\Debug\net8.0\ref\RMSSystem.dll
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\bin\Debug\net8.0\RMSSystem.deps.json
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\bin\Debug\net8.0\RMSSystem.dll
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\bin\Debug\net8.0\RMSSystem.pdb
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\obj\Debug\net8.0\RMSSystem.csproj.AssemblyReference.cache
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\obj\Debug\net8.0\RMSSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\obj\Debug\net8.0\RMSSystem.AssemblyInfoInputs.cache
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\obj\Debug\net8.0\RMSSystem.AssemblyInfo.cs
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\obj\Debug\net8.0\RMSSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\obj\Debug\net8.0\RMSSystem.sourcelink.json
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\obj\Debug\net8.0\RMSSystem.dll
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\obj\Debug\net8.0\refint\RMSSystem.dll
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\obj\Debug\net8.0\RMSSystem.pdb
+C:\github\ted88\portfolio\Rental Management System\RMSSystem\obj\Debug\net8.0\ref\RMSSystem.dll

@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DMIT2018Project.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\wwwroot\\img\\refresh.png",
+      "PackagePath": "staticwebassets\\img\\refresh.png"
+    },
+    {
+      "Id": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\wwwroot\\img\\remove.png",
+      "PackagePath": "staticwebassets\\img\\remove.png"
+    },
+    {
+      "Id": "C:\\github\\ted88\\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\\DMIT2018Project\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
+      "PackagePath": "staticwebassets\\img\\team-2-logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DMIT2018Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DMIT2018Project.props",
+      "PackagePath": "build\\DMIT2018Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DMIT2018Project.props",
+      "PackagePath": "buildMultiTargeting\\DMIT2018Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DMIT2018Project.props",
+      "PackagePath": "buildTransitive\\DMIT2018Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
