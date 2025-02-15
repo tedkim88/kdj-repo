@@ -11,6 +11,8 @@ To prevent some possible errors, I just uploaded some files that might be a litt
 
 **Usage: This app is using parcel so, you can download the wordsmith folder and in the terminal if you type, 'npm run dev' it will be executed.
 you can click create account, log in, and word screen will pop up.**
+**pre-made ID : 123456@gmail.com**
+**pre-set password : 123456**
 
 **Features**:
 - **Search Functionality**: Search for words and view their meanings.
@@ -18,9 +20,10 @@ you can click create account, log in, and word screen will pop up.**
 - **Quiz**: Review words through quizzes based on your saved lists.
 
 **Challenges**:
+- **Didn't spend time for design: it was just for understanding and applying functionality**
 - **API Limitations**: The free word API may not provide information for certain words.
 - **Board Functionality**: Initially planned for Q&A about word usage, but it's currently used just for learning.
-- **Duplicate Data**: Using a Set object to avoid duplicates in the quiz, but the database may still contain duplicates due to how the lists are saved.
+- **Duplicate Data**: I used a Set object to avoid duplicates in the quiz, which was successful, but the DB may still contain duplicates due to how the lists are saved. It could be improved later by manipulating data BEFORE saving.
 
 **Status**:  
 This project is still in progress, and I plan to improve it in the future.
