@@ -14,6 +14,10 @@ you can click create account, log in, and word screen will pop up.**
 **pre-made ID : 123456@gmail.com**
 **pre-set password : 123456**
 
+![image](https://github.com/user-attachments/assets/7b349d89-d75f-4748-9a8d-abf882078877)
+
+
+
 **Features**:
 - **Search Functionality**: Search for words and view their meanings.
 - **Add to Word List**: Add words to a custom list stored in Firebase.
