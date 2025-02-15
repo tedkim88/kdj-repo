@@ -31,7 +31,10 @@ This project is still in progress, and I plan to improve it in the future.
 ---
 
 ## 2. **OLTP Shopping / Rental Management System** (C# & Blazor & SSMS(SQL Queries))
-**Description**:  
+**Description**: 
+**Note** I was responsible for **'SalesSystem'**, Sales refund related page for this team project. Each one had their own part.
+**POSystem is not my part.**
+
 These projects demonstrate my understanding of C# and Blazor. They are based on rough guidelines provided in my C# classes at NAIT. The applications are designed around Online Transaction Processing (OLTP) and rental management systems. These apps utilize Entity Framework Core for data management, SQL queries to extract data, and Blazor for rendering the front end.
 
 **Features**:
