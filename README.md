@@ -29,6 +29,9 @@ you can click create account, log in, and word screen will pop up.**
 - **API Limitations**: The free word API may not provide information for certain words.
 - **Board Functionality**: Initially planned for Q&A about word usage, but it's currently used just for learning.
 - **Duplicate Data**: I used a Set object to avoid duplicates in the quiz, which was successful, but the DB may still contain duplicates due to how the lists are saved. It could be improved later by manipulating data BEFORE saving.
+- **First Trial** -- With the benefit of hindsight, I could've done things in a much simpler way, by planning ahead about the functionality I was going to use, and data structures I was going to use. When I first started this project, I only thought about the purpose of the web app--to help learn English words.
+  
+  **TakeAway** : I'm going to plan ahead about the functionality and data structure so that the codes can be as simple but efficient as possible.
 
 **Status**:  
 This project is still in progress, and I plan to improve it in the future.
