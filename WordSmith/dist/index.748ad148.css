@@ -1,0 +1,77 @@
+.text-primary {
+  color: #d72b2b;
+  height: 5rem;
+}
+
+.signin {
+  margin: auto;
+}
+
+body.bg-light {
+  background-color: #fff;
+}
+
+#create-account {
+  margin-top: 1.5rem;
+}
+
+#sign-out {
+  text-align: right;
+}
+
+#mode-change {
+  text-align: right;
+  display: none;
+}
+
+.container {
+  color: #121212;
+  background-color: #fff;
+  max-width: 960px;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+#top-ten-words {
+  padding: 30px 0 0;
+}
+
+.meaning-box {
+  width: 700px;
+}
+
+.flex {
+  gap: 20px;
+  display: flex;
+}
+
+.flex div {
+  margin: 10px;
+}
+
+.delete-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #dc3545;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  font-size: 16px;
+  transition: background-color .3s;
+}
+
+.delete-btn:hover {
+  background-color: #00f;
+}
+
+.delete-btn:focus {
+  outline: none;
+}
+/*# sourceMappingURL=index.748ad148.css.map */

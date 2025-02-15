@@ -1,0 +1,99 @@
+
+.text-primary {
+  
+  height: 5rem;
+  color: rgb(215, 43, 43);
+}
+
+
+.signin {
+  margin: auto;
+
+}
+
+body.bg-light{
+  background-color: white;
+}
+
+.py-5 h1{
+  
+}
+
+#create-account{
+  
+  margin-top: 1.5rem;
+}
+
+#sign-out {
+  text-align: right;
+}
+
+#mode-change {
+  text-align: right;
+  display: none;
+
+}
+
+.container {
+  max-width: 960px;
+  background-color: #ffffff;
+  /* 흰색 배경 */
+  color: #121212;
+  /* 짙은 회색 텍스트 */
+  height: 100vh;
+  padding: 1rem;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+.recommend {}
+
+#top-ten-words {
+  padding: 30px 0 0 0;
+}
+
+.meaning-box {
+  width: 700px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.flex div {
+  margin: 10px;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  /* 빨간색 배경 */
+  color: white;
+  /* 흰색 글자 */
+  border: none;
+
+  width: 30px;
+  /* 크기 */
+  height: 30px;
+  /* 크기 */
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  /* 호버 시 부드러운 색 변화 */
+}
+
+.delete-btn:hover {
+  background-color: blue;
+  /* 호버 시 색상 */
+}
+
+.delete-btn:focus {
+  outline: none;
+  /* 포커스 시 테두리 없애기 */
+}
