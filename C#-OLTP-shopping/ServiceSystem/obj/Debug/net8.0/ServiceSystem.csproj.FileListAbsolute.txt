@@ -1,0 +1,48 @@
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\ServiceSystem\bin\Debug\net8.0\ServiceSystem.deps.json
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\ServiceSystem\bin\Debug\net8.0\ServiceSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\ServiceSystem\bin\Debug\net8.0\ServiceSystem.pdb
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.AssemblyInfoInputs.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.AssemblyInfo.cs
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.sourcelink.json
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\refint\ServiceSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.pdb
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ref\ServiceSystem.dll
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\ServiceSystem\bin\Debug\net8.0\ServiceSystem.deps.json
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\ServiceSystem\bin\Debug\net8.0\ServiceSystem.dll
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\ServiceSystem\bin\Debug\net8.0\ServiceSystem.pdb
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.AssemblyInfoInputs.cache
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.AssemblyInfo.cs
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.csproj.CoreCompileInputs.cache
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.sourcelink.json
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.dll
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\refint\ServiceSystem.dll
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.pdb
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ref\ServiceSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\ServiceSystem\bin\Debug\net8.0\ServiceSystem.deps.json
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\ServiceSystem\bin\Debug\net8.0\ServiceSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\ServiceSystem\bin\Debug\net8.0\ServiceSystem.pdb
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.AssemblyInfoInputs.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.AssemblyInfo.cs
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.sourcelink.json
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\refint\ServiceSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ServiceSystem.pdb
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\ServiceSystem\obj\Debug\net8.0\ref\ServiceSystem.dll
+C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\bin\Debug\net8.0\ServiceSystem.deps.json
+C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\bin\Debug\net8.0\ServiceSystem.dll
+C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\bin\Debug\net8.0\ServiceSystem.pdb
+C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.AssemblyInfoInputs.cache
+C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.AssemblyInfo.cs
+C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.sourcelink.json
+C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.dll
+C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\refint\ServiceSystem.dll
+C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.pdb
+C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ref\ServiceSystem.dll

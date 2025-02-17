@@ -1,0 +1,48 @@
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\RentalSystem\bin\Debug\net8.0\RentalSystem.deps.json
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\RentalSystem\bin\Debug\net8.0\RentalSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\RentalSystem\bin\Debug\net8.0\RentalSystem.pdb
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.AssemblyInfoInputs.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.AssemblyInfo.cs
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.sourcelink.json
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\RentalSystem\obj\Debug\net8.0\refint\RentalSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.pdb
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private\DMIT2018Project\RentalSystem\obj\Debug\net8.0\ref\RentalSystem.dll
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\RentalSystem\bin\Debug\net8.0\RentalSystem.deps.json
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\RentalSystem\bin\Debug\net8.0\RentalSystem.dll
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\RentalSystem\bin\Debug\net8.0\RentalSystem.pdb
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.AssemblyInfoInputs.cache
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.AssemblyInfo.cs
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.csproj.CoreCompileInputs.cache
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.sourcelink.json
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.dll
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\RentalSystem\obj\Debug\net8.0\refint\RentalSystem.dll
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.pdb
+C:\Users\aginc\OneDrive\Documents\DMIT2018 (2024)\exercise-repository-2024\2018-sept-2024-project-a03-team2-a03-sept24\DMIT2018Project\RentalSystem\obj\Debug\net8.0\ref\RentalSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\RentalSystem\bin\Debug\net8.0\RentalSystem.deps.json
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\RentalSystem\bin\Debug\net8.0\RentalSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\RentalSystem\bin\Debug\net8.0\RentalSystem.pdb
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.AssemblyInfoInputs.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.AssemblyInfo.cs
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.sourcelink.json
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\RentalSystem\obj\Debug\net8.0\refint\RentalSystem.dll
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\RentalSystem\obj\Debug\net8.0\RentalSystem.pdb
+C:\github\ted88\2018-sept-2024-project-a03-team2-a03-sept24-private - Copy\DMIT2018Project\RentalSystem\obj\Debug\net8.0\ref\RentalSystem.dll
+C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\bin\Debug\net8.0\RentalSystem.deps.json
+C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\bin\Debug\net8.0\RentalSystem.dll
+C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\bin\Debug\net8.0\RentalSystem.pdb
+C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.AssemblyInfoInputs.cache
+C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.AssemblyInfo.cs
+C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.sourcelink.json
+C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.dll
+C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\refint\RentalSystem.dll
+C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.pdb
+C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\ref\RentalSystem.dll

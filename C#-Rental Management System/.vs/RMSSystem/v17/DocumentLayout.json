@@ -1,0 +1,903 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmsapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\bll\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\bll\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\bll\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\bll\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\viewmodels\\renterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\viewmodels\\renterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\viewmodels\\rentalview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\viewmodels\\rentalview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\viewmodels\\addressview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\viewmodels\\addressview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmsapp\\components\\pages\\rentaledit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\components\\pages\\rentaledit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\bll\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\bll\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\bll\\renterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\bll\\renterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmsapp\\components\\pages\\rentaledit.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\components\\pages\\rentaledit.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmsapp\\components\\pages\\rentallist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\components\\pages\\rentallist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmsapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmsapp\\components\\blazorhelperclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\components\\blazorhelperclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\rentalextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\rentalextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\viewmodels\\studentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\viewmodels\\studentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\viewmodels\\rentaltypeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\viewmodels\\rentaltypeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\viewmodels\\rentalpaymentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\viewmodels\\rentalpaymentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\dal\\rmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\dal\\rmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\plannedassessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\plannedassessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmsapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\renter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\renter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\propertyowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\propertyowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\rentalpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\rentalpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\assessmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\assessmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\rentaltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\rentaltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\workingversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\workingversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\studentpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\studentpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\studentaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\studentaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\schoolterm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\schoolterm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\programcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\programcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\offering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\offering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\gradeassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\gradeassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\currentoffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\currentoffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\currentclassoffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\currentclassoffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\clubmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\clubmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\clubactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\clubactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\classoffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\classoffering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\classmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\classmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\github\\ted88\\kdj-repo\\rental management system\\rmssystem\\entities\\campusvenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|solutionrelative:rmssystem\\entities\\campusvenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 43,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RentalView.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\ViewModels\\RentalView.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\ViewModels\\RentalView.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\ViewModels\\RentalView.cs",
+              "RelativeToolTip": "RMSSystem\\ViewModels\\RentalView.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:58:00.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RenterView.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\ViewModels\\RenterView.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\ViewModels\\RenterView.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\ViewModels\\RenterView.cs",
+              "RelativeToolTip": "RMSSystem\\ViewModels\\RenterView.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:58:03.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\BLL\\StudentService.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\BLL\\StudentService.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\BLL\\StudentService.cs",
+              "RelativeToolTip": "RMSSystem\\BLL\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:55:02.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\appsettings.json",
+              "RelativeDocumentMoniker": "RMSApp\\appsettings.json",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\appsettings.json",
+              "RelativeToolTip": "RMSApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-09T15:59:59.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Program.cs",
+              "RelativeDocumentMoniker": "RMSApp\\Program.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Program.cs",
+              "RelativeToolTip": "RMSApp\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:53:52.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddressService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\BLL\\AddressService.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\BLL\\AddressService.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\BLL\\AddressService.cs",
+              "RelativeToolTip": "RMSSystem\\BLL\\AddressService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAnwCUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:00:59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentalService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\BLL\\RentalService.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\BLL\\RentalService.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\BLL\\RentalService.cs",
+              "RelativeToolTip": "RMSSystem\\BLL\\RentalService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAIAwwGIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:54:41.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddressView.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\ViewModels\\AddressView.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\ViewModels\\AddressView.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\ViewModels\\AddressView.cs",
+              "RelativeToolTip": "RMSSystem\\ViewModels\\AddressView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:57:36.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RentalEdit.razor",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Components\\Pages\\RentalEdit.razor",
+              "RelativeDocumentMoniker": "RMSApp\\Components\\Pages\\RentalEdit.razor",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Components\\Pages\\RentalEdit.razor",
+              "RelativeToolTip": "RMSApp\\Components\\Pages\\RentalEdit.razor",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T16:08:08.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RenterService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\BLL\\RenterService.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\BLL\\RenterService.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\BLL\\RenterService.cs",
+              "RelativeToolTip": "RMSSystem\\BLL\\RenterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:54:58.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlazorHelperClass.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Components\\BlazorHelperClass.cs",
+              "RelativeDocumentMoniker": "RMSApp\\Components\\BlazorHelperClass.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Components\\BlazorHelperClass.cs",
+              "RelativeToolTip": "RMSApp\\Components\\BlazorHelperClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T16:02:31.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "RMSApp\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "RMSApp\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T16:00:39.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RentalList.razor",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Components\\Pages\\RentalList.razor",
+              "RelativeDocumentMoniker": "RMSApp\\Components\\Pages\\RentalList.razor",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Components\\Pages\\RentalList.razor",
+              "RelativeToolTip": "RMSApp\\Components\\Pages\\RentalList.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T16:01:35.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RentalEdit.razor.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Components\\Pages\\RentalEdit.razor.cs",
+              "RelativeDocumentMoniker": "RMSApp\\Components\\Pages\\RentalEdit.razor.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Components\\Pages\\RentalEdit.razor.cs",
+              "RelativeToolTip": "RMSApp\\Components\\Pages\\RentalEdit.razor.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAADwv9wAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:11:02.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Rental.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Rental.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Rental.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Rental.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIAwwDAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:25.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RentalPaymentView.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\ViewModels\\RentalPaymentView.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\ViewModels\\RentalPaymentView.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\ViewModels\\RentalPaymentView.cs",
+              "RelativeToolTip": "RMSSystem\\ViewModels\\RentalPaymentView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:57:45.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RentalExtension.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\RentalExtension.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\RentalExtension.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\RentalExtension.cs",
+              "RelativeToolTip": "RMSSystem\\RentalExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:56:09.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RentalTypeView.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\ViewModels\\RentalTypeView.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\ViewModels\\RentalTypeView.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\ViewModels\\RentalTypeView.cs",
+              "RelativeToolTip": "RMSSystem\\ViewModels\\RentalTypeView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:57:56.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StudentView.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\ViewModels\\StudentView.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\ViewModels\\StudentView.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\ViewModels\\StudentView.cs",
+              "RelativeToolTip": "RMSSystem\\ViewModels\\StudentView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:58:06.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RMSContext.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\DAL\\RMSContext.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\DAL\\RMSContext.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\DAL\\RMSContext.cs",
+              "RelativeToolTip": "RMSSystem\\DAL\\RMSContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:47:06.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Employee.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Employee.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:49.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PlannedAssessment.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\PlannedAssessment.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\PlannedAssessment.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\PlannedAssessment.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\PlannedAssessment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:01.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Position.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Position.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Position.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Position.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:04.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Program.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Program.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Program.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:08.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Renter.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Renter.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Renter.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Renter.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Renter.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:36.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "RMSApp\\Components\\_Imports.razor",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\Components\\_Imports.razor",
+              "RelativeToolTip": "RMSApp\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T05:17:01.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PropertyOwner.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\PropertyOwner.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\PropertyOwner.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\PropertyOwner.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\PropertyOwner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:22.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Student.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Student.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:49.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Assignment.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Assignment.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Assignment.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Assignment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:47:58.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RentalPayment.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\RentalPayment.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\RentalPayment.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\RentalPayment.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\RentalPayment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:29.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AssessmentType.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\AssessmentType.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\AssessmentType.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\AssessmentType.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\AssessmentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:47:55.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Address.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Address.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:47:46.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RentalType.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\RentalType.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\RentalType.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\RentalType.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\RentalType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:33.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "WorkingVersion.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\WorkingVersion.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\WorkingVersion.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\WorkingVersion.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\WorkingVersion.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:58.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "StudentPayment.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\StudentPayment.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\StudentPayment.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\StudentPayment.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\StudentPayment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:55.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "StudentAddress.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\StudentAddress.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\StudentAddress.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\StudentAddress.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\StudentAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:52.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SchoolTerm.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\SchoolTerm.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\SchoolTerm.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\SchoolTerm.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\SchoolTerm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:46.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "School.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\School.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\School.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\School.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\School.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:43.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Role.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Role.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:39.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ProgramCourse.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\ProgramCourse.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\ProgramCourse.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\ProgramCourse.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\ProgramCourse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:49:17.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Offering.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Offering.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Offering.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Offering.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Offering.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:58.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GradeAssignment.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\GradeAssignment.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\GradeAssignment.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\GradeAssignment.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\GradeAssignment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:53.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CurrentOffering.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\CurrentOffering.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\CurrentOffering.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\CurrentOffering.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\CurrentOffering.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:46.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CurrentClassOffering.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\CurrentClassOffering.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\CurrentClassOffering.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\CurrentClassOffering.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\CurrentClassOffering.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:42.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Course.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Course.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:39.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Country.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Country.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Country.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:36.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ClubMember.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\ClubMember.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\ClubMember.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\ClubMember.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\ClubMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:33.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ClubActivity.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\ClubActivity.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\ClubActivity.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\ClubActivity.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\ClubActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:30.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Club.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Club.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\Club.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\Club.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\Club.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:27.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ClassOffering.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\ClassOffering.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\ClassOffering.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\ClassOffering.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\ClassOffering.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:24.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ClassMember.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\ClassMember.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\ClassMember.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\ClassMember.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\ClassMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:17.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CampusVenue.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\CampusVenue.cs",
+              "RelativeDocumentMoniker": "RMSSystem\\Entities\\CampusVenue.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\Entities\\CampusVenue.cs",
+              "RelativeToolTip": "RMSSystem\\Entities\\CampusVenue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:48:07.745Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

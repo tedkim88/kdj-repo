@@ -1,0 +1,497 @@
+/* // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.inter-<uniquifier> {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+:root {
+    --banner-button: #111111;
+    --section1: #ECEFF1;
+    --white: #FFFFFF;
+    --blockquote: #78909C;
+    --section3: #CFD8DC;
+    --aside: #37474F;
+    --footer: #191919;
+    --text-black: #000000;
+    --text-anchor: #ECEFF1;
+    --footer-p: #B0BEC5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    color: var(--text-black);
+    line-height: 1.5;
+}
+
+.inner-container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.375rem;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Inter", serif;
+    font-weight: normal;
+    font-size: 2.25rem;
+}
+
+h1 {
+    margin: 2rem 0 2.25rem;
+    color: rgb(221, 133, 133);
+}
+
+h2 {
+    margin-top: 7rem;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 3rem;
+    font-size: 1.25rem;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+header {
+    background-color: var(--banner-button);
+    color: var(--white);
+
+}
+
+header div.flex-container {
+    flex-flow: column;
+}
+
+header img {
+    margin-bottom: 1.5rem;
+    width: 17rem;
+    max-height: 10rem;
+}
+
+header ul.flex-container {
+    padding: 0;
+}
+
+
+nav .flex-container {
+    gap: 2rem;
+}
+
+nav li a:hover{
+    color: red;
+}
+
+main a {
+    display: inline-block;
+    border-radius: 0.375rem;
+    text-align: center;
+    width: 6.25rem;
+    padding: 1rem 0;
+    text-decoration: none;
+    background-color: var(--banner-button);
+}
+
+
+main>section:first-child {
+    
+    background-color: rgb(250, 255, 205);
+    padding: 1.375rem;
+
+}
+
+main>section:first-child div.inner-container {
+    padding: 0;
+}
+
+main>section:first-child p {
+    margin-bottom: 2rem;
+}
+
+main>section:first-child div:last-child {
+    text-align: center;
+}
+
+main>section:first-child img {
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+main a {
+    color: #ECEFF1;
+
+}
+
+
+main>section:nth-child(2) {
+    background-color: var(--white);
+}
+
+
+
+main>section:nth-child(2)>p:first-of-type {
+    text-align: center;
+}
+
+main>section:nth-child(2) p {
+    margin: 1.5rem 0 1.5rem 0;
+    text-align: left;
+    font-family: "Inter", serif;
+}
+
+main>section:nth-child(2) .flex-container {
+    flex-flow: column;
+    align-items: center;
+}
+
+
+
+.block-quote {
+    background-color: rgb(8, 24, 64);
+}
+
+blockquote p {
+    margin: 2rem 0;
+    color: var(--white);
+    font-family: "Inter", serif;
+}
+
+blockquote p:first-of-type {
+    font-family: "Inter", serif;
+    font-size: 2.25rem;
+}
+
+
+
+blockquote p:last-of-type {
+    color: #ECEFF1;
+}
+
+main>section:nth-child(4) {
+    background-color: white;
+    padding-bottom: 3rem;
+}
+
+main>section:nth-child(4) h2 {
+    margin-bottom: 2rem;
+}
+
+
+
+main>section:nth-child(4) .flex-container {
+    flex-flow: column;
+    text-align: left;
+
+}
+
+main>section:nth-child(4) ul {
+    padding: 0 0 0 1rem;
+    text-align: left;
+
+}
+
+main>section:nth-child(4) li {
+    list-style-type: disc;
+    margin-bottom: 1.5rem;
+    font-family: "Inter", serif;
+
+}
+
+main>section:nth-child(4)>div.inner-container>div.flex-container section div.inner-container {
+    padding: 0;
+}
+
+aside {
+    background-color: rgb(253, 229, 171);
+    padding: 4rem 2.75rem;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+aside p {
+    margin: 1.5rem 0;
+    font-family: "Inter", serif;
+}
+
+aside div.inner-container {
+    background-color: rgb(240, 190, 190);
+    border-radius: 0.5rem;
+    padding: 4rem 2rem;
+}
+
+aside a {
+    color: #EDEDED;
+}
+
+
+footer h3 {
+    font-size: 1rem;
+}
+
+footer {
+    background-color: var(--footer);
+    color: var(--white);
+    font-size: 0.75rem;
+    font-family: "Inter", serif;
+}
+
+footer .flex-container {
+    justify-content: space-between;
+
+}
+
+footer div.flex-container:first-of-type {
+    justify-content: center;
+}
+
+footer div.inner-container {
+    padding: 4rem 2.5rem;
+}
+
+footer div {
+    text-align: left;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 1rem;
+
+}
+
+footer p {
+    margin-top: 3rem;
+    color: var(--footer-p);
+}
+
+footer img {
+    width: 60%;
+}
+
+footer>div>div:first-of-type {
+    justify-content: center;
+}
+
+@media (min-width:640px) {
+
+    header {
+        padding: 1.5rem 6rem;
+    }
+
+    header div.flex-container {
+        flex-direction: row;
+        gap: 11.5rem;
+        align-items: center;
+    }
+
+    header img {
+        width: 50%;
+        height: 80%;
+        margin-bottom: 0;
+    }
+
+    main>section:nth-of-type(2).inner-container {
+        padding: 1.375rem;
+    }
+
+    main>section:nth-of-type(2) .flex-container {
+        flex-flow: row wrap;
+        gap: 1.5625rem;
+    }
+
+    main>section:nth-of-type(2) .flex-container section {
+        width: calc((100% - 1.5625rem) / 2);
+    }
+
+    main>section:nth-of-type(2)>div.flex-container section:first-child h3 {
+        margin-top: 1.5rem;
+    }
+
+    main>section:nth-child(4) {
+        padding: 1.375rem;
+    }
+
+
+    main>section:nth-child(4) section.flex-container {
+
+        gap: 1rem;
+        flex-flow: row;
+        align-items: flex-start;
+        margin-top: 4rem;
+
+    }
+
+    main>section:nth-child(4) img {
+        min-height: 16rem;
+    }
+
+    main>section:nth-child(4) h3 {
+        margin-top: 0;
+    }
+
+    main>section:nth-child(4) section.flex-container div {
+        width: calc((100% - 1rem) / 2);
+        padding: 0;
+    }
+
+
+
+    aside {
+        padding: 4rem 8rem;
+    }
+
+    aside div.inner-container {
+        padding: 4rem 2rem;
+    }
+
+    footer h3 {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+    footer div.inner-container {
+        padding: 4rem 2rem;
+    }
+
+    footer>div>div {
+        display: flex;
+    }
+
+    footer ul {
+        width: 6rem;
+    }
+
+    footer div.flex-container:nth-child(1) {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    footer div.flex-container:nth-child(2) {
+        gap: 1.5rem;
+    }
+
+    footer p {
+        max-width: 90ch;
+        display: flex;
+        justify-content: center;
+        margin: 3rem auto;
+    }
+
+}
+
+@media (min-width:960px) {
+
+    header div.flex-container {
+        justify-content: space-between;
+    }
+
+    main>section:nth-of-type(2) .flex-container section {
+        width: calc((100% - 3.125rem) / 3);
+    }
+
+    main>section:nth-of-type(2) .flex-container section:first-child h3 {
+        margin-top: 1.5rem;
+    }
+
+    main>section:nth-child(2) {
+        padding: 0;
+        padding-bottom: 4rem;
+
+    }
+
+    main>section:nth-child(2)>div.flex-container>section:nth-child(3) h3 {
+        margin-top: 1.5rem;
+
+    }
+
+    aside div.inner-container {
+        max-width: 620px;
+    }
+
+    main>section:nth-child(4)>div.inner-container {
+        padding: 0;
+    }
+
+    main>section:nth-child(4) img {
+        width: 100%;
+    }
+
+    main>section:nth-child(4) section.flex-container:nth-of-type(2) {
+        order: -1;
+        margin-top: 3rem;
+
+
+    }
+
+
+
+
+    main>section:nth-child(4) section.flex-container:nth-of-type(2) li {
+        margin-bottom: 2.5rem;
+
+    }
+
+    main>section:nth-child(4) section.flex-container:nth-of-type(1) img {
+        padding-top: 0.2rem;
+        height: 19.3rem;
+
+    }
+
+    main>section:nth-child(4) section.flex-container:nth-of-type(2) img {
+        height: 19.3rem;
+
+    }
+
+    main>section:nth-child(4) section.flex-container:nth-of-type(1) {
+        margin-top: 3rem;
+        gap: 2rem;
+
+    }
+
+    main>section:nth-child(4) section.flex-container:nth-of-type(1) h3 {
+        margin-bottom: 1.5rem;
+
+    }
+
+
+    main>section:nth-child(4) div.flex-container {
+        gap: 4rem;
+    }
+
+    main>section:nth-child(4) section.flex-container {
+        flex-flow: column;
+    }
+
+    main>section:nth-child(4) section.flex-container div {
+        width: 100%;
+    }
+
+    main>section:nth-child(4) div.flex-container {
+        flex-flow: row;
+    }
+
+
+
+}
