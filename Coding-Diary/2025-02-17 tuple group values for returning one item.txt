@@ -1,0 +1,11 @@
+2025-02-17
+Practicing modularization in C# using a simple calculator.
+
+I received two user inputs, num1 and num2, and needed to return these two values to another method for calculation.
+
+Since it's not possible to return two individual values from a method, I grouped them using a tuple.
+
+I could also use a List<int> or an array to group the values, and then, when passing the grouped value to a method (such as the calculator), I could de-structure it to retrieve the individual values.
+
+Since this is a simple and short app, I could declare variables and methods within a single class. However, I purposely chose to separate the classes to practice modularization and gain a better understanding of tuples, return values, and receiving parameters.
+
