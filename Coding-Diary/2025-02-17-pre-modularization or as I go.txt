@@ -1,0 +1,14 @@
+When I watch skilled coders, I notice that they plan ahead, thinking about the functions they'll need.
+They define those functions in advance before executing their code.
+
+As a result, almost everything is modularized and well-organized,
+making the execution process clean and simple.
+
+Does this mean that good coders can effortlessly visualize all the functions they'll need in their heads?
+
+I'm trying to mimic their approach, but I still find it more convenient to start with a step-by-step process, writing individual pieces of code first.
+When I realize that a certain block of code needs to be modularized, I then turn it into a function.
+
+In short, I still prefer modularizing as I go.
+Sometimes, it's amazing to see how they modularize everything upfront, so all they have to do in the final stage is call those functions.
+It looks really cool—but I'll get there soon, too.
