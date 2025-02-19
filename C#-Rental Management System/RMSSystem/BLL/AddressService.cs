@@ -17,7 +17,7 @@ namespace RMSSystem.BLL
 
         internal AddressService(RMSContext rentalContext)
         {
-            //Initialize the _hogWildContext field with the provided HogWildContext instance
+            
             _rentalContext = rentalContext;
         }
 

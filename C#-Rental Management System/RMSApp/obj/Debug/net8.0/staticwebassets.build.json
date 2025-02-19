@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AmkxelMrom30NveOOYspNpr2RrZyEgZ6RTnOgFEAvSo=",
+  "Hash": "ln9p3Gsxn/HF1uC8Jnb7Mzp+Ml4GcOHZJHBk2L9oyCY=",
   "Source": "RMSApp",
   "BasePath": "_content/RMSApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RMSApp\\wwwroot",
       "Source": "RMSApp",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
       "BasePath": "_content/RMSApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css",
       "SourceId": "RMSApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/RMSApp",
       "RelativePath": "RMSApp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css"
+      "OriginalItemSpec": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
       "SourceId": "RMSApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RMSApp",
       "RelativePath": "RMSApp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\wwwroot\\app.css",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\app.css",
       "SourceId": "RMSApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
       "BasePath": "_content/RMSApp",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "RMSApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
       "BasePath": "_content/RMSApp",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "RMSApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
       "BasePath": "_content/RMSApp",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\wwwroot\\favicon.png",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
       "SourceId": "RMSApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSApp\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
       "BasePath": "_content/RMSApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

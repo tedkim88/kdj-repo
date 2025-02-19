@@ -20,71 +20,19 @@ namespace RMSSystem.BLL
 
         internal RentalService(RMSContext rentalContext)
         {
-            //Initialize the _hogWildContext field with the provided HogWildContext instance
+          
             _rentalContext = rentalContext;
         }
 
 
 
-        //public List<RentalSearchView> GetRentalOneInput(string city, string community)
-        //{
-        //    //Business Rules
-        //    //these are processing rules that need to be satisfied
-        //    //for valid data
-
-        //    //rule: both last name and phone number cannot be empty (둘다 비어있으면안됨)
-        //    //Rule: RemoveFromViewFlag must be false
-
-
-
-        //    //Need to update parameters so we are not searching on an empty value.
-        //    //Otherwise, an empty string will return all records
-        //    if (string.IsNullOrWhiteSpace(city))
-        //    {
-        //        city = Guid.NewGuid().ToString();
-        //    }
-        //    if (string.IsNullOrWhiteSpace(community))
-        //    {
-        //        community = Guid.NewGuid().ToString();
-        //    }
-
-        //    //Return Customers that meet our criteria
-
-        //    return _rentalContext.Rentals
-        //                    //.Include(x => x.RentalType)
-        //                    .Where(x => (x.Address.City.Contains(city.Trim()) || x.Address.Community.Contains(community.Trim()))
-        //                                && !x.RemoveFromViewFlag)
-        //                    .Select(x => new RentalSearchView
-        //                    {
-        //                        RentalID = x.RentalID,
-        //                        City = x.Address.City,
-        //                        Community = x.Address.Community,
-        //                        RentalType = x.RentalType.Description,
-        //                        MaxVacancy = x.MaxVacancy,
-        //                        AvailableVacancy = x.MaxVacancy - x.Renters.Count(),
-        //                        MonthlyRent = x.MonthlyRent,
-        //                        DamageDeposit = x.DamageDeposit
-
-        //                    }).OrderBy(x => x.RentalID)
-        //                    .ToList();
-
-        //}
+       
 
 
 
         public List<RentalSearchView> GetRentalsWithOneInput(string city, string community)
         {
-            //Business Rules
-            //these are processing rules that need to be satisfied
-            //for valid data
-
-            //rule: both last name and phone number cannot be empty (둘다 비어있으면안됨)
-            //Rule: RemoveFromViewFlag must be false
-
-
-
-            //Need to update parameters so we are not searching on an empty value.
-            //Otherwise, an empty string will return all records
+           
             if (string.IsNullOrWhiteSpace(city))
             {
                 city = Guid.NewGuid().ToString();
@@ -94,7 +42,7 @@ namespace RMSSystem.BLL
                 community = Guid.NewGuid().ToString();
             }
 
-            //Return Customers that meet our criteria
+       
 
             return _rentalContext.Rentals
                             //.Include(x => x.RentalType)
@@ -120,17 +68,7 @@ namespace RMSSystem.BLL
 
         public List<RentalSearchView> GetRentalsWithAllInput(string city, string community)
         {
-            //Business Rules
-            //these are processing rules that need to be satisfied
-            //for valid data
-
-            //rule: both last name and phone number cannot be empty (둘다 비어있으면안됨)
-            //Rule: RemoveFromViewFlag must be false
-
-            //Need to update parameters so we are not searching on an empty value.
-            //Otherwise, an empty string will return all records
-
-            //Return Customers that meet our criteria
+           
 
             return _rentalContext.Rentals
                             //.Include(x => x.RentalType)
@@ -304,13 +242,7 @@ namespace RMSSystem.BLL
             rental.RentalPayments = rental.RentalPayments.Count == 0 ? (ICollection<RentalPayment>)new List<RentalPayment>() : rental.RentalPayments;
 
 
-            //messenger
-            //Address address = new Address();
-            //RentalType rentalType = new();
-            //List<RentalPayment> rentalPayment = new();
-
-
-            //assign
+          
             rental.AddressID = currentRental.AddressID;
             rental.RentalTypeID = currentRental.RentalTypeID;
             rental.MonthlyRent = currentRental.MonthlyRent;
@@ -320,25 +252,7 @@ namespace RMSSystem.BLL
             rental.RemoveFromViewFlag = currentRental.RemoveFromViewFlag;
 
 
-            //I'm not sure if this is also working. //since I'm not changing any data below regarding address,
-            //just loading from db would be a better way I guess..?
-
-            //address.AddressID = item.Address.AddressID;
-            //address.Number = item.Address.Number;
-            //address.Street = item.Address.Street;
-            //address.City = item.Address.City;
-            //address.Community = item.Address.Community;
-            //address.Unit = item.Address.Unit;
-            //address.ProvinceState = item.Address.ProvinceState;
-            //address.PostalCodeZip = item.Address.PostalCodeZip;
-            //address.CountryCode = item.Address.CountryCode;
-            //address.LandLordID = item.Address.LandLordID;
-            //address.RemoveFromViewFlag = item.Address.RemoveFromViewFlag;
-            //rental.Address = address;
-
-
-            //just loading. //this is not needed? By assigning address ID, EF automatically follows and fills this section???? as a foreign key ?
-            //rental.Address = _rentalContext.Addresses.Where(x => x.AddressID == currentRental.Address.AddressID).FirstOrDefault();
+           
 
 
             var matchingRentalType = _rentalContext.RentalTypes.Where(x => x.RentalTypeID == currentRental.RentalTypeID && x.RemoveFromViewFlag == false)
@@ -346,23 +260,13 @@ namespace RMSSystem.BLL
 
 
 
-            //in case the database has been edited and rentaltype list has been changed.
+          
             if (matchingRentalType == null && currentRental.RentalTypeID!=0)
             {
                 errorDetails.Add(new Exception($"Check if your database has the rentayltypeID : {currentRental.RentalTypeID}"));
             }
 
 
-            //else
-            //{
-            //    currentRental.Description = matchingRentalType;
-            //}
-            //rentalType.RemoveFromViewFlag = 
-
-            //rental.RentalType = rentalType;
-
-
-            //rental.RentalPayments = (ICollection<RentalPayment>)rentalPayment;
 
 
             foreach (var eachRenterView in currentRental.Renters)
@@ -373,21 +277,15 @@ namespace RMSSystem.BLL
                     renter = new Renter();
                     renter.StudentNumber = eachRenterView.StudentNumber;
 
-                    //I don't have any info on what this effective date is. need to ask.
-                    ////renter.EffectiveDate = eachRenterView.EffectiveDate;
-
-                    ///I assume newly added renters or updated renters are 'active' but I need to ask James about this.
-                    //renter.Active = true;
+                  
                 }
 
 
-                //I need to know how to set these two values.
-                //if I use this, effectivedate is going to be the same..               
-                //renter.EffectiveDate = renter.EffectiveDate;
+            
                 renter.EffectiveDate = DateTime.Now;
 
 
-                //renter.Active = renter.Active;
+              
                 if (eachRenterView.RemoveFromViewFlag == false)
                 {
                     renter.Active = true;
@@ -398,17 +296,12 @@ namespace RMSSystem.BLL
                 }
 
 
-                //other than these two, when I update or add data, I need to consider all 'related' tables, which should added or updated accordingly.
-                //otherwise my db data would look ugly.
+            
                 renter.EmergencyContactNumber = eachRenterView.EmergencyContactNumber;
                 renter.EmergencyContactName = eachRenterView.EmergencyContactName;
                 renter.RemoveFromViewFlag = eachRenterView.RemoveFromViewFlag;
 
-                //I once thought about using the code below, but I found that through EF core, all related tables and data are updated accordingly.
-                //     var student = _rentalContext.Students
-                //.Where(s => s.StudentNumber == renter.StudentNumber)
-                //.FirstOrDefault();
-                ////renter.StudentNumberNavigation = student;
+             
 
                 if (renter.RenterID == 0)
                 {
@@ -440,8 +333,7 @@ namespace RMSSystem.BLL
             _rentalContext.SaveChanges();
 
 
-            //if I use return item.RentalID, it will always return 0.(this is addign a new record) and item is just a viewmodel.
-            //I'm not using Entity object(which will reflect newly assigned id) like I did in CPSC1517. 
+            
             return rental.RentalID;
 
         }

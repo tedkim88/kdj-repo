@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\RMSSystem.csproj": {}
+    "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSSystem\\RMSSystem.csproj": {}
   },
   "projects": {
-    "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\RMSSystem.csproj": {
+    "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSSystem\\RMSSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\RMSSystem.csproj",
+        "projectUniqueName": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSSystem\\RMSSystem.csproj",
         "projectName": "RMSSystem",
-        "projectPath": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\RMSSystem.csproj",
+        "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSSystem\\RMSSystem.csproj",
         "packagesPath": "C:\\Users\\ifeel\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\ted88\\kdj-repo\\Rental Management System\\RMSSystem\\obj\\",
+        "outputPath": "C:\\github\\ted88\\kdj-repo\\C#-Rental Management System\\RMSSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

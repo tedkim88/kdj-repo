@@ -16,7 +16,7 @@ namespace RMSSystem.BLL
 
         internal StudentService(RMSContext rentalContext)
         {
-            //Initialize the _hogWildContext field with the provided HogWildContext instance
+            
             _rentalContext = rentalContext;
         }
 
@@ -61,42 +61,7 @@ namespace RMSSystem.BLL
         }
 
 
-        //public RenterView getStudentAsRenter (int studentNumber)
-        //{
-        //    if (studentNumber < 0)
-        //    {
-        //        throw new ArgumentNullException("Invalid student Number.");
-        //    }
-
-        //    var matchingStudent = _rentalContext.Students.Where(x => x.StudentNumber == studentNumber &&
-        //                                                            x.RemoveFromViewFlag == false)
-        //                                                            .FirstOrDefault();
-
-        //    if (matchingStudent == null)
-        //    {
-        //        throw new ArgumentNullException("There is no valid matching student.");
-        //    }
-
-        ////이부분에서 .Renters에서  파일을가져오려다보니 student정보에는 있는데 renter에는 등록이안되어있는 애들이 있어서 null이 return되서 UI렌더링에서 오류가났음.
-        ///모든 스튜던트가 렌터에 등록되어있는게 아님..렌터에 등록하려면 뉴렌탈로 가야하는메커니즘인가?
-        //    return _rentalContext.Students.Where(x => x.StudentNumber == studentNumber &&
-        //                                             x.RemoveFromViewFlag == false)
-        //                                    .Select(x => new RenterView
-        //                                    {
-        //                                        RenterID = x.RenterID,
-        //                                        StudentNumber = x.StudentNumber,
-        //                                        StudentName = x.StudentNumberNavigation.FirstName + " " + x.StudentNumberNavigation.LastName,
-        //                                        RentalID = x.RentalID,
-        //                                        EffectiveDate = x.EffectiveDate,
-        //                                        Active = x.Active,
-        //                                        EmergencyContactName = x.EmergencyContactName,
-        //                                        EmergencyContactNumber = x.EmergencyContactNumber,
-        //                                        RemoveFromViewFlag = x.RemoveFromViewFlag
-        //                                    })
-        //                                    .FirstOrDefault();
-        //}
-
-
+       
 
 
 
