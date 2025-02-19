@@ -46,3 +46,15 @@ C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSyste
 C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\refint\RentalSystem.dll
 C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.pdb
 C:\github\ted88\kdj-repo\OLTP-shopping\RentalSystem\obj\Debug\net8.0\ref\RentalSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\RentalSystem\bin\Debug\net8.0\RentalSystem.deps.json
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\RentalSystem\bin\Debug\net8.0\RentalSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\RentalSystem\bin\Debug\net8.0\RentalSystem.pdb
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.AssemblyInfoInputs.cache
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.AssemblyInfo.cs
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.sourcelink.json
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\RentalSystem\obj\Debug\net8.0\refint\RentalSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\RentalSystem\obj\Debug\net8.0\RentalSystem.pdb
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\RentalSystem\obj\Debug\net8.0\ref\RentalSystem.dll

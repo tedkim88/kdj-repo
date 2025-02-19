@@ -46,3 +46,15 @@ C:\github\ted88\kdj-repo\OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\Receivin
 C:\github\ted88\kdj-repo\OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\refint\ReceivingSystem.dll
 C:\github\ted88\kdj-repo\OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\ReceivingSystem.pdb
 C:\github\ted88\kdj-repo\OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\ref\ReceivingSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ReceivingSystem\bin\Debug\net8.0\ReceivingSystem.deps.json
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ReceivingSystem\bin\Debug\net8.0\ReceivingSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ReceivingSystem\bin\Debug\net8.0\ReceivingSystem.pdb
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\ReceivingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\ReceivingSystem.AssemblyInfoInputs.cache
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\ReceivingSystem.AssemblyInfo.cs
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\ReceivingSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\ReceivingSystem.sourcelink.json
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\ReceivingSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\refint\ReceivingSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\ReceivingSystem.pdb
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ReceivingSystem\obj\Debug\net8.0\ref\ReceivingSystem.dll

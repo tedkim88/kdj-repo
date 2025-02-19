@@ -1,72 +1,80 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\",
+  "WorkspaceRootPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\salessystem\\viewmodels\\returnitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\viewmodels\\returnitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\dmit2018project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\salessystem\\bll\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\salessystem\\bll\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\bll\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\salessystem\\bll\\refundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\salessystem\\bll\\refundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\bll\\refundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\salessystem\\bll\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\salessystem\\bll\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\bll\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\salessystem\\bll\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\bll\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\salessystem\\salessystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\salessystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\salessystem\\bll\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\bll\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\dmit2018project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\salessystem\\viewmodels\\returnitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\viewmodels\\returnitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\salessystem\\salesreturnextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\salesreturnextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\salessystem\\salessystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\salessystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ifeel\\AppData\\Roaming\\Microsoft\\UserSecrets\\c8ca1e63-3eeb-499d-8dde-b240e06e1c75\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\dmit2018project\\components\\pages\\salesreturn\\refund.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\dmit2018project\\components\\pages\\salesreturn\\refund.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\components\\pages\\salesreturn\\refund.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\dmit2018project\\components\\pages\\salesreturn\\refund.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\dmit2018project\\components\\pages\\salesreturn\\refund.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\components\\pages\\salesreturn\\refund.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\salessystem\\salesreturnextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0B7DAC1-D933-4B28-A4E5-6C72586F6116}|SalesSystem\\SalesSystem.csproj|solutionrelative:salessystem\\salesreturnextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\dmit2018project\\components\\pages\\salesreturn\\checkout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\dmit2018project\\components\\pages\\salesreturn\\checkout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\components\\pages\\salesreturn\\checkout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\dmit2018project\\components\\pages\\purchaseorders\\vendors.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\dmit2018project\\components\\pages\\purchaseorders\\vendors.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\components\\pages\\purchaseorders\\vendors.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\dmit2018project\\components\\pages\\purchaseorders\\vendors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\dmit2018project\\components\\pages\\purchaseorders\\vendors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\components\\pages\\purchaseorders\\vendors.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\dmit2018project\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\dmit2018project\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\posystem\\bll\\vendorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\posystem\\bll\\vendorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|solutionrelative:posystem\\bll\\vendorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\posystem\\bll\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\posystem\\bll\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|solutionrelative:posystem\\bll\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|c:\\github\\ted88\\kdj-repo\\oltp-shopping\\posystem\\bll\\stockitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|c:\\github\\ted88\\kdj-repo\\c#-oltp-shopping\\posystem\\bll\\stockitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A03D05ED-74AC-4759-BCDE-7EEE85B208E9}|POSystem\\POSystem.csproj|solutionrelative:posystem\\bll\\stockitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -79,6 +87,32 @@
           "DockedHeight": 43,
           "SelectedChildIndex": 18,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\BLL\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "SalesSystem\\BLL\\EmployeeService.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\BLL\\EmployeeService.cs",
+              "RelativeToolTip": "SalesSystem\\BLL\\EmployeeService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:26:50.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\BLL\\CategoryService.cs",
+              "RelativeDocumentMoniker": "SalesSystem\\BLL\\CategoryService.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\BLL\\CategoryService.cs",
+              "RelativeToolTip": "SalesSystem\\BLL\\CategoryService.cs",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAIwAkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:25:39.306Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
@@ -129,47 +163,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SalesSystem.csproj",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\SalesSystem.csproj",
-              "RelativeDocumentMoniker": "SalesSystem\\SalesSystem.csproj",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\SalesSystem.csproj",
-              "RelativeToolTip": "SalesSystem\\SalesSystem.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-05T06:19:19.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RefundService.cs",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\BLL\\RefundService.cs",
-              "RelativeDocumentMoniker": "SalesSystem\\BLL\\RefundService.cs",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\BLL\\RefundService.cs",
-              "RelativeToolTip": "SalesSystem\\BLL\\RefundService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:57:29.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PurchaseOrderService.cs",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\POSystem\\BLL\\PurchaseOrderService.cs",
-              "RelativeDocumentMoniker": "POSystem\\BLL\\PurchaseOrderService.cs",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\POSystem\\BLL\\PurchaseOrderService.cs",
-              "RelativeToolTip": "POSystem\\BLL\\PurchaseOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T00:41:31.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Vendors.razor",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor",
               "RelativeDocumentMoniker": "DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor",
               "RelativeToolTip": "DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -177,11 +175,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Vendors.razor.cs",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor.cs",
               "RelativeDocumentMoniker": "DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor.cs",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor.cs",
               "RelativeToolTip": "DMIT2018Project\\Components\\Pages\\PurchaseOrders\\Vendors.razor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -191,58 +189,86 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SaleService.cs",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\BLL\\SaleService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\BLL\\SaleService.cs",
               "RelativeDocumentMoniker": "SalesSystem\\BLL\\SaleService.cs",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\BLL\\SaleService.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\BLL\\SaleService.cs",
               "RelativeToolTip": "SalesSystem\\BLL\\SaleService.cs",
-              "ViewState": "AgIAAPkAAAAAAAAAAAAwwGEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJcBAAAAAAAAAAAIwLQBAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:44:27.58Z"
+              "WhenOpened": "2024-12-04T17:44:27.58Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ReturnItemView.cs",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\ViewModels\\ReturnItemView.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\ViewModels\\ReturnItemView.cs",
               "RelativeDocumentMoniker": "SalesSystem\\ViewModels\\ReturnItemView.cs",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\ViewModels\\ReturnItemView.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\ViewModels\\ReturnItemView.cs",
               "RelativeToolTip": "SalesSystem\\ViewModels\\ReturnItemView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T17:43:43.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\appsettings.json",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\appsettings.json",
               "RelativeDocumentMoniker": "DMIT2018Project\\appsettings.json",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\appsettings.json",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\appsettings.json",
               "RelativeToolTip": "DMIT2018Project\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-01T06:27:44.465Z"
+              "WhenOpened": "2025-02-01T06:27:44.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CouponService.cs",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\BLL\\CouponService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\BLL\\CouponService.cs",
               "RelativeDocumentMoniker": "SalesSystem\\BLL\\CouponService.cs",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\BLL\\CouponService.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\BLL\\CouponService.cs",
               "RelativeToolTip": "SalesSystem\\BLL\\CouponService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowDAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T15:59:11.25Z"
+              "WhenOpened": "2024-12-04T15:59:11.25Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "RefundService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\BLL\\RefundService.cs",
+              "RelativeDocumentMoniker": "SalesSystem\\BLL\\RefundService.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\BLL\\RefundService.cs",
+              "RelativeToolTip": "SalesSystem\\BLL\\RefundService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:57:29.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PurchaseOrderService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\BLL\\PurchaseOrderService.cs",
+              "RelativeDocumentMoniker": "POSystem\\BLL\\PurchaseOrderService.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\BLL\\PurchaseOrderService.cs",
+              "RelativeToolTip": "POSystem\\BLL\\PurchaseOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T00:41:31.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Refund.razor.cs",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor.cs",
               "RelativeDocumentMoniker": "DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor.cs",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor.cs",
               "RelativeToolTip": "DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAawBMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -250,7 +276,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "SalesReturnExtension.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\SalesReturnExtension.cs",
+              "RelativeDocumentMoniker": "SalesSystem\\SalesReturnExtension.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\SalesReturnExtension.cs",
+              "RelativeToolTip": "SalesSystem\\SalesReturnExtension.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:57:47.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SalesSystem.csproj",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\SalesSystem.csproj",
+              "RelativeDocumentMoniker": "SalesSystem\\SalesSystem.csproj",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\SalesSystem.csproj",
+              "RelativeToolTip": "SalesSystem\\SalesSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T06:19:19.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\ifeel\\AppData\\Roaming\\Microsoft\\UserSecrets\\c8ca1e63-3eeb-499d-8dde-b240e06e1c75\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\ifeel\\AppData\\Roaming\\Microsoft\\UserSecrets\\c8ca1e63-3eeb-499d-8dde-b240e06e1c75\\secrets.json",
@@ -262,23 +313,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SalesReturnExtension.cs",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\SalesReturnExtension.cs",
-              "RelativeDocumentMoniker": "SalesSystem\\SalesReturnExtension.cs",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\SalesReturnExtension.cs",
-              "RelativeToolTip": "SalesSystem\\SalesReturnExtension.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAYwEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:57:47.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Refund.razor",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor",
               "RelativeDocumentMoniker": "DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor",
               "RelativeToolTip": "DMIT2018Project\\Components\\Pages\\SalesReturn\\Refund.razor",
               "ViewState": "AgIAAAcAAAAAAAAAAAAqwBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -286,11 +325,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Checkout.razor.cs",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Checkout.razor.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Checkout.razor.cs",
               "RelativeDocumentMoniker": "DMIT2018Project\\Components\\Pages\\SalesReturn\\Checkout.razor.cs",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Checkout.razor.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Components\\Pages\\SalesReturn\\Checkout.razor.cs",
               "RelativeToolTip": "DMIT2018Project\\Components\\Pages\\SalesReturn\\Checkout.razor.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAmwFUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -298,11 +337,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Auth.razor",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\Components\\Pages\\Auth.razor",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Components\\Pages\\Auth.razor",
               "RelativeDocumentMoniker": "DMIT2018Project\\Components\\Pages\\Auth.razor",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\Components\\Pages\\Auth.razor",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Components\\Pages\\Auth.razor",
               "RelativeToolTip": "DMIT2018Project\\Components\\Pages\\Auth.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -310,11 +349,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "StockItemService.cs",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\POSystem\\BLL\\StockItemService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\BLL\\StockItemService.cs",
               "RelativeDocumentMoniker": "POSystem\\BLL\\StockItemService.cs",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\POSystem\\BLL\\StockItemService.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\BLL\\StockItemService.cs",
               "RelativeToolTip": "POSystem\\BLL\\StockItemService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -322,11 +361,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "VendorService.cs",
-              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\POSystem\\BLL\\VendorService.cs",
+              "DocumentMoniker": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\BLL\\VendorService.cs",
               "RelativeDocumentMoniker": "POSystem\\BLL\\VendorService.cs",
-              "ToolTip": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\POSystem\\BLL\\VendorService.cs",
+              "ToolTip": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\BLL\\VendorService.cs",
               "RelativeToolTip": "POSystem\\BLL\\VendorService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

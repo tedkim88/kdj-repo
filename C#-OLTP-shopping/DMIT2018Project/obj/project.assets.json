@@ -5693,11 +5693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\DMIT2018Project.csproj",
+      "projectUniqueName": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\DMIT2018Project.csproj",
       "projectName": "DMIT2018Project",
-      "projectPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\DMIT2018Project.csproj",
+      "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\DMIT2018Project.csproj",
       "packagesPath": "C:\\Users\\ifeel\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\obj\\",
+      "outputPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5719,20 +5719,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\POSystem\\POSystem.csproj": {
-              "projectPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\POSystem\\POSystem.csproj"
+            "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\POSystem.csproj": {
+              "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\POSystem.csproj"
             },
-            "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj": {
-              "projectPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj"
+            "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj": {
+              "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj"
             },
-            "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\RentalSystem\\RentalSystem.csproj": {
-              "projectPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\RentalSystem\\RentalSystem.csproj"
+            "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\RentalSystem\\RentalSystem.csproj": {
+              "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\RentalSystem\\RentalSystem.csproj"
             },
-            "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\SalesSystem.csproj": {
-              "projectPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\SalesSystem.csproj"
+            "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\SalesSystem.csproj": {
+              "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\SalesSystem.csproj"
             },
-            "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\ServiceSystem\\ServiceSystem.csproj": {
-              "projectPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\ServiceSystem\\ServiceSystem.csproj"
+            "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ServiceSystem\\ServiceSystem.csproj": {
+              "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ServiceSystem\\ServiceSystem.csproj"
             }
           }
         }

@@ -12,17 +12,14 @@ namespace SalesSystem.BLL
     {
 
         #region Fields
-        /// <summary>
-        /// The Sales context
-        /// 
-        /// </summary>
+       
         private readonly SalesContext _salesContext;
 
         #endregion
 
         internal CouponService(SalesContext salesContext)
         {
-            //Initialize the _salesContext field with the provided HogWildContext instance
+           
             _salesContext = salesContext;
 
         }
@@ -35,7 +32,7 @@ namespace SalesSystem.BLL
             }
 
             var matchingCoupon = _salesContext.Coupons
-                                   .AsEnumerable() // Bring data into memory for client-side evaluation
+                                   .AsEnumerable() 
                                    .Where(x => x.CouponIDValue.Equals(couponValue, StringComparison.Ordinal))
                                    .FirstOrDefault();
 
@@ -45,11 +42,11 @@ namespace SalesSystem.BLL
             }
 
             var currentTime = DateTime.Now;
-            //bool CouponExpired = false;
+         
 
             if (currentTime < matchingCoupon.StartDate || currentTime > matchingCoupon.EndDate)
             {
-                //CouponExpired = true;
+              
                 throw new ArgumentException($"{matchingCoupon.CouponIDValue} has expired. Please provide another coupon.");
 
             }

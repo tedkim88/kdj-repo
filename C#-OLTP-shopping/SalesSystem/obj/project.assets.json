@@ -3203,11 +3203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\SalesSystem.csproj",
+      "projectUniqueName": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\SalesSystem.csproj",
       "projectName": "SalesSystem",
-      "projectPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\SalesSystem.csproj",
+      "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\SalesSystem.csproj",
       "packagesPath": "C:\\Users\\ifeel\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\SalesSystem\\obj\\",
+      "outputPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

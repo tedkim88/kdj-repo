@@ -14,7 +14,7 @@ namespace SalesSystem.BLL
 
         internal RefundService(SalesContext salesContext)
         {
-            //Initialize the _salesContext field with the provided HogWildContext instance
+            
             _salesContext = salesContext;
         }
 

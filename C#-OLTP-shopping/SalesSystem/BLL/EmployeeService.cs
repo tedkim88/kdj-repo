@@ -16,18 +16,11 @@ namespace SalesSystem.BLL
 
         internal EmployeeService(SalesContext salesContext)
         {
-            //Initialize the _salesContext field with the provided HogWildContext instance
+          
             _salesContext = salesContext;
         }
 
 
-        //    private EmployeeView GetEmployee(int employeeID)
-        //    {
-
-        //        return _salesContext.Employees
-        //                                    .Where(x => x.EmployeeID == employeeID)
-        //                                    .FirstOrDefault();
-        //    }
 
     }
 }

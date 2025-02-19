@@ -28,12 +28,12 @@ namespace SalesSystem.BLL
         private readonly RefundService _refundService;
         #endregion
 
-        //constructor for the CategoryService class
+
         internal SaleService(SalesContext salesContext, RefundService refundService)
         {
-            //Initialize the _salesContext field with the provided HogWildContext instance
+
             _salesContext = salesContext;
-         _refundService = refundService;
+            _refundService = refundService;
         }
 
 
@@ -41,16 +41,13 @@ namespace SalesSystem.BLL
         public List<ReturnItemView> GetSaleRefund(int? saleID)
         {
             #region Business Logic and Parameter Exceptions
-            //create a list<Exception> to contain all discovered errors
+          
             List<Exception> errorList = new List<Exception>();
 
-            //Business Rules
-            //These are processing rules that need to be satisfied
-            // for valid data
-            // rule : categoryID should be valid(greater than 0)
+         
 
-            isCouponUsed = false; //for resetting the value for getting new saleID
-            matchingCouponRate = 0; //for resetting the value for getting new saleID
+            isCouponUsed = false; 
+            matchingCouponRate = 0; 
 
             //checking validity of saleid
             if (saleID == null || saleID <= 0)
@@ -103,11 +100,6 @@ namespace SalesSystem.BLL
 
             Console.WriteLine($"{matchingCouponRate} is matching CouponRate Percentage");
 
-            //assigning to this variable for later(when we need to edit return quantity)
-
-            //here if I use matchingSaleDetails, like
-            // matchingSaleDetails.Select(x => x.~~~~~~~~~)  this causes an error. in C# seems like, when I interact with database, using a variable instead of using the specific tablename seems to 
-            //cause an error sometimes.
 
 
 
@@ -124,7 +116,7 @@ namespace SalesSystem.BLL
                                     AvailQTY = x.Quantity,
                                     OriginalPrice = x.SellingPrice * x.Quantity, //this is total price paid for each item.
                                     SellingUnitPrice = x.SellingPrice,
-                                    RtnQty = _refundService.GetReturnedQty(x.SaleID,x.StockItemID),
+                                    RtnQty = _refundService.GetReturnedQty(x.SaleID, x.StockItemID),
                                     QtyToRtn = 0,
                                     discountFlag = isCouponUsed,
                                     discountRate = matchingCouponRate
@@ -135,7 +127,7 @@ namespace SalesSystem.BLL
             return returnList;
         }
 
-      
+
 
 
         public int AddSales(AppState appState, int employeeID, string couponIDValue, string paymentType, int saleID)
@@ -240,9 +232,8 @@ namespace SalesSystem.BLL
                             .FirstOrDefault();
 
 
-            //since we are not editing after sales--it is always adding a new record according to the rules.
-            //sale object above should always return null when made(no matching saleID). (sale id 0)
-            if (sale != null) //is there is matching data
+           
+            if (sale != null) 
             {
                 throw new ArgumentNullException("You can't change already existing sale Record.");
             }
@@ -256,26 +247,17 @@ namespace SalesSystem.BLL
             sale.CouponID = matchingCoupon == null ? null
                             : CouponExpired == true ? null : matchingCoupon.CouponID;
 
-            sale.SubTotal = appState.cartView.Sum(a => a.Subtotal); //this is before applying discount for saving database
-            sale.TaxAmount = sale.SubTotal * 0.05m; //this is before applying discount for saving database
+            sale.SubTotal = appState.cartView.Sum(a => a.Subtotal); 
+            sale.TaxAmount = sale.SubTotal * 0.05m; 
 
-            //when saving data into database, I decided not to apply any discount.
-            //but I do calculate discount for the customer and show discounted price and tax to the customer for payment.
-            //in return transaction as well.
+         
 
-
-
-            //decimal Total = sale.SubTotal * (100 - discount) / 100 + sale.TaxAmount; //this is for UI
-            //talked with James about the way of calculating tax(before applying discount VS after applying discount)
-            //and was told to go with 'after discount' for tax calculation.
-            //so this 'before discount' approach for tax calculation is gone.
-
-            decimal Total = sale.SubTotal * (100 - discount) / 100 + sale.TaxAmount * (100 - discount) / 100; //get Total for customer to pay(discount applied if applicable).
+            decimal Total = sale.SubTotal * (100 - discount) / 100 + sale.TaxAmount * (100 - discount) / 100; 
 
 
 
 
-            //adding item lists to saleDetails.
+           
             foreach (var item in appState.cartView)
             {
                 SaleDetail saleDetails = new();
@@ -287,7 +269,7 @@ namespace SalesSystem.BLL
 
             _salesContext.Sales.Add(sale);
 
-            //from here update stock item //to reduce item quantities from stock after sale
+           
             foreach (var item in appState.cartView)
             {
                 var matchingStockItem = _salesContext.StockItems.Where(x => x.StockItemID == item.ProductID &&
@@ -312,10 +294,9 @@ namespace SalesSystem.BLL
 
             if (errorList.Count > 0)
             {
-                //Clearing the "track changes" ensures consistency in our entity system.
-                //Otherwise we leave our entity system in flux
+             
                 _salesContext.ChangeTracker.Clear();
-                //Throw an AggregateException containing the list of business processing errors.
+               
                 throw new AggregateException("Failed to Add Sales. Please check error message(s)", errorList);
             }
             else
@@ -353,8 +334,8 @@ namespace SalesSystem.BLL
             {
                 errorList.Add(new Exception("There should be at least one returning item in the list."));
             }
-            
-          
+
+
             if (!(returnList.Any(a => a.QtyToRtn != 0)))
             {
                 errorList.Add(new Exception("Double check if you have clicked change qty to confirm return amount."));
@@ -390,16 +371,15 @@ namespace SalesSystem.BLL
 
             #endregion
 
-            int discount = 0; //this is discount percentage, default to 0.
-                              //we don't edit salesrefund. we are always adding a NEW salerefunds record. so just initialize the object.
+            int discount = 0; 
 
             SaleRefund saleRefunds = new SaleRefund();
-            saleRefunds.SaleRefundDetails = new List<SaleRefundDetail>(); //initializing the list to prevent error.
+            saleRefunds.SaleRefundDetails = new List<SaleRefundDetail>();
             saleRefunds.SaleRefundDate = DateTime.Now;
 
-            //extracting saleID(all return items have same saleID), and assigning it to saleRefunds object before adding to db.
+          
             var saleID = returnList.Select(x => x.SaleID).FirstOrDefault();
-            if (saleID.HasValue) //it is always gonna have value because it was prepared that way in the previous method.
+            if (saleID.HasValue) 
             {
                 saleRefunds.SaleID = saleID.Value;
             }
@@ -410,14 +390,13 @@ namespace SalesSystem.BLL
 
             foreach (var item in returnList)
             {
-                if (item.QtyToRtn > 0) //causing dbexception error when rtnqty is 0 and assigning it to the database.
+                if (item.QtyToRtn > 0) 
                 {
                     SaleRefundDetail saleRefundDetails = new();
                     saleRefundDetails.Quantity = item.QtyToRtn;
                     saleRefundDetails.StockItemID = item.StockItemID;
 
-                    //talked about this with James. 
-                    //Here, DB is saving pre-discounted price(original price). But discount is definitely applied(if applicable) in edit return qty method to show customers in UI.
+                  
                     saleRefundDetails.SellingPrice = item.SellingUnitPrice;
                     saleRefunds.SaleRefundDetails.Add(saleRefundDetails);
                 }
@@ -429,12 +408,12 @@ namespace SalesSystem.BLL
 
 
 
-            //applying discount(if applicable) to return price for showing customer.
+           
             decimal Total = (saleRefunds.SubTotal + saleRefunds.TaxAmount) * (100 - matchingCouponRate) / 100;
 
 
 
-            //from here update stock item
+           
             foreach (var item in returnList)
             {
                 var matchingStockItem = _salesContext.StockItems.Where(x => x.StockItemID == item.StockItemID &&
@@ -445,7 +424,7 @@ namespace SalesSystem.BLL
                     throw new ArgumentNullException("There is no matching Stock Item.");
                 }
 
-                //returned Items mean StockItem quantity should increase accordingly
+               
                 matchingStockItem.QuantityOnHand += item.QtyToRtn;
 
                 _salesContext.StockItems.Update(matchingStockItem);
@@ -453,10 +432,9 @@ namespace SalesSystem.BLL
 
             if (errorList.Count > 0)
             {
-                //Clearing the "track changes" ensures consistency in our entity system.
-                //Otherwise we leave our entity system in flux
+              
                 _salesContext.ChangeTracker.Clear();
-                //Throw an AggregateException containing the list of business processing errors.
+              
                 throw new AggregateException("Failed to add SaleRefund. Please check erroor message(s)", errorList);
             }
             else

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4+37JrAsXpWYCchKuZZNuYv7ZSJMWtehqpP1URN7obk=",
+  "Hash": "rBLAVr6sjv/BCxcSOuugQE8hxqLchay7izu1FshvMz4=",
   "Source": "DMIT2018Project",
   "BasePath": "_content/DMIT2018Project",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DMIT2018Project\\wwwroot",
       "Source": "DMIT2018Project",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css",
       "SourceId": "DMIT2018Project",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "DMIT2018Project.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css"
+      "OriginalItemSpec": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
       "SourceId": "DMIT2018Project",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "DMIT2018Project.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css"
+      "OriginalItemSpec": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "img/refresh.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\img\\refresh.png"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "img/remove.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\img\\remove.png"
     },
     {
-      "Identity": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
+      "Identity": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "img/team-2-logo.png",
       "AssetKind": "All",

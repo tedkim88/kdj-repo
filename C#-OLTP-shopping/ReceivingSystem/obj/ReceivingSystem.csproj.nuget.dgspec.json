@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj": {}
+    "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj": {}
   },
   "projects": {
-    "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj": {
+    "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj",
+        "projectUniqueName": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj",
         "projectName": "ReceivingSystem",
-        "projectPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj",
+        "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj",
         "packagesPath": "C:\\Users\\ifeel\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\ReceivingSystem\\obj\\",
+        "outputPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ReceivingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

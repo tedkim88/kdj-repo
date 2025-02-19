@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3qXK72gIS+A=",
+  "dgSpecHash": "2V6SoSVTxcs=",
   "success": true,
-  "projectFilePath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\POSystem\\POSystem.csproj",
+  "projectFilePath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\POSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ifeel\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ifeel\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

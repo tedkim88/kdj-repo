@@ -2754,11 +2754,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\POSystem\\POSystem.csproj",
+      "projectUniqueName": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\POSystem.csproj",
       "projectName": "POSystem",
-      "projectPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\POSystem\\POSystem.csproj",
+      "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\POSystem.csproj",
       "packagesPath": "C:\\Users\\ifeel\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\POSystem\\obj\\",
+      "outputPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

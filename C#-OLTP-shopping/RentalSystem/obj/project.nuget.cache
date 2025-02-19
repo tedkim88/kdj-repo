@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LMpnugQRBq4=",
+  "dgSpecHash": "gQ4YaO+dU7o=",
   "success": true,
-  "projectFilePath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\RentalSystem\\RentalSystem.csproj",
+  "projectFilePath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\RentalSystem\\RentalSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ifeel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.12\\microsoft.windowsdesktop.app.ref.8.0.12.nupkg.sha512",
     "C:\\Users\\ifeel\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.12\\microsoft.netcore.app.ref.8.0.12.nupkg.sha512",

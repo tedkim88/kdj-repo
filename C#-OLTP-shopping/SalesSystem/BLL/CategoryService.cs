@@ -14,25 +14,16 @@ namespace SalesSystem.BLL
     {
 
         #region Fields
-        /// <summary>
-        /// The Sales context
-        /// 
-        /// </summary>
+     
         private List<ShoppingItemsView> shoppingListItems = new List<ShoppingItemsView>();
         private readonly SalesContext _salesContext;
 
         #endregion
 
 
-        //그냥클래스파일에는 이런식으로주입이 안되고 생성자로 주입해야한다는데 그러면너무복잡해지고..
-        //this is not blazor component. so [inject] is not working. the previous Appstate variable is initialized unintentionally.
-        //[Inject]
-        //AppState AppState { get; set; }
-
-        //constructor for the CategoryService class
         internal CategoryService(SalesContext salesContext)
         {
-            //Initialize the _salesContext field with the provided HogWildContext instance
+          
             _salesContext = salesContext;
 
         }
@@ -270,13 +261,6 @@ namespace SalesSystem.BLL
 
         }
 
-
-
-        //this method, to get access to the private field(shoppingListItems) //when clicking cart I guess..
-        public List<ShoppingItemsView> GetShoppingListItems()
-        {
-            return shoppingListItems;
-        }
 
 
 

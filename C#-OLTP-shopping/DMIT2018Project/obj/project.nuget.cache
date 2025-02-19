@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OFgLmB+I230=",
+  "dgSpecHash": "D22WJHIN0fA=",
   "success": true,
-  "projectFilePath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\DMIT2018Project\\DMIT2018Project.csproj",
+  "projectFilePath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\DMIT2018Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ifeel\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ifeel\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

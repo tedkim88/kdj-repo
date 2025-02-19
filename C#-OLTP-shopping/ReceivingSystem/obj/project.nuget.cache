@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2H1n78pty+Y=",
+  "dgSpecHash": "HYCpkVycRnk=",
   "success": true,
-  "projectFilePath": "C:\\github\\ted88\\kdj-repo\\OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj",
+  "projectFilePath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ifeel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.12\\microsoft.windowsdesktop.app.ref.8.0.12.nupkg.sha512",
     "C:\\Users\\ifeel\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.12\\microsoft.netcore.app.ref.8.0.12.nupkg.sha512",

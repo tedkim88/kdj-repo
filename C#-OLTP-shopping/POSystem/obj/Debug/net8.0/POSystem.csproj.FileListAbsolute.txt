@@ -50,3 +50,16 @@ C:\github\ted88\kdj-repo\OLTP-shopping\POSystem\obj\Debug\net8.0\POSystem.dll
 C:\github\ted88\kdj-repo\OLTP-shopping\POSystem\obj\Debug\net8.0\refint\POSystem.dll
 C:\github\ted88\kdj-repo\OLTP-shopping\POSystem\obj\Debug\net8.0\POSystem.pdb
 C:\github\ted88\kdj-repo\OLTP-shopping\POSystem\obj\Debug\net8.0\ref\POSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\bin\Debug\net8.0\POSystem.deps.json
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\bin\Debug\net8.0\POSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\bin\Debug\net8.0\POSystem.pdb
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\obj\Debug\net8.0\POSystem.csproj.AssemblyReference.cache
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\obj\Debug\net8.0\POSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\obj\Debug\net8.0\POSystem.AssemblyInfoInputs.cache
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\obj\Debug\net8.0\POSystem.AssemblyInfo.cs
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\obj\Debug\net8.0\POSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\obj\Debug\net8.0\POSystem.sourcelink.json
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\obj\Debug\net8.0\POSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\obj\Debug\net8.0\refint\POSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\obj\Debug\net8.0\POSystem.pdb
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\POSystem\obj\Debug\net8.0\ref\POSystem.dll

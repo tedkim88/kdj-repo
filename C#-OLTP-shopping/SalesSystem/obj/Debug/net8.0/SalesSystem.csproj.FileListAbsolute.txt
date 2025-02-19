@@ -50,3 +50,16 @@ C:\github\ted88\kdj-repo\OLTP-shopping\SalesSystem\obj\Debug\net8.0\SalesSystem.
 C:\github\ted88\kdj-repo\OLTP-shopping\SalesSystem\obj\Debug\net8.0\refint\SalesSystem.dll
 C:\github\ted88\kdj-repo\OLTP-shopping\SalesSystem\obj\Debug\net8.0\SalesSystem.pdb
 C:\github\ted88\kdj-repo\OLTP-shopping\SalesSystem\obj\Debug\net8.0\ref\SalesSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\bin\Debug\net8.0\SalesSystem.deps.json
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\bin\Debug\net8.0\SalesSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\bin\Debug\net8.0\SalesSystem.pdb
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\obj\Debug\net8.0\SalesSystem.csproj.AssemblyReference.cache
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\obj\Debug\net8.0\SalesSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\obj\Debug\net8.0\SalesSystem.AssemblyInfoInputs.cache
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\obj\Debug\net8.0\SalesSystem.AssemblyInfo.cs
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\obj\Debug\net8.0\SalesSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\obj\Debug\net8.0\SalesSystem.sourcelink.json
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\obj\Debug\net8.0\SalesSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\obj\Debug\net8.0\refint\SalesSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\obj\Debug\net8.0\SalesSystem.pdb
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\SalesSystem\obj\Debug\net8.0\ref\SalesSystem.dll

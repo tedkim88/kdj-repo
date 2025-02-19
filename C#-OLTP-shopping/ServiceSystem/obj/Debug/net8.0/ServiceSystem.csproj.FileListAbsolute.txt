@@ -46,3 +46,15 @@ C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSys
 C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\refint\ServiceSystem.dll
 C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.pdb
 C:\github\ted88\kdj-repo\OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ref\ServiceSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ServiceSystem\bin\Debug\net8.0\ServiceSystem.deps.json
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ServiceSystem\bin\Debug\net8.0\ServiceSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ServiceSystem\bin\Debug\net8.0\ServiceSystem.pdb
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.AssemblyInfoInputs.cache
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.AssemblyInfo.cs
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.csproj.CoreCompileInputs.cache
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.sourcelink.json
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\refint\ServiceSystem.dll
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.pdb
+C:\github\ted88\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ref\ServiceSystem.dll
