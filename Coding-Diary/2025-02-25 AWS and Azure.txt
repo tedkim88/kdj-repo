@@ -1,0 +1,6 @@
+I'm learning AWS on my own, but
+after today's meet-up(IT connection at NAIT) learning Azure together with AWS would be a good idea.
+So I'm going to start learning Azure too this month(Feb)
+
+It seems Azure also offers certificate, so I'm going to start with the basic one to have the full understanding of Azure,
+just like I'm studying AWS cloud practitioner course.

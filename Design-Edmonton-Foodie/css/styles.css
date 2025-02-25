@@ -51,7 +51,7 @@ h3 {
 
 h1 {
     margin: 2rem 0 2.25rem;
-    color: rgb(221, 133, 133);
+    color: rgb(102, 21, 227,1);
 }
 
 h2 {
@@ -100,6 +100,7 @@ nav li a:hover{
 }
 
 main a {
+    
     display: inline-block;
     border-radius: 0.375rem;
     text-align: center;
@@ -109,10 +110,17 @@ main a {
     background-color: var(--banner-button);
 }
 
+main a:hover{
+    background-color: yellow;
+    color: black;
+    transition: all ease-in 300ms;
+
+}
+
 
 main>section:first-child {
     
-    background-color: rgb(250, 255, 205);
+    background-color: rgb(244, 245, 237);
     padding: 1.375rem;
 
 }
@@ -146,9 +154,13 @@ main>section:nth-child(2) {
 }
 
 
+main>section:nth-child(2) h3{
+    color: #e9553b;
+}
 
 main>section:nth-child(2)>p:first-of-type {
     text-align: center;
+    
 }
 
 main>section:nth-child(2) p {
@@ -220,12 +232,13 @@ main>section:nth-child(4)>div.inner-container>div.flex-container section div.inn
 }
 
 aside {
-    background-color: rgb(253, 229, 171);
+    background-color: rgb(69, 83, 237, 0.8);
     padding: 4rem 2.75rem;
 }
 
 aside h2 {
     margin-top: 0;
+    color: #1e24c0;
 }
 
 aside p {
@@ -234,7 +247,7 @@ aside p {
 }
 
 aside div.inner-container {
-    background-color: rgb(240, 190, 190);
+    background-color: rgb(234, 229, 248);
     border-radius: 0.5rem;
     padding: 4rem 2rem;
 }
@@ -381,6 +394,10 @@ footer>div>div:first-of-type {
 
     footer ul {
         width: 6rem;
+    }
+
+    footer ul li{
+        width: 6.25rem;
     }
 
     footer div.flex-container:nth-child(1) {
