@@ -76,10 +76,14 @@ These projects are works in progress or practice attempts. The code structure, u
 
 ---
 
-## 4. **Design(Reponsive Design and Toggle Navigation)** 
+## 4. **Design-responsive and navigation** 
 **Description**:  
 Doing this project, I got to learn how and what to do with position absolute, relative, getting more used to flex and its usage for aligning items even when something doesn't need to be flexed.
 I made toggle-navigation as well using simple JS commands, and this navigation display changes depending on the viewport size, using media queries.
 Using the concept of inner-container to maintain the content in the center, but surrounding it with another container box which doesn't have max-width so that it can have a stretching back ground was also another takeaway.
+I used svg minifier to clean up the svg codes, and squoosh web app to optimize images(changing extension to webp) for better display and sizes.
+
+![image](https://github.com/user-attachments/assets/ab07bdd1-a20e-4db0-973c-42ef56e7eb5a)
+![image](https://github.com/user-attachments/assets/99749189-8fb8-4811-8650-50eb611330c6)
 
 
