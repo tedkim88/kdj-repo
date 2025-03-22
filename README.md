@@ -76,3 +76,10 @@ These projects are works in progress or practice attempts. The code structure, u
 
 ---
 
+## 4. **Design(Reponsive Design and Toggle Navigation)** 
+**Description**:  
+Doing this project, I got to learn how and what to do with position absolute, relative, getting more used to flex and its usage for aligning items even when something doesn't need to be flexed.
+I made toggle-navigation as well using simple JS commands, and this navigation display changes depending on the viewport size, using media queries.
+Using the concept of inner-container to maintain the content in the center, but surrounding it with another container box which doesn't have max-width so that it can have a stretching back ground was also another takeaway.
+
+
