@@ -1,0 +1,23 @@
+03/22 Learning Express and Server-Side Rendering Online
+
+When I first learned about Node.js and JavaScript, I honestly didn't understand why Node.js was necessary. I thought, "What's the point of using this? Just to run the npm run dev command?"
+
+These days, I've been studying various concepts, including cloud computing (Azure) and Express (server-side rendering).
+
+The basic idea is to render different pages with different content dynamically based on the URLs that users select. Until I learned Express, I didn't fully understand what backend web pages were actually doing.
+
+Since I already know how to code logic, use SQL, fetch APIs from third parties, and manipulate data using JSON and stringify, I thought that was all there was to it. But this concept of routing in Express made me realize how much more there is to learn— which is true.
+
+I also learned that Express is somewhat outdated, as many developers now focus on React and client-side rendering for smoother page transitions. I've been learning React as well, but I focused more on maintaining my perfect grade at NAIT, which I now realize I need to change. I'm going to restart learning and practicing React to combine it with my backend knowledge and logic.
+
+Fortunately, while I may not know everything, I believe I now understand the big picture of web development.
+
+Users typically interact with static web pages and enter information through input fields. When they submit a form—whether by clicking a button or through another method—JavaScript or another language accesses those input values, validates them, and sends the valid data to the server. The server then processes the data, manipulates it if needed, and saves it to the database. The database also has its own logic to maintain data integrity. If necessary, the server can use the newly updated data to render dynamic content for users—but not always.
+
+Nowadays, AI is advancing at an unimaginable pace, which is both frightening and fascinating. It offers various functions that simplify development, and at this rate of progress and innovation, I believe I need to brainstorm what kinds of applications people truly need. I also need to think about how different APIs and functionalities can be combined to create a great app.
+
+So far, I've been focusing on trees rather than the forest. I'm trying to change that by recognizing the whole picture, so I know where I'm going. If I encounter challenges (trees) along the way, I can Google, find solutions, and keep moving forward.
+
+That's my plan for now.
+
+It seems difficult to find job opportunities as an international student, but I’m never going to give up.
