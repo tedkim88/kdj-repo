@@ -1,0 +1,26 @@
+3/22 
+Oracle Forms, Properties, Triggers
+
+Focusing on mid-term of Oracle course recently, I learned a lot of things.
+The instructor, from my perspective, presented us with questions full of 'traps', which you can't avoid unless focused.
+Some of the instructions were, I believe, intentionally vague, and I assume he wanted to check if we had abilities to detect subtle nuances,
+and how to write codes accordingly, which I succeeded.
+
+Now we are almost toward the end of the Oracle course, and so far I have learned various concepts such as 
+Explicit Cursor(getting access to each row of the query and handle it as wished), procedure(no return- as a rule in the course), function(returning output), package, db trigger, error handling.
+All of this was really fun to learn, and I got over 90%.
+
+Nowadays, we are learning Oracle Forms(through form builders), which is a front-end tool to be connected with the DB we made in Oracle Sql developer.
+Oracle Form doesn't look cool design-wise, but seems to offer pretty good functionalities 
+with a variety of triggers on many different levels such as Form-level, datablock level, item level, window-level and etc.
+I'm learning a plethora of functionalities that I can use in Oracle Forms such as
+LOVs(List of Values), ListItems, Display Items, Checkbox, RadioButtons, TextItems, and etc.
+
+I'm previewing and reviewing all the things that I'm learning or I'm going to learn, and so far so good
+But I hope, this tool, Oracle Form, will be used in the industry as well, I did some googling to search for functionalities that I wanted to use for my Forms
+and most of the results that I got were from ..many years ago, which made me a little worried about its actual usage in the industry today.
+
+Gotta believe what the professor says for now, and be focused.
+
+
+

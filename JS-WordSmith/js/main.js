@@ -63,6 +63,7 @@ document.getElementById("sign-in").addEventListener("click", (evt) => {
 document.getElementById("sign-out").addEventListener("click", (evt) => {
   evt.preventDefault();
   SignOut();
+  document.querySelector('#quiz-render').style.display = 'none';
 });
 
 onAuthStateChanged(auth, (user) => {
@@ -87,10 +88,10 @@ function BoardRendering(data) {
   document.querySelector("#question-list").appendChild(listItem);
 }
 
-document.getElementById('create-account').addEventListener('click',evt=>{
-document.querySelector('.signin').style.display = "none";
-document.querySelector('.signup').style.display = "";
-document.getElementById('create-account').style.display="none";
+document.getElementById('create-account').addEventListener('click', evt => {
+  document.querySelector('.signin').style.display = "none";
+  document.querySelector('.signup').style.display = "";
+  document.getElementById('create-account').style.display = "none";
 })
 
 
@@ -123,7 +124,7 @@ document.querySelector(".to-main").addEventListener("click", (evt) => {
 
 function QuizRendering(data) {
   console.log(data + 'hellowervwrvwervwevrwevrwevr');
-    const quizRenderArr = data.map((item) => {
+  const quizRenderArr = data.map((item) => {
     const ol = document.createElement("ol");
     // ol.setAttribute("style", "display:none");
     // Loop through the definitions and create <li> elements
@@ -145,7 +146,7 @@ function QuizRendering(data) {
     </div>
   `;
   });
-  
+
   document.querySelector("#quiz-render").innerHTML += quizRenderArr;
 }
 
@@ -323,10 +324,10 @@ function CreateID() {
       // Signed up
       const user = userCredential.user;
       // ...
-      
+
       document.querySelector('.signin').style.display = "";
       document.querySelector('.signup').style.display = "none";
-      document.getElementById('create-account').style.display="";
+      document.getElementById('create-account').style.display = "";
       alert('Your account has been successfully made.');
       document.getElementById("create-id").value = null;
       document.getElementById("create-password").value = null;
@@ -354,7 +355,7 @@ function SignOut() {
       // document.querySelector(".signup").style.display = "";
       document.querySelector(".signin").style.display = "";
     })
-    .catch((error) => {});
+    .catch((error) => { });
 }
 
 async function addToDB(collectionName, input) {
@@ -389,24 +390,24 @@ async function LoadData(collectionName, renderElement, callback) {
   querySnapshot.forEach((doc) => {
     const data = doc.data();
     console.log(data);
-    data.extracted.forEach(item=>{
+    data.extracted.forEach(item => {
       emptyArr.push(item);
-      })
+    })
     // const listItem = document.createElement("li");
     // listItem.innerHTML = `<strong>${data.subject}</strong>: ${data.content}`;
     // questionList.appendChild(listItem);
   });
   console.log(emptyArr);
   let seenWords = new Set();
-let uniqueArray = emptyArr.filter(item => {
-  if (seenWords.has(item.word)) {
-    return false;
-  } else {
-    seenWords.add(item.word);
-    return true;
-  }
-});
-console.log(uniqueArray);
+  let uniqueArray = emptyArr.filter(item => {
+    if (seenWords.has(item.word)) {
+      return false;
+    } else {
+      seenWords.add(item.word);
+      return true;
+    }
+  });
+  console.log(uniqueArray);
   callback(uniqueArray);
 }
 

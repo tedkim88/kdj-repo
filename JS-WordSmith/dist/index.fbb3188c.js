@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"iPmjX":[function(require,module,exports,__globalThis) {
+})({"cgufI":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -636,6 +636,7 @@ document.getElementById("sign-in").addEventListener("click", (evt)=>{
 document.getElementById("sign-out").addEventListener("click", (evt)=>{
     evt.preventDefault();
     SignOut();
+    document.querySelector('#quiz-render').style.display = 'none';
 });
 (0, _auth.onAuthStateChanged)(auth, (user)=>{
     if (user) console.log("User is signed in:", user);
@@ -41612,6 +41613,6 @@ const firebaseConfig = {
     measurementId: "G-YZE3QJL3MQ"
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["iPmjX","bDbGG"], "bDbGG", "parcelRequire94c2")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["cgufI","bDbGG"], "bDbGG", "parcelRequire94c2")
 
 //# sourceMappingURL=index.fbb3188c.js.map
