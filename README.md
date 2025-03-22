@@ -85,5 +85,7 @@ I used svg minifier to clean up the svg codes, and squoosh web app to optimize i
 
 ![image](https://github.com/user-attachments/assets/ab07bdd1-a20e-4db0-973c-42ef56e7eb5a)
 ![image](https://github.com/user-attachments/assets/99749189-8fb8-4811-8650-50eb611330c6)
+![image](https://github.com/user-attachments/assets/4d2a8353-377f-4ac3-8ec8-9a74ea377569)
+
 
 
