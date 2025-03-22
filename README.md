@@ -14,6 +14,7 @@ you can click create account, log in, and word screen will pop up.**
 **pre-made ID : 123456@gmail.com**
 **pre-set password : 123456**
 
+![Screenshot 2025-03-22 172315](https://github.com/user-attachments/assets/7edd302a-beca-4b83-9bcb-7a71dbd734a9)
 ![image](https://github.com/user-attachments/assets/7b349d89-d75f-4748-9a8d-abf882078877)
 ![image](https://github.com/user-attachments/assets/393cd821-8250-4412-a866-796846cb053d)
 
