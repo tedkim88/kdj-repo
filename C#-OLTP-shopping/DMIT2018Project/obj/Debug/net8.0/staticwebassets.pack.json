@@ -1,36 +1,40 @@
 {
   "Files": [
     {
-      "Id": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
-      "PackagePath": "staticwebassets\\DMIT2018Project.bundle.scp.css"
+      "Id": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DMIT2018Project.r9k5ydcxxp.bundle.scp.css"
     },
     {
-      "Id": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
+      "Id": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
+      "Id": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
+      "Id": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
       "PackagePath": "staticwebassets\\img\\refresh.png"
     },
     {
-      "Id": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
+      "Id": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
       "PackagePath": "staticwebassets\\img\\remove.png"
     },
     {
-      "Id": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
+      "Id": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
       "PackagePath": "staticwebassets\\img\\team-2-logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DMIT2018Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DMIT2018Project.Microsoft.AspNetCore.StaticWebAssets.props",

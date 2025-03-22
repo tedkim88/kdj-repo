@@ -1270,7 +1270,7 @@
         },
         "runtime": {
           "POSystem.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1278,7 +1278,7 @@
       "ReceivingSystem/1.0.0": {
         "runtime": {
           "ReceivingSystem.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1286,7 +1286,7 @@
       "RentalSystem/1.0.0": {
         "runtime": {
           "RentalSystem.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1299,7 +1299,7 @@
         },
         "runtime": {
           "SalesSystem.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1307,7 +1307,7 @@
       "ServiceSystem/1.0.0": {
         "runtime": {
           "ServiceSystem.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

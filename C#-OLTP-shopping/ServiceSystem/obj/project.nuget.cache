@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V/5ExL9Ja4Y=",
+  "dgSpecHash": "OUKlGtDEm48=",
   "success": true,
-  "projectFilePath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ServiceSystem\\ServiceSystem.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ifeel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.12\\microsoft.windowsdesktop.app.ref.8.0.12.nupkg.sha512",
-    "C:\\Users\\ifeel\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.12\\microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
-    "C:\\Users\\ifeel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.12\\microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\ServiceSystem\\ServiceSystem.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Additional Information -->
+    <meta name="author" content="Your Name | GitHub Username">
+    <meta name="description"
+        content="From bespoke designs to ready-made tartan throws and coats, discover the craftsmanship and heritage of Scotland's traditional tartans through Thistle & Thread.">
+    <meta name="keywords"
+        content="Thistle & Thread, Scottish Tartans, Custom Tartan Design, Tartan Throws, Tartan Coats, Authentic Scottish Tartans, Tartan Weaving, Scottish Heritage, Bespoke Tartans, Tartan Fabrics, Tartan Accessories, Scotland Tartan Shop, Tartan Patterns, Highland Tartans">
+
+    <title>thistle &amp; thread</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Scripts -->
+    <script src="js/main.js" defer></script>
+</head>
+
+
+<body>
+    <!-- Header -->
+
+    <header>
+        <div class="inner-container flex-container">
+            <h1>thistle &amp; thread</h1>
+
+
+
+            <button class="hamburger toggle-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <title>Click to toggle menu</title>
+                    <path fill-rule="evenodd"
+                        d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
+        </div>
+        <div class="nav-container collapsed">
+
+            <nav class="collapsed">
+                <ul class="inner-container">
+                    <li class="top-level">
+                        <!-- Why a button? This is not a link and it will trigger a behaviour or a change on the page. Therefore, a button is the most semantic choice. -->
+                        <a class="flex-container toggle">
+                            <span>Shop</span>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <title>Clock to see drop down menu</title>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+
+
+                        </a>
+                        <!-- This unordered list is inside of a list item, making it a secondary list. In order for our script to work, it is important that it is the sibling of our button. -->
+                        <ul class="dropdown">
+                            <li><a href="#">Off Rack</a></li>
+                            <li><a href="#">Custom Fabric</a></li>
+                            <li><a href="#">Custom Kits</a></li>
+                            <li><a href="#">Events & Rentals</a></li>
+                        </ul>
+                    </li> <!-- end of .top-level -->
+                    <li><a href="#">Tartan Finder</a></li>
+                    <li><a href="#">Events & Rentals</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="border-top">
+                    <ul class="flex-container inner-container">
+                        <li class="flex-container">
+                            <a href="#" class="nav-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <title>Search Icon</title>
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m15.75 15.75-2.489-2.489m0 0a3.375 3.375 0 1 0-4.773-4.773 3.375 3.375 0 0 0 4.774 4.774ZM21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
+                                <div>search</div>
+                            </a>
+                        </li>
+                        <li class="flex-container">
+                            <a href="#" class="nav-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <title>Account Icon</title>
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                </svg>
+
+                                <div>account</div>
+                            </a>
+                        </li>
+
+                        <li class="flex-container">
+                            <a href="#" class="nav-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <title>Shopping Cart Icon</title>
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+                                <div>cart</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Icons & Labels -->
+    </header>
+
+    <main>
+        <!-- Hero Banner -->
+        <section class="flex-container">
+            <div class="inner-container">
+                <h2>Timeless Tartan. </h2>
+            </div>
+        </section>
+        <section>
+            <div class="inner-container">
+                <h2>Modern Tweed.</h2>
+                <p>Soft as rabbit's fur and warm as tradition, every item in our collection is crafted with care and
+                    tailored for today.</p>
+                <div class="flex-container">
+                    <!-- this is for alining to the right using justify content right -->
+                    <button class="btn">Shop Now</button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Custom Weaves -->
+        <section class="flex-container">
+            <div class="inner-container">
+                <picture>
+                    <source srcset="img/svg/thread-lg.webp" media="(min-width: 1050px)">
+                    <source srcset="img/svg/thread-md.webp" media="(min-width: 640px)">
+                    <img src="img/svg/thread-sm.webp" alt="thread image" class="absolute">
+                </picture>
+                <picture>
+
+                    <source srcset="img/svg/girl-with-hat-lg.webp" media="(min-width: 1050px)">
+                    <source srcset="img/svg/girl-with-hat-md.webp" media="(min-width: 640px)">
+                    <img src="img/svg/girl-with-hat-sm.webp" alt="girl with hat" class="absolute">
+                </picture>
+            </div>
+            <div class="inner-container">
+                <h2>Fresh Frae Oor Loom</h2>
+
+                <p>Make your ideas a reality with our tartan design and weaving service.</p>
+
+                <p>Whether you're honouring your family heritage, using a pattern from the national registry, or
+                    crafting a
+                    unique
+                    pattern, our skilled artisans will work with you to bring your bespoke tartan to life – and to
+                    last
+                    for
+                    generations
+                    to come.</p>
+
+                <p>After you have your fabric, why stop there? Our custom design services can tailor make any item
+                    for
+                    you
+                    from
+                    our
+                    ever-growing catalogue.</p>
+
+                <button class="btn">Get Started</button>
+            </div>
+        </section>
+
+        <!-- Tartan Finder -->
+
+        <section>
+            <picture>
+                <source srcset="img/svg/river-md.webp" media="(min-width: 640px)">
+                <source srcset="img/svg/river-lg.webp" media="(min-width: 1050px)">
+                <img src="img/svg/river-sm.webp" alt="river image">
+            </picture>
+            <div class="inner-container">
+                <h2>Tartan Finder</h2>
+
+                <p>Unsure where to start, or which tartans you’d like to wear? Explore tartans by traditional clan
+                    names,
+                    regions,
+                    or use the filter to choose from your favourite colours.</p>
+
+                <button class="btn">Dive In</button>
+            </div>
+        </section>
+
+        <!-- Rental Packages -->
+        <section>
+            <div class="inner-container">
+                <div>
+                    <h2>Celebrate in Style</h2>
+                    <div class="p-group">
+                        <p>
+                            Mark your special occasions with the splendour of Scottish tartan. thistle & thread offers a
+                            comprehensive
+                            range
+                            of
+                            complete kit rentals, perfect for weddings, cultural festivals, and formal gatherings.</p>
+
+                        <p>
+                            Choose from one of our tiered options below to suit your style and budget. Each kit includes
+                            a
+                            kilt,
+                            jacket,
+                            sporran, and all the essential accessories for a complete Highland look.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <!-- First Tier -->
+                    <section class="card">
+                        <h3>Standard Package</h3>
+                        <div>
+                            <p class="price">&pound;75 per day</p>
+
+                            <ul class="li-margin">
+                                <li>basic tartan kilt</li>
+                                <li>standard jacket</li>
+                                <li>leather sporran</li>
+                                <li>kilt hose</li>
+                                <li>flashes</li>
+                                <li>ghillie brogues</li>
+
+                            </ul>
+                            <p class="libre">Ideal for casual events, gatherings, or as an introduction to wearing a
+                                kilt.</p>
+
+                            <button class="btn">Customise</button>
+                        </div>
+                    </section>
+                    <!-- Second Tier -->
+                    <section class="card relative">
+                        <p class="absolute">Our Pick</p>
+
+                        <h3>Premium Package</h3>
+                        <div>
+                            <p class="price">&pound;125 per day</p>
+
+                            <ul class="li-margin">
+                                <li>premium tartan kilt <sup>1</sup></li>
+                                <li>upgraded jacket <sup>2</sup></li>
+                                <li>fine leather sporran</li>
+                                <li>kilt hose</li>
+                                <li>flashes</li>
+                                <li>ghillie brogues</li>
+                                <li>dress shirt <sup>3</sup></li>
+                            </ul>
+
+                            <p class="libre">Ideal for weddings, formal events, and those looking for a touch of luxury
+                                in their
+                                attire.
+                            </p>
+                        </div>
+                        <div>
+                            <ul class="libre">
+                                <li><sup>1</sup> choose from a wider range of patterns</li>
+                                <li><sup>2</sup> includes a choice of Argyll or Tweed</li>
+                                <li><sup>3</sup> includes choice of tie or bow tie</li>
+                            </ul>
+                            <button class="btn">Customise</button>
+                        </div>
+                    </section>
+                    <!-- Third Tier -->
+                    <section class="card">
+                        <h3>Heritage Package</h3>
+                        <div>
+                            <p class="price">&pound;175 per day</p>
+                            <ul class="li-margin">
+                                <li> grand tartan kilt <sup>1</sup></li>
+                                <li>deluxe jacket <sup>2</sup></li>
+                                <li>high-quality leather sporran</li>
+                                <li>kilt hose</li>
+                                <li>flashes</li>
+                                <li>ghillie brogues</li>
+                                <li>dress shirt <sup>3</sup></li>
+                                <li>fly plaid and broche</li>
+                            </ul>
+
+                            <p class="libre"> The ultimate tartan experience, offering elegance and a nod to Scottish
+                                tradition for
+                                the
+                                most
+                                special
+                                occassions.</p>
+                        </div>
+                        <div>
+                            <ul class="libre">
+                                <li><sup>1</sup> choose from our exclusive pattern range</li>
+                                <li><sup>2</sup> includes a choice of Prince Charlie or Velvet</li>
+                                <li><sup>3</sup> includes choice of silk cravat or bow tie</li>
+                            </ul>
+
+                            <button class="btn">Customise</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer: Disclaimer -->
+
+    <footer>
+        <div class="inner-container">
+            <h2>thistle &amp; thread</h2>
+
+            <div>
+                <div class="footer-note">
+                    <p> This website was created as an academic exercise.
+
+
+                        thistle & thread is a fictitious entity. Any
+                        resemblance
+                        to
+                        real
+                        companies is purely coincidental.</p>
+
+                    <p> Stock photography provided by Pexels and Unsplash.</p>
+                </div>
+            </div>
+
+            <!-- Footer: Address & Secondary Navigation -->
+            <div class="flex-lg">
+                <div>
+                    <div class="left">
+                        <h3>Get in Touch</h3>
+                        <ul>
+                            <li>+44 141 123 4567</li>
+                            <li>hello@thistlandthread.co.uk</li>
+                        </ul>
+                    </div>
+                    <div class="left">
+                        <h3>Visit Us</h3>
+                        <address>221 Weavers Lane, Glasgow G41 2PE, UK</address>
+                    </div>
+                </div>
+
+                <div class="flex-container">
+                    <div>
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Shop All</a></li>
+                            <li><a href="#">Frequent Questions</a></li>
+                            <li><a href="#">Size Fit Guide</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3>Customer Service</h3>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Shipping Information</a></li>
+                            <li><a href="#">Returns Exchanges</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Legal</h3>
+
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">Accessibility Statement</a></li>
+                        </ul>
+
+                    </div>
+                    <div>
+                        <h3> Our Company</h3>
+                        <ul>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press & Media</a></li>
+                            <li><a href="#">Wholesale Inquiries</a></li>
+                            <li><a href="#">Our Initiatives</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

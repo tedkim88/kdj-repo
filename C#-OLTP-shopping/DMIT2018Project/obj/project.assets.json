@@ -5687,23 +5687,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ifeel\\.nuget\\packages\\": {},
+    "C:\\Users\\daejinkim\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\DMIT2018Project.csproj",
+      "projectUniqueName": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\DMIT2018Project.csproj",
       "projectName": "DMIT2018Project",
-      "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\DMIT2018Project.csproj",
-      "packagesPath": "C:\\Users\\ifeel\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\",
+      "projectPath": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\DMIT2018Project.csproj",
+      "packagesPath": "C:\\Users\\daejinkim\\.nuget\\packages\\",
+      "outputPath": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ifeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\daejinkim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5719,20 +5719,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\POSystem.csproj": {
-              "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\POSystem\\POSystem.csproj"
+            "C:\\git\\kdj-repo\\C#-OLTP-shopping\\POSystem\\POSystem.csproj": {
+              "projectPath": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\POSystem\\POSystem.csproj"
             },
-            "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj": {
-              "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj"
+            "C:\\git\\kdj-repo\\C#-OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj": {
+              "projectPath": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\ReceivingSystem\\ReceivingSystem.csproj"
             },
-            "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\RentalSystem\\RentalSystem.csproj": {
-              "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\RentalSystem\\RentalSystem.csproj"
+            "C:\\git\\kdj-repo\\C#-OLTP-shopping\\RentalSystem\\RentalSystem.csproj": {
+              "projectPath": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\RentalSystem\\RentalSystem.csproj"
             },
-            "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\SalesSystem.csproj": {
-              "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\SalesSystem.csproj"
+            "C:\\git\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\SalesSystem.csproj": {
+              "projectPath": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\SalesSystem\\SalesSystem.csproj"
             },
-            "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ServiceSystem\\ServiceSystem.csproj": {
-              "projectPath": "C:\\github\\ted88\\kdj-repo\\C#-OLTP-shopping\\ServiceSystem\\ServiceSystem.csproj"
+            "C:\\git\\kdj-repo\\C#-OLTP-shopping\\ServiceSystem\\ServiceSystem.csproj": {
+              "projectPath": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\ServiceSystem\\ServiceSystem.csproj"
             }
           }
         }
@@ -5746,7 +5746,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -5790,24 +5791,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.12, 8.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.12, 8.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.12, 8.0.12]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.12, 8.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5816,7 +5799,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
