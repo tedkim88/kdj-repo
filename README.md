@@ -2,16 +2,16 @@
 
 Welcome to my portfolio repository! Below are the links of my portfolio  
 
-**OLTP Shopping (C#/BlazorServer/EF Core)**  
+**OLTP Shopping (C#/BlazorServer/EF Core)**  (Deployed through Azure)
 https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/  
 
-**Rental Management System (C#/BlazorServer/EF Core)**  
+**Rental Management System (C#/BlazorServer/EF Core)**  (Deployed through Azure)
 https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList
 
-**Modal & Form (CSS)**  
+**Modal & Form (CSS)**  (Deployed through Netlify)
 https://graceful-gecko-22ac0e.netlify.app/  
 
-**Responsive Design (CSS)**  
+**Responsive Design (CSS)**  (Deployed through Netlify)
 https://jolly-lamington-d3ce51.netlify.app/  
 
 
@@ -54,7 +54,7 @@ This project is still in progress, and I plan to improve it in the future.
 
 ---
 
-## 2. **OLTP Shopping / Rental Management System** (C# & Blazor & SSMS(SQL Queries))
+## 2. **OLTP Shopping / Rental Management System** (C# & Blazor & EntityFrameworkCore / SQL))
 **Description**: 
 **Note** I was responsible for **'SalesSystem'**, Sales refund related page for this team project. Each one had their own part.
 **POSystem is not my part.**
@@ -74,10 +74,6 @@ These projects demonstrate my understanding of C# and Blazor. They are based on 
 ![image](https://github.com/user-attachments/assets/8a9680d9-0ffb-4660-93dc-19f6bbe90c74)
 ![image](https://github.com/user-attachments/assets/971d5216-6479-4085-878e-1b59e2de21a6)
 
-
-**Note**:
-- The database files (bacpac) are not included in this repository. However, the applications' functionality can be reviewed based on the BLL service folders, front end, and view models.
-- I plan to upload a video showcasing how the application works.
 
 ---
 
