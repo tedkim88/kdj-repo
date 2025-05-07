@@ -4,10 +4,10 @@
   "homepage": "https://github.com/tedkim88/portfolio",
   "source": "index.html",
   "scripts": {
-    "dev": "parcel",
-    "build": "parcel build index.html",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+   
+   "start": "parcel",
+   "build": "parcel build index.html"
+
   },
   "author": "",
   "license": "ISC",

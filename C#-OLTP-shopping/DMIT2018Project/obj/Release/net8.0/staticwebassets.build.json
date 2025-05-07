@@ -1,0 +1,1238 @@
+{
+  "Version": 1,
+  "Hash": "vYFoHlTEbwNAQgHCt3o67Zq1Q7bcYPokROqfefM/KcA=",
+  "Source": "DMIT2018Project",
+  "BasePath": "_content/DMIT2018Project",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DMIT2018Project\\wwwroot",
+      "Source": "DMIT2018Project",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "BasePath": "_content/DMIT2018Project",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css",
+      "SourceId": "DMIT2018Project",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/DMIT2018Project",
+      "RelativePath": "DMIT2018Project#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "x7vjk4ps63",
+      "Integrity": "Myet6gbqijDssTcO0VQOleIacfIyJYctD5EILV+DzvE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
+      "SourceId": "DMIT2018Project",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/DMIT2018Project",
+      "RelativePath": "DMIT2018Project#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "r9k5ydcxxp",
+      "Integrity": "36vFI8aL1tYWAhZsgFSJZ40gUen6uFT/zxPLTIZ6ucs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
+      "SourceId": "DMIT2018Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "BasePath": "_content/DMIT2018Project",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "da95v2qkru",
+      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "DMIT2018Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "BasePath": "_content/DMIT2018Project",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "DMIT2018Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "BasePath": "_content/DMIT2018Project",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
+      "SourceId": "DMIT2018Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "BasePath": "_content/DMIT2018Project",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
+      "SourceId": "DMIT2018Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "BasePath": "_content/DMIT2018Project",
+      "RelativePath": "img/refresh#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sqsxatcbbb",
+      "Integrity": "xG0FGqXb2VUvEd6u7TFHcEfidi5mrnwOZ8R2lPjJeak=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\refresh.png"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
+      "SourceId": "DMIT2018Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "BasePath": "_content/DMIT2018Project",
+      "RelativePath": "img/remove#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xaxx86hh6j",
+      "Integrity": "J6nGKvTeCYGVUkBIK1W0sRZbEzYa2RtfngJGE18V6HQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\remove.png"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
+      "SourceId": "DMIT2018Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "BasePath": "_content/DMIT2018Project",
+      "RelativePath": "img/team-2-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e0ipvdgc69",
+      "Integrity": "bvq8XtJbddwGwJLUa7QfmZyvA2bL2mNUWbnrBqzqAEA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\team-2-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "25o87uqmvr",
+      "Integrity": "Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "QuickGrid.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eu7w3d5g1a",
+      "Integrity": "tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js"
+    },
+    {
+      "Identity": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mhumzvqd1g",
+      "Integrity": "2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rnojub5shy",
+      "Integrity": "lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "AssetFile": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 13:29:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "25o87uqmvr"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetFile": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 13:29:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js",
+      "AssetFile": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 13:06:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "app.da95v2qkru.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "da95v2qkru"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "DMIT2018Project.bundle.scp.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"36vFI8aL1tYWAhZsgFSJZ40gUen6uFT/zxPLTIZ6ucs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-36vFI8aL1tYWAhZsgFSJZ40gUen6uFT/zxPLTIZ6ucs="
+        }
+      ]
+    },
+    {
+      "Route": "DMIT2018Project.r9k5ydcxxp.bundle.scp.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"36vFI8aL1tYWAhZsgFSJZ40gUen6uFT/zxPLTIZ6ucs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r9k5ydcxxp"
+        },
+        {
+          "Name": "label",
+          "Value": "DMIT2018Project.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-36vFI8aL1tYWAhZsgFSJZ40gUen6uFT/zxPLTIZ6ucs="
+        }
+      ]
+    },
+    {
+      "Route": "DMIT2018Project.styles.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19909"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Myet6gbqijDssTcO0VQOleIacfIyJYctD5EILV+DzvE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:23 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Myet6gbqijDssTcO0VQOleIacfIyJYctD5EILV+DzvE="
+        }
+      ]
+    },
+    {
+      "Route": "DMIT2018Project.x7vjk4ps63.styles.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19909"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Myet6gbqijDssTcO0VQOleIacfIyJYctD5EILV+DzvE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 06:40:23 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x7vjk4ps63"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Myet6gbqijDssTcO0VQOleIacfIyJYctD5EILV+DzvE="
+        },
+        {
+          "Name": "label",
+          "Value": "DMIT2018Project.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "img/refresh.png",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xG0FGqXb2VUvEd6u7TFHcEfidi5mrnwOZ8R2lPjJeak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xG0FGqXb2VUvEd6u7TFHcEfidi5mrnwOZ8R2lPjJeak="
+        }
+      ]
+    },
+    {
+      "Route": "img/refresh.sqsxatcbbb.png",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xG0FGqXb2VUvEd6u7TFHcEfidi5mrnwOZ8R2lPjJeak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sqsxatcbbb"
+        },
+        {
+          "Name": "label",
+          "Value": "img/refresh.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xG0FGqXb2VUvEd6u7TFHcEfidi5mrnwOZ8R2lPjJeak="
+        }
+      ]
+    },
+    {
+      "Route": "img/remove.png",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J6nGKvTeCYGVUkBIK1W0sRZbEzYa2RtfngJGE18V6HQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J6nGKvTeCYGVUkBIK1W0sRZbEzYa2RtfngJGE18V6HQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/remove.xaxx86hh6j.png",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J6nGKvTeCYGVUkBIK1W0sRZbEzYa2RtfngJGE18V6HQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xaxx86hh6j"
+        },
+        {
+          "Name": "label",
+          "Value": "img/remove.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J6nGKvTeCYGVUkBIK1W0sRZbEzYa2RtfngJGE18V6HQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/team-2-logo.e0ipvdgc69.png",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1343798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bvq8XtJbddwGwJLUa7QfmZyvA2bL2mNUWbnrBqzqAEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e0ipvdgc69"
+        },
+        {
+          "Name": "label",
+          "Value": "img/team-2-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bvq8XtJbddwGwJLUa7QfmZyvA2bL2mNUWbnrBqzqAEA="
+        }
+      ]
+    },
+    {
+      "Route": "img/team-2-logo.png",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1343798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bvq8XtJbddwGwJLUa7QfmZyvA2bL2mNUWbnrBqzqAEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bvq8XtJbddwGwJLUa7QfmZyvA2bL2mNUWbnrBqzqAEA="
+        }
+      ]
+    }
+  ]
+}

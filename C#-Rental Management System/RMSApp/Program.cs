@@ -33,12 +33,15 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-//added
-var connectionStringStarTed = builder.Configuration.GetConnectionString("StarTed-2024-Oct");
-
-//added
 builder.Services.AddBackendDependencies(options =>
-    options.UseSqlServer(connectionStringStarTed));
+    options.UseSqlServer(connectionString));
+
+////added
+//var connectionStringStarTed = builder.Configuration.GetConnectionString("StarTed-2024-Oct");
+
+////added
+//builder.Services.AddBackendDependencies(options =>
+//    options.UseSqlServer(connectionStringStarTed));
 
 
 

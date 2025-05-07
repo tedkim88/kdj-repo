@@ -1,0 +1,21 @@
+2025-05-07
+I've been studying
+so many different things that are needed to do full-stack project.
+Namely,
+
+React(with many libraries to manage state and http request)
+Typescript
+
+WebAPI project backend
+Express backend
+
+MongoDB
+PHP/MariaDB
+
+Docker / WSL / Ubuntu / Bash scripting
+
+I'm going to start developing further projects of my own for portfolio and upload them 
+soon.
+
+about Deployment/Azure/CICD
+

@@ -12,12 +12,14 @@ body.bg-light {
 }
 
 #create-account {
-  background-color: unset;
   color: #fff;
-  background-color: #dc3545;
+  background-color: #5935dc;
   border: none;
   border-radius: 3px;
   margin-top: 1.5rem;
+  position: absolute;
+  top: 0;
+  right: 500px;
 }
 
 #create-account:hover {

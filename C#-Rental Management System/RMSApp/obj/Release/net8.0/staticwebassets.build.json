@@ -1,0 +1,880 @@
+{
+  "Version": 1,
+  "Hash": "Jbn9pBqK5X/DfjGSfM80+YvGIGmde7mkyy2vEGkSpQM=",
+  "Source": "RMSApp",
+  "BasePath": "_content/RMSApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RMSApp\\wwwroot",
+      "Source": "RMSApp",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
+      "BasePath": "_content/RMSApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Release\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css",
+      "SourceId": "RMSApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/RMSApp",
+      "RelativePath": "RMSApp#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "if0r1qv1jq",
+      "Integrity": "Ekwiyx0UxvGavpQwPFCMJimEQD4loOegnisZx3wsNCo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Release\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
+      "SourceId": "RMSApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/RMSApp",
+      "RelativePath": "RMSApp#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "g4myxcgrkg",
+      "Integrity": "gNWbIWbLQl9N+OyNqjCX9rNC6e6lLYZj5b/KkIGx4vM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\app.css",
+      "SourceId": "RMSApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
+      "BasePath": "_content/RMSApp",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "da95v2qkru",
+      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "RMSApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
+      "BasePath": "_content/RMSApp",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "RMSApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
+      "BasePath": "_content/RMSApp",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
+      "SourceId": "RMSApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
+      "BasePath": "_content/RMSApp",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "25o87uqmvr",
+      "Integrity": "Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\QuickGrid.razor.js",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "QuickGrid.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eu7w3d5g1a",
+      "Integrity": "tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\QuickGrid.razor.js"
+    },
+    {
+      "Identity": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mhumzvqd1g",
+      "Integrity": "2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rnojub5shy",
+      "Integrity": "lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetFile": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 18:39:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js",
+      "AssetFile": "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.10\\staticwebassets\\QuickGrid.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Sep 2024 18:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\daejinkim\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "app.da95v2qkru.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "da95v2qkru"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 19:02:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "RMSApp.bundle.scp.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gNWbIWbLQl9N+OyNqjCX9rNC6e6lLYZj5b/KkIGx4vM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 08:32:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gNWbIWbLQl9N+OyNqjCX9rNC6e6lLYZj5b/KkIGx4vM="
+        }
+      ]
+    },
+    {
+      "Route": "RMSApp.g4myxcgrkg.bundle.scp.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gNWbIWbLQl9N+OyNqjCX9rNC6e6lLYZj5b/KkIGx4vM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 08:32:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g4myxcgrkg"
+        },
+        {
+          "Name": "label",
+          "Value": "RMSApp.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gNWbIWbLQl9N+OyNqjCX9rNC6e6lLYZj5b/KkIGx4vM="
+        }
+      ]
+    },
+    {
+      "Route": "RMSApp.if0r1qv1jq.styles.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Release\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ekwiyx0UxvGavpQwPFCMJimEQD4loOegnisZx3wsNCo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 08:32:53 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "if0r1qv1jq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ekwiyx0UxvGavpQwPFCMJimEQD4loOegnisZx3wsNCo="
+        },
+        {
+          "Name": "label",
+          "Value": "RMSApp.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "RMSApp.styles.css",
+      "AssetFile": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Release\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ekwiyx0UxvGavpQwPFCMJimEQD4loOegnisZx3wsNCo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 08:32:53 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ekwiyx0UxvGavpQwPFCMJimEQD4loOegnisZx3wsNCo="
+        }
+      ]
+    }
+  ]
+}

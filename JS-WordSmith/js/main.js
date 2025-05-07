@@ -47,12 +47,20 @@ const db = getFirestore(app);
 const analytics = getAnalytics(app);
 // 이제 Firestore와 인증 서비스를 사용할 준비가 완료되었습니다.
 
+let isLoggedIn = false;
+
 //to logout any previously logged in id
 SignOut();
 
 document.getElementById("sign-up").addEventListener("click", (evt) => {
   evt.preventDefault();
   CreateID();
+});
+
+document.getElementById("back-to-sign-in").addEventListener("click", (evt) => {
+  document.querySelector(".signin").style.display = "";
+  document.querySelector(".signup").style.display = "none";
+  document.querySelector("#create-account").style.display = ""; // document.querySelector(".signup").style.display = "none";
 });
 
 document.getElementById("sign-in").addEventListener("click", (evt) => {
@@ -63,7 +71,7 @@ document.getElementById("sign-in").addEventListener("click", (evt) => {
 document.getElementById("sign-out").addEventListener("click", (evt) => {
   evt.preventDefault();
   SignOut();
-  document.querySelector('#quiz-render').style.display = 'none';
+  document.querySelector("#quiz-render").style.display = "none";
 });
 
 onAuthStateChanged(auth, (user) => {
@@ -88,13 +96,11 @@ function BoardRendering(data) {
   document.querySelector("#question-list").appendChild(listItem);
 }
 
-document.getElementById('create-account').addEventListener('click', evt => {
-  document.querySelector('.signin').style.display = "none";
-  document.querySelector('.signup').style.display = "";
-  document.getElementById('create-account').style.display = "none";
-})
-
-
+document.getElementById("create-account").addEventListener("click", (evt) => {
+  document.querySelector(".signin").style.display = "none";
+  document.querySelector(".signup").style.display = "";
+  document.getElementById("create-account").style.display = "none";
+});
 
 document.querySelector("#back-to-main").addEventListener("click", (evt) => {
   evt.preventDefault();
@@ -112,6 +118,7 @@ document.querySelector("#quiz").addEventListener("click", (evt) => {
   document.querySelector("#quiz-section").style.display = "";
 
   LoadData("words", "quiz-render", QuizRendering);
+  document.querySelector("#quiz-render").style.display = "";
 });
 
 document.querySelector(".to-main").addEventListener("click", (evt) => {
@@ -123,7 +130,7 @@ document.querySelector(".to-main").addEventListener("click", (evt) => {
 });
 
 function QuizRendering(data) {
-  console.log(data + 'hellowervwrvwervwevrwevrwevr');
+  console.log(data + "hellowervwrvwervwevrwevrwevr");
   const quizRenderArr = data.map((item) => {
     const ol = document.createElement("ol");
     // ol.setAttribute("style", "display:none");
@@ -146,7 +153,7 @@ function QuizRendering(data) {
     </div>
   `;
   });
-
+  console.log(quizRenderArr);
   document.querySelector("#quiz-render").innerHTML += quizRenderArr;
 }
 
@@ -217,16 +224,16 @@ saveButton.addEventListener("click", (evt) => {
   }
   const jsonData = JSON.stringify(wordArr, null, 2);
   // console.log(`${jsonData} hello`);
-  const blob = new Blob([jsonData], { type: "application/json" });
-  const link = document.createElement("a"); // 링크 요소 생성
-  link.href = URL.createObjectURL(blob); // Blob을 URL로 변환
-  link.download = "data.json"; // 다운로드할 파일 이름 설정
-  link.click(); // 다운로드 실행
+  // const blob = new Blob([jsonData], { type: "application/json" });
+  // const link = document.createElement("a"); // 링크 요소 생성
+  // link.href = URL.createObjectURL(blob); // Blob을 URL로 변환
+  // link.download = "data.json"; // 다운로드할 파일 이름 설정
+  // link.click(); // 다운로드 실행
 
-  console.log(jsonData);
+  // console.log(jsonData);
   let result = JSON.parse(jsonData);
 
-  //여기서부턴 데이터베이스에저장 파이어베이스
+  // 여기서부턴 데이터베이스에저장 파이어베이스
   const extracted = []; // Initialize as an empty array
 
   result.forEach((item) => {
@@ -247,6 +254,7 @@ saveButton.addEventListener("click", (evt) => {
   console.log(extracted); //보기좋게 단어 / 뜻의 배열로 extracted 했음. //이거 퀴즈로 쓸 예정 붓스트랩card랑 결합하여여
 
   addToDB("words", { extracted }); // 저장(콜렉션이름(테이블이름),객체로만 저장됨 firebase저장특성.이거 로딩할 때 잘 분리해야함)
+  alert("Save Success. Click the quiz button.");
 });
 
 // Add word to list
@@ -307,12 +315,18 @@ function SignIn() {
       document.querySelector(".signup").style.display = "none";
       document.querySelector(".signin").style.display = "none";
       document.getElementById("sign-out").style.display = "";
+      document.getElementById("create-account").style.display = "none";
+      if (isLoggedIn == true) {
+        document.getElementById("sign-out").style.left = 0;
+      }
     })
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
       alert(errorMessage);
     });
+
+  isLoggedIn = true;
 }
 
 function CreateID() {
@@ -325,10 +339,10 @@ function CreateID() {
       const user = userCredential.user;
       // ...
 
-      document.querySelector('.signin').style.display = "";
-      document.querySelector('.signup').style.display = "none";
-      document.getElementById('create-account').style.display = "";
-      alert('Your account has been successfully made.');
+      document.querySelector(".signin").style.display = "";
+      document.querySelector(".signup").style.display = "none";
+      document.getElementById("create-account").style.display = "";
+      alert("Your account has been successfully made.");
       document.getElementById("create-id").value = null;
       document.getElementById("create-password").value = null;
 
@@ -355,7 +369,11 @@ function SignOut() {
       // document.querySelector(".signup").style.display = "";
       document.querySelector(".signin").style.display = "";
     })
-    .catch((error) => { });
+    .catch((error) => {});
+
+  isLoggedIn = false;
+  document.querySelector("#quiz-section").style.display = "none";
+  document.getElementById("create-account").style.display = "";
 }
 
 async function addToDB(collectionName, input) {
@@ -381,7 +399,7 @@ async function LoadData(collectionName, renderElement, callback) {
   const querySnapshot = await getDocs(collection(db, collectionName));
   console.log(querySnapshot);
   // 데이터를 렌더링할 HTML 요소 선택
-  console.log(renderElement);
+  console.log(renderElement + "123");
   document.getElementById(renderElement).innerHTML = "";
   // 기존 내용을 초기화
 
@@ -390,16 +408,16 @@ async function LoadData(collectionName, renderElement, callback) {
   querySnapshot.forEach((doc) => {
     const data = doc.data();
     console.log(data);
-    data.extracted.forEach(item => {
+    data.extracted.forEach((item) => {
       emptyArr.push(item);
-    })
+    });
     // const listItem = document.createElement("li");
     // listItem.innerHTML = `<strong>${data.subject}</strong>: ${data.content}`;
     // questionList.appendChild(listItem);
   });
   console.log(emptyArr);
   let seenWords = new Set();
-  let uniqueArray = emptyArr.filter(item => {
+  let uniqueArray = emptyArr.filter((item) => {
     if (seenWords.has(item.word)) {
       return false;
     } else {

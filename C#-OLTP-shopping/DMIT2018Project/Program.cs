@@ -33,19 +33,20 @@ builder.Services.AddAuthentication(options =>
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
 // added. code retrieves the eTools2023 connection string
-var connectionStringEtools = builder.Configuration.GetConnectionString("eTools2023");
+//var connectionStringEtools = builder.Configuration.GetConnectionString("eTools2023");
 
 
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-//  added:
+//  added: when local dev is needed, just change connectionString to connectionStringEtools
 builder.Services.SalesDependencies(options =>
-    options.UseSqlServer(connectionStringEtools));
+    options.UseSqlServer(connectionString));
 
+//  added: when local dev is needed, just change connectionString to connectionStringEtools
 builder.Services.PODependencies(options =>
-options.UseSqlServer(connectionStringEtools));
+options.UseSqlServer(connectionString));
 
 
 

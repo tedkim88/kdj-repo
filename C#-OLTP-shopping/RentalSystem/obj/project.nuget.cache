@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Odwro8FetUA=",
+  "dgSpecHash": "jYxqhGfJeek=",
   "success": true,
   "projectFilePath": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\RentalSystem\\RentalSystem.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.15\\microsoft.windowsdesktop.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.15\\microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\daejinkim\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.15\\microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512"
+  ],
   "logs": []
 }

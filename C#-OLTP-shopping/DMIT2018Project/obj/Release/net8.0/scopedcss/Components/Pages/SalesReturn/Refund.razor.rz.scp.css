@@ -1,0 +1,117 @@
+.stack-vertical[b-8hsvp4la5s] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+table[b-8hsvp4la5s] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th[b-8hsvp4la5s], td[b-8hsvp4la5s] {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th[b-8hsvp4la5s] {
+    background-color: #f2f2f2;
+}
+
+.btn-primary:hover[b-8hsvp4la5s], .btn-warning:hover[b-8hsvp4la5s], .btn-secondary:hover[b-8hsvp4la5s], .btn-success:hover[b-8hsvp4la5s] {
+    opacity: 0.9;
+}
+
+.row[b-8hsvp4la5s] {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.btn[b-8hsvp4la5s] {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.btn-warning[b-8hsvp4la5s] {
+    background-color: #ffc107;
+}
+
+.btn-secondary[b-8hsvp4la5s] {
+    background-color: #6c757d;
+}
+
+.btn-success[b-8hsvp4la5s] {
+    background-color: #28a745;
+}
+
+.input-mini[b-8hsvp4la5s] {
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    text-align: start;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+.top-row[b-8hsvp4la5s] {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+    .top-row .info[b-8hsvp4la5s] {
+        margin-right: 1rem;
+    }
+
+    .top-row .buttons[b-8hsvp4la5s] {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+
+.stack-vertical[b-8hsvp4la5s] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+table[b-8hsvp4la5s] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th[b-8hsvp4la5s], td[b-8hsvp4la5s] {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th[b-8hsvp4la5s] {
+    background-color: #f2f2f2;
+}
+
+.btn-primary:hover[b-8hsvp4la5s], .btn-warning:hover[b-8hsvp4la5s], .btn-secondary:hover[b-8hsvp4la5s], .btn-success:hover[b-8hsvp4la5s] {
+    opacity: 0.9;
+}
+
+.totals-row[b-8hsvp4la5s] {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+    .totals-row p[b-8hsvp4la5s] {
+        margin: 0 1rem;
+    }

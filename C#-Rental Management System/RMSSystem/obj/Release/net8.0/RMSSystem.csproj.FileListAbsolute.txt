@@ -1,0 +1,13 @@
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\bin\Release\net8.0\RMSSystem.deps.json
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\bin\Release\net8.0\RMSSystem.dll
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\bin\Release\net8.0\RMSSystem.pdb
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\obj\Release\net8.0\RMSSystem.csproj.AssemblyReference.cache
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\obj\Release\net8.0\RMSSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\obj\Release\net8.0\RMSSystem.AssemblyInfoInputs.cache
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\obj\Release\net8.0\RMSSystem.AssemblyInfo.cs
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\obj\Release\net8.0\RMSSystem.csproj.CoreCompileInputs.cache
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\obj\Release\net8.0\RMSSystem.sourcelink.json
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\obj\Release\net8.0\RMSSystem.dll
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\obj\Release\net8.0\refint\RMSSystem.dll
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\obj\Release\net8.0\RMSSystem.pdb
+C:\git\kdj-repo\C#-Rental Management System\RMSSystem\obj\Release\net8.0\ref\RMSSystem.dll

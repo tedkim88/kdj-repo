@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RMSApp.g4myxcgrkg.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.RMSApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.RMSApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.RMSApp.props",
+      "PackagePath": "build\\RMSApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RMSApp.props",
+      "PackagePath": "buildMultiTargeting\\RMSApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.RMSApp.props",
+      "PackagePath": "buildTransitive\\RMSApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

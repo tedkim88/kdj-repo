@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Additional Information -->
+    <meta name="author" content="webpage">
+    <meta name="description" content="webpage">
+
+    <title>Van | Home</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- Scripts -->
+    <script src="js/membership.js" defer></script>
+</head>
+
+<body>
+
+    <header class="inner-container membership">
+
+        <nav class="back-arrow flex-container">
+
+            <a href="index.html"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                    <title>going back to main page</title>
+                </svg>
+                <span>Back</span></a>
+        </nav>
+
+        <p>One membership. All four brands.</p>
+        <ul class="flex-container membership">
+            <li>New Ocean</li>
+            <li>Orange State</li>
+            <li>Player</li>
+            <li>Van</li>
+        </ul>
+    </header>
+    <main class="membership">
+
+
+
+        <section class="inner-container membership">
+            <form action="index.html" method="POST">
+                <fieldset class="flex-container">
+
+                    <h2>Sign up to become a Rewards Member.</h2>
+                    <p>You’re just one step away from free shipping, points on every purchase, and so much more!</p>
+
+                    <div>
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Rewards Member" required
+                            aria-describedby="name-help">
+                        <p class="help" id="name-help">Please enter your first and last name.</p>
+                    </div>
+
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="hello@example.com" required
+                            aria-describedby="email-help">
+                        <p class="help" id="email-help">Your email address is where we’ll send important account
+                            information and order
+                            updates.</p>
+                    </div>
+
+                    <div>
+                        <label for="password">Choose a Password</label>
+                        <input id="password" name="password" type="password" placeholder=""
+                            pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" maxlength="24"
+                            aria-describedby="pass-help" required>
+                        <p class="help" id="pass-help">Your password must have:</p>
+                        <ul class="help">
+                            <li>an uppercase letter</li>
+                            <li>a lowercase letter</li>
+                            <li>a number or special character</li>
+                            <li>8-24 characters in total</li>
+                        </ul>
+                        
+                    </div>
+
+                    <div>
+                        <label for="consent">Exclusive Offers</label>
+                        <div class="flex-container checkbox">
+                            <input id="consent" name="consent" type="checkbox">
+                            <p>Yes! I would like to receive marketing emails with exclusive offers.</p>
+                        </div>
+                        <div class="info flex-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                            </svg>
+
+                            <p class="help">Check the box above to sign up for marketing emails and get 250 BONUS
+                                POINTS.
+                                You can unsubscribe at any time.</p>
+                        </div>
+                    </div>
+
+                    <input type="submit" value="CREATE ACCOUNT">
+
+                    <p class="help">By creating an account, you’re joining the Big Brand Rewards Program and agree to
+                        the Terms and
+                        Conditions and
+                        Privacy Policy of the program. You also consent to receive account updates and transactional
+                        emails related to
+                        your membership.</p>
+
+                </fieldset>
+            </form>
+        </section>
+
+
+        <section class="inner-container membership questions">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion">
+                <!--  Item Number 1  -->
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header toggle-btn">
+                        <button type="button">
+                            What is the Rewards Member program?
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <title>Toggle Item Visibility</title>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                        </button>
+                    </h3>
+                    <div class="accordion-content collapsed">
+                        <p> The Rewards Member program is our loyalty program, designed to reward you with exclusive
+                            benefits, discounts, and perks.</p>
+                    </div> <!-- end of .accordion-content -->
+                </div> <!-- end of .accordion-item -->
+
+                <!--  Item Number 2  -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header toggle-btn">
+                        <button type="button">
+                            How do I become a Rewards Member?
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <title>Toggle Item Visibility</title>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                        </button>
+                    </h3>
+                    <div class="accordion-content collapsed">
+                        <p>You can become a member of the Rewards program by signing up on our website or mobile app.
+                            Simply create an account and opt-in to join the program during the registration process.</p>
+
+                    </div> <!-- end of .accordion-content -->
+                </div> <!-- end of .accordion-item -->
+
+                <!--  Item Number 3  -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header toggle-btn">
+                        <button type="button">
+                            What are the benefits of being a Rewards Member?
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <title>Toggle Item Visibility</title>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                        </button>
+                    </h3>
+                    <div class="accordion-content collapsed">
+                        <p>As a Rewards Member, you can enjoy a range of benefits, including:</p>
+                        <ul>
+                            <li>Earn points for purchases: Accumulate points for every purchase made, which can be
+                                redeemed for rewards.</li>
+                            <li>Exclusive discounts: Access member-only discounts and promotions on selected products or
+                                services.</li>
+                            <li>Birthday rewards: Receive special offers or discounts during your birthday month.</li>
+                            <li>Early access to sales: Get early access to sales events and new product launches.</li>
+                            <li>Free shipping: Enjoy complimentary shipping on eligible orders.</li>
+                        </ul>
+
+                    </div> <!-- end of .accordion-content -->
+                </div> <!-- end of .accordion-item -->
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header toggle-btn">
+                        <button type="button">
+                            How do I earn and redeem points?
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <title>Toggle Item Visibility</title>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                        </button>
+                    </h3>
+                    <div class="accordion-content collapsed">
+                        <p>
+                            You can earn points in the Rewards program by making qualifying purchases, participating in
+                            promotional
+                            activities, referring friends, or engaging with our brand through social media or surveys.
+
+                            To redeem your points for rewards, log in to your Rewards account and navigate to the
+                            "Redeem Rewards"
+                            section. Choose from the available reward options and follow the prompts to complete the
+                            redemption
+                            process.</p>
+                    </div> <!-- end of .accordion-content -->
+                </div> <!-- end of .accordion-item -->
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header toggle-btn">
+                        <button type="button">
+                            Do my points expire?
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <title>Toggle Item Visibility</title>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                        </button>
+                    </h3>
+                    <div class="accordion-content collapsed">
+                        <p>
+                            Points in the Rewards program may have an expiration date, depending on the program's terms
+                            and
+                            conditions. Please refer to the program guidelines or contact customer support for
+                            information about
+                            point expiration policies.</p>
+                    </div> <!-- end of .accordion-content -->
+                </div> <!-- end of .accordion-item -->
+
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header toggle-btn">
+                        <button type="button">
+                            Is there a membership fee?
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <title>Toggle Item Visibility</title>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                        </button>
+                    </h3>
+                    <div class="accordion-content collapsed">
+                        <p>No, membership in the Rewards program is completely free. There are no annual fees or hidden
+                            charges
+                            associated with joining or maintaining your membership.
+                        </p>
+                    </div> <!-- end of .accordion-content -->
+                </div> <!-- end of .accordion-item -->
+
+
+                <div class="accordion-item">
+                    <h3 class="accordion-header toggle-btn">
+                        <button type="button">
+                            Where can I find more information about the Rewards program?
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor">
+                                <title>Toggle Item Visibility</title>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                        </button>
+                    </h3>
+                    <div class="accordion-content collapsed">
+                        <p> For more information about the Rewards program, including detailed terms and conditions,
+                            point earning
+                            and redemption rules, and FAQs, visit our website or contact our customer support team for
+                            assistance.</p>
+                    </div> <!-- end of .accordion-content -->
+                </div> <!-- end of .accordion-item -->
+
+
+            </div> <!-- end of .accordion component -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="flex-container inner-container">
+
+            <div>
+                <h3>CUSTOMER SUPPORT</h3>
+                <ul>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Buy Online.</a></li>
+                    <li><a href="#">Pick Up In-Store.</a></li>
+                    <li><a href="#">Store Locator</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>ABOUT US</h3>
+                <ul>
+                    <li><a href="#">Our Values</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Equality and Belonging</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h3>VAN GOOD REWARDS</h3>
+                <ul>
+                    <li><a href="#">Join VAN</a></li>
+                    <li><a href="#">Good Rewards</a></li>
+                    <li><a href="#">My Rewards & Benefits</a></li>
+                    <li><a href="#">Learn More</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div>
+            <div class="inner-container">
+                <p>&copy; 2024 VAN, INC.| PRIVACY POLICY | YOUR PRIVACY CHOICES | TERMS OF USE | SUSTAINABILITY </p>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+</body>
+
+
+</html>

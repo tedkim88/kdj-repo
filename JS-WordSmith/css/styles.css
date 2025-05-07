@@ -1,28 +1,28 @@
 .text-primary {
-
   height: 5rem;
   color: rgb(215, 43, 43);
 }
 
-
 .signin {
   margin: auto;
-
 }
 
 body.bg-light {
   background-color: white;
 }
 
-.py-5 h1 {}
+.py-5 h1 {
+}
 
 #create-account {
   border: none;
-  background-color: unset;
-  background-color: #dc3545;
+  background-color: #5935dc;
   margin-top: 1.5rem;
   border-radius: 3px;
   color: white;
+  position: absolute;
+  right: 500px;
+  top: 0;
 }
 
 #create-account:hover {
@@ -37,36 +37,34 @@ body.bg-light {
   left: 130px;
 }
 
-#sign-in{
+#sign-in {
   border: none;
   background-color: unset;
   background-color: #dc3545;
   margin-top: 1.5rem;
   border-radius: 3px;
   color: white;
-
 }
 
-#sign-in:hover{
+#sign-in:hover {
   background-color: blue;
   color: yellow;
   transition: all 1s;
 }
 
-.board{
+.board {
   color: blue;
 }
 
-.board:hover{
+.board:hover {
   background-color: yellow;
   color: black;
   border-radius: 5px;
-  
+
   transition: all 1s;
 }
 
 #sign-out button {
-
   text-align: right;
   border: none;
   background-color: unset;
@@ -74,7 +72,6 @@ body.bg-light {
   border-radius: 3px;
   color: white;
 }
-
 
 #sign-out button:hover {
   background-color: blue;
@@ -82,11 +79,9 @@ body.bg-light {
   transition: all 1s;
 }
 
-
 #mode-change {
   text-align: right;
   display: none;
-
 }
 
 .container {
@@ -97,14 +92,14 @@ body.bg-light {
   /* 짙은 회색 텍스트 */
   height: 100vh;
   padding: 1rem;
-
 }
 
 .hidden {
   display: none;
 }
 
-.recommend {}
+.recommend {
+}
 
 #top-ten-words {
   padding: 30px 0 0 0;
