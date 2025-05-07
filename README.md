@@ -85,11 +85,15 @@ These projects are works in progress or practice attempts. The code structure, u
 
 ---
 
-## 5. **Design-responsive and navigation**  
+## 4. **Design-shopping-mall (MODAL & Form)**  
+**Description**:  
+Through this project, I learned how to pop-up modal window to encourage customers to sign up for the site or submit their data. 
+This site has functionality for horizontally displaying products through scroll.
+This website, when it is in rendered in mobile(small) size, has a hamburger button.
+** I do know how to show submenus that pop up after clicking hamburger nav button but for this project, I haven't done the coding for that. **  
+Submenu functions are shown in the project number 5 (responsive and navigation).
 
-
-
-
+The purpose of this project for me was to practice modal and form.
 
 ---  
 
