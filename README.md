@@ -85,7 +85,15 @@ These projects are works in progress or practice attempts. The code structure, u
 
 ---
 
-## 4. **Design-responsive and navigation** 
+## 5. **Design-responsive and navigation**  
+
+
+
+
+
+---  
+
+## 5. **Design-responsive and navigation** 
 **Description**:  
 Doing this project, I got to learn how and what to do with position absolute, relative, getting more used to flex and its usage for aligning items even when something doesn't need to be flexed.
 I made toggle-navigation as well using simple JS commands, and this navigation display changes depending on the viewport size, using media queries.
