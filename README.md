@@ -2,17 +2,17 @@
 
 Welcome to my portfolio repository! Below are the links of my portfolio  
 
-**OLTP Shopping (C#/BlazorServer/EF Core)**  (Deployed through Azure)
-https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/  
+1. **OLTP Shopping (C#/BlazorServer/EF Core)**  (Deployed through Azure)
+   https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/  
 
-**Rental Management System (C#/BlazorServer/EF Core)**  (Deployed through Azure)
-https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList
+2. **Rental Management System (C#/BlazorServer/EF Core)**  (Deployed through Azure)
+   https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList
 
-**Modal & Form (CSS)**  (Deployed through Netlify)
-https://graceful-gecko-22ac0e.netlify.app/  
+3. **Modal & Form (CSS)**  (Deployed through Netlify)
+   https://graceful-gecko-22ac0e.netlify.app/  
 
-**Responsive Design (CSS)**  (Deployed through Netlify)
-https://jolly-lamington-d3ce51.netlify.app/  
+4. **Responsive Design (CSS)**  (Deployed through Netlify)
+   https://jolly-lamington-d3ce51.netlify.app/  
 
 
 
