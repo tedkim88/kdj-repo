@@ -23,17 +23,13 @@ Project Introduction
 
 ## 1. **WordSmith** (JavaScript-based Web App)
 **Description**:  
-WordSmith is a JavaScript-based web application designed to help users learn vocabulary and manage their own word lists using Firebase Database. The app includes a quiz feature, allowing users to search for words, view their meanings, add words to a personal list, and then quiz themselves on the saved words.
-To prevent some possible errors, I just uploaded some files that might be a little unnecessary, sorry about that.
+WordSmith is my personal JavaScript-based web application designed to help users learn vocabulary and manage their own word lists using Firebase Database. The app includes a quiz feature, allowing users to search for words, view their meanings, add words to a personal list, and then quiz themselves on the saved words.
 
-**Usage: This app is using parcel so, you can download the wordsmith folder and in the terminal if you type, 'npm run dev' it will be executed.
-you can click create account, log in, and word screen will pop up.**
 **pre-made ID : 123456@gmail.com**
 **pre-set password : 123456**
 
-![Screenshot 2025-03-22 172315](https://github.com/user-attachments/assets/7edd302a-beca-4b83-9bcb-7a71dbd734a9)
-![image](https://github.com/user-attachments/assets/393cd821-8250-4412-a866-796846cb053d)
-
+![image](https://github.com/user-attachments/assets/f3cc0235-7044-46e1-9d89-52a49d534396)
+![image](https://github.com/user-attachments/assets/4df7f962-2a52-4238-bf56-7714266ab9f5)
 
 
 **Features**:
@@ -44,14 +40,12 @@ you can click create account, log in, and word screen will pop up.**
 **Challenges**:
 - **Didn't spend time for design: it was just for understanding and applying functionality**
 - **API Limitations**: The free word API may not provide information for certain words.
-- **Board Functionality**: Initially planned for Q&A about word usage, but it's currently used just for learning.
+- **(DEPRECATED now) Board Functionality**: Initially planned for Q&A about word usage, but it's currently used just for learning.
 - **Duplicate Data**: I used a Set object to avoid duplicates in the quiz, which was successful, but the DB may still contain duplicates due to how the lists are saved. It could be improved later by manipulating data BEFORE saving.
 - **First Trial** -- With the benefit of hindsight, I could've done things in a much simpler way, by planning ahead about the functionality I was going to use, and data structures I was going to use. When I first started this project, I only thought about the purpose of the web app--to help learn English words.
   
   **TakeAway** : I'm going to plan ahead about the functionality and data structure so that the codes can be as simple but efficient as possible.
 
-**Status**:  
-This project is still in progress, and I plan to improve it in the future.
 
 ----------------------------------------------  
 
