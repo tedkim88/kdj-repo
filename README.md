@@ -2,22 +2,20 @@
 
 Welcome to my portfolio repository! Below are the links of my portfolio  
 
-1. **OLTP Shopping (C#/BlazorServer/EF Core)**  (Deployed through Azure)
+1. **OLTP Shopping (C#/BlazorServer/EF Core)**  (Deployed through Azure)  
    https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/  
 
-2. **Rental Management System (C#/BlazorServer/EF Core)**  (Deployed through Azure)
-   https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList
+2. **Rental Management System (C#/BlazorServer/EF Core)**  (Deployed through Azure)  
+   https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList  
 
-3. **Modal & Form (CSS)**  (Deployed through Netlify)
+3. **Modal & Form (CSS)**  (Deployed through Netlify)  
    https://graceful-gecko-22ac0e.netlify.app/  
-
-4. **Responsive Design (CSS)**  (Deployed through Netlify)
+    
+4. **Responsive Design (CSS)**  (Deployed through Netlify)  
    https://jolly-lamington-d3ce51.netlify.app/  
+    
+----------------------------------------------  
 
-
-
-
-----------------
 Project Introduction
 
 ## 1. **WordSmith** (JavaScript-based Web App)
@@ -52,7 +50,7 @@ you can click create account, log in, and word screen will pop up.**
 **Status**:  
 This project is still in progress, and I plan to improve it in the future.
 
----
+----------------------------------------------  
 
 ## 2. **OLTP Shopping / Rental Management System** (C# & Blazor & EntityFrameworkCore / SQL))
 **Description**: 
