@@ -8,10 +8,10 @@ Welcome to my portfolio repository! Below are the links of my portfolio
 2. **Rental Management System (C#/BlazorServer/EF Core)**  (Deployed through Azure)  
    https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList  
 
-3. **Word-Smith Personal JS project** (Deployed through Render.com)  
+3. **Word-Smith Personal JS project (JavaSript & Firebase)** (Deployed through Render.com)  
    https://wordsmith-rnbc.onrender.com/  
 
-4. **Modal & Form (CSS)**  (Deployed through Netlify)  
+4. **Modal & Form (CSS)** (Deployed through Netlify)  
    https://graceful-gecko-22ac0e.netlify.app/  
     
 5. **Responsive Design (CSS)**  (Deployed through Netlify)  
