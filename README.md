@@ -1,8 +1,17 @@
 # KDJ Portfolio
 
-Welcome to my portfolio repository! Below are the details of the projects I am working on.
+Welcome to my portfolio repository! Below are the links of my portfolio 
 
----
+*Responsive Design (CSS)
+1. https://jolly-lamington-d3ce51.netlify.app/
+
+*Modal & Form (CSS)
+2.  https://graceful-gecko-22ac0e.netlify.app/
+
+3. 
+
+----------------
+Project Introduction
 
 ## 1. **WordSmith** (JavaScript-based Web App)
 **Description**:  
