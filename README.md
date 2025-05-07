@@ -6,11 +6,13 @@ Welcome to my portfolio repository! Below are the links of my portfolio
 1. https://jolly-lamington-d3ce51.netlify.app/
 
 *Modal & Form (CSS)
+2. https://graceful-gecko-22ac0e.netlify.app/
 
-2.  https://graceful-gecko-22ac0e.netlify.app/
+3. OLTP Shopping / (C#/BlazorServer/EFcore)
+https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/
 
-3. 
-
+4. Rental Management System (C#/BlazorServer/EFcore)
+https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList
 ----------------
 Project Introduction
 
