@@ -78,7 +78,6 @@ These projects demonstrate my understanding of C# and Blazor. They are based on 
 **Description**:  
 This is not a full-fledged project but rather my first attempt at using a free API to create a simple web application for tracking weather history.
 
----
 
 **Note**:  
 These projects are works in progress or practice attempts. The code structure, use of services, and data management techniques can be evaluated without the database files. I'll be uploading videos for some projects to demonstrate their functionality.
