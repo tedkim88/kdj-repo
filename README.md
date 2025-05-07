@@ -2,17 +2,20 @@
 
 Welcome to my portfolio repository! Below are the links of my portfolio  
 
-**Responsive Design (CSS)**  
-https://jolly-lamington-d3ce51.netlify.app/  
-
-**Modal & Form (CSS)**  
-https://graceful-gecko-22ac0e.netlify.app/  
-
 **OLTP Shopping (C#/BlazorServer/EF Core)**  
 https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/  
 
 **Rental Management System (C#/BlazorServer/EF Core)**  
 https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList
+
+**Modal & Form (CSS)**  
+https://graceful-gecko-22ac0e.netlify.app/  
+
+**Responsive Design (CSS)**  
+https://jolly-lamington-d3ce51.netlify.app/  
+
+
+
 
 ----------------
 Project Introduction
