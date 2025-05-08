@@ -6,6 +6,7 @@ import {
   getMeaning,
   addWordToList,
 } from "./utils";
+
 // import { ShowTotalDef } from "./utils";
 // import { renderMeaning } from "./utils";
 // import { fetchMeaning } from "./utils";
@@ -23,6 +24,7 @@ import {
   getFirestore,
   doc,
   getDocs,
+  deleteDoc,
 } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -132,6 +134,7 @@ document.querySelector(".to-main").addEventListener("click", (evt) => {
 function QuizRendering(data) {
   console.log(data + "hellowervwrvwervwevrwevrwevr");
   const quizRenderArr = data.map((item) => {
+    console.log(item);
     const ol = document.createElement("ol");
     // ol.setAttribute("style", "display:none");
     // Loop through the definitions and create <li> elements
@@ -142,6 +145,7 @@ function QuizRendering(data) {
     });
     ol.classList.add("hidden");
 
+    // await deleteDoc(doc(db, "cities", "DC"));
     // Return the HTML structure with the ol list as the content
     return `
     <div class="card" style="width: 18rem;">
@@ -149,6 +153,7 @@ function QuizRendering(data) {
         <h5 class="card-title">${item.word}</h5>
         <p class="card-text">${ol.outerHTML}</p>
         <a href="#" class="btn btn-primary answer-btn">Check Answer</a>
+        <a href="#" class="btn btn-primary answer-btn delete-quiz" data-word="${item.word}" style="background-color: red">Delete</a>
       </div>
     </div>
   `;
@@ -157,9 +162,9 @@ function QuizRendering(data) {
   document.querySelector("#quiz-render").innerHTML += quizRenderArr;
 }
 
-document.querySelector("#quiz-render").addEventListener("click", (e) => {
+document.querySelector("#quiz-render").addEventListener("click", async (e) => {
   console.log("123123123213");
-  if (e.target.tagName === "A") {
+  if (e.target.tagName === "A" && !e.target.classList.contains("delete-quiz")) {
     console.log("here");
     console.log(e.target.parentNode);
     // <a> 태그의 부모 요소에서 <p> 태그를 찾기
@@ -175,6 +180,34 @@ document.querySelector("#quiz-render").addEventListener("click", (e) => {
       ol.classList.add("hidden"); // 숨기기
       e.target.textContent = "Check Answer";
     }
+  }
+
+  if (e.target.classList.contains("delete-quiz")) {
+    // 여기서 Firestore 삭제 메서드 호출
+    let deleteword = e.target.dataset.word;
+    console.log(deleteword);
+
+    // 예시: firestore에서 단어 기준 삭제
+  
+    // await deleteDoc(doc(db, "quizzes", word)); ← 비동기 함수 안에서 사용해야 함
+
+    const snapShot = await getDocs(collection(db, "words"));
+    const result = snapShot.docs.map((doc) => ({
+      id: doc.id, // ← 고유 문서 ID
+      ...doc.data(), // ← 나머지 필드들
+    }));
+
+    console.log(result);
+
+    for (const item of result) {
+      if (item.word === deleteword) {
+        await deleteDoc(doc(db, "words", item.id));
+        console.log('deleted successfully id:' + item.id);
+      }
+    }
+    
+    LoadData("words", "quiz-render", QuizRendering);
+   
   }
 });
 
@@ -380,8 +413,16 @@ async function addToDB(collectionName, input) {
   const user = auth.currentUser;
   if (user) {
     try {
-      const docRef = await addDoc(collection(db, collectionName), input);
-      console.log("Document written with ID: ", docRef.id);
+      console.log(input);
+    
+      for (const item of input.extracted) {
+        const docRef = await addDoc(collection(db, collectionName), item);
+        console.log("Document written with ID:", docRef.id);
+      }
+
+
+      // const docRef = await addDoc(collection(db, collectionName), input);
+      // console.log("Document written with ID: ", docRef.id);
     } catch (e) {
       console.error("Error adding document: ", e);
     }
@@ -397,7 +438,8 @@ async function LoadData(collectionName, renderElement, callback) {
   // "questions" 컬렉션의 모든 문서를 가져옴
   console.log("werwerwer");
   const querySnapshot = await getDocs(collection(db, collectionName));
-  console.log(querySnapshot);
+
+  
   // 데이터를 렌더링할 HTML 요소 선택
   console.log(renderElement + "123");
   document.getElementById(renderElement).innerHTML = "";
@@ -408,9 +450,12 @@ async function LoadData(collectionName, renderElement, callback) {
   querySnapshot.forEach((doc) => {
     const data = doc.data();
     console.log(data);
-    data.extracted.forEach((item) => {
-      emptyArr.push(item);
-    });
+    
+    emptyArr.push(data);
+    
+    // data.extracted.forEach((item) => {
+    //   emptyArr.push(item);
+    // });
     // const listItem = document.createElement("li");
     // listItem.innerHTML = `<strong>${data.subject}</strong>: ${data.content}`;
     // questionList.appendChild(listItem);
@@ -425,7 +470,7 @@ async function LoadData(collectionName, renderElement, callback) {
       return true;
     }
   });
-  console.log(uniqueArray);
+  console.log(uniqueArray + "this is uniqueArray");
   callback(uniqueArray);
 }
 

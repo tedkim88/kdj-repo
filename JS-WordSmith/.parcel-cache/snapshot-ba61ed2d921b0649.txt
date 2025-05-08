@@ -43,7 +43,7 @@
 91C:\git\kdj-repo\JS-WordSmith\node_modules\firebase\database\dist\esm\compat\auth\index.d.ts133851566062555785 0
 60C:\git\kdj-repo\JS-WordSmith\node_modules\tslib\package.json133851566110977519 0
 93C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\storage\dist\test\unit\location.test.d.ts133851565832697553 0
-33C:\git\kdj-repo\JS-WordSmith\dist133911239907814781 1
+33C:\git\kdj-repo\JS-WordSmith\dist133911620620677608 1
 96C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\auth\dist\node-esm\src\core\errors.test.d.ts133851565747702385 0
 92C:\git\kdj-repo\JS-WordSmith\node_modules\firebase\functions\dist\esm\compat\index.node.d.ts133851566073452739 0
 109C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\firestore\dist\firestore\src\platform\browser\base64.d.ts133851565793060961 0
@@ -51,7 +51,7 @@
 93C:\git\kdj-repo\JS-WordSmith\node_modules\firebase\data-connect\dist\esm\app-check\index.d.ts133851566060970750 0
 73C:\git\kdj-repo\JS-WordSmith\node_modules\@parcel\utils\test\input\config133851565966366083 1
 49C:\git\kdj-repo\JS-WordSmith\node_modules\is-json133851566090095336 1
-39C:\git\kdj-repo\JS-WordSmith\index.html133911239633585996 0
+39C:\git\kdj-repo\JS-WordSmith\index.html133911571135121449 0
 98C:\git\kdj-repo\JS-WordSmith\node_modules\firebase\remote-config\dist\esm\remote-config\index.d.ts133851566081539791 0
 94C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\remote-config\dist\test\language.test.d.ts133851565829153029 0
 100C:\git\kdj-repo\JS-WordSmith\node_modules\firebase\compat\installations\dist\auth\cordova\index.d.ts133851566052886222 0
@@ -1241,7 +1241,7 @@
 97C:\git\kdj-repo\JS-WordSmith\node_modules\firebase\compat\remote-config\dist\messaging\index.d.ts133851566059076086 0
 67C:\git\kdj-repo\JS-WordSmith\node_modules\posthtml-render\readme.md133851566104345886 0
 128C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\firestore\dist\lite\firestore\src\platform\browser\connectivity_monitor.d.ts133851565805771899 0
-39C:\git\kdj-repo\JS-WordSmith\js\main.js133911213961856887 0
+39C:\git\kdj-repo\JS-WordSmith\js\main.js133911620619451866 0
 91C:\git\kdj-repo\JS-WordSmith\node_modules\firebase\messaging\dist\compat\storage\index.d.ts133851566075960791 0
 108C:\git\kdj-repo\JS-WordSmith\node_modules\posthtml\node_modules\dom-serializer\lib\esm\foreignNames.d.ts.map133851566104506002 0
 58C:\git\kdj-repo\JS-WordSmith\node_modules\make-dir\license133851566100062461 0
@@ -10223,7 +10223,7 @@
 78C:\git\kdj-repo\JS-WordSmith\node_modules\firebase\app\dist\esm\app\index.d.ts133851566033729643 0
 76C:\git\kdj-repo\JS-WordSmith\node_modules\firebase\app\dist\compat\analytics133851566033256931 1
 98C:\git\kdj-repo\JS-WordSmith\node_modules\@swc\helpers\_\_is_native_reflect_construct\package.json133851565994140045 0
-52C:\git\kdj-repo\JS-WordSmith\dist\index.9bfebdba.css133911239326758318 0
+52C:\git\kdj-repo\JS-WordSmith\dist\index.9bfebdba.css133911617780440606 0
 82C:\git\kdj-repo\JS-WordSmith\node_modules\caniuse-lite\data\features\indexeddb2.js133851566010963221 0
 71C:\git\kdj-repo\JS-WordSmith\node_modules\firebase\app\dist\compat\auth133851566033256931 1
 98C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\performance\dist\src\services\iid_service.d.ts133851565827211853 0
@@ -11659,7 +11659,7 @@
 94C:\git\kdj-repo\JS-WordSmith\node_modules\@swc\helpers\_\_class_private_field_set\package.json133851565993323110 0
 101C:\git\kdj-repo\JS-WordSmith\node_modules\@swc\helpers\_\_class_private_field_loose_base\package.json133851565993277154 0
 96C:\git\kdj-repo\JS-WordSmith\node_modules\@parcel\types-internal\lib\FileCreateInvalidation.d.ts133851565963610375 0
-56C:\git\kdj-repo\JS-WordSmith\dist\index.748ad148.css.map133911239326798390 0
+56C:\git\kdj-repo\JS-WordSmith\dist\index.748ad148.css.map133911617780482157 0
 95C:\git\kdj-repo\JS-WordSmith\node_modules\@swc\helpers\_\_class_private_field_init\package.json133851565993240046 0
 107C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\auth\dist\src\platform_browser\recaptcha\recaptcha.d.ts133851565765998764 0
 94C:\git\kdj-repo\JS-WordSmith\node_modules\@swc\helpers\_\_class_private_field_get\package.json133851565993214742 0
@@ -11916,7 +11916,7 @@
 73C:\git\kdj-repo\JS-WordSmith\node_modules\@swc\helpers\cjs\_construct.cjs133851565995348616 0
 99C:\git\kdj-repo\JS-WordSmith\node_modules\@swc\helpers\cjs\_create_for_of_iterator_helper_loose.cjs133851565995382026 0
 79C:\git\kdj-repo\JS-WordSmith\node_modules\@swc\helpers\cjs\_define_property.cjs133851565995477518 0
-56C:\git\kdj-repo\JS-WordSmith\dist\index.9bfebdba.css.map133911239326798390 0
+56C:\git\kdj-repo\JS-WordSmith\dist\index.9bfebdba.css.map133911617780472173 0
 71C:\git\kdj-repo\JS-WordSmith\node_modules\@swc\helpers\cjs\_dispose.cjs133851565995497447 0
 75C:\git\kdj-repo\JS-WordSmith\node_modules\@swc\helpers\cjs\_export_star.cjs133851565995517387 0
 115C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\auth\dist\test\integration\flows\middleware_test_generator.d.ts133851565766942072 0
@@ -12632,7 +12632,7 @@
 52C:\git\kdj-repo\JS-WordSmith\dist\index.aa967906.css133911217576125204 0
 88C:\git\kdj-repo\JS-WordSmith\node_modules\@parcel\package-manager\test\fixtures\packages133851565855605202 1
 90C:\git\kdj-repo\JS-WordSmith\node_modules\@parcel\package-manager\test\fixtures\packages\a133851565855524341 1
-52C:\git\kdj-repo\JS-WordSmith\dist\index.748ad148.css133911239326723404 0
+52C:\git\kdj-repo\JS-WordSmith\dist\index.748ad148.css133911617780440606 0
 98C:\git\kdj-repo\JS-WordSmith\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0133851565855593977 1
 107C:\git\kdj-repo\JS-WordSmith\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0\index.js133851565855582595 0
 116C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\firestore\dist\lite\firestore\src\model\transform_operation.d.ts133851565805649547 0
@@ -14084,7 +14084,7 @@
 107C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\auth\dist\node-esm\src\core\auth\firebase_internal.d.ts133851565747378517 0
 93C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\installations-compat\dist\esm\src\testing133851565820575297 1
 104C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\installations-compat\dist\esm\src\testing\setup.d.ts133851565820555728 0
-44C:\git\kdj-repo\JS-WordSmith\dist\index.html133911239907804781 0
+44C:\git\kdj-repo\JS-WordSmith\dist\index.html133911574951837504 0
 103C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\installations-compat\dist\esm\src\testing\util.d.ts133851565820575297 0
 83C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\installations\dist\index.cjs.js133851565821869225 0
 96C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\installations\dist\installations-public.d.ts133851565821932448 0
@@ -15960,7 +15960,7 @@
 100C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\auth\dist\rn\src\core\credentials\saml.test.d.ts133851565758939041 0
 102C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\auth\dist\rn\src\core\auth\auth_event_manager.d.ts133851565758515776 0
 93C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\auth\dist\rn\src\core\auth\auth_impl.d.ts133851565758565504 0
-55C:\git\kdj-repo\JS-WordSmith\dist\index.fbb3188c.js.map133911239327316574 0
+55C:\git\kdj-repo\JS-WordSmith\dist\index.fbb3188c.js.map133911620620677608 0
 98C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\auth\dist\rn\src\core\auth\auth_impl.test.d.ts133851565758577948 0
 97C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\auth\dist\rn\src\core\auth\emulator.test.d.ts133851565758609069 0
 109C:\git\kdj-repo\JS-WordSmith\node_modules\@firebase\auth\dist\rn\src\core\auth\password_policy_impl.test.d.ts133851565758739953 0
@@ -16960,4 +16960,4 @@
 52C:\git\kdj-repo\JS-WordSmith\dist\index.73f047d0.css133911217576125204 0
 56C:\git\kdj-repo\JS-WordSmith\dist\index.73f047d0.css.map133911217576337653 0
 51C:\git\kdj-repo\JS-WordSmith\dist\index.ccccd1fc.js133911217576134998 0
-51C:\git\kdj-repo\JS-WordSmith\dist\index.fbb3188c.js133911239327239790 0
+51C:\git\kdj-repo\JS-WordSmith\dist\index.fbb3188c.js133911620620603967 0
