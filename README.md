@@ -9,7 +9,7 @@ Welcome to my portfolio repository! Below are the links of my portfolio
    https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList  
 
 3. **Word-Smith Personal JS project (JavaSript & Firebase)** (Deployed through Render.com)  
-   https://wordsmith-rnbc.onrender.com/#  
+   [https://wordsmith-rnbc.onrender.com/#](https://wordsmith-finished.onrender.com)  
 
 4. **Modal & Form (CSS)** (Deployed through Netlify)  
    https://graceful-gecko-22ac0e.netlify.app/  
