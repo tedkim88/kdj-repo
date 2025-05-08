@@ -35,8 +35,8 @@ WordSmith is my personal JavaScript-based web application designed to help users
 
 **Features**:
 - **Search Functionality**: Search for words and view their meanings.
-- **Add to Word List**: Add words to a custom list stored in Firebase.
-- **Quiz**: Review words through quizzes based on your saved lists.
+- **Add to Word List**: Add words to a temporary list before saving to DB
+- **Quiz**: Review words through quizzes based on your saved lists from firebase DB.
 - **Firebase Auth** : Email authentication is used for signing in, using Firebase Auth.
 - **FireStore Database** : NOSQL database has been used to save data coming from users(serverless)
 
@@ -49,6 +49,7 @@ WordSmith is my personal JavaScript-based web application designed to help users
   
   **TakeAway** : I'm going to plan ahead about the functionality and data structure so that the codes can be as simple but efficient as possible.
 
+**Refactoring finished** 2025/May/08
 
 ----------------------------------------------  
 
