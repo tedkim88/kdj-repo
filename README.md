@@ -29,7 +29,8 @@ WordSmith is my personal JavaScript-based web application designed to help users
 **pre-set password : 123456**
 
 ![image](https://github.com/user-attachments/assets/f3cc0235-7044-46e1-9d89-52a49d534396)
-![image](https://github.com/user-attachments/assets/4df7f962-2a52-4238-bf56-7714266ab9f5)
+![image](https://github.com/user-attachments/assets/ad411246-74bf-4829-b710-09e348b9cf91)
+
 
 
 **Features**:
