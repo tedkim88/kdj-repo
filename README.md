@@ -96,6 +96,8 @@ This website, when it is in rendered in mobile(small) size, has a hamburger butt
 Submenu functions are shown in the project number 5 (responsive and navigation).
 
 The purpose of this project for me was to practice modal and form.
+![image](https://github.com/user-attachments/assets/58204c41-088f-4c87-9d68-df90cde06367)
+
 
 ---  
 
