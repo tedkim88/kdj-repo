@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\git\\kdj-repo\\c#-oltp-shopping\\dmit2018project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\git\\kdj-repo\\c#-oltp-shopping\\dmit2018project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\git\\kdj-repo\\c#-oltp-shopping\\dmit2018project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|solutionrelative:dmit2018project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CBF8BD9-52A1-49DB-A1C2-2BCF4D761F77}|DMIT2018Project\\DMIT2018Project.csproj|c:\\git\\kdj-repo\\c#-oltp-shopping\\dmit2018project\\components\\pages\\salesreturn\\checkout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 43,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,13 +134,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Program.cs",
               "RelativeDocumentMoniker": "DMIT2018Project\\Program.cs",
               "ToolTip": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\Program.cs",
               "RelativeToolTip": "DMIT2018Project\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T07:12:19.359Z",
               "EditorCaption": ""
@@ -183,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\appsettings.json",
               "RelativeDocumentMoniker": "DMIT2018Project\\appsettings.json",

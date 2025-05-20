@@ -4,4 +4,8 @@ C#-OLTP-shopping
 C#-Rental Management System
 Design-responsive and navigation
 Design-shopping-mall
-JS-WordSmith
+
+node_modules/
+.env
+dist/
+build/

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\git\\kdj-repo\\C#-Rental Management System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\git\\kdj-repo\\c#-rental management system\\rmsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\git\\kdj-repo\\c#-rental management system\\rmsapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\git\\kdj-repo\\c#-rental management system\\rmsapp\\components\\pages\\rentaledit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\components\\pages\\rentaledit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\git\\kdj-repo\\c#-rental management system\\rmsapp\\components\\pages\\rentallist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\components\\pages\\rentallist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\git\\kdj-repo\\c#-rental management system\\rmsapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|c:\\git\\kdj-repo\\c#-rental management system\\rmsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BF09A49-ABAC-4DA3-A851-1A9A25978E4A}|RMSApp\\RMSApp.csproj|solutionrelative:rmsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAA00670-C773-4197-8987-3C77D618134D}|RMSSystem\\RMSSystem.csproj|c:\\git\\kdj-repo\\c#-rental management system\\rmssystem\\rentalextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -218,7 +218,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 43,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -270,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\appsettings.json",
               "RelativeDocumentMoniker": "RMSApp\\appsettings.json",
@@ -283,13 +283,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\Program.cs",
               "RelativeDocumentMoniker": "RMSApp\\Program.cs",
               "ToolTip": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\Program.cs",
               "RelativeToolTip": "RMSApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T15:53:52.721Z",
               "EditorCaption": ""
@@ -308,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RentalEdit.razor",
               "DocumentMoniker": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\Components\\Pages\\RentalEdit.razor",
               "RelativeDocumentMoniker": "RMSApp\\Components\\Pages\\RentalEdit.razor",
@@ -377,12 +377,11 @@
               "RelativeToolTip": "RMSSystem\\RentalExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T15:56:09.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T15:56:09.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RentalList.razor",
               "DocumentMoniker": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\Components\\Pages\\RentalList.razor",
               "RelativeDocumentMoniker": "RMSApp\\Components\\Pages\\RentalList.razor",
@@ -390,12 +389,11 @@
               "RelativeToolTip": "RMSApp\\Components\\Pages\\RentalList.razor",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-09T16:01:35.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T16:01:35.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "RMSApp\\Components\\_Imports.razor",
@@ -403,8 +401,7 @@
               "RelativeToolTip": "RMSApp\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T05:17:01.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T05:17:01.25Z"
             },
             {
               "$type": "Document",
