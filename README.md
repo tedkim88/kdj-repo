@@ -19,7 +19,8 @@ Welcome to my portfolio repository! Below are the links of my portfolio
 
 6. **React-App(Fullstack)--GameHUB** WORKING ON Backend FIRST Now!!  
    typescript(front) + express(backend) + mongoDB(NOSQL)  
-   This is going to be a website where people can get game recommendations by platform. They can search for games info by platforms and/or genres.  
+   This is going to be a website where people can get game recommendations by platform.  
+   They can search for games info by platforms and/or genres.  
    Not only that, they are going to be able to share opinions in a **board**,  
    leave game reviews, chat with signed-in users in real-time to find game partners. 
 
