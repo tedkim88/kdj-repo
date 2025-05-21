@@ -17,7 +17,7 @@ Welcome to my portfolio repository! Below are the links of my portfolio
 5. **Responsive Design (CSS)**  (Deployed through Netlify)  
    https://jolly-lamington-d3ce51.netlify.app/
 
-6. **React-App(Fullstack)** to be added later (working on it)
+6. **React-App(Fullstack)** to be added later (working on it)  
    typescript(front)+express(backend)+mongoDB
    
     
