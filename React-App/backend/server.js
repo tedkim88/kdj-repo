@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import authRouter from "./src/routes/auth.route.js";
 import { connectDB } from "./src/lib/db.js";
 import gameRouter from "./src/routes/game.route.js";
-
+import { createAdmin } from "./src/seed/admin.seed.js";
 const app = express();
 dotenv.config();
 
@@ -16,7 +16,9 @@ app.use("/api/auth", authRouter);
 
 app.use("/api/games", gameRouter);
 
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
+  
+  await connectDB();
   console.log(`Server is running on port ${PORT}`);
-  connectDB();
+  createAdmin(); // admin seed, to be used later for accessing admin panel(role-based)
 });

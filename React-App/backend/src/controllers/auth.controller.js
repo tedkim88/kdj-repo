@@ -10,7 +10,7 @@ export const signup = async (req, res) => {
 
       res
         .status(201)
-        .json({ _id: newUser._id, name: newUser.name, email: newUser.email });
+        .json({ _id: newUser._id, name: newUser.name, email: newUser.email, role: newUser.role });
     } else {
       res
         .status(500)
@@ -32,7 +32,7 @@ export const login = async (req, res) => {
       generateToken(user._id, res);
       res
         .status(200)
-        .json({ _id: user._id, name: user.name, email: user.email });
+        .json({ _id: user._id, name: user.name, email: user.email, role: user.role });
     }
   } catch (error) {
     console.log(error);
