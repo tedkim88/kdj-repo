@@ -15,7 +15,11 @@ Welcome to my portfolio repository! Below are the links of my portfolio
    https://graceful-gecko-22ac0e.netlify.app/  
     
 5. **Responsive Design (CSS)**  (Deployed through Netlify)  
-   https://jolly-lamington-d3ce51.netlify.app/  
+   https://jolly-lamington-d3ce51.netlify.app/
+
+6. **React-App(Fullstack)** to be added later (working on it)
+   typescript(front)+express(backend)+mongoDB
+   
     
 ----------------------------------------------  
 
