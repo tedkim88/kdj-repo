@@ -5,6 +5,7 @@ import authRouter from "./src/routes/auth.route.js";
 import { connectDB } from "./src/lib/db.js";
 import gameRouter from "./src/routes/game.route.js";
 import { createAdmin } from "./src/seed/admin.seed.js";
+import boardRouter from "./src/routes/board.route.js";
 const app = express();
 dotenv.config();
 
@@ -15,6 +16,8 @@ const PORT = process.env.PORT || 5000;
 app.use("/api/auth", authRouter);
 
 app.use("/api/games", gameRouter);
+
+app.use("/api/board", boardRouter);
 
 app.listen(PORT, async () => {
   

@@ -36,28 +36,33 @@ export const getMainGamesService = async () => {
 
 //this is going to be used for detailSearch (by platform and/or genre)
 export const getPlatformGenreService = async (platform, genre) => {
-  let url = `${RAWG_BASE_URL}/games?key=${RAWG_KEY}&ordering=-rating&page_size=10`;
+  try {
+    let url = `${RAWG_BASE_URL}/games?key=${RAWG_KEY}&ordering=-rating&page_size=10`;
 
-  if (platform) url += `&platforms=${platform}`;
-  if (genre) url += `&genre=${genre}`;
+    if (platform) url += `&platforms=${platform}`;
+    if (genre) url += `&genre=${genre}`;
 
-  const response = await fetch(url);
-  if (!response.ok) throw new Error("Failed to fetch games");
-  return await response.json();
-  // JSON parsing is needed to get the body part from response object because fetch returns JSON as a string
+    const response = await fetch(url);
+    if (!response.ok) throw new Error("Failed to fetch games");
+    return await response.json();
+    // JSON parsing is needed to get the body part from response object because fetch returns JSON as a string
 
-  //below was refactored like above to avoid using the same base url for different cases..hmm..
-  // if (!platform) {
-  //   const response = await fetch(
-  //     `${RAWG_BASE_URL}/games?key=${RAWG_KEY}&ordering=-rating&genre=${genre}&page_size=10`
-  //   );
-  // } else if (!genre) {
-  //   await fetch(
-  //     `${RAWG_BASE_URL}/games?key=${RAWG_KEY}&ordering=-rating&platforms=${platform}&page_size=10`
-  //   );
-  // } else {
-  //   await fetch(
-  //     `${RAWG_BASE_URL}/games?key=${RAWG_KEY}&ordering=-rating&platforms=${platform}&genre=${genre}&page_size=10`
-  //   );
-  // }
+    //below was refactored like above to avoid using the same base url for different cases..hmm..
+    // if (!platform) {
+    //   const response = await fetch(
+    //     `${RAWG_BASE_URL}/games?key=${RAWG_KEY}&ordering=-rating&genre=${genre}&page_size=10`
+    //   );
+    // } else if (!genre) {
+    //   await fetch(
+    //     `${RAWG_BASE_URL}/games?key=${RAWG_KEY}&ordering=-rating&platforms=${platform}&page_size=10`
+    //   );
+    // } else {
+    //   await fetch(
+    //     `${RAWG_BASE_URL}/games?key=${RAWG_KEY}&ordering=-rating&platforms=${platform}&genre=${genre}&page_size=10`
+    //   );
+    // }
+  } catch (error) {
+    console.log(error);
+    throw new Error("game.service. Error: " + error.message);
+  }
 };
