@@ -1,0 +1,25 @@
+To do list :
+*Backend - Board 
+message save function [DONE] till here
+----------------------------------------
+board message edit function
+board message delete function
+---------------------------------------
+
+*Front - haven't started yet. but soon.
+Index - HomePage (Carousel / Animation / Recommendation)
+Hamburger Button for? NavBar (Game Search / Board / Game Review / FindPartners / AdminBoard(?))
+
+Each Game card has review? --> make a model for this db, 
+//each game with its own unque gameId..hmm has a rating field(i'm gonna make)
+which is array, and users can submit their rating for a specific game and add their scores to the array.
+//after that, if I calculate the average and round and render as stars.(plan for now)
+
+
+
+
+
+
+
+
+
