@@ -1,7 +1,11 @@
 import express from "express";
-import { getTotalMessages } from "../controllers/board.controller.js";
+import { getTotalMessages, getMessagesByPlatform } from "../controllers/board.controller.js";
+
 
 const router = express.Router();
+
+// "/api/board"
+//base route
 
 
 //board for all plantform-based games
@@ -10,7 +14,7 @@ const router = express.Router();
 router.get("/all", getTotalMessages);
 
 // //board for a specific platform
-// router.get("/platform/:id", getMessagesByPlatform);
+router.get("/platform/:platformId", getMessagesByPlatform);
 
 
 // //saving a message to the database(board)
