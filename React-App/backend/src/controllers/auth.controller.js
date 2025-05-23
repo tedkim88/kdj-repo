@@ -8,9 +8,12 @@ export const signup = async (req, res) => {
     if (newUser) {
       generateToken(newUser._id, res);
 
-      res
-        .status(201)
-        .json({ _id: newUser._id, name: newUser.name, email: newUser.email, role: newUser.role });
+      res.status(201).json({
+        _id: newUser._id,
+        name: newUser.name,
+        email: newUser.email,
+        role: newUser.role,
+      });
     } else {
       res
         .status(500)
@@ -30,9 +33,12 @@ export const login = async (req, res) => {
 
     if (user) {
       generateToken(user._id, res);
-      res
-        .status(200)
-        .json({ _id: user._id, name: user.name, email: user.email, role: user.role });
+      res.status(200).json({
+        _id: user._id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+      });
     }
   } catch (error) {
     console.log(error);
