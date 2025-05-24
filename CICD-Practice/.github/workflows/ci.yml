@@ -1,0 +1,25 @@
+name: Node.js CI/CD Example
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: copying codes to runner
+      uses: actions/checkout@v3
+
+    - name: Node.js install
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: install dependency
+      run: npm install
+
+    - name: run test
+      run: npm test
