@@ -13,7 +13,10 @@ export const getBoardMessagesService = async (pageNum, platformId = null) => {
     //pagination + optimization for performance.
     //not loading all messages at once.
     //loading only 10 messages per page depending on user page choice
-    const messages = await Boardmsg.find(filter) // === .find({platformId : platformId}) object shorthand
+    const messages = await Boardmsg.find(filter)
+      .select(
+        "-password" //no password return to client even if it's encrypted
+      )
       .sort({ createdAt: -1 })
       .skip((pageNum - 1) * limit)
       .limit(limit);
@@ -53,5 +56,33 @@ export const saveMessageService = async (
   } catch (error) {
     console.log(error);
     throw new Error("Board Service Error(saveMessage): " + error.message);
+  }
+};
+
+export const editMessageService = async (
+  messageId,
+  userId,
+  title,
+  content,
+  platformId
+) => {
+  try {
+    const messageFound = await Boardmsg.findById(messageId);
+    if (messageFound.writerId.toString() !== userId.toString())
+      //without toString() it was throwing an error due to type mismatch
+      throw new Error(
+        "You don't have permission to edit this message. You can only edit your own messages."
+      );
+
+    const updatedMessage = await Boardmsg.findByIdAndUpdate(
+      messageId,
+      { title, content, platformId },
+      { new: true }
+    );
+
+    return updatedMessage;
+  } catch (error) {
+    console.log(error);
+    throw new Error("Board Service Error(editMessage): " + error.message);
   }
 };

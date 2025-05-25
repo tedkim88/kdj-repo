@@ -1,6 +1,7 @@
 import {
   getBoardMessagesService,
   saveMessageService,
+  editMessageService,
 } from "../services/board.service.js";
 
 export const getTotalMessages = async (req, res) => {
@@ -62,6 +63,36 @@ export const saveMessagetoDB = async (req, res) => {
     console.log(error);
     res.status(500).json({
       message: "board.controller.js SaveMessage Error, " + error.message,
+    });
+  }
+};
+
+export const editDBmessage = async (req, res) => {
+  try {
+    const userId = req.user._id;
+    const { messageId } = req.params;
+    const { title, content, platformId } = req.body;
+
+    //I'm not going to use the password to authenticate here
+    //logged in user can only edit their own messages by showing edit button on their own messages in the front
+    //but in the service I'm gonna recheck if the message writer(writerId) is the same as the logged in user(req.user._id)
+    if (!title || !content || !platformId) {
+      return res.status(400).json({ message: "Missing required fields" });
+    }
+
+    const response = await editMessageService(
+      messageId,
+      userId,
+      title,
+      content,
+      platformId
+    );
+
+    res.status(200).json(response);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({
+      message: "board.controller.js EditMessage Error, " + error.message,
     });
   }
 };

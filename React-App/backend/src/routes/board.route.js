@@ -3,6 +3,7 @@ import {
   getTotalMessages,
   getMessagesByPlatform,
   saveMessagetoDB,
+  editDBmessage
 } from "../controllers/board.controller.js";
 import { protectRoute } from "../middlewares/auth.middleware.js";
 
@@ -20,10 +21,12 @@ router.get("/platform/:platformId", protectRoute, getMessagesByPlatform);
 router.post("/save", protectRoute, saveMessagetoDB);
 
 
+// //edit board message
+router.put("/edit/:messageId", protectRoute, editDBmessage);
+//msg model's unique id as a parameter
+
 // //delete board message
 // router.delete("/delete", protectRoute, deleteMessageFromDB);
 
-// //edit board message
-// router.put("/edit", protectRoute, editDBmessage);
 
 export default router;
