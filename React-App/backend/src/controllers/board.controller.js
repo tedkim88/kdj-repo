@@ -3,6 +3,7 @@ import {
   saveMessageService,
   editMessageService,
   checkMsgPasswordService,
+  deleteMessageService,
 } from "../services/board.service.js";
 
 export const getTotalMessages = async (req, res) => {
@@ -118,8 +119,22 @@ export const checkMessagePassword = async (req, res) => {
   }
 };
 
-// export const deleteDBmessage = async (req, res) => {
-//   const userId = req.user._id;
-//   const { messageId } = req.params;
-//   req.body
-// };
+export const deleteMessageFromDB = async (req, res) => {
+  try {
+    const { messageId } = req.params;
+    const userId = req.user._id;
+    const response = await deleteMessageService(messageId, userId);
+    if (!response)
+      return res
+        .status(404)
+        .json({ success: false, message: "Message not found" });
+    res
+      .status(200)
+      .json({ success: true, message: "Message deleted successfully" });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({
+      message: "board.controller.js DeleteMessage Error, " + error.message,
+    });
+  }
+};

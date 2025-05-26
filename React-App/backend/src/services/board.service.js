@@ -90,13 +90,33 @@ export const editMessageService = async (
 export const checkMsgPasswordService = async (messageId, password) => {
   try {
     const messageFound = await Boardmsg.findById(messageId);
-    const isPasswordCorrect = await bcrypt.compare(password, messageFound.password);
+    const isPasswordCorrect = await bcrypt.compare(
+      password,
+      messageFound.password
+    );
     if (!isPasswordCorrect) {
       throw new Error("Incorrect password");
     }
     return true;
   } catch (error) {
     console.log(error);
-    throw new Error("Board Service Error(checkMessagePassword): " + error.message);
+    throw new Error(
+      "Board Service Error(checkMessagePassword): " + error.message
+    );
+  }
+};
+
+export const deleteMessageService = async (messageId, userId) => {
+  try {
+    const messageFound = await Boardmsg.findById(messageId);
+    if (messageFound.writerId.toString() !== userId.toString())
+      throw new Error(
+        "You don't have permission to delete this message. You can only delete your own messages."
+      );
+
+    return Boardmsg.findByIdAndDelete(messageId);
+  } catch (error) {
+    console.log(error);
+    throw new Error("Board Service Error(deleteMessage): " + error.message);
   }
 };

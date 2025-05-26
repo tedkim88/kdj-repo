@@ -4,7 +4,7 @@ import {
   getMessagesByPlatform,
   saveMessagetoDB,
   editDBmessage,
-  // deleteDBmessage,
+  deleteMessageFromDB,
   checkMessagePassword,
 } from "../controllers/board.controller.js";
 import { protectRoute } from "../middlewares/auth.middleware.js";
@@ -33,8 +33,7 @@ router.post("/checkMsgPassword/:messageId", protectRoute, checkMessagePassword);
 //delete board message
 //in frontend, when delete button is clicked, it will check the password first and if password is correct, delete request would be called.
 // router.delete("/delete/:messageId", protectRoute, deleteDBmessage);
-
-// //delete board message
-// router.delete("/delete", protectRoute, deleteMessageFromDB);
+//delete board message
+router.delete("/delete/:messageId", protectRoute, deleteMessageFromDB);
 
 export default router;
