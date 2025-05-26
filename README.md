@@ -17,7 +17,8 @@ Welcome to my portfolio repository! Below are the links of my portfolio
 5. **Responsive Design (CSS)**  (Deployed through Netlify)  
    https://jolly-lamington-d3ce51.netlify.app/
 
-6. **React-App(FULL STACK : EXPRESS + React) -- GameHUB** (THIS IS IN **PROGRESS NOW** first on BACKEND!!)  
+6. **React-App ( FULL STACK : EXPRESS + React(TYPESCRIPT) ) -- GameHUB**  
+   **(THIS IS IN **PROGRESS NOW** first on BACKEND!!)**  
    typescript(front) + express(backend) + mongoDB(NOSQL) + jwtAuth + ....  
    This is going to be a website where people can get game recommendations by platform.  
    Users can search for game info by platforms and/or genres.  
