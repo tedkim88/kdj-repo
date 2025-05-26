@@ -22,7 +22,9 @@ Welcome to my portfolio repository! Below are the links of my portfolio
    This is going to be a website where people can get game recommendations by platform.  
    Users can search for game info by platforms and/or genres.  
    Not only that, they are going to be able to share opinions in a **board**,  
-   leave game reviews, chat with signed-in users in real-time to find game partners. 
+   leave game reviews, chat with signed-in users in real-time to find game partners.
+   
+![image](https://github.com/user-attachments/assets/9b0035b9-df22-4041-857b-e34c43f4f3fd)
 
    
    
