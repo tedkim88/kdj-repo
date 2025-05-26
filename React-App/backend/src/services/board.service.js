@@ -86,3 +86,17 @@ export const editMessageService = async (
     throw new Error("Board Service Error(editMessage): " + error.message);
   }
 };
+
+export const checkMsgPasswordService = async (messageId, password) => {
+  try {
+    const messageFound = await Boardmsg.findById(messageId);
+    const isPasswordCorrect = await bcrypt.compare(password, messageFound.password);
+    if (!isPasswordCorrect) {
+      throw new Error("Incorrect password");
+    }
+    return true;
+  } catch (error) {
+    console.log(error);
+    throw new Error("Board Service Error(checkMessagePassword): " + error.message);
+  }
+};

@@ -2,6 +2,7 @@ import {
   getBoardMessagesService,
   saveMessageService,
   editMessageService,
+  checkMsgPasswordService,
 } from "../services/board.service.js";
 
 export const getTotalMessages = async (req, res) => {
@@ -96,3 +97,29 @@ export const editDBmessage = async (req, res) => {
     });
   }
 };
+
+export const checkMessagePassword = async (req, res) => {
+  try {
+    const { messageId } = req.params;
+    const { password } = req.body;
+    if (!password)
+      return res
+        .status(400)
+        .json({ message: "password is required to delete the message" });
+
+    const response = await checkMsgPasswordService(messageId, password);
+    res.status(200).json({ success: true });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({
+      message:
+        "board.controller.js CheckMessagePassword Error, " + error.message,
+    });
+  }
+};
+
+// export const deleteDBmessage = async (req, res) => {
+//   const userId = req.user._id;
+//   const { messageId } = req.params;
+//   req.body
+// };
