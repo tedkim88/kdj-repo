@@ -7,6 +7,7 @@ import gameRouter from "./src/routes/game.route.js";
 import { createAdmin } from "./src/seed/admin.seed.js";
 import boardRouter from "./src/routes/board.route.js";
 import cookieParser from "cookie-parser";
+import cors from "cors";
 
 const app = express();
 dotenv.config();
@@ -15,6 +16,14 @@ app.use(cookieParser());
 app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
+
+app.use(
+  cors({
+    //cross origin resource sharing 내 컴퓨터 문서참고
+    origin: "http://localhost:5173",
+    credentials: true,
+  })
+);
 
 //base url for auth API
 app.use("/api/auth", authRouter);

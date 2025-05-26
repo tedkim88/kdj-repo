@@ -3,7 +3,7 @@ dotenv.config(); // to use process.env
 
 const RAWG_BASE_URL = "https://api.rawg.io/api";
 const RAWG_KEY = process.env.RAWG_KEY;
-const platformIds = [4, 187, 7, 186];
+const platformIds = [187, 186, 7, 4];
 
 //this is going to be used for the index page.(front) to show top 4 most popular games depending on platforms.
 export const getMainGamesService = async () => {

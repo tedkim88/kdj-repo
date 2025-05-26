@@ -1,10 +1,27 @@
 To do list :
-*Backend - Board 
-message save function [DONE] till here
+
+[Backend]
+signup
+login
+logout
+get total messages for board
+get board messages by platform
+save message to board
+edit board message
+delete board message
+getMainGamesInfo[index screen]
+getPlatformGenreSearchGames
+[Done till here]
+===========================
+[Frontend]
+[HomePage](index getMaingames) [DONE]
+
+NAVBAR needs to be customized.
+Navbar needs to have proper menus like Search By Platform & Genre(should be DROPDOWN)
+And Frontend Routes need to be set.
+
+
 ----------------------------------------
-board message edit function
-board message delete function
----------------------------------------
 
 *Front - haven't started yet. but soon.
 Index - HomePage (Carousel / Animation / Recommendation)
