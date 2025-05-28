@@ -1,14 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-white shadow-md px-6 py-2 flex justify-between items-center ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-6 w-6 text-gray-600"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -17,60 +18,102 @@ export default function Navbar() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
+                d="M4 6h16M4 12h16M4 18h16"
               />
             </svg>
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-4 shadow-xl bg-white w-60 rounded-lg"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            <Link
+              to={"/search"}
+              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+            >
+              Search Games
+            </Link>
+
+            <Link
+              to={"/board"}
+              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+            >
+              {" "}
+              Board
+            </Link>
+
+            <Link
+              to={"/chat"}
+              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+            >
+              Live Chat
+            </Link>
+
+            <Link
+              to={"/signup"}
+              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+            >
+              Signup
+            </Link>
+
+            <Link
+              to={"/login"}
+              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+            >
+              Login
+            </Link>
+            <Link
+              to={"/"}
+              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+            >
+              Logout
+            </Link>
           </ul>
         </div>
-        <a className="btn btn-ghost text-red-600 text-xl">GameHUB!!</a>
+        <Link
+          to={"/"}
+          className="text-2xl font-bold text-red-600 hover:text-red-800 transition duration-300 cursor-pointer"
+        >
+          GameHUB
+        </Link>
       </div>
+
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
+        <ul className="menu menu-horizontal px-4 gap-6 text-gray-700 font-semibold text-lg">
+          <Link
+            to={"/search"}
+            className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+          >
+            Search Games
+          </Link>
+
+          <Link
+            to={"/board"}
+            className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+          >
+            {" "}
+            Board
+          </Link>
+
+          <Link
+            to={"/chat"}
+            className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+          >
+            Live Chat
+          </Link>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn btn-primary">Button</a>
+
+      {/* Authentication status is going to be managed through zustand and depending on the status, I'm gonna show different buttons */}
+      <div className="navbar-end gap-2 hidden lg:flex">
+        <Link to={"/signup"} className="btn btn-outline btn-error">
+          Sign Up
+        </Link>
+        <Link to={"/login"} className="btn btn-outline btn-error">
+          Login
+        </Link>
+        <Link to={"/"} className="btn btn-outline btn-error">
+          Logout
+        </Link>
       </div>
     </div>
   );
