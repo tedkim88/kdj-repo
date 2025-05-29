@@ -1,7 +1,21 @@
+import axiosInstance from "../lib/axios";
 import React from "react";
 import { Link } from "react-router-dom";
+import { AxiosError } from "axios";
 
 export default function Navbar() {
+  const handleLogout = async () => {
+    try {
+      const response = await axiosInstance.post("/auth/logout");
+      console.log(response.data);
+      //need to manage zustand authStore state here
+      //not ended yet.
+    } catch (error) {
+      const axiosError = error as AxiosError<{ message: string }>;
+      console.log("Logout error", axiosError.response?.data.message);
+    }
+  };
+
   return (
     <div className="navbar bg-white shadow-md px-6 py-2 flex justify-between items-center ">
       <div className="navbar-start">
@@ -63,6 +77,7 @@ export default function Navbar() {
             </Link>
             <Link
               to={"/"}
+              onClick={handleLogout}
               className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
             >
               Logout
@@ -111,7 +126,11 @@ export default function Navbar() {
         <Link to={"/login"} className="btn btn-outline btn-error">
           Login
         </Link>
-        <Link to={"/"} className="btn btn-outline btn-error">
+        <Link
+          to={"/"}
+          onClick={handleLogout}
+          className="btn btn-outline btn-error"
+        >
           Logout
         </Link>
       </div>

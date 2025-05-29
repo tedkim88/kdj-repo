@@ -15,9 +15,16 @@ getPlatformGenreSearchGames
 ===========================
 [Frontend]
 [HomePage](index getMaingames) [DONE]
+NAVBAR needs to be customized. [Done]
+*******working on Navbar & Login.tsx --navbar needs proper routing depending on auth status and show & hide sign up sign in logout button properly.******
+Navbar needs to have proper menus like Search By Platform & Genre(should be DROPDOWN) 
 
-NAVBAR needs to be customized.
-Navbar needs to have proper menus like Search By Platform & Genre(should be DROPDOWN)
+
+
+
+
+
+
 And Frontend Routes need to be set.
 
 

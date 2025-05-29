@@ -48,10 +48,18 @@ export const login = async (req, res) => {
 
 export const logout = async (req, res) => {
   try {
+    const token = req.cookies.jwt;
+
+    if (!token) {
+      return res
+        .status(401)
+        .json({ message: "Unauthorized - No token provided" });
+    }
+
     res.cookie("jwt", "", { maxAge: 0 });
     res.status(200).json({ message: "Logout successful" });
   } catch (error) {
     console.log("Error in logout", error.message);
-    res.status(500).json({ message: "Internal server error" });
+    res.status(500).json({ message: "Internal Server Error, " + error.message });
   }
 };

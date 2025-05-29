@@ -30,20 +30,26 @@ export const signupService = async ({ name, email, password }) => {
 };
 
 export const signinService = async ({ email, password }) => {
-  if (!email || !password) {
-    throw new Error("All fields are required");
+  try {
+    if (!email || !password) {
+      throw new Error("All fields are required");
+    }
+
+    const user = await User.findOne({ email });
+
+    if (!user) {
+      throw new Error("User does not exist");
+    }
+
+    const isPasswordCorrect = await bcrypt.compare(password, user.password);
+    if (!isPasswordCorrect) {
+      throw new Error("Invalid credentials");
+    }
+
+    return user;
+    
+  } catch (error) {
+    console.log(error);
+    throw new Error(error.message);
   }
-
-  const user = await User.findOne({ email });
-
-  if (!user) {
-    throw new Error("User does not exist");
-  }
-
-  const isPasswordCorrect = await bcrypt.compare(password, user.password);
-  if (!isPasswordCorrect) {
-    throw new Error("Invalid credentials");
-  }
-
-  return user;
 };
