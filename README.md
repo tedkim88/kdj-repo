@@ -24,8 +24,11 @@ Welcome to my portfolio repository! Below are the links of my portfolio
    Users can search for game info by platforms and/or genres.  
    Not only that, they are going to be able to share opinions in a **board**,  
    leave game reviews, chat with signed-in users in real-time to find game partners.
-   
-![image](https://github.com/user-attachments/assets/9b0035b9-df22-4041-857b-e34c43f4f3fd)
+
+   ![image](https://github.com/user-attachments/assets/fffe26ac-f6e9-45cc-8125-2030a8e8094f)
+
+![image](https://github.com/user-attachments/assets/08d21800-f790-4411-bdee-20e42d983a15)
+
 
    
    
