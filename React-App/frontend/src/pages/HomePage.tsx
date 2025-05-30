@@ -21,8 +21,9 @@ export default function HomePage() {
             {PLATFORM_NAMES[gamePlatform.platformId]}
           </h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center">
-            {gamePlatform.games.map((game) => (
-              <GameCard key={game.id} game={game} />
+            {gamePlatform.games.map((game, idx) => (
+              //isBest is boolean checking if this is the first game(which has top rating)
+              <GameCard key={game.id} game={game} isBest={idx === 0} />
             ))}
           </ul>
 

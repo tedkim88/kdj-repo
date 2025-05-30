@@ -1,15 +1,15 @@
-import axiosInstance from "../lib/axios";
 import React from "react";
 import { Link } from "react-router-dom";
 import { AxiosError } from "axios";
-
+import { useAuthStore } from "../store/useAuthStore";
 export default function Navbar() {
+  const authUser = useAuthStore((state) => state.authUser);
+  const { logout } = useAuthStore();
+  console.log(authUser);
   const handleLogout = async () => {
     try {
-      const response = await axiosInstance.post("/auth/logout");
-      console.log(response.data);
-      //need to manage zustand authStore state here
-      //not ended yet.
+      const response = await logout();
+      console.log(response);
     } catch (error) {
       const axiosError = error as AxiosError<{ message: string }>;
       console.log("Logout error", axiosError.response?.data.message);
@@ -61,27 +61,32 @@ export default function Navbar() {
             >
               Live Chat
             </Link>
+            {!authUser && (
+              <>
+                <Link
+                  to={"/signup"}
+                  className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+                >
+                  Signup
+                </Link>
 
-            <Link
-              to={"/signup"}
-              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
-            >
-              Signup
-            </Link>
-
-            <Link
-              to={"/login"}
-              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
-            >
-              Login
-            </Link>
-            <Link
-              to={"/"}
-              onClick={handleLogout}
-              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
-            >
-              Logout
-            </Link>
+                <Link
+                  to={"/login"}
+                  className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+                >
+                  Login
+                </Link>
+              </>
+            )}
+            {authUser && (
+              <Link
+                to={"/"}
+                onClick={handleLogout}
+                className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+              >
+                Logout
+              </Link>
+            )}
           </ul>
         </div>
         <Link
@@ -120,19 +125,25 @@ export default function Navbar() {
 
       {/* Authentication status is going to be managed through zustand and depending on the status, I'm gonna show different buttons */}
       <div className="navbar-end gap-2 hidden lg:flex">
-        <Link to={"/signup"} className="btn btn-outline btn-error">
-          Sign Up
-        </Link>
-        <Link to={"/login"} className="btn btn-outline btn-error">
-          Login
-        </Link>
-        <Link
-          to={"/"}
-          onClick={handleLogout}
-          className="btn btn-outline btn-error"
-        >
-          Logout
-        </Link>
+        {!authUser && (
+          <>
+            <Link to={"/signup"} className="btn btn-outline btn-error">
+              Sign Up
+            </Link>
+            <Link to={"/login"} className="btn btn-outline btn-error">
+              Login
+            </Link>
+          </>
+        )}
+        {authUser && (
+          <Link
+            to={"/"}
+            onClick={handleLogout}
+            className="btn btn-outline btn-error"
+          >
+            Logout
+          </Link>
+        )}
       </div>
     </div>
   );

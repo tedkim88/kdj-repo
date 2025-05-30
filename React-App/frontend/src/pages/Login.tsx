@@ -1,28 +1,34 @@
 import React, { useState } from "react";
-import axiosInstance from "../lib/axios";
-import { AxiosError } from "axios";
+import type { AxiosError } from "axios";
 import { useNavigate } from "react-router-dom";
+import { useAuthStore } from "../store/useAuthStore";
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+  const { isLoggingIn, login } = useAuthStore();
+
   const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
     try {
-      const response = await axiosInstance.post("/auth/login", {
-        email,
-        password,
-      });
-      console.log(response.data);
-      //need to manage zustand authStore state here not done yet.
+      const userData = await login({ email, password });
+      console.log(userData);
 
-      navigate("/");
+      if (userData) navigate("/");
     } catch (error) {
       const axiosError = error as AxiosError<{ message: string }>;
+      console.log(axiosError);
       console.log("Login error", axiosError.response?.data.message);
     }
   };
+
+  if (isLoggingIn)
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <span className="loading loading-spinner loading-lg text-primary"></span>
+      </div>
+    );
 
   return (
     <form

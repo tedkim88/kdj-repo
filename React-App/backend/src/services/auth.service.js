@@ -35,6 +35,10 @@ export const signinService = async ({ email, password }) => {
       throw new Error("All fields are required");
     }
 
+    if (password.length < 8) {
+      throw new Error("Password must be at least 8 characters long");
+    }
+
     const user = await User.findOne({ email });
 
     if (!user) {
@@ -43,11 +47,10 @@ export const signinService = async ({ email, password }) => {
 
     const isPasswordCorrect = await bcrypt.compare(password, user.password);
     if (!isPasswordCorrect) {
-      throw new Error("Invalid credentials");
+      throw new Error("Invalid credentials : Password is incorrect");
     }
 
     return user;
-    
   } catch (error) {
     console.log(error);
     throw new Error(error.message);

@@ -6,7 +6,18 @@ import Login from "./pages/Login";
 import LiveChat from "./pages/LiveChat";
 import Board from "./pages/Board";
 import Search from "./pages/Search";
+import { useEffect } from "react";
+import { useAuthStore } from "./store/useAuthStore";
+import { Toaster } from "react-hot-toast";
 function App() {
+  //when APP component is loaded, check if user is authenticated
+  //and if not, adjust the navbar accordingly
+  const { checkAuth } = useAuthStore();
+
+  useEffect(() => {
+    checkAuth();
+  }, []);
+
   return (
     <div>
       {/* always opens up */}
@@ -22,6 +33,7 @@ function App() {
         {/* <Route path="/" element={<HomePage />} />
             <Route path="/" element={<HomePage />} /> */}
       </Routes>
+      <Toaster position="bottom-right" toastOptions={{ duration: 3000 }} />
     </div>
   );
 }
