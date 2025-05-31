@@ -36,7 +36,7 @@ export interface AuthState {
   isSigningUp: boolean;
   isLoggingIn: boolean;
   isCheckingAuth: boolean;
-  signup: (data: SignupData) => Promise<void>;
+  signup: (data: SignupData) => Promise<User>;
   checkAuth: () => Promise<void>;
   login: (data: LoginData) => Promise<User>;
   logout: () => Promise<void>;

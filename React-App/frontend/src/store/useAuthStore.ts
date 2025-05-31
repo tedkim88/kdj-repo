@@ -16,12 +16,20 @@ export const useAuthStore = create<AuthState>((set) => ({
     try {
       set({ isSigningUp: true });
       const res = await axiosInstance.post("/auth/signup", data);
+      const delay = (ms: number) =>
+        new Promise((resolve) => setTimeout(resolve, ms));
+
+      //artificial delay
+      await delay(3000);
+
       set({ authUser: res.data });
       toast.success("Account created successfully");
+      return res.data;
     } catch (error) {
       const err = error as AxiosError<{ message: string }>;
       console.log("Error in signup", error);
       toast.error(err.response?.data.message ?? "An unexpected error occurred");
+      
     } finally {
       set({ isSigningUp: false });
     }

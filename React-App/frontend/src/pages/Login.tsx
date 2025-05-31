@@ -12,6 +12,9 @@ export default function Login() {
   const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
     try {
+
+      //simple input validation in frontend is needed before sending request to backend to reduce server burden. 
+
       const userData = await login({ email, password });
       console.log(userData);
 

@@ -12,7 +12,7 @@ export const signupService = async ({ name, email, password }) => {
 
   const user = await User.findOne({ email });
   if (user) {
-    throw new Error("User already exists");
+    throw new Error("User Email already exists");
   }
 
   const salt = await bcrypt.genSalt(10);

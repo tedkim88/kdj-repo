@@ -33,7 +33,7 @@ function App() {
         {/* <Route path="/" element={<HomePage />} />
             <Route path="/" element={<HomePage />} /> */}
       </Routes>
-      <Toaster position="bottom-right" toastOptions={{ duration: 3000 }} />
+      <Toaster position="bottom-right" toastOptions={{ duration: 4000 }} />
     </div>
   );
 }
