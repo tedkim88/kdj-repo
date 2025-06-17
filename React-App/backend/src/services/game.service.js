@@ -40,7 +40,7 @@ export const getPlatformGenreService = async (platform, genre) => {
     let url = `${RAWG_BASE_URL}/games?key=${RAWG_KEY}&ordering=-rating&page_size=10`;
 
     if (platform) url += `&platforms=${platform}`;
-    if (genre) url += `&genre=${genre}`;
+    if (genre) url += `&genres=${genre}`;
 
     const response = await fetch(url);
     if (!response.ok) throw new Error("Failed to fetch games");

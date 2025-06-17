@@ -18,29 +18,10 @@ export const getMainGames = async (req, res) => {
 
 export const getGamesbyPlatformAndGenre = async (req, res) => {
   try {
-    // const { platform, genre } = req.params;
-    
-    //actually below is a platfromId and genreId, gonna leave as is for convenience
+    console.log('hey')
     const { platform = "", genre = "" } = req.query;
-    //initializing
-
-    //instead of using url params for platform and genre, let's use query params.
-
-    // I'm gonna use the code below in frontend component to send request to backend
-    // const fetchGames = async (platform, genre) => {
-    //   try {
-    //     const params = {};
-    //     if (platform) params.platform = platform;
-    //     if (genre) params.genre = genre;
-
-    //     const response = await axios.get("/get/detailSearch", { params });
-    //     console.log(response.data);
-    //   } catch (error) {
-    //     console.error("Error fetching games:", error);
-    //   }
-    // };
-
-    if (!platform && !genre) {
+    console.log(req.query);
+    if (platform === "" && genre === "") {
       return res
         .status(400)
         .json({ message: "At least one of platform or genre is required." });

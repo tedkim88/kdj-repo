@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div>
-      {/* always opens up */}
+      {/* Navbar always opens up */}
       <Navbar />
 
       <Routes>
