@@ -37,7 +37,7 @@ export const getMainGamesService = async () => {
 //this is going to be used for detailSearch (by platform and/or genre)
 export const getPlatformGenreService = async (platform, genre) => {
   try {
-    let url = `${RAWG_BASE_URL}/games?key=${RAWG_KEY}&ordering=-rating&page_size=10`;
+    let url = `${RAWG_BASE_URL}/games?key=${RAWG_KEY}&ordering=-rating&page_size=12`;
 
     if (platform) url += `&platforms=${platform}`;
     if (genre) url += `&genres=${genre}`;

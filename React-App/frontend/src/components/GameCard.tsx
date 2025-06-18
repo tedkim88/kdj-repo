@@ -7,7 +7,7 @@ type Props = {
 
 export default function GameCard({ game, isBest }: Props) {
   return (
-    <div className="card card-compact bg-stone-950 w-96 shadow-xl">
+    <div className="card card-compact bg-stone-950 w-96 shadow-xl mx-auto">
       <figure className="h-48 overflow-hidden">
         <img
           className="w-full h-full object-cover"
@@ -19,7 +19,7 @@ export default function GameCard({ game, isBest }: Props) {
         <h2 className="card-title">{game.name}</h2>
         <p
           className={`text-center text-xl ${
-            isBest ? "text-yellow-400" : "text-primary"
+            isBest ? "text-yellow-400 font-bold" : "text-primary"
           }  flex justify-center place-items-end`}
         >
           {isBest ? "TOP" : ""} Rating : {game.rating} {isBest ? "🔥🔥🔥" : ""}

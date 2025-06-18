@@ -19,6 +19,7 @@ export const fetchGamesByPlatformAndGenre = async (
 
     console.log(params);
 
+    
     const response = await axiosInstance.get("games/get/detailSearch", { params });
     console.log(response.data);
     return response.data;

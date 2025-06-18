@@ -13,6 +13,8 @@ export default function HomePage() {
     });
   }, []);
 
+
+  
   return (
     <div className="container mx-auto max-w-full px-4 mt-12">
       {games.map((gamePlatform, idx) => (

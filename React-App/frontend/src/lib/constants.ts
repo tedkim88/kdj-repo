@@ -31,11 +31,12 @@ export const GENRES = [
 
 
 export const BG_IMAGES = [
-"https://www.thewitcher.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftw3.f87ded81.jpg&w=1920&q=75",
+"https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/blte4759109adee5c97/67653e79673353c75115d4f5/witcher_3_geralt.jpg",
 "https://dble.bn-ent.net/shared/img/ogp.png",
 "https://i.ytimg.com/vi/j5PHtralot8/maxresdefault.jpg",
 "https://techcrunch.com/wp-content/uploads/2017/11/sc2.jpg",
 "https://img.redbull.com/images/c_crop,x_0,y_0,h_2160,w_3840/c_fill,w_1200,h_675/q_auto,f_auto/redbullcom/2024/1/9/nzysdjhi2djrbgzltz2i/tekken-8-devil-jin",
-"https://insomniac.games/wp-content/uploads/2018/09/Swing_Day_Legal.jpg"
+"https://insomniac.games/wp-content/uploads/2018/09/Swing_Day_Legal.jpg",
+"https://www.hollywoodreporter.com/wp-content/uploads/2024/03/SuperMariosMCDSUMA_UV017.jpg?w=1296&h=730&crop=1",
 
 ]

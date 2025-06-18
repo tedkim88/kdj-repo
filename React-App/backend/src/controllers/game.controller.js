@@ -18,9 +18,9 @@ export const getMainGames = async (req, res) => {
 
 export const getGamesbyPlatformAndGenre = async (req, res) => {
   try {
-    console.log('hey')
+    
     const { platform = "", genre = "" } = req.query;
-    console.log(req.query);
+    
     if (platform === "" && genre === "") {
       return res
         .status(400)

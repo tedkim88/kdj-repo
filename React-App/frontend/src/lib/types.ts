@@ -6,6 +6,8 @@ export type Game = {
   rating: number;
 };
 
+
+
 export interface User {
   _id: string;
   name: string;

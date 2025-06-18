@@ -42,14 +42,14 @@ export default function Navbar() {
           >
             <Link
               to={"/search"}
-              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg text-black transition duration-300"
             >
               Search Games
             </Link>
 
             <Link
               to={"/board"}
-              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg text-black transition duration-300"
             >
               {" "}
               Board
@@ -57,7 +57,7 @@ export default function Navbar() {
 
             <Link
               to={"/chat"}
-              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+              className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg text-black transition duration-300"
             >
               Live Chat
             </Link>
@@ -65,14 +65,14 @@ export default function Navbar() {
               <>
                 <Link
                   to={"/signup"}
-                  className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+                  className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg text-black transition duration-300"
                 >
                   Signup
                 </Link>
 
                 <Link
                   to={"/login"}
-                  className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+                  className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg text-black transition duration-300"
                 >
                   Login
                 </Link>
@@ -82,7 +82,7 @@ export default function Navbar() {
               <Link
                 to={"/"}
                 onClick={handleLogout}
-                className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
+                className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg text-red-600 transition duration-300"
               >
                 Logout
               </Link>
@@ -91,14 +91,14 @@ export default function Navbar() {
         </div>
         <Link
           to={"/"}
-          className="text-2xl font-bold text-red-600 hover:text-red-800 transition duration-300 cursor-pointer"
+          className="text-2xl font-bold text-red-600 hover:text-warning transition duration-300 cursor-pointer"
         >
           GameHUB
         </Link>
       </div>
 
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-4 gap-6 text-gray-700 font-semibold text-lg">
+        <ul className="menu menu-horizontal gap-8 text-gray-700 font-semibold text-lg">
           <Link
             to={"/search"}
             className="hover:text-red-600 hover:bg-red-100 rounded-md px-4 py-2 font-semibold text-lg transition duration-300"
