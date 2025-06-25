@@ -16,7 +16,7 @@ export default function Login() {
       //simple input validation in frontend is needed before sending request to backend to reduce server burden. 
 
       const userData = await login({ email, password });
-      console.log(userData);
+      
 
       if (userData) navigate("/");
     } catch (error) {
@@ -36,7 +36,7 @@ export default function Login() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col gap-4 mx-auto p-4 max-w-lg h-screen justify-center"
+      className="flex flex-col gap-4 mx-auto p-4 max-w-lg justify-center min-h-[calc(100vh-76px)]"
     >
       <label className="input input-bordered input-info flex items-center gap-2">
         <svg
