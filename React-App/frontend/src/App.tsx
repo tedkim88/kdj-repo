@@ -9,6 +9,7 @@ import Search from "./pages/Search";
 import { useEffect } from "react";
 import { useAuthStore } from "./store/useAuthStore";
 import { Toaster } from "react-hot-toast";
+import BoardDetail from "./pages/BoardDetail";
 function App() {
   //when APP component is loaded, check if user is authenticated
   //and if not, adjust the navbar accordingly
@@ -29,6 +30,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/chat" element={<LiveChat />} />
         <Route path="/board" element={<Board />} />
+        <Route path="/board/:id" element={<BoardDetail />} />
         <Route path="/search" element={<Search />} />
         {/* <Route path="/" element={<HomePage />} />
             <Route path="/" element={<HomePage />} /> */}

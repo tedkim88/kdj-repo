@@ -6,8 +6,6 @@ export type Game = {
   rating: number;
 };
 
-
-
 export interface User {
   _id: string;
   name: string;
@@ -32,7 +30,6 @@ export type LoginData = {
   password: string;
 };
 
-
 export interface AuthState {
   authUser: User | null;
   isSigningUp: boolean;
@@ -43,3 +40,12 @@ export interface AuthState {
   login: (data: LoginData) => Promise<User>;
   logout: () => Promise<void>;
 }
+
+export type Messages = {
+  _id: string;
+  writerId: string;
+  writerNickname: string;
+  title: string;
+  content: string;
+  platformId: string;
+};

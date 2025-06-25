@@ -11,7 +11,8 @@ export default function Search() {
   const [platform, setPlatform] = useState("");
   const [genre, setGenre] = useState("");
   const [bgIndex, setBgIndex] = useState(0);
-
+  const [platformTitle, setPlatformTitle] = useState<string>("");
+  const [genreTitle, setGenreTitle] = useState("");
   useEffect(() => {
     const interval = setInterval(() => {
       setBgIndex((prevIndex) => (prevIndex + 1) % BG_IMAGES.length);
@@ -27,6 +28,15 @@ export default function Search() {
       const fetchedGames = await fetchGamesByPlatformAndGenre(platform, genre);
       setGames(fetchedGames.results);
     }
+
+    setPlatformTitle(
+      platform
+        ? PLATFORM_SEARCH.find((p) => p.id === parseInt(platform))?.name ?? ""
+        : ""
+    );
+    setGenreTitle(
+      genre ? GENRES.find((g) => g.id === parseInt(genre))?.name ?? "" : ""
+    );
   };
 
   return (
@@ -84,6 +94,20 @@ export default function Search() {
           Search
         </button>
       </form>
+
+      {(platformTitle || genreTitle) && (
+        <div className="border-4 border-yellow-400 rounded-2xl p-6 bg-gray-800 shadow-lg max-w-2xl mx-auto mt-6">
+          <h2 className="text-3xl text-center font-bold italic text-yellow-300">
+            Results for {platformTitle}{" "}
+            {platformTitle && genreTitle
+              ? `& ${genreTitle}`
+              : !platformTitle && genreTitle
+              ? ` ${genreTitle}`
+              : ""}
+          </h2>
+        </div>
+      )}
+
       {games.length > 0 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 z-10 w-full max-w-7xl">
           {games.map((game, idx) => (
