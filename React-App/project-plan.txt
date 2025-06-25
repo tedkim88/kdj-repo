@@ -19,13 +19,21 @@ getPlatformGenreSearchGames
 NAVBAR needs to be customized. [Done]
 *******working on Navbar & Login.tsx --navbar needs proper routing depending on auth status and show & hide sign up sign in logout button properly.******
 Signup.tsx(FORM)
-[Done]
-
-----------------------------
-BELOW NOT DONE YET
-
 Search By Platform & Genre .tsx(should be DROPDOWN   And / OR Search) 
-Board CRUD Front needs to be done. Backend ready.
+----------------------------------------
+[Done till here]
+
+
+============
+
+2025/Jun/25
+Front for Board Detail should be done, now variables are all set already, just need the rendering.
+after getting the seeing the single board message,
+delete, edit, (both needs password check)
+write button should be set and functioning.
+
+=============
+
 
 
 

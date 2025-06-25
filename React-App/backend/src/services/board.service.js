@@ -120,3 +120,14 @@ export const deleteMessageService = async (messageId, userId) => {
     throw new Error("Board Service Error(deleteMessage): " + error.message);
   }
 };
+
+
+export const getSingleMessageService = async (messageId) => {
+  try {
+    const messageFound = await Boardmsg.findById(messageId);
+    return messageFound;
+  } catch (error) {
+    console.log(error);
+    throw new Error("Board Service Error(getSingleMessage): " + error.message);
+  }
+}

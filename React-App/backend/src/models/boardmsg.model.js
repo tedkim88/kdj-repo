@@ -2,9 +2,14 @@ import mongoose from "mongoose";
 
 const boardmsgSchema = new mongoose.Schema(
     {
+        
         writerId: {
             type: mongoose.Schema.Types.ObjectId,
             ref: "User",
+            required: true,
+        },
+        writerNickname: {
+            type: String,
             required: true,
         },
         password: {

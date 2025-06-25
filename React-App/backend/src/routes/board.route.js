@@ -6,6 +6,7 @@ import {
   editDBmessage,
   deleteMessageFromDB,
   checkMessagePassword,
+  getMessage
 } from "../controllers/board.controller.js";
 import { protectRoute } from "../middlewares/auth.middleware.js";
 
@@ -18,6 +19,11 @@ router.get("/all", protectRoute, getTotalMessages);
 
 //board for a specific platform
 router.get("/platform/:platformId", protectRoute, getMessagesByPlatform);
+
+
+//to get a specific message for the board
+router.get("/:messageId", protectRoute, getMessage);
+
 
 //save board message to the database
 router.post("/save", protectRoute, saveMessagetoDB);

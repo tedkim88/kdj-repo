@@ -4,6 +4,7 @@ import {
   editMessageService,
   checkMsgPasswordService,
   deleteMessageService,
+  getSingleMessageService
 } from "../services/board.service.js";
 
 export const getTotalMessages = async (req, res) => {
@@ -23,6 +24,23 @@ export const getTotalMessages = async (req, res) => {
       .json({ message: "GetTotalMessages for Board Error, " + error.message });
   }
 };
+
+
+
+export const getMessage = async (req, res) => {
+  try {
+    const { messageId } = req.params;
+    const response = await getSingleMessageService(messageId);
+    res.status(200).json(response);
+  } catch (error) {
+    console.log(error);
+    res
+      .status(500)
+      .json({ message: "GetMessage for Board Error, " + error.message });
+  }
+}
+
+
 
 export const getMessagesByPlatform = async (req, res) => {
   try {
