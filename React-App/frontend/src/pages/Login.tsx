@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import type { AxiosError } from "axios";
 import { useNavigate } from "react-router-dom";
 import { useAuthStore } from "../store/useAuthStore";
@@ -7,7 +7,18 @@ export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
-  const { isLoggingIn, login } = useAuthStore();
+  const { isLoggingIn, login, authUser, checkAuth } = useAuthStore();
+
+  useEffect(() => {
+    const verifyAuth = async () => {
+      await checkAuth();
+      // checkAuth가 authUser를 설정한 뒤 navigate
+      if (authUser) {
+        navigate("/");
+      }
+    };
+    verifyAuth();
+  }, []);
 
   const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();

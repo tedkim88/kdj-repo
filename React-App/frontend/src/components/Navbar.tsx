@@ -17,7 +17,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="navbar bg-white shadow-md px-6 py-2 flex justify-between items-center ">
+    <div className="navbar bg-white shadow-md px-6 py-2 flex justify-between items-center sticky top-0 left-0 right-0 z-30 ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -136,13 +136,19 @@ export default function Navbar() {
           </>
         )}
         {authUser && (
-          <Link
-            to={"/"}
-            onClick={handleLogout}
-            className="btn btn-outline btn-error"
-          >
-            Logout
-          </Link>
+          <div className="flex items-center space-x-4 px-4 py-2">
+            <span className="text-gray-700 font-semibold text-lg">
+              👋 Welcome, {authUser.name}
+            </span>
+
+            <Link
+              to={"/"}
+              onClick={handleLogout}
+              className="hover:text-white btn rounded-md px-4 py-2 font-semibold text-lg text-red-600 transition duration-300"
+            >
+              Logout
+            </Link>
+          </div>
         )}
       </div>
     </div>

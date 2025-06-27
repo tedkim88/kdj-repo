@@ -7,6 +7,7 @@ export const PLATFORM_NAMES: Record<number, string> = {
 
 
 export const PLATFORM_SEARCH = [
+  { id : 2, name: "PlayStation 5" },
   { id: 4, name: "PC" },
   { id: 18, name: "PlayStation 4" },
   { id: 1, name: "Xbox One" },

@@ -4,6 +4,7 @@ import type { Messages } from "../lib/types";
 import { Link } from "react-router-dom";
 import { useAuthStore } from "../store/useAuthStore";
 import { useNavigate } from "react-router-dom";
+import { PLATFORM_SEARCH } from "../lib/constants";
 
 export default function Board() {
   const [messages, setMessages] = useState<Messages[]>([]);
@@ -47,7 +48,7 @@ export default function Board() {
               <th className="text-center w-1/6 border-b border-gray-600">
                 Nick Name
               </th>
-              <th className="text-center w-full border-b border-gray-600">
+              <th className="text-center w-1/2 border-b border-gray-600">
                 Title
               </th>
               <th className="text-center w-1/6 border-b border-gray-600">
@@ -57,20 +58,31 @@ export default function Board() {
           </thead>
           <tbody className="bg-gray-900 divide-y divide-gray-700">
             {messages.map((msg, idx) => (
-              <tr className="text-center hover:bg-gray-800" key={msg._id}>
-                <th className="text-center bg-primary-500">{idx + 1}</th>
-                <td className="text-center bg-primary-500">
+              <tr
+                key={msg._id}
+                className={`hover:bg-blue-50 hover:text-lg ${
+                  idx % 2 === 0 ? "bg-white" : "bg-gray-400"
+                }`}
+              >
+                <td className="border border-gray-300 px-4 py-2 text-center text-gray-900">
+                  {idx + 1}
+                </td>
+                <td className="border border-gray-300 px-4 py-2 text-center text-gray-900">
                   {msg.writerNickname}
                 </td>
-                <td className="text-center bg-primary-500">
+                <td className="border border-gray-300 px-4 py-2 text-center">
                   <Link
                     to={`/board/${msg._id}`}
-                    className="text-red-500 underline hover:text-lg "
+                    className="text-blue-700 underline hover:text-blue-900 font-medium"
                   >
                     {msg.title}
                   </Link>
                 </td>
-                <td className="text-center bg-primary-500">{msg.platformId}</td>
+                <td className="border border-gray-300 px-4 py-2 text-center text-gray-900">
+                  {PLATFORM_SEARCH.find(
+                    (p) => p.id.toString() === msg.platformId
+                  )?.name ?? "N/A"}
+                </td>
               </tr>
             ))}
           </tbody>
