@@ -21,11 +21,7 @@ NAVBAR needs to be customized. [Done]
 Signup.tsx(FORM)
 Search By Platform & Genre .tsx(should be DROPDOWN   And / OR Search) 
 ----------------------------------------
-[Done till here]
-
-
 ============
-
 2025/Jun/25
 Front for Board Detail should be done, now variables are all set already, just need the rendering.
 after getting the seeing the single board message,
@@ -33,7 +29,15 @@ delete, edit, (both needs password check)
 write button should be set and functioning.
 
 =============
+2025 / Jun / 30
+Board Functionality added with password check. (EDIT, DELETE)[done]
+POST Mode is almost done. just need to match the front input and my backend API.
+[Done till here]
 
+After finishing the post mode,
+ finally it's time to start with live chat..but backend not done yet 
+
+------------
 
 
 
