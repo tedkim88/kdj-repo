@@ -5,6 +5,17 @@ import { Link } from "react-router-dom";
 import { useAuthStore } from "../store/useAuthStore";
 import { useNavigate } from "react-router-dom";
 import { PLATFORM_SEARCH } from "../lib/constants";
+import { PencilLine } from "lucide-react";
+
+<div className="flex justify-center mt-6">
+  <Link
+    to="/board/write"
+    className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-pink-500 hover:to-yellow-500 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105"
+  >
+    <PencilLine size={20} />
+    글쓰기
+  </Link>
+</div>;
 
 export default function Board() {
   const [messages, setMessages] = useState<Messages[]>([]);
@@ -40,11 +51,12 @@ export default function Board() {
           </div>
         </div>
       )}
+
       {messages.length > 0 && (
         <table className="table w-full text-white border border-gray-700">
           <thead className="bg-gray-800 text-yellow-300">
             <tr>
-              <th className="text-center w-1/6 border-b border-gray-600">#</th>
+              <th className="text-center w-1/12 border-b border-gray-600">#</th>
               <th className="text-center w-1/6 border-b border-gray-600">
                 Nick Name
               </th>
@@ -88,6 +100,21 @@ export default function Board() {
           </tbody>
         </table>
       )}
+      <div className="join flex justify-center mt-6">
+        <button className="join-item btn bg-red-500">1</button>
+        <button className="join-item btn btn-active">2</button>
+        <button className="join-item btn">3</button>
+        <button className="join-item btn">4</button>
+      </div>
+      <div className="flex justify-end me-6">
+        <Link
+          to="/board/write"
+          className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-pink-500 hover:to-yellow-500 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105"
+        >
+          <PencilLine size={20} />
+          Post
+        </Link>
+      </div>
     </div>
   );
 }

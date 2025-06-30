@@ -4,7 +4,7 @@ import {
   editMessageService,
   checkMsgPasswordService,
   deleteMessageService,
-  getSingleMessageService
+  getSingleMessageService,
 } from "../services/board.service.js";
 
 export const getTotalMessages = async (req, res) => {
@@ -25,8 +25,6 @@ export const getTotalMessages = async (req, res) => {
   }
 };
 
-
-
 export const getMessage = async (req, res) => {
   try {
     const { messageId } = req.params;
@@ -38,9 +36,7 @@ export const getMessage = async (req, res) => {
       .status(500)
       .json({ message: "GetMessage for Board Error, " + error.message });
   }
-}
-
-
+};
 
 export const getMessagesByPlatform = async (req, res) => {
   try {
@@ -60,7 +56,7 @@ export const getMessagesByPlatform = async (req, res) => {
 export const saveMessagetoDB = async (req, res) => {
   try {
     const { _id: userId } = req.user;
-    const { password, title, content, platformId } = req.body;
+    const { password, title, writerNickname, content, platformId } = req.body;
 
     if (!password || !title || !content || !platformId) {
       return res.status(400).json({ message: "Missing required fields" });
@@ -73,6 +69,7 @@ export const saveMessagetoDB = async (req, res) => {
 
     const savedMessage = await saveMessageService(
       userId,
+      writerNickname,
       password,
       title,
       content,
@@ -121,18 +118,20 @@ export const checkMessagePassword = async (req, res) => {
   try {
     const { messageId } = req.params;
     const { password } = req.body;
+    console.log(req.body);
     if (!password)
       return res
         .status(400)
         .json({ message: "password is required to delete the message" });
 
-    const response = await checkMsgPasswordService(messageId, password);
+    await checkMsgPasswordService(messageId, password);
     res.status(200).json({ success: true });
   } catch (error) {
-    console.log(error);
+    console.log("this is failure", error);
     res.status(500).json({
+      success: false,
       message:
-        "board.controller.js CheckMessagePassword Error, " + error.message,
+        "Wrong Password"
     });
   }
 };

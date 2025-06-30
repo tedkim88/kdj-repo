@@ -31,6 +31,7 @@ export const getBoardMessagesService = async (pageNum, platformId = null) => {
 //save message to the database
 export const saveMessageService = async (
   userId,
+  writerNickname,
   password,
   title,
   content,
@@ -42,6 +43,7 @@ export const saveMessageService = async (
 
     const newMsg = new Boardmsg({
       writerId: userId,
+      writerNickname,
       password: hashedPassword,
       title,
       content,
@@ -90,6 +92,12 @@ export const editMessageService = async (
 export const checkMsgPasswordService = async (messageId, password) => {
   try {
     const messageFound = await Boardmsg.findById(messageId);
+
+    if (!messageFound) throw new Error("Message not found");
+
+    console.log("hey");
+    console.log(messageFound.password);
+
     const isPasswordCorrect = await bcrypt.compare(
       password,
       messageFound.password
@@ -121,7 +129,6 @@ export const deleteMessageService = async (messageId, userId) => {
   }
 };
 
-
 export const getSingleMessageService = async (messageId) => {
   try {
     const messageFound = await Boardmsg.findById(messageId);
@@ -130,4 +137,4 @@ export const getSingleMessageService = async (messageId) => {
     console.log(error);
     throw new Error("Board Service Error(getSingleMessage): " + error.message);
   }
-}
+};
