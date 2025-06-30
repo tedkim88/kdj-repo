@@ -39,6 +39,14 @@ After finishing the post mode,
 
 ------------
 
+//BUG
+1. when signing up // if users enter wrong input, the input is gone with error message.
+let's leave the wrong input as is, for convenience.
+
+2. In Search Games, PS5 games do not exist.
+
+3. 
+
 
 
 
