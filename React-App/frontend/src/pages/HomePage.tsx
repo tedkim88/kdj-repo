@@ -13,8 +13,15 @@ export default function HomePage() {
     });
   }, []);
 
+  if (games.length === 0) {
+    return (
+      <div className="flex flex-col items-center h-[calc(100vh-76px)] justify-center text-yellow-500 text-xl font-semibold space-y-4">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-red-500"></div>
+        <div>Loading Games...</div>
+      </div>
+    );
+  }
 
-  
   return (
     <div className="container mx-auto max-w-full px-4 mt-12">
       {games.map((gamePlatform, idx) => (

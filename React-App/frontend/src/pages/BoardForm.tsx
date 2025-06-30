@@ -47,7 +47,13 @@ export default function BoardForm() {
         });
         toast.success("Edit success");
       } else {
-        await axiosInstance.post("/board/write", { title, content, password });
+        await axiosInstance.post("/board/save", {
+          title,
+          content,
+          password,
+          platformId,
+          writerNickname,
+        });
         toast.success("Post Success");
       }
       navigate("/board");
@@ -59,7 +65,7 @@ export default function BoardForm() {
 
   return (
     <div className="max-w-3xl mx-auto my-10 p-8 bg-white border rounded shadow">
-      <h2 className="text-2xl font-bold mb-4">
+      <h2 className="text-2xl font-bold mb-4 text-red-400">
         {isEditing ? "Edit Post" : "Write a New Post"}
       </h2>
 
@@ -129,7 +135,7 @@ export default function BoardForm() {
             htmlFor="password"
             className="block mb-1 font-medium text-gray-700"
           >
-            Password (for deletion)
+            Password
           </label>
           <input
             id="password"

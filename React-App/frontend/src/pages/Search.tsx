@@ -108,6 +108,12 @@ export default function Search() {
         </div>
       )}
 
+      {(platformTitle || genreTitle) && games.length === 0 && (
+        <h2 className="mt-5 text-3xl text-center font-bold italic text-yellow-300">
+          Sorry. Couldn't find games matching your search
+        </h2>
+      )}
+
       {games.length > 0 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 z-10 w-full max-w-7xl">
           {games.map((game, idx) => (
