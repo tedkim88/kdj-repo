@@ -23,8 +23,9 @@ export const getUsersForSidebar = async (req, res) => {
   try {
     const loggedInUserId = req.user._id;
     // const { _id: loggedInUserId } = req.body; //for postman testing
-
+    console.log(loggedInUserId);
     const filteredUsers = await getUsersService(loggedInUserId);
+    console.log(filteredUsers);
     res.status(200).json(filteredUsers);
   } catch (error) {
     console.log(
@@ -39,7 +40,7 @@ export const getChatMessages = async (req, res) => {
   try {
     const { receiverId } = req.body;
     const senderId = req.user._id;
-    
+
     const chatMessages = await getChatMsgService(senderId, receiverId);
     res.status(200).json(chatMessages);
   } catch (error) {

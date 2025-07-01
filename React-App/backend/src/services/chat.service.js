@@ -19,6 +19,7 @@ export const getUsersService = async (loggedInUserId) => {
     }
 
     const users = await User.find({ _id: { $ne: loggedInUserId } });
+    console.log(users);
     return users;
   } catch (error) {
     console.error("Error fetching users:", error);
