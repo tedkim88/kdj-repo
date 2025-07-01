@@ -20,7 +20,11 @@ const userSchema = new mongoose.Schema(
       type: String,
       enum: ["user", "admin"],
       default: "user",
-    }
+    },
+    online: {
+      type: Boolean,
+      default: false,
+    },
   },
 
   {

@@ -6,8 +6,10 @@ import { connectDB } from "./src/lib/db.js";
 import gameRouter from "./src/routes/game.route.js";
 import { createAdmin } from "./src/seed/admin.seed.js";
 import boardRouter from "./src/routes/board.route.js";
+import chatRouter from "./src/routes/chat.route.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
+
 
 const app = express();
 dotenv.config();
@@ -33,6 +35,11 @@ app.use("/api/games", gameRouter);
 
 //base url for board API
 app.use("/api/board", boardRouter);
+
+//base url for livechat
+app.use("/api/chat", chatRouter);
+
+
 
 app.listen(PORT, async () => {
   await connectDB();
