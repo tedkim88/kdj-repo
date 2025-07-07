@@ -12,6 +12,7 @@ export interface User {
   email: string;
   password: string;
   role: string;
+  online: boolean;
 }
 
 export interface GamePlatform {

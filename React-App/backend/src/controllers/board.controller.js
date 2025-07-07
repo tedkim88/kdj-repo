@@ -10,12 +10,12 @@ import {
 export const getTotalMessages = async (req, res) => {
   try {
     //when requesting from front, there should be query string info about page
-    const { page } = req.query;
+    const { page, platform } = req.query;
 
     //the index page of the board is 1 as default before users select a certain page
     const pageNum = parseInt(page, 10) || 1;
 
-    const response = await getBoardMessagesService(pageNum);
+    const response = await getBoardMessagesService(pageNum,platform);
     res.status(200).json(response);
   } catch (error) {
     console.log(error);

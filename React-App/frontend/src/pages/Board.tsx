@@ -7,22 +7,16 @@ import { useNavigate } from "react-router-dom";
 import { PLATFORM_SEARCH } from "../lib/constants";
 import { PencilLine } from "lucide-react";
 
-<div className="flex justify-center mt-6">
-  <Link
-    to="/board/write"
-    className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-pink-500 hover:to-yellow-500 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105"
-  >
-    <PencilLine size={20} />
-    글쓰기
-  </Link>
-</div>;
-
 export default function Board() {
   const [messages, setMessages] = useState<Messages[]>([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
+  const [platform, setPlatform] = useState("");
   const { authUser } = useAuthStore();
   const navigate = useNavigate();
   const [redirecting, setRedirecting] = useState(false);
 
+  // 로그인 체크 후 리다이렉트
   useEffect(() => {
     if (!authUser) {
       setRedirecting(true);
@@ -30,19 +24,30 @@ export default function Board() {
         navigate("/login");
       }, 3000);
 
-      return () => clearTimeout(timer); // cleanup
+      return () => clearTimeout(timer);
     }
-  }, []);
+  }, [authUser, navigate]);
 
+  // 페이지 또는 플랫폼 변경 시 데이터 재요청
   useEffect(() => {
+    // platform 쿼리 추가
+    const platformQuery = platform ? `&platform=${platform}` : "";
     axiosInstance
-      .get("/board/all")
-      .then((res) => setMessages(res.data))
+      .get(`/board/all?page=${currentPage}${platformQuery}`)
+      .then((res) => {
+        setMessages(res.data.messages);
+        setTotalPages(res.data.totalPages);
+      })
       .catch((err) => console.error("Error fetching messages", err));
-  }, []);
+  }, [currentPage, platform]);
+
+  // 플랫폼 변경 시 페이지 1로 초기화
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [platform]);
 
   return (
-    <div className="overflow-x-auto min-h-[calc(100vh-76px)]">
+    <div className="overflow-x-auto min-h-[calc(100vh-76px)] p-4">
       {redirecting && (
         <div className="flex flex-col items-center h-[calc(100vh-76px)] justify-center text-yellow-500 text-xl font-semibold space-y-4">
           <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-red-500"></div>
@@ -52,6 +57,7 @@ export default function Board() {
         </div>
       )}
 
+      {/* 게시판 테이블 */}
       {messages.length > 0 && (
         <table className="table w-full text-white border border-gray-700">
           <thead className="bg-gray-800 text-yellow-300">
@@ -77,7 +83,7 @@ export default function Board() {
                 }`}
               >
                 <td className="border border-gray-300 px-4 py-2 text-center text-gray-900">
-                  {idx + 1}
+                  {(currentPage - 1) * 10 + idx + 1}
                 </td>
                 <td className="border border-gray-300 px-4 py-2 text-center text-gray-900">
                   {msg.writerNickname}
@@ -100,16 +106,61 @@ export default function Board() {
           </tbody>
         </table>
       )}
-      <div className="join flex justify-center mt-6">
-        <button className="join-item btn bg-red-500">1</button>
-        <button className="join-item btn btn-active">2</button>
-        <button className="join-item btn">3</button>
-        <button className="join-item btn">4</button>
+
+      {/* 페이지네이션 번호 버튼 */}
+      <div className="join flex justify-center mt-6 flex-wrap">
+        {Array.from({ length: totalPages }, (_, idx) => (
+          <button
+            key={idx}
+            className={`join-item btn hover:bg-red-400 ${
+              currentPage === idx + 1 ? "bg-red-600 text-white" : ""
+            }`}
+            onClick={() => setCurrentPage(idx + 1)}
+          >
+            {idx + 1}
+          </button>
+        ))}
       </div>
-      <div className="flex justify-end me-6">
+
+      {/* Prev / Next 버튼 */}
+      <div className="flex justify-center gap-2 mt-4">
+        <button
+          disabled={currentPage === 1}
+          onClick={() => setCurrentPage((prev) => prev - 1)}
+          className="btn hover:bg-indigo-500 text-white disabled:opacity-50 disabled:bg-gray-500 disabled:text-white"
+        >
+          Prev
+        </button>
+        <button
+          disabled={currentPage === totalPages}
+          onClick={() => setCurrentPage((prev) => prev + 1)}
+          className="btn hover:bg-indigo-500 text-white disabled:opacity-50 disabled:bg-gray-500 disabled:text-white"
+        >
+          Next
+        </button>
+      </div>
+
+      <div className="flex items-center justify-between mb-4 gap-4 w-full max-w-md mx-auto mt-5">
+        {/* 플랫폼 필터 */}
+        <div className="form-control flex-1">
+          <select
+            className="select select-bordered w-full bg-red-700 text-white hover:bg-red-400"
+            onChange={(e) => setPlatform(e.target.value)}
+            value={platform}
+          >
+            <option value="">Select Platform</option>
+            {PLATFORM_SEARCH.map((p) => (
+              <option key={p.id} value={p.id}>
+                {p.name}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        {/* 포스트 버튼 */}
         <Link
           to="/board/write"
-          className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-pink-500 hover:to-yellow-500 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105"
+          className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-pink-500 hover:to-yellow-500 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 whitespace-nowrap"
         >
           <PencilLine size={20} />
           Post

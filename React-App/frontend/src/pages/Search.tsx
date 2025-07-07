@@ -41,7 +41,7 @@ export default function Search() {
 
   return (
     <div
-      className="min-h-[calc(100vh-76px)] flex flex-col items-center justify-center p-4"
+      className="min-h-[calc(100vh-76px)] flex flex-col items-center justify-center p-4 "
       style={{
         backgroundImage: `url(${BG_IMAGES[bgIndex]})`,
         backgroundSize: "cover",

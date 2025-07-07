@@ -8,7 +8,10 @@ export const getBoardMessagesService = async (pageNum, platformId = null) => {
 
     //if platformId is not null, then filter by platformId
     //with this filter for finding messages, we can get either all messages or ones from a specific platform
-    const filter = platformId ? { platformId } : {};
+    const filter = platformId ? { platformId: platformId } : {};
+
+    const totalMessages = await Boardmsg.countDocuments(filter);
+    const totalPages = Math.ceil(totalMessages / limit);
 
     //pagination + optimization for performance.
     //not loading all messages at once.
@@ -21,7 +24,7 @@ export const getBoardMessagesService = async (pageNum, platformId = null) => {
       .skip((pageNum - 1) * limit)
       .limit(limit);
 
-    return messages;
+    return { messages, totalPages };
   } catch (error) {
     console.log(error);
     throw new Error("Board Service Error(getBoardMessages): " + error.message);
