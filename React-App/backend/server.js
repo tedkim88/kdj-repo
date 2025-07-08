@@ -9,10 +9,16 @@ import boardRouter from "./src/routes/board.route.js";
 import chatRouter from "./src/routes/chat.route.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
-
+//for socket
+import { createServer } from "http";
+import { initSocket } from "./src/lib/socket.js";
+import { create } from "domain";
 
 const app = express();
 dotenv.config();
+
+const server = createServer(app);
+
 
 app.use(cookieParser());
 app.use(express.json());
@@ -39,10 +45,15 @@ app.use("/api/board", boardRouter);
 //base url for livechat
 app.use("/api/chat", chatRouter);
 
+// app.listen(PORT, async () => {
+//   await connectDB();
+//   console.log(`Server is running on port ${PORT}`);
+//   createAdmin(); // admin seed, to be used later for accessing admin panel(role-based)
+// });
 
-
-app.listen(PORT, async () => {
+server.listen(PORT, async () => {
   await connectDB();
   console.log(`Server is running on port ${PORT}`);
   createAdmin(); // admin seed, to be used later for accessing admin panel(role-based)
+  initSocket(server);
 });

@@ -1,3 +1,4 @@
+import { Socket } from "socket.io-client";
 //adding type info that I need, not all of them.
 export type Game = {
   id: number;
@@ -36,6 +37,11 @@ export interface AuthState {
   isSigningUp: boolean;
   isLoggingIn: boolean;
   isCheckingAuth: boolean;
+  socket : Socket | null;
+  onlineUsers: User[] | null;
+  connectSocket: () => void;
+  disconnectSocket: () => void;
+
   signup: (data: SignupData) => Promise<User>;
   checkAuth: () => Promise<void>;
   login: (data: LoginData) => Promise<User>;

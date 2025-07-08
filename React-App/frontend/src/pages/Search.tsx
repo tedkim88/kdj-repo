@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import GameCard from "../components/GameCard";
-import axios from "axios";
 import { fetchGamesByPlatformAndGenre } from "../lib/utils";
 import { PLATFORM_SEARCH, GENRES } from "../lib/constants";
 import { useEffect } from "react";
