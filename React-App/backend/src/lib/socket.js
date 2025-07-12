@@ -1,14 +1,18 @@
 // socket.js
 import { Server } from "socket.io";
 
+let io;
 const userSocketMap = {}; // { userId: socketId }
 
-export const getReceiverSocketId = (userId) => {
-  return userSocketMap[userId];
+export const getReceiverSocketId = (userId) => userSocketMap[userId];
+
+export const getIO = () => {
+  if (!io) throw new Error("Socket.IO not initialized");
+  return io;
 };
 
 export function initSocket(server) {
-  const io = new Server(server, {
+  io = new Server(server, {
     cors: {
       origin: "http://localhost:5173",
       credentials: true,

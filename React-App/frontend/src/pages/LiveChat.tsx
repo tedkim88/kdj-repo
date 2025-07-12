@@ -6,13 +6,16 @@ import { useState } from "react";
 import Sidebar from "../components/Sidebar";
 import ChatWindow from "../components/ChatWindow";
 import ChatInput from "../components/ChatInput";
-import type { User } from "../lib/types";
+import axiosInstance from "../lib/axios";
+import type { User, ChatMessages } from "../lib/types";
 
 export default function LiveChat() {
   const navigate = useNavigate();
   const { authUser } = useAuthStore();
   const [redirecting, setRedirecting] = useState(false);
   const [selectedUser, setSelectedUser] = useState<User | null>(null);
+  const [messages, setMessages] = useState<ChatMessages[]>([]);
+  const [messageError, setMessageError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!authUser) {
@@ -23,7 +26,52 @@ export default function LiveChat() {
 
       return () => clearTimeout(timer); // cleanup
     }
-  }, []);
+  }, [authUser]);
+
+  useEffect(() => {
+    if (selectedUser) {
+      axiosInstance
+        .get(`/chat/getMessages/?receiverId=${selectedUser._id}`)
+        .then((res) => {
+          setMessages(res.data);
+          console.log(res.data);
+          setMessageError(null);
+        })
+        .catch((error) => {
+          console.error("Failed to load messages:", error);
+          setMessageError("Failed to load messages.");
+          setMessages([]);
+        });
+    }
+  }, [selectedUser]);
+
+  useEffect(() => {
+    const socket = useAuthStore.getState().socket;
+    if (!socket) return;
+
+    const handleNewMessage = (newMessage: ChatMessages) => {
+      // Check if the new message is for the selected user
+      if (
+        selectedUser &&
+        (newMessage.senderId === selectedUser._id ||
+          newMessage.receiverId === selectedUser._id)
+      ) {
+        setMessages((prev) => [...prev, newMessage]);
+      }
+    };
+
+    
+    socket.on("newMessage", handleNewMessage);
+
+    // (cleanup)
+    return () => {
+      socket.off("newMessage", handleNewMessage);
+    };
+  }, [selectedUser]);
+
+  const addMessage = (newMessage: ChatMessages) => {
+    setMessages((prev) => [...prev, newMessage]);
+  };
 
   return (
     <div className="overflow-x-auto h-[calc(100vh-76px)] bg-gradient-to-r from-blue-500 via-indigo-500 to-red-700 p-6">
@@ -41,8 +89,13 @@ export default function LiveChat() {
           <Sidebar onSelectUser={setSelectedUser} />
           {selectedUser ? (
             <div className="flex flex-col flex-1 border-l border-gray-300">
-              <ChatWindow selectedUser={selectedUser} />
-              <ChatInput selectedUser={selectedUser} />
+              <ChatWindow
+                selectedUser={selectedUser}
+                messages={messages}
+                error={messageError}
+                
+              />
+              <ChatInput selectedUser={selectedUser} onSendMessage={addMessage} />
             </div>
           ) : (
             <div className="flex-1 flex items-center justify-center bg-gray-900 text-gray-200 italic text-lg">

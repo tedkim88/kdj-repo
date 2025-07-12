@@ -38,7 +38,7 @@ export interface AuthState {
   isLoggingIn: boolean;
   isCheckingAuth: boolean;
   socket : Socket | null;
-  onlineUsers: User[] | null;
+  onlineUsers: string[] | null;
   connectSocket: () => void;
   disconnectSocket: () => void;
 
@@ -56,3 +56,13 @@ export type Messages = {
   content: string;
   platformId: string;
 };
+
+export type ChatMessages = {
+  _id: string;
+  senderId: string;
+  receiverId: string;
+  text: string;
+  createdAt: string;
+
+};
+

@@ -1,13 +1,18 @@
 import React, { useEffect, useState } from "react";
 import type { User } from "../lib/types";
 import axiosInstance from "../lib/axios";
+import { useAuthStore } from "../store/useAuthStore";
 
 type Props = {
   onSelectUser: (user: User | null) => void;
 };
 
+
 export default function Sidebar({ onSelectUser }: Props) {
   const [users, setUsers] = useState<User[]>([]);
+const { onlineUsers } = useAuthStore();
+
+
 
   useEffect(() => {
     axiosInstance
@@ -35,7 +40,7 @@ export default function Sidebar({ onSelectUser }: Props) {
             <span>{user.name}</span>
             <span
               className={`ml-2 w-3 h-3 rounded-full ${
-                user.online ? "bg-green-400" : "bg-gray-500"
+                onlineUsers?.includes(user._id) ? "bg-green-400" : "bg-gray-500"
               }`}
               title={user.online ? "Online" : "Offline"}
             ></span>

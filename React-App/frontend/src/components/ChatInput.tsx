@@ -1,12 +1,13 @@
-import type { User } from "../lib/types";
+import type { ChatMessages, User } from "../lib/types";
 import axiosInstance from "../lib/axios";
 import { useState } from "react";
 import { toast } from "react-hot-toast";
 type Props = {
   selectedUser: User | null;
+  onSendMessage: (message: ChatMessages) => void;
 };
 
-export default function ChatInput({ selectedUser }: Props) {
+export default function ChatInput({ selectedUser, onSendMessage }: Props) {
   const [message, setMessage] = useState("");
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -23,7 +24,10 @@ export default function ChatInput({ selectedUser }: Props) {
       });
 
       setMessage("");
+      onSendMessage(res.data);
       console.log(res.data);
+      
+      
     } catch (err) {
       const errorMessage =
         err instanceof Error ? err.message : "An unknown error occurred.";
