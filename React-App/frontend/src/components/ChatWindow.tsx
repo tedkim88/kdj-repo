@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import type { ChatMessages, User } from "../lib/types";
 
 type Props = {
@@ -7,6 +8,18 @@ type Props = {
 };
 
 export default function ChatWindow({ selectedUser, messages, error }: Props) {
+  const messagesEndRef = useRef<HTMLDivElement | null>(null);
+
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  // 메시지가 바뀔 때마다 스크롤
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages, selectedUser]);
+
   return (
     <div className="flex-1 bg-gray-900 text-gray-100 p-6 overflow-y-auto space-y-4">
       {selectedUser ? (
@@ -15,10 +28,10 @@ export default function ChatWindow({ selectedUser, messages, error }: Props) {
             To: <span className="uppercase">{selectedUser.name}</span>
           </div>
 
-          {error ? (
-            <div className="text-red-500 font-semibold">{error}</div>
-          ) : messages.length === 0 ? (
-            <div className="text-gray-400 italic">No messages yet.</div>
+          {error && messages.length === 0 ? (
+            <div className="text-red-500 font-semibold">No Messages yet.</div>
+          ) : error && messages.length !== 0 ? (
+            <div className="text-gray-400 italic">{error}</div>
           ) : (
             messages.map((msg) => (
               <div
@@ -36,6 +49,8 @@ export default function ChatWindow({ selectedUser, messages, error }: Props) {
               </div>
             ))
           )}
+          
+          <div ref={messagesEndRef} />
         </>
       ) : (
         <div className="text-gray-500 italic">No user selected</div>

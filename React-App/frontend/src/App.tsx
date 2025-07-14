@@ -11,6 +11,7 @@ import { useAuthStore } from "./store/useAuthStore";
 import { Toaster } from "react-hot-toast";
 import BoardDetail from "./pages/BoardDetail";
 import BoardForm from "./pages/BoardForm";
+import GameDetail from "./pages/GameDetail";
 function App() {
   //when APP component is loaded, check if user is authenticated
   //and if not, adjust the navbar accordingly
@@ -35,6 +36,7 @@ function App() {
         <Route path="/board/write" element={<BoardForm />} />
         <Route path="/board/write/:id" element={<BoardForm />} />
         <Route path="/search" element={<Search />} />
+           <Route path="/games/:id" element={<GameDetail />} />
         {/* <Route path="/" element={<HomePage />} />
             <Route path="/" element={<HomePage />} /> */}
       </Routes>

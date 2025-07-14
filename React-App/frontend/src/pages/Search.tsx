@@ -54,7 +54,7 @@ export default function Search() {
       >
         <div className="form-control w-full flex-1">
           <select
-            className="select select-bordered w-full"
+            className="select select-bordered w-full "
             onChange={(e) => setPlatform(e.target.value)}
             value={platform}
           >

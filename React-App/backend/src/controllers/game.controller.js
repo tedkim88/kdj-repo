@@ -1,6 +1,7 @@
 import {
   getMainGamesService,
   getPlatformGenreService,
+  getGameInfoService,
 } from "../services/game.service.js";
 
 //top rating games recommendation by 4 platforms(to be used for index page)
@@ -18,9 +19,8 @@ export const getMainGames = async (req, res) => {
 
 export const getGamesbyPlatformAndGenre = async (req, res) => {
   try {
-    
     const { platform = "", genre = "" } = req.query;
-    
+
     if (platform === "" && genre === "") {
       return res
         .status(400)
@@ -33,6 +33,20 @@ export const getGamesbyPlatformAndGenre = async (req, res) => {
     // HTTP requests/responses can only send data as strings, not as raw objects
   } catch (error) {
     console.log("getGamesbyPlatformAndGenre Error: ", error);
+    res
+      .status(500)
+      .json({ message: "Internal Server Error, " + error.message });
+  }
+};
+
+export const getGameInfo = async (req, res) => {
+  try {
+    const { id } = req.params;
+    console.log(id);
+    const response = await getGameInfoService(id);
+    res.status(200).json(response);
+  } catch (error) {
+    console.log(error);
     res
       .status(500)
       .json({ message: "Internal Server Error, " + error.message });

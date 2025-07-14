@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import type { Game } from "../lib/types";
+
 type Props = {
   game: Game;
-  isBest : boolean;
+  isBest: boolean;
 };
 
 export default function GameCard({ game, isBest }: Props) {
+  useEffect(() => {
+    console.log(game);
+  }, [game]);
+
   return (
     <div className="card card-compact bg-stone-950 w-96 shadow-xl mx-auto">
       <figure className="h-48 overflow-hidden">
@@ -24,9 +30,9 @@ export default function GameCard({ game, isBest }: Props) {
         >
           {isBest ? "TOP" : ""} Rating : {game.rating} {isBest ? "🔥🔥🔥" : ""}
         </p>
-        <div className="card-actions justify-end">
-          <button className="btn btn-secondary">Details</button>
-        </div>
+        <Link to={`/games/${game.id}`} className="btn btn-secondary">
+          Details
+        </Link>
       </div>
     </div>
   );

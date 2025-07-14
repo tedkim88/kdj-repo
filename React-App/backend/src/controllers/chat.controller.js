@@ -4,6 +4,8 @@ import {
   getChatMsgService,
 } from "../services/chat.service.js";
 
+import ChatMsg from "../models/chatmsg.model.js";
+
 import { getReceiverSocketId, getIO } from "../lib/socket.js";
 
 export const sendMessage = async (req, res) => {
@@ -14,19 +16,25 @@ export const sendMessage = async (req, res) => {
       return res.status(400).json({ message: "Missing required fields" });
     const newMessage = await sendMessageService(senderId, receiverId, text);
 
+
+     const populatedMessage = await ChatMsg.findById(newMessage._id)
+      .populate("senderId", "name")
+      .populate("receiverId", "name");
+
+
     //for real time
     const receiverSocketId = getReceiverSocketId(receiverId);
 
     if (receiverSocketId) {
       console.log("receiverSocketId", receiverSocketId);
-      getIO().to(receiverSocketId).emit("newMessage", newMessage);
+      getIO().to(receiverSocketId).emit("newMessage", populatedMessage);
     }
     else{
       console.log("receiverSocketId not found");
     }
 
 
-    res.status(200).json(newMessage);
+    res.status(200).json(populatedMessage);
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: "Error sending message: " });

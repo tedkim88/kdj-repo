@@ -1,10 +1,21 @@
+
 import { Socket } from "socket.io-client";
 //adding type info that I need, not all of them.
+
+export type GameTag = {
+  id: number;
+  name: string;
+  
+}
 export type Game = {
   id: number;
   name: string;
   background_image: string;
   rating: number;
+  released: string;
+  tags: GameTag[];
+  platforms: { platform: { name: string } }[];
+  website: string;
 };
 
 export interface User {
@@ -59,8 +70,8 @@ export type Messages = {
 
 export type ChatMessages = {
   _id: string;
-  senderId: string;
-  receiverId: string;
+  senderId: User | string;
+  receiverId: User | string;
   text: string;
   createdAt: string;
 

@@ -66,3 +66,17 @@ export const getPlatformGenreService = async (platform, genre) => {
     throw new Error("game.service. Error: " + error.message);
   }
 };
+
+
+export const getGameInfoService = async (gameId) => {
+  try {
+    const response = await fetch(
+      `${RAWG_BASE_URL}/games/${gameId}?key=${RAWG_KEY}`
+    );
+    if (!response.ok) throw new Error("Failed to fetch game info");
+    return await response.json();
+  } catch (error) {
+    console.log(error);
+    throw new Error("game.service. Error: " + error.message);
+  }
+};

@@ -7,6 +7,7 @@ import Sidebar from "../components/Sidebar";
 import ChatWindow from "../components/ChatWindow";
 import ChatInput from "../components/ChatInput";
 import axiosInstance from "../lib/axios";
+import { toast } from "react-hot-toast";
 import type { User, ChatMessages } from "../lib/types";
 
 export default function LiveChat() {
@@ -50,20 +51,41 @@ export default function LiveChat() {
     if (!socket) return;
 
     const handleNewMessage = (newMessage: ChatMessages) => {
-      // Check if the new message is for the selected user
-      if (
+      // 새 메시지가 현재 선택된 채팅방과 관련 있는지 확인
+      const isCurrentChat =
         selectedUser &&
         (newMessage.senderId === selectedUser._id ||
-          newMessage.receiverId === selectedUser._id)
-      ) {
+          newMessage.receiverId === selectedUser._id);
+
+      if (isCurrentChat) {
         setMessages((prev) => [...prev, newMessage]);
+        setMessageError(null);
+      } else {
+        
+
+        // chatMsg model doesn't have User's name as a field, so I touched backend
+        // to populate it
+
+        const senderName =
+          typeof newMessage.senderId === "string"
+            ? "Unknown User"
+            : newMessage.senderId.name;
+
+        toast(`New message from user ${senderName}`, {
+          icon: "📩",
+          duration: 5000,
+          position: "top-right",
+          style: {
+            background: "#333",
+            color: "#fff",
+          },
+          
+        });
       }
     };
 
-    
     socket.on("newMessage", handleNewMessage);
 
-    // (cleanup)
     return () => {
       socket.off("newMessage", handleNewMessage);
     };
@@ -71,6 +93,7 @@ export default function LiveChat() {
 
   const addMessage = (newMessage: ChatMessages) => {
     setMessages((prev) => [...prev, newMessage]);
+    setMessageError(null);
   };
 
   return (
@@ -93,9 +116,11 @@ export default function LiveChat() {
                 selectedUser={selectedUser}
                 messages={messages}
                 error={messageError}
-                
               />
-              <ChatInput selectedUser={selectedUser} onSendMessage={addMessage} />
+              <ChatInput
+                selectedUser={selectedUser}
+                onSendMessage={addMessage}
+              />
             </div>
           ) : (
             <div className="flex-1 flex items-center justify-center bg-gray-900 text-gray-200 italic text-lg">

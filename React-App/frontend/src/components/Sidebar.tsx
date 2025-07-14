@@ -7,12 +7,9 @@ type Props = {
   onSelectUser: (user: User | null) => void;
 };
 
-
 export default function Sidebar({ onSelectUser }: Props) {
   const [users, setUsers] = useState<User[]>([]);
-const { onlineUsers } = useAuthStore();
-
-
+  const { onlineUsers } = useAuthStore();
 
   useEffect(() => {
     axiosInstance
