@@ -2,10 +2,11 @@
 
 Welcome to my portfolio repository! Below are the links of my portfolio  
 
-1. **React-App ( FULL STACK : Node.js(EXPRESS) + React(TYPESCRIPT) ) -- GameHUB**
+1. *React-App (the latest one 2025/July/16 ( FULL STACK : Node.js(EXPRESS) + React(TYPESCRIPT) ) -- GameHUB**
      https://rococo-chimera-697176.netlify.app/ 
    
-   typescript(front) + express(backend) + mongoDB(NOSQL) + jwtAuth + ....
+   Typescript(front) + Express(backend) + MongoDB(NOSQL) + jwtAuth + Websocket(Real-time chat) +
+   Tailwind CSS + Daisy UI +  ....
    
    This is a website where people can get game recommendations by platform.  
    Users can search for game info by platforms and/or genres.  
