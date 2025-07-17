@@ -26,7 +26,7 @@ export default function LiveChat() {
 
       return () => clearTimeout(timer); // cleanup
     }
-  }, [authUser, navigate]);
+  }, [authUser]);
 
   useEffect(() => {
     if (selectedUser) {

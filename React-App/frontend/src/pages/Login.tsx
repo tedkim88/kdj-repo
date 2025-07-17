@@ -18,7 +18,7 @@ export default function Login() {
       }
     };
     verifyAuth();
-  }, [authUser, checkAuth, navigate]);
+  }, []);
 
   const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
