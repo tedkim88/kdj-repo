@@ -1,7 +1,6 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axiosInstance from "../lib/axios";
-import { useState } from "react";
 import type { Messages } from "../lib/types";
 import { PLATFORM_SEARCH } from "../lib/constants";
 import { toast } from "react-hot-toast";
@@ -10,26 +9,18 @@ import { useAuthStore } from "../store/useAuthStore";
 
 export default function BoardDetail() {
   const { authUser } = useAuthStore();
-
   const { id } = useParams();
   const [message, setMessage] = useState<Messages | null>(null);
   const navigate = useNavigate();
-  const [modalAction, setModalAction] = useState<"edit" | "delete" | null>(
-    null
-  );
+  const [modalAction, setModalAction] = useState<"edit" | "delete" | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [password, setPassword] = useState("");
-
-  //only when isMyMessage is true can a user see the edit and delete buttons
   const [isMyMessage, setIsMyMessage] = useState(false);
 
   useEffect(() => {
-    console.log(authUser);
-
     axiosInstance
       .get(`/board/${id}`)
       .then((response) => {
-        console.log(response.data);
         setMessage(response.data);
       })
       .catch((error) => {
@@ -48,11 +39,6 @@ export default function BoardDetail() {
   const BackToBoard = () => {
     navigate("/board");
   };
-
-  // const EditMessage = () => {
-  //   navigate(`/board/write/${id}`);
-  //   //this should lead to form where one can edit
-  // };
 
   const handleConfirmWithPassword = async () => {
     try {
@@ -89,26 +75,27 @@ export default function BoardDetail() {
   if (!message) {
     return <div>Loading...</div>;
   }
+
   return (
-    <div className="px-6">
-      <div className="max-w-3xl  min-h-[calc(100vh-152px)] mx-auto my-10 p-8 bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-2xl shadow-lg">
-        <h1 className="text-4xl font-extrabold mb-6 text-gray-900">
+    <div className="px-4 sm:px-6">
+      <div className="max-w-3xl min-h-[calc(100vh-152px)] mx-auto my-10 p-6 sm:p-8 bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-2xl shadow-lg">
+        <h1 className="text-3xl sm:text-4xl font-extrabold mb-6 text-gray-900">
           {message.title}
         </h1>
 
-        <div className="flex flex-col text-xl text-gray-500 mb-4 space-y-1 ">
+        <div className="flex flex-col text-lg sm:text-xl text-gray-500 mb-4 space-y-1">
           <span>
-            ✍️ Writer :{" "}
+            ✍️ Writer:{" "}
             <span className="text-indigo-600 font-medium">
-              {message.writerNickname ?? " N/A"}
+              {message.writerNickname ?? "N/A"}
             </span>
           </span>
           <span>
-            🕹️ Platform :{" "}
+            🕹️ Platform:{" "}
             <span className="text-gray-700 font-semibold">
               {PLATFORM_SEARCH.find(
                 (p) => p.id.toString() === message.platformId
-              )?.name || " N/A"}
+              )?.name || "N/A"}
             </span>
           </span>
         </div>
@@ -117,11 +104,12 @@ export default function BoardDetail() {
           {message.content}
         </div>
 
-        <div className="flex gap-4 justify-center">
+        {/* ✅ 반응형 버튼 영역 */}
+        <div className="flex flex-col md:flex-row gap-4 justify-center mt-12">
           {isMyMessage && (
             <>
               <button
-                className="bg-indigo-600 mt-12 w-1/5 hover:bg-red-300 text-white py-2 px-4 rounded"
+                className="bg-indigo-600 text-white py-2 px-4 rounded w-full md:w-40 hover:bg-red-300"
                 onClick={() => {
                   setModalAction("edit");
                   setIsModalOpen(true);
@@ -131,7 +119,7 @@ export default function BoardDetail() {
               </button>
 
               <button
-                className="bg-indigo-600 mt-12 w-1/5 hover:bg-red-300 text-white py-2 px-4 rounded"
+                className="bg-indigo-600 text-white py-2 px-4 rounded w-full md:w-40 hover:bg-red-300"
                 onClick={() => {
                   setModalAction("delete");
                   setIsModalOpen(true);
@@ -143,16 +131,17 @@ export default function BoardDetail() {
           )}
 
           <button
-            className="bg-indigo-600 mt-12 w-1/5 hover:bg-red-300 text-white py-2 px-4 rounded"
+            className="bg-indigo-600 text-white py-2 px-4 rounded w-full md:w-40 hover:bg-red-300"
             onClick={BackToBoard}
           >
             Back to Board
           </button>
         </div>
       </div>
+
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-6 rounded-lg shadow-lg w-96 space-y-4">
+          <div className="bg-white p-6 rounded-lg shadow-lg w-11/12 max-w-md space-y-4">
             <h2 className="text-xl font-semibold text-gray-800">
               Enter Password for {modalAction === "delete" ? "Delete" : "Edit"}
             </h2>

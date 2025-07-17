@@ -5,26 +5,34 @@ type Props = {
   selectedUser: User | null;
   messages: ChatMessages[];
   error: string | null;
+  authUser: User | null;
 };
 
-export default function ChatWindow({ selectedUser, messages, error }: Props) {
+export default function ChatWindow({
+  selectedUser,
+  messages,
+  error,
+  authUser,
+}: Props) {
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
 
-
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-
-  // 메시지가 바뀔 때마다 스크롤
   useEffect(() => {
-    scrollToBottom();
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, selectedUser]);
 
+  if (!authUser) {
+    return (
+      <div className="text-gray-500 italic p-6">
+        Please log in to view messages.
+      </div>
+    );
+  }
+
   return (
-    <div className="flex-1 bg-gray-900 text-gray-100 p-6 overflow-y-auto space-y-4">
+    <div className="flex-1 bg-gray-900 text-gray-100 p-4 overflow-y-auto flex flex-col space-y-4">
       {selectedUser ? (
         <>
-          <div className="text-xl text-yellow-300 font-bold mb-4">
+          <div className="text-lg sm:text-xl text-yellow-300 font-semibold">
             To: <span className="uppercase">{selectedUser.name}</span>
           </div>
 
@@ -33,27 +41,37 @@ export default function ChatWindow({ selectedUser, messages, error }: Props) {
           ) : error && messages.length !== 0 ? (
             <div className="text-gray-400 italic">{error}</div>
           ) : (
-            messages.map((msg) => (
-              <div
-                key={msg._id}
-                className={`max-w-xs px-4 py-2 rounded-md ${
-                  msg.senderId === selectedUser._id
-                    ? "bg-gray-700 self-start"
-                    : "bg-blue-600 self-end ml-auto"
-                }`}
-              >
-                <p>{msg.text}</p>
-                <div className="text-xs text-gray-400 mt-1">
-                  {new Date(msg.createdAt).toLocaleTimeString()}
+            messages.map((msg) => {
+              const senderId =
+                typeof msg.senderId === "string"
+                  ? msg.senderId
+                  : msg.senderId._id;
+              const isSender = senderId === authUser._id;
+
+              return (
+                <div
+                  key={msg._id}
+                  className={`max-w-[75%] px-4 py-3 rounded-lg shadow-sm break-words ${
+                    isSender
+                      ? "bg-blue-600 self-end text-white"
+                      : "bg-gray-700 self-start text-gray-200"
+                  }`}
+                >
+                  <p className="text-sm sm:text-base">{msg.text}</p>
+                  <div className="text-xs sm:text-sm text-gray-400 mt-1 text-right">
+                    {new Date(msg.createdAt).toLocaleTimeString()}
+                  </div>
                 </div>
-              </div>
-            ))
+              );
+            })
           )}
-          
+
           <div ref={messagesEndRef} />
         </>
       ) : (
-        <div className="text-gray-500 italic">No user selected</div>
+        <div className="text-gray-500 italic text-center mt-10">
+          No user selected
+        </div>
       )}
     </div>
   );

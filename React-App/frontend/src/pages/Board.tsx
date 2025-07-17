@@ -30,7 +30,6 @@ export default function Board() {
 
   // 페이지 또는 플랫폼 변경 시 데이터 재요청
   useEffect(() => {
-    // platform 쿼리 추가
     const platformQuery = platform ? `&platform=${platform}` : "";
     axiosInstance
       .get(`/board/all?page=${currentPage}${platformQuery}`)
@@ -57,54 +56,88 @@ export default function Board() {
         </div>
       )}
 
-      {/* 게시판 테이블 */}
+      {/* 데스크톱용 테이블 */}
       {messages.length > 0 && (
-        <table className="table w-full text-white border border-gray-700">
-          <thead className="bg-gray-800 text-yellow-300">
-            <tr>
-              <th className="text-center w-1/12 border-b border-gray-600">#</th>
-              <th className="text-center w-1/6 border-b border-gray-600">
-                Nick Name
-              </th>
-              <th className="text-center w-1/2 border-b border-gray-600">
-                Title
-              </th>
-              <th className="text-center w-1/6 border-b border-gray-600">
-                Platform
-              </th>
-            </tr>
-          </thead>
-          <tbody className="bg-gray-900 divide-y divide-gray-700">
-            {messages.map((msg, idx) => (
-              <tr
-                key={msg._id}
-                className={`hover:bg-blue-50 hover:text-lg ${
-                  idx % 2 === 0 ? "bg-white" : "bg-gray-400"
-                }`}
-              >
-                <td className="border border-gray-300 px-4 py-2 text-center text-gray-900">
-                  {(currentPage - 1) * 10 + idx + 1}
-                </td>
-                <td className="border border-gray-300 px-4 py-2 text-center text-gray-900">
-                  {msg.writerNickname}
-                </td>
-                <td className="border border-gray-300 px-4 py-2 text-center">
-                  <Link
-                    to={`/board/${msg._id}`}
-                    className="text-blue-700 underline hover:text-blue-900 font-medium"
-                  >
-                    {msg.title}
-                  </Link>
-                </td>
-                <td className="border border-gray-300 px-4 py-2 text-center text-gray-900">
-                  {PLATFORM_SEARCH.find(
-                    (p) => p.id.toString() === msg.platformId
-                  )?.name ?? "N/A"}
-                </td>
+        <div className="hidden md:block">
+          <table className="table w-full text-white border border-gray-700">
+            <thead className="bg-gray-800 text-yellow-300">
+              <tr>
+                <th className="text-center w-1/12 border-b border-gray-600">#</th>
+                <th className="text-center w-1/6 border-b border-gray-600">
+                  Nick Name
+                </th>
+                <th className="text-center w-1/2 border-b border-gray-600 break-words">
+                  Title
+                </th>
+                <th className="text-center w-1/6 border-b border-gray-600">
+                  Platform
+                </th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody className="bg-gray-900 divide-y divide-gray-700">
+              {messages.map((msg, idx) => (
+                <tr
+                  key={msg._id}
+                  className={`hover:bg-blue-50 hover:text-lg ${
+                    idx % 2 === 0 ? "bg-white" : "bg-gray-400"
+                  }`}
+                >
+                  <td className="border border-gray-300 px-4 py-2 text-center text-gray-900">
+                    {(currentPage - 1) * 10 + idx + 1}
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 text-center text-gray-900">
+                    {msg.writerNickname}
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 text-center break-words">
+                    <Link
+                      to={`/board/${msg._id}`}
+                      className="text-blue-700 underline hover:text-blue-900 font-medium"
+                    >
+                      {msg.title}
+                    </Link>
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 text-center text-gray-900">
+                    {PLATFORM_SEARCH.find(
+                      (p) => p.id.toString() === msg.platformId
+                    )?.name ?? "N/A"}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {/* 모바일용 카드 리스트 */}
+      {messages.length > 0 && (
+        <div className="md:hidden space-y-4">
+          {messages.map((msg, idx) => (
+            <Link
+              to={`/board/${msg._id}`}
+              key={msg._id}
+              className={`block p-4 rounded-lg shadow-md bg-gray-900 text-white transition hover:shadow-lg ${
+                idx % 2 === 0 ? "bg-gray-800" : "bg-gray-700"
+              }`}
+            >
+              <div className="flex justify-between items-center mb-2">
+                <span className="font-bold text-lg truncate max-w-[70%]">
+                  {msg.title}
+                </span>
+                <span className="text-sm text-gray-400">
+                  {(currentPage - 1) * 10 + idx + 1}
+                </span>
+              </div>
+              <div className="text-sm text-gray-300 mb-1">
+                Writer: {msg.writerNickname}
+              </div>
+              <div className="text-sm text-gray-300">
+                Platform:{" "}
+                {PLATFORM_SEARCH.find((p) => p.id.toString() === msg.platformId)
+                  ?.name ?? "N/A"}
+              </div>
+            </Link>
+          ))}
+        </div>
       )}
 
       {/* 페이지네이션 번호 버튼 */}

@@ -13,7 +13,8 @@ export default function GameCard({ game, isBest }: Props) {
   }, [game]);
 
   return (
-    <div className="card card-compact bg-stone-950 w-96 shadow-xl mx-auto">
+   <div className="card card-compact bg-stone-950 w-full max-w-xs shadow-xl mx-auto">
+
       <figure className="h-48 overflow-hidden">
         <img
           className="w-full h-full object-cover"

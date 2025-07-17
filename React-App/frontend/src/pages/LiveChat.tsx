@@ -1,7 +1,6 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useAuthStore } from "../store/useAuthStore";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
 import Sidebar from "../components/Sidebar";
 import ChatWindow from "../components/ChatWindow";
 import ChatInput from "../components/ChatInput";
@@ -51,20 +50,24 @@ export default function LiveChat() {
 
     const handleNewMessage = (newMessage: ChatMessages) => {
       // 새 메시지가 현재 선택된 채팅방과 관련 있는지 확인
+      const senderId =
+        typeof newMessage.senderId === "string"
+          ? newMessage.senderId
+          : newMessage.senderId._id;
+
+      const receiverId =
+        typeof newMessage.receiverId === "string"
+          ? newMessage.receiverId
+          : newMessage.receiverId._id;
+
       const isCurrentChat =
         selectedUser &&
-        (newMessage.senderId === selectedUser._id ||
-          newMessage.receiverId === selectedUser._id);
+        (senderId === selectedUser._id || receiverId === selectedUser._id);
 
       if (isCurrentChat) {
         setMessages((prev) => [...prev, newMessage]);
         setMessageError(null);
       } else {
-        
-
-        // chatMsg model doesn't have User's name as a field, so I touched backend
-        // to populate it
-
         const senderName =
           typeof newMessage.senderId === "string"
             ? "Unknown User"
@@ -78,7 +81,6 @@ export default function LiveChat() {
             background: "#333",
             color: "#fff",
           },
-          
         });
       }
     };
@@ -96,7 +98,7 @@ export default function LiveChat() {
   };
 
   return (
-    <div className="overflow-x-auto h-[calc(100vh-76px)] bg-gradient-to-r from-blue-500 via-indigo-500 to-red-700 p-6">
+    <div className="overflow-x-auto h-[calc(100vh-76px)] bg-gradient-to-r from-blue-500 via-indigo-500 to-red-700 sm:p-6">
       {redirecting && (
         <div className="flex flex-col items-center min-h-[calc(100vh-76px)] justify-center text-yellow-400 text-2xl font-extrabold space-y-6 bg-black bg-opacity-50 rounded-lg shadow-lg mx-4">
           <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-yellow-300"></div>
@@ -108,13 +110,17 @@ export default function LiveChat() {
 
       {authUser && (
         <div className="flex h-[calc(100vh-160px)] bg-gray-800 rounded-lg shadow-xl overflow-hidden mx-6 my-4">
-          <Sidebar onSelectUser={setSelectedUser} />
+         
+            <Sidebar onSelectUser={setSelectedUser} selectedUser={selectedUser} />
+        
+
           {selectedUser ? (
             <div className="flex flex-col flex-1 border-l border-gray-300">
               <ChatWindow
                 selectedUser={selectedUser}
                 messages={messages}
                 error={messageError}
+                authUser={authUser}
               />
               <ChatInput
                 selectedUser={selectedUser}
