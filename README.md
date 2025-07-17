@@ -1,17 +1,19 @@
 # KDJ Portfolio
 
-Welcome to my portfolio repository! Below are the links of my portfolio  
+Welcome to my portfolio repository! Below are the links of my portfolio
 
-1. *React-App (the latest one 2025/July/16 ( FULL STACK : Node.js(EXPRESS) + React(TYPESCRIPT) ) -- GameHUB**
-     https://rococo-chimera-697176.netlify.app/ 
-   
-   Typescript(front) + Express(backend) + MongoDB(NOSQL) + jwtAuth + Websocket(Real-time chat) +
-   Tailwind CSS + Daisy UI +  ....
-   
-   This is a website where people can get game recommendations by platform.  
-   Users can search for game info by platforms and/or genres.  
-   Not only that, they are going to be able to share opinions in a **board**,  
-   get game information in detail, chat with signed-in users(web-socket) in real-time to find game partners.
+React-App (the latest one 2025/July/16  
+(FULL STACK : Node.js(EXPRESS) + React(TYPESCRIPT))  
+-- GameHUB*  
+https://rococo-chimera-697176.netlify.app/
+
+Typescript(front) + Express(backend) + MongoDB(NOSQL) + jwtAuth + Websocket(Real-time chat) + Tailwind CSS + Daisy UI + ....
+
+This is a website where people can get game recommendations by platform.  
+Users can search for game info by platforms and/or genres.  
+Not only that, they are going to be able to share opinions in a board,  
+get game information in detail, chat with signed-in users(web-socket) in real-time to find game partners.
+
 
    ![image](https://github.com/user-attachments/assets/fffe26ac-f6e9-45cc-8125-2030a8e8094f)
 
