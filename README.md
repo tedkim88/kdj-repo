@@ -6,12 +6,7 @@ Welcome to my portfolio repository! Below are the links of my portfolio
 (Front Deployed to Netlify & Backend Deployed to Render.com)  
 Typescript(front) + Express(backend) + MongoDB(NOSQL) + jwtAuth + Websocket(Real-time chat) + Tailwind CSS + Daisy UI + ....
 
-https://rococo-chimera-697176.netlify.app/
-
-
-![image](https://github.com/user-attachments/assets/fffe26ac-f6e9-45cc-8125-2030a8e8094f)
-
-![image](https://github.com/user-attachments/assets/08d21800-f790-4411-bdee-20e42d983a15)
+  https://rococo-chimera-697176.netlify.app/
 
 
 2. **OLTP Shopping (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
@@ -59,6 +54,10 @@ Built with React and TypeScript on the frontend and Express.js on the backend, t
 -  MongoDB for persistent storage of users and messages  
 -  Clean code structure with organized component and service layers (Service - Controller Separated)
 
+
+![image](https://github.com/user-attachments/assets/fffe26ac-f6e9-45cc-8125-2030a8e8094f)
+
+![image](https://github.com/user-attachments/assets/08d21800-f790-4411-bdee-20e42d983a15)
 
 ---------------------------------------
 
