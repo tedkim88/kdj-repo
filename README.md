@@ -2,22 +2,8 @@
 
 Welcome to my portfolio repository! Below are the links of my portfolio  
 
-1. **OLTP Shopping (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
-   https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/  
-
-2. **Rental Management System (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
-   https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList  
-
-3. **Word-Smith Personal JS project (JavaSript & Firebase)** (Deployed through Render.com)  
-   https://wordsmith-finished.onrender.com
-
-4. **Modal & Form (CSS)** (Deployed through Netlify)  
-   https://graceful-gecko-22ac0e.netlify.app/  
-    
-5. **Responsive Design (CSS)**  (Deployed through Netlify)  
-   https://jolly-lamington-d3ce51.netlify.app/
-
-6. **React-App ( FULL STACK : EXPRESS + React(TYPESCRIPT) ) -- GameHUB**  
+1. **React-App ( FULL STACK : Node.js(EXPRESS) + React(TYPESCRIPT) ) -- GameHUB**
+   https://rococo-chimera-697176.netlify.app/ 
    **(THIS IS IN **PROGRESS NOW** Backend&Frontend Both!!)**  
    typescript(front) + express(backend) + mongoDB(NOSQL) + jwtAuth + ....  
    This is going to be a website where people can get game recommendations by platform.  
@@ -28,6 +14,23 @@ Welcome to my portfolio repository! Below are the links of my portfolio
    ![image](https://github.com/user-attachments/assets/fffe26ac-f6e9-45cc-8125-2030a8e8094f)
 
 ![image](https://github.com/user-attachments/assets/08d21800-f790-4411-bdee-20e42d983a15)
+
+
+2. **OLTP Shopping (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
+   https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/  
+
+3. **Rental Management System (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
+   https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList  
+
+4. **Word-Smith Personal JS project (JavaSript & Firebase)** (Deployed through Render.com)  
+   https://wordsmith-finished.onrender.com
+
+5. **Modal & Form (CSS)** (Deployed through Netlify)  
+   https://graceful-gecko-22ac0e.netlify.app/  
+    
+6. **Responsive Design (CSS)**  (Deployed through Netlify)  
+   https://jolly-lamington-d3ce51.netlify.app/
+
 
 
    
