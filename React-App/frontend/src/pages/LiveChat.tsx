@@ -1,4 +1,3 @@
-import React from "react";
 import { useEffect } from "react";
 import { useAuthStore } from "../store/useAuthStore";
 import { useNavigate } from "react-router-dom";
@@ -27,7 +26,7 @@ export default function LiveChat() {
 
       return () => clearTimeout(timer); // cleanup
     }
-  }, [authUser]);
+  }, [authUser, navigate]);
 
   useEffect(() => {
     if (selectedUser) {

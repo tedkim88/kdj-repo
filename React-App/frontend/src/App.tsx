@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     checkAuth();
-  }, []);
+  }, [checkAuth]);
 
   return (
     <div>
@@ -36,7 +36,7 @@ function App() {
         <Route path="/board/write" element={<BoardForm />} />
         <Route path="/board/write/:id" element={<BoardForm />} />
         <Route path="/search" element={<Search />} />
-           <Route path="/games/:id" element={<GameDetail />} />
+        <Route path="/games/:id" element={<GameDetail />} />
         {/* <Route path="/" element={<HomePage />} />
             <Route path="/" element={<HomePage />} /> */}
       </Routes>

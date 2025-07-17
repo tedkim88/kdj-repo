@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axiosInstance from "../lib/axios";
 import type { Messages } from "../lib/types";
 import { Link } from "react-router-dom";

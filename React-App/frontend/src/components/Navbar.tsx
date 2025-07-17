@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { AxiosError } from "axios";
 import { useAuthStore } from "../store/useAuthStore";

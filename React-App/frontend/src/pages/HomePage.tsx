@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { fetchGames } from "../lib/utils";
 import type { GamePlatform } from "../lib/types";
 import GameCard from "../components/GameCard";

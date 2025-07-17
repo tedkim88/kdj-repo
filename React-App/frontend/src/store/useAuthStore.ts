@@ -5,7 +5,9 @@ import type { SignupData, LoginData, AuthState } from "../lib/types";
 import { AxiosError } from "axios";
 import { io } from "socket.io-client";
 
-const BASE_URL = "http://localhost:3000";
+// const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://react-app-gamehub.onrender.com";
+
 
 //this shape is a bit tricky. this is returning an object. instead of {{}}, ({}) has been used.
 export const useAuthStore = create<AuthState>((set, get) => ({

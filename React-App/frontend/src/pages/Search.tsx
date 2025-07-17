@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import GameCard from "../components/GameCard";
 import { fetchGamesByPlatformAndGenre } from "../lib/utils";
 import { PLATFORM_SEARCH, GENRES } from "../lib/constants";

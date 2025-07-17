@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axiosInstance from "../lib/axios";
 import { useState } from "react";
 import type { Messages } from "../lib/types";
 import { PLATFORM_SEARCH } from "../lib/constants";
 import { toast } from "react-hot-toast";
-import type { Axios, AxiosError } from "axios";
+import type { AxiosError } from "axios";
 import { useAuthStore } from "../store/useAuthStore";
 
 export default function BoardDetail() {
@@ -49,10 +49,10 @@ export default function BoardDetail() {
     navigate("/board");
   };
 
-  const EditMessage = () => {
-    navigate(`/board/write/${id}`);
-    //this should lead to form where one can edit
-  };
+  // const EditMessage = () => {
+  //   navigate(`/board/write/${id}`);
+  //   //this should lead to form where one can edit
+  // };
 
   const handleConfirmWithPassword = async () => {
     try {

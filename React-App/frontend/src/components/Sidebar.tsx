@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import type { User } from "../lib/types";
 import axiosInstance from "../lib/axios";
 import { useAuthStore } from "../store/useAuthStore";

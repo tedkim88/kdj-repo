@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import type { AxiosError } from "axios";
 import { useNavigate } from "react-router-dom";
 import { useAuthStore } from "../store/useAuthStore";
@@ -18,7 +18,7 @@ export default function Login() {
       }
     };
     verifyAuth();
-  }, []);
+  }, [authUser, checkAuth, navigate]);
 
   const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();

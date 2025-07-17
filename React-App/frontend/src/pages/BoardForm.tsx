@@ -25,7 +25,7 @@ export default function BoardForm() {
         setPlatformId(res.data.platformId);
       });
     }
-  }, [id]);
+  }, [isEditing, id]);
 
   const handleSubmit = async () => {
     if (
