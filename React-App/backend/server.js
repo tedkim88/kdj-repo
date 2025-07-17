@@ -28,7 +28,8 @@ const PORT = process.env.PORT || 5000;
 app.use(
   cors({
     //cross origin resource sharing 내 컴퓨터 문서참고
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
+    origin: "https://rococo-chimera-697176.netlify.app/",
     credentials: true,
   })
 );
