@@ -43,7 +43,7 @@ Project Introduction
 ## Full-Stack: React + Node.js
 
 **Tech Stack**  
-- **Frontend**: React (TypeScript), Tailwind CSS  
+- **Frontend**: React (TypeScript), Tailwind CSS, DaisyUI  
 - **Backend**: Node.js (Express), WebSocket  
 - **Database**: MongoDB  
 - **Authentication**: JWT  
@@ -53,16 +53,11 @@ GameHub is a full-stack web application designed as a community platform for gam
 Built with React and TypeScript on the frontend and Express.js on the backend, the app uses WebSocket for seamless, real-time communication between users.
 
 ## 🚀 Key Features
-- 🔐 JWT-based user authentication (login/register)  
-- 💬 Real-time messaging using WebSocket  
-- 📱 Responsive and modern UI with Tailwind CSS  
-- 🗃️ MongoDB for persistent storage of users and messages  
-- 🧱 Clean code structure with organized component and service layers  
-
-## 🌟 Highlights
-- ✅ Hands-on experience implementing real-time communication  
-- 🔄 Frontend-backend integration with proper error handling  
-- 🔒 Emphasis on secure authentication and user-friendly interface  
+-  JWT-based user authentication (login/register)  
+-  Real-time messaging using WebSocket  
+-  Responsive and modern UI with Tailwind CSS  
+-  MongoDB for persistent storage of users and messages  
+-  Clean code structure with organized component and service layers (Service - Controller Separated)
 
 
 ---------------------------------------
