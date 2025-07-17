@@ -3,19 +3,13 @@
 Welcome to my portfolio repository! Below are the links of my portfolio
 
 1. **Game-Hub (Full Stack React-App) (the latest one) 2025/July/16**  
-(Front Deployed to Netlify & Backend Deployed to Render.com)
+(Front Deployed to Netlify & Backend Deployed to Render.com)  
+Typescript(front) + Express(backend) + MongoDB(NOSQL) + jwtAuth + Websocket(Real-time chat) + Tailwind CSS + Daisy UI + ....
 
 https://rococo-chimera-697176.netlify.app/
 
-Typescript(front) + Express(backend) + MongoDB(NOSQL) + jwtAuth + Websocket(Real-time chat) + Tailwind CSS + Daisy UI + ....
 
-This is a website where people can get game recommendations by platform.  
-Users can search for game info by platforms and/or genres.  
-Not only that, they are going to be able to share opinions in a board,  
-get game information in detail, chat with signed-in users(web-socket) in real-time to find game partners.
-
-
-   ![image](https://github.com/user-attachments/assets/fffe26ac-f6e9-45cc-8125-2030a8e8094f)
+![image](https://github.com/user-attachments/assets/fffe26ac-f6e9-45cc-8125-2030a8e8094f)
 
 ![image](https://github.com/user-attachments/assets/08d21800-f790-4411-bdee-20e42d983a15)
 
@@ -44,7 +38,38 @@ get game information in detail, chat with signed-in users(web-socket) in real-ti
 
 Project Introduction
 
-## 1. **WordSmith** (JavaScript-based Web App)
+## 1. GameHub 🎮
+
+## Full-Stack: React + Node.js
+
+**Tech Stack**  
+- **Frontend**: React (TypeScript), Tailwind CSS  
+- **Backend**: Node.js (Express), WebSocket  
+- **Database**: MongoDB  
+- **Authentication**: JWT  
+
+## 📌 Description  
+GameHub is a full-stack web application designed as a community platform for gamers, featuring real-time 1:1 chat functionality.  
+Built with React and TypeScript on the frontend and Express.js on the backend, the app uses WebSocket for seamless, real-time communication between users.
+
+## 🚀 Key Features
+- 🔐 JWT-based user authentication (login/register)  
+- 💬 Real-time messaging using WebSocket  
+- 📱 Responsive and modern UI with Tailwind CSS  
+- 🗃️ MongoDB for persistent storage of users and messages  
+- 🧱 Clean code structure with organized component and service layers  
+
+## 🌟 Highlights
+- ✅ Hands-on experience implementing real-time communication  
+- 🔄 Frontend-backend integration with proper error handling  
+- 🔒 Emphasis on secure authentication and user-friendly interface  
+
+
+---------------------------------------
+
+
+
+## 2. **WordSmith** (JavaScript-based Web App)
 **Description**:  
 WordSmith is my personal JavaScript-based web application designed to help users learn vocabulary and manage their own word lists using Firebase Database. The app includes a quiz feature, allowing users to search for words, view their meanings, add words to a personal list, and then quiz themselves on the saved words.
 
@@ -76,7 +101,7 @@ WordSmith is my personal JavaScript-based web application designed to help users
 
 ----------------------------------------------  
 
-## 2. **OLTP Shopping / Rental Management System** (C# & Blazor & EntityFrameworkCore / SQL))
+## 3. **OLTP Shopping / Rental Management System** (C# & Blazor & EntityFrameworkCore / SQL))
 **Description**: 
 **Note** I was responsible for **'SalesSystem'**, Sales refund related page for this team project. Each one had their own part.
 **POSystem is not my part.**
@@ -99,7 +124,7 @@ These projects demonstrate my understanding of C# and Blazor. They are based on 
 
 ---
 
-## 3. **WeatherInfo Simple Web App**  
+## 4. **WeatherInfo Simple Web App**  
 **Description**:  
 This is not a full-fledged project but rather my first attempt at using a free API to create a simple web application for tracking weather history.
 
@@ -109,7 +134,7 @@ These projects are works in progress or practice attempts. The code structure, u
 
 ---
 
-## 4. **Design-shopping-mall (MODAL & Form)**  
+## 5. **Design-shopping-mall (MODAL & Form)**  
 **Description**:  
 Through this project, I learned how to pop-up modal window to encourage customers to sign up for the site or submit their data. 
 This site has functionality for horizontally displaying products through scroll.
@@ -124,7 +149,7 @@ The purpose of this project for me was to practice modal and form.
 
 ---  
 
-## 5. **Design-responsive and navigation** 
+## 6. **Design-responsive and navigation** 
 **Description**:  
 Doing this project, I got to learn how and what to do with position absolute, relative, getting more used to flex and its usage for aligning items even when something doesn't need to be flexed.
 I made toggle-navigation as well using simple JS commands, and this navigation display changes depending on the viewport size, using media queries.
