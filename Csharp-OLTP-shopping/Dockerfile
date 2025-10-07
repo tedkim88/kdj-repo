@@ -31,7 +31,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 
 # Publish 결과 복사
-COPY --from=build /app/out ./
+COPY --from=build /app/out/ ./
 
 # 컨테이너 포트 열기
 EXPOSE 10000

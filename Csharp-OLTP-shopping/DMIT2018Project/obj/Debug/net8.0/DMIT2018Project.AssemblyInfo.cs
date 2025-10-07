@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DMIT2018Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eac0648646768bc3fbbb021cff9aa0a4d1740ad0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4eae988f0fc87a0b77a83fb7fc34580536a06be9")]
 [assembly: System.Reflection.AssemblyProductAttribute("DMIT2018Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DMIT2018Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
