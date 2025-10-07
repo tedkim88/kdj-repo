@@ -9,28 +9,37 @@ function Skills() {
 
   const skillCategories = [
   {
-    title: "Web Development",
+    title: "Web Dev(Full Stack)",
     skills: [
-      "HTML, Javascript, Typescript, CSS(SASS), PHP, Next.js",
-      "React with ASP.Net Core or Express, Blazor WebApp with C# (Full stack experience)",
+      "React(Next.js) with ASP.Net Core(Web API) or Express, Blazor WebApp with C# (Full stack)",
+      "RESTful APIs, Websocket for real-time function",
+      "Typescript, Javascript, HTML, CSS(Tailwind), PHP",
       "Oracle DB with Oracle Form"
+    ],
+  },
+  {
+    title: "AI Integration to project",
+    skills: [
+      "OpenAI API integration to my personal app",
+      "Experience with Open source AI like ollama",
+      "Prompt Engineering for my project (System prompt, User prompt)"
     ],
   },
   {
     title: "Database & Backend",
     skills: [
-      "MS SQL Server, Oracle, MySQL, MongoDB, Firestore",
-      "ASP.Net Core, Express, Node.js, EntityFrameWorkCore, Prisma, Mongoose",
-      "RESTful APIs, Firebase Auth & DB(Firestore), JWT, bcrypt"
+      "MS SQL Server, Oracle, PostgreSQL, MySQL, MongoDB, Firestore",
+      "ASP.Net Core Web API, Express, Node.js, EntityFrameWorkCore, Prisma, Mongoose",
+      "JWT, Clerk Auth(Token management), Clerk Webhook, Firebase Auth & DB(Firestore), bcrypt-hashing"
     ],
   },
   {
-    title: "DevOps",
+    title: "DevOps (Practicing)",
     skills: ["Docker (WSL-Ubuntu)", "Bash Scripting", "Vim", "CI/CD Pipelines"],
   },
   {
-    title: "Cloud",
-    skills: ["Azure & AWS", "Deploy apps through Azure App Service & SQL DB"],
+    title: "Cloud & Deployment",
+    skills: ["Azure & AWS", "Deploy apps through Azure App Service & SQL DB", "Flyio", "Render", "Netlify"],
   },
   {
     title: "Data Analytics",
@@ -38,7 +47,7 @@ function Skills() {
   },
   {
     title: "Self-Learning & Testing",
-    skills: ["Angular", "Python", "Power BI", "xUnit Testing with C#"],
+    skills: ["Angular", "Python", "LLMs(Large Language Models)", "Power BI", "xUnit Testing with C#"],
   },
   {
     title: "Version Control & Tools",

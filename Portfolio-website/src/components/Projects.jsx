@@ -9,23 +9,36 @@ const particlesInit = async (main) => {
 function Projects() {
   const projects = [
     {
-      name: "Game Hub Website (Benchmarking Discord)",
+      name: "Game Hub Website (Websocket Realtime)",
       description:
         "(Real-time chat through Websocket) FullStack with React(Typescript) and Node.js Backend(Express) with JWT Authentication (the latest one 2025-August).",
       github: "https://rococo-chimera-697176.netlify.app/",
       image: "/react-app.png",
     },
     {
-      name: "Shopping App",
-      description: "OLTP C# backend and Blazor frontend using EF Core. BLL DAL concepts implemented. Deployed to Azure.",
+      name: "Shopping App(BLL/DAL)",
+      description: (
+        <>
+          OLTP C# backend and Blazor frontend using EF Core. BLL DAL concepts implemented. Deployed to Azure.{" "}
+          <span style={{ color: "red", fontWeight: "bold" }}>
+            (Azure DB App Service expired. Please visit my GitHub for checking codes.)
+          </span>{" "}
+         
+        </>
+      ),
       github:
         "https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/",
       image: "/oltp-screenshot.png",
     },
     {
       name: "Rental Management System ",
-      description:
-        "C# Backend / BlazorServer / EF Core / BLL / DAL (Deployed through Azure).",
+      description: (
+        <>
+        C# Backend / BlazorServer / EF Core / BLL / DAL (Deployed through Azure).
+     <span style={{ color: "red", fontWeight: "bold" }}> {" "} (Azure DB App Service expired. Please visit my GitHub for checking codes.)</span>
+        </>
+      ),
+        
       github: "https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList",
       image: "/rental-app.png",
     },

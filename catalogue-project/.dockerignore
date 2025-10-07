@@ -1,0 +1,19 @@
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore version control
+.git
+.gitignore
+
+# Ignore container volumes, logs, temp data
+node_modules/
+vendor/
+*.log
+*.bak
+*.tmp
+
+# Ignore hidden files/folders (except .htaccess)
+.*
+!.htaccess
