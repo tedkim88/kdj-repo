@@ -9,10 +9,10 @@
 
 // Note: why "mysql" and not "localhost"? When you ask MySQLi to connect to localhost, under the hood it defaults to using a Unix socket (/var/run/mysqld/mysqld.sock). In your web container that socket doesn’t exist, because your MySQL server is running in a separate container.
 
-define("DB_SERVER", "mysql");
-define("DB_USER", "student");
-define("DB_PASS", "student");
-define("DB_NAME", "dmit2025");
+define("DB_SERVER", "database-1.cxiu460cq07b.ca-central-1.rds.amazonaws.com");
+define("DB_USER", "admin");        
+define("DB_PASS", "Rhwlak1!!!");   
+define("DB_NAME", "dkim54");       
 
 function db_connect() {
     $connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME, 3306);
