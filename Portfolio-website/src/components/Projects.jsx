@@ -43,6 +43,13 @@ function Projects() {
       image: "/rental-app.png",
     },
     {
+      name: "PHP Catalogue Project(Deployed through Render & AWS(Mysql DB)",
+      description:
+        "PHP Catalogue Project with auth, crud, image upload, pagination and advanced filter.",
+      github: "https://php-catalogue-projcet.onrender.com/public/",
+      image: "/php-screenshot.png",
+    },
+    {
       name: "Modal & Form (CSS) (Deployed through Netlify)",
       description:
         "Modal popup and Form (CSS) (Deployed through Netlify).",
