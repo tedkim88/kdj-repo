@@ -5,6 +5,18 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-DMIT2018Project-7a8b5669-8ecf-4dc4-bbe1-a4fe670a25f8</UserSecretsId>
+
+    <!-- ========================= -->
+    <!-- Blazor CSS 최적화 관련 -->
+    <!-- ========================= -->
+    <!-- CSS Isolation 활성화 -->
+    <BlazorEnableCssIsolation>true</BlazorEnableCssIsolation>
+    <!-- Release 모드에서도 CSS/JS 압축 방지 -->
+    <BlazorWebAssemblyEnableCompression>false</BlazorWebAssemblyEnableCompression>
+    <!-- Static Web Assets 항상 포함 -->
+    <StaticWebAssetsUseInPublish>true</StaticWebAssetsUseInPublish>
+    <!-- 참조 어셈블리 Publish에 포함 -->
+    <CopyRefAssembliesToPublishDirectory>true</CopyRefAssembliesToPublishDirectory>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,12 +32,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <!-- wwwroot 파일 항상 Publish -->
     <Content Update="wwwroot\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
   <ItemGroup>
+    <!-- 프로젝트 참조 -->
     <ProjectReference Include="..\POSystem\POSystem.csproj" />
     <ProjectReference Include="..\ReceivingSystem\ReceivingSystem.csproj" />
     <ProjectReference Include="..\RentalSystem\RentalSystem.csproj" />

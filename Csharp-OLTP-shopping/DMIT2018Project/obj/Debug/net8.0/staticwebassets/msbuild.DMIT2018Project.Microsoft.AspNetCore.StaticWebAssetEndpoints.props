@@ -40,13 +40,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DMIT2018Project.r9k5ydcxxp.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-36vFI8aL1tYWAhZsgFSJZ40gUen6uFT/zxPLTIZ6ucs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"19776"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002236vFI8aL1tYWAhZsgFSJZ40gUen6uFT/zxPLTIZ6ucs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 07 Oct 2025 11:30:24 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"19776"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002236vFI8aL1tYWAhZsgFSJZ40gUen6uFT/zxPLTIZ6ucs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 07 Oct 2025 12:08:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DMIT2018Project/DMIT2018Project.r9k5ydcxxp.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DMIT2018Project.r9k5ydcxxp.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r9k5ydcxxp"},{"Name":"integrity","Value":"sha256-36vFI8aL1tYWAhZsgFSJZ40gUen6uFT/zxPLTIZ6ucs="},{"Name":"label","Value":"_content/DMIT2018Project/DMIT2018Project.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19776"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002236vFI8aL1tYWAhZsgFSJZ40gUen6uFT/zxPLTIZ6ucs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 07 Oct 2025 11:30:24 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19776"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002236vFI8aL1tYWAhZsgFSJZ40gUen6uFT/zxPLTIZ6ucs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 07 Oct 2025 12:08:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DMIT2018Project/favicon.ifv42okdf2.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))</AssetFile>
