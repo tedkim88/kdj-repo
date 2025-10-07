@@ -13,14 +13,14 @@ Typescript(front) + Express(backend) +  Websocket(Real-time chat with online use
      https://php-catalogue-projcet.onrender.com/public/
    
 
-3. **OLTP Shopping (C# / BlazorServer / EF Core)**  (Deployed through Azure)
-   Azure APP SERVICE & Azure DB Expired (currently not available)
-   Please check the code instead
+3. **OLTP Shopping (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
+   Azure APP SERVICE & Azure DB Expired (currently not available)  
+   Please check the code instead  
    https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/  
 
-5. **Rental Management System (C# / BlazorServer / EF Core)**  (Deployed through Azure)
-   Azure APP SERVICE & Azure DB Expired (currently not available)
-   Please check the code instead
+5. **Rental Management System (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
+   Azure APP SERVICE & Azure DB Expired (currently not available)  
+   Please check the code instead  
    https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList  
 
 7. **Word-Smith Personal JS project (JavaSript & Firebase)** (Deployed through Render.com)  
