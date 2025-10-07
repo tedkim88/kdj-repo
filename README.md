@@ -4,7 +4,7 @@ Welcome to my portfolio repository! Below are the links of my portfolio
 
 1. **Game-Hub (Full Stack React-App) (the latest one) 2025/July/16**  
 (Front Deployed to Netlify & Backend Deployed to Render.com)  
-Typescript(front) + Express(backend) + MongoDB(NOSQL) + jwtAuth + Websocket(Real-time chat) + Tailwind CSS + Daisy UI + ....
+Typescript(front) + Express(backend) +  Websocket(Real-time chat with online users) + MongoDB(NOSQL) + jwtAuth + + Tailwind CSS + Daisy UI + ....
   
    https://rococo-chimera-697176.netlify.app/
    
