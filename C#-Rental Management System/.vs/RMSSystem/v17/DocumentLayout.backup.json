@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 43,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,18 +65,14 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\appsettings.json",
               "RelativeDocumentMoniker": "RMSApp\\appsettings.json",
-              "ToolTip": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\appsettings.json",
-              "RelativeToolTip": "RMSApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\appsettings.json*",
+              "RelativeToolTip": "RMSApp\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-07T07:40:33.192Z",
               "EditorCaption": ""
@@ -84,15 +80,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RMSApp",
+              "Title": "RMSApp.csproj",
               "DocumentMoniker": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\RMSApp.csproj",
               "RelativeDocumentMoniker": "RMSApp\\RMSApp.csproj",
               "ToolTip": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\RMSApp.csproj",
               "RelativeToolTip": "RMSApp\\RMSApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-07T07:39:25.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T07:39:25.378Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },
