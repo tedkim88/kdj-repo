@@ -20,6 +20,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Update="wwwroot\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\POSystem\POSystem.csproj" />
     <ProjectReference Include="..\ReceivingSystem\ReceivingSystem.csproj" />
     <ProjectReference Include="..\RentalSystem\RentalSystem.csproj" />

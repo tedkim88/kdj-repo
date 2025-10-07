@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vYFoHlTEbwNAQgHCt3o67Zq1Q7bcYPokROqfefM/KcA=",
+  "Hash": "o84TlOKSfzmllLp+wONNzj5hp99yNLmv53NWsnFidc0=",
   "Source": "DMIT2018Project",
   "BasePath": "_content/DMIT2018Project",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DMIT2018Project\\wwwroot",
       "Source": "DMIT2018Project",
-      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css",
       "SourceId": "DMIT2018Project",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "DMIT2018Project#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "Myet6gbqijDssTcO0VQOleIacfIyJYctD5EILV+DzvE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css"
+      "OriginalItemSpec": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css"
     },
     {
-      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
       "SourceId": "DMIT2018Project",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "DMIT2018Project#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "36vFI8aL1tYWAhZsgFSJZ40gUen6uFT/zxPLTIZ6ucs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css"
+      "OriginalItemSpec": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css"
     },
     {
-      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "img/refresh#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\img\\refresh.png"
     },
     {
-      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "img/remove#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\img\\remove.png"
     },
     {
-      "Identity": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
       "SourceId": "DMIT2018Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\",
       "BasePath": "_content/DMIT2018Project",
       "RelativePath": "img/team-2-logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -490,7 +490,7 @@
     },
     {
       "Route": "app.css",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -511,7 +511,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -527,7 +527,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -548,7 +548,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -572,7 +572,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -593,7 +593,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -617,7 +617,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -638,7 +638,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -654,7 +654,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -675,7 +675,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -699,7 +699,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -720,7 +720,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -736,7 +736,7 @@
     },
     {
       "Route": "DMIT2018Project.bundle.scp.css",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -757,7 +757,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 06:40:23 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -773,7 +773,7 @@
     },
     {
       "Route": "DMIT2018Project.r9k5ydcxxp.bundle.scp.css",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DMIT2018Project.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -794,7 +794,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 06:40:23 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -818,7 +818,7 @@
     },
     {
       "Route": "DMIT2018Project.styles.css",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -843,7 +843,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 06:40:23 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Link",
@@ -859,7 +859,7 @@
     },
     {
       "Route": "DMIT2018Project.x7vjk4ps63.styles.css",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8.0\\scopedcss\\bundle\\DMIT2018Project.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -884,7 +884,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 06 May 2025 06:40:23 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Link",
@@ -908,7 +908,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -929,7 +929,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -953,7 +953,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -974,7 +974,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -990,7 +990,7 @@
     },
     {
       "Route": "img/refresh.png",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1011,7 +1011,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1027,7 +1027,7 @@
     },
     {
       "Route": "img/refresh.sqsxatcbbb.png",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\refresh.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1048,7 +1048,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1072,7 +1072,7 @@
     },
     {
       "Route": "img/remove.png",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1093,7 +1093,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1109,7 +1109,7 @@
     },
     {
       "Route": "img/remove.xaxx86hh6j.png",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\remove.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1130,7 +1130,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1154,7 +1154,7 @@
     },
     {
       "Route": "img/team-2-logo.e0ipvdgc69.png",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1175,7 +1175,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1199,7 +1199,7 @@
     },
     {
       "Route": "img/team-2-logo.png",
-      "AssetFile": "C:\\git\\kdj-repo\\C#-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\wwwroot\\img\\team-2-logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1220,7 +1220,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 19:02:48 GMT"
+          "Value": "Mon, 06 Oct 2025 23:10:54 GMT"
         },
         {
           "Name": "Cache-Control",
