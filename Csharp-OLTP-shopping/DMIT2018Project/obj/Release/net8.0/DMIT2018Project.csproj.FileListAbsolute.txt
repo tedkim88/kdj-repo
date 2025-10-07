@@ -401,3 +401,10 @@ C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\obj\Release\ne
 C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\obj\Release\net8.0\DMIT2018Project.pdb
 C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\obj\Release\net8.0\DMIT2018Project.genruntimeconfig.cache
 C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\obj\Release\net8.0\ref\DMIT2018Project.dll
+C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Release\net8.0\wwwroot\app.css
+C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Release\net8.0\wwwroot\bootstrap\bootstrap.min.css
+C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Release\net8.0\wwwroot\bootstrap\bootstrap.min.css.map
+C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Release\net8.0\wwwroot\favicon.png
+C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Release\net8.0\wwwroot\img\refresh.png
+C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Release\net8.0\wwwroot\img\remove.png
+C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Release\net8.0\wwwroot\img\team-2-logo.png
