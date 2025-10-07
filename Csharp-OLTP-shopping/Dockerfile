@@ -1,5 +1,5 @@
 # ---------------------------
-# 1️⃣ Build 단계
+# 1️⃣ Build 단계 (8.0 SDK 사용)
 # ---------------------------
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
@@ -21,17 +21,17 @@ RUN dotnet restore
 # 전체 소스 복사
 COPY . .
 
-# Blazor 앱 publish
+# Blazor 앱 publish (Release 모드, 출력: out)
 RUN dotnet publish DMIT2018Project/DMIT2018Project.csproj -c Release -o out
 
 # ---------------------------
-# 2️⃣ Runtime 단계
+# 2️⃣ Runtime 단계 (8.0 Runtime 사용)
 # ---------------------------
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 
 # Publish 결과 복사
-COPY --from=build /app/out/ ./
+COPY --from=build /app/out .
 
 # 컨테이너 포트 열기
 EXPOSE 10000
