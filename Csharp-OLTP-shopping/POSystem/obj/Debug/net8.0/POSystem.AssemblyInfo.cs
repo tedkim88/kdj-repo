@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("POSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+924c88e97618d7f8d213d0de25e5334453dad38f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07ac778213677dd3286e938613264ab7b6677a06")]
 [assembly: System.Reflection.AssemblyProductAttribute("POSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("POSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
