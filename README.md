@@ -1,33 +1,29 @@
 # KDJ Portfolio
 
-Welcome to my portfolio repository! Below are the links of my portfolio  
+Welcome to my portfolio repository! Below are the links of my portfolio
 
-1. **OLTP Shopping (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
+1. **Game-Hub (Full Stack React-App) (the latest one) 2025/July/16**  
+(Front Deployed to Netlify & Backend Deployed to Render.com)  
+Typescript(front) + Express(backend) + MongoDB(NOSQL) + jwtAuth + Websocket(Real-time chat) + Tailwind CSS + Daisy UI + ....
+  
+   https://rococo-chimera-697176.netlify.app/
+
+
+2. **OLTP Shopping (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
    https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/  
 
-2. **Rental Management System (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
+3. **Rental Management System (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
    https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList  
 
-3. **Word-Smith Personal JS project (JavaSript & Firebase)** (Deployed through Render.com)  
+4. **Word-Smith Personal JS project (JavaSript & Firebase)** (Deployed through Render.com)  
    https://wordsmith-finished.onrender.com
 
-4. **Modal & Form (CSS)** (Deployed through Netlify)  
+5. **Modal & Form (CSS)** (Deployed through Netlify)  
    https://graceful-gecko-22ac0e.netlify.app/  
     
-5. **Responsive Design (CSS)**  (Deployed through Netlify)  
+6. **Responsive Design (CSS)**  (Deployed through Netlify)  
    https://jolly-lamington-d3ce51.netlify.app/
 
-6. **React-App ( FULL STACK : EXPRESS + React(TYPESCRIPT) ) -- GameHUB**  
-   **(THIS IS IN **PROGRESS NOW** Backend&Frontend Both!!)**  
-   typescript(front) + express(backend) + mongoDB(NOSQL) + jwtAuth + ....  
-   This is going to be a website where people can get game recommendations by platform.  
-   Users can search for game info by platforms and/or genres.  
-   Not only that, they are going to be able to share opinions in a **board**,  
-   leave game reviews, chat with signed-in users in real-time to find game partners.
-
-   ![image](https://github.com/user-attachments/assets/fffe26ac-f6e9-45cc-8125-2030a8e8094f)
-
-![image](https://github.com/user-attachments/assets/08d21800-f790-4411-bdee-20e42d983a15)
 
 
    
@@ -37,7 +33,37 @@ Welcome to my portfolio repository! Below are the links of my portfolio
 
 Project Introduction
 
-## 1. **WordSmith** (JavaScript-based Web App)
+## 1. GameHub 🎮
+
+## Full-Stack: React + Node.js
+
+**Tech Stack**  
+- **Frontend**: React (TypeScript), Tailwind CSS, DaisyUI  
+- **Backend**: Node.js (Express), WebSocket  
+- **Database**: MongoDB  
+- **Authentication**: JWT  
+
+## 📌 Description  
+GameHub is a full-stack web application designed as a community platform for gamers, featuring real-time 1:1 chat functionality.  
+Built with React and TypeScript on the frontend and Express.js on the backend, the app uses WebSocket for seamless, real-time communication between users.
+
+## 🚀 Key Features
+-  JWT-based user authentication (login/register)  
+-  Real-time messaging using WebSocket  
+-  Responsive and modern UI with Tailwind CSS  
+-  MongoDB for persistent storage of users and messages  
+-  Clean code structure with organized component and service layers (Service - Controller Separated)
+
+
+![image](https://github.com/user-attachments/assets/fffe26ac-f6e9-45cc-8125-2030a8e8094f)
+
+![image](https://github.com/user-attachments/assets/08d21800-f790-4411-bdee-20e42d983a15)
+
+---------------------------------------
+
+
+
+## 2. **WordSmith** (JavaScript-based Web App)
 **Description**:  
 WordSmith is my personal JavaScript-based web application designed to help users learn vocabulary and manage their own word lists using Firebase Database. The app includes a quiz feature, allowing users to search for words, view their meanings, add words to a personal list, and then quiz themselves on the saved words.
 
@@ -69,7 +95,7 @@ WordSmith is my personal JavaScript-based web application designed to help users
 
 ----------------------------------------------  
 
-## 2. **OLTP Shopping / Rental Management System** (C# & Blazor & EntityFrameworkCore / SQL))
+## 3. **OLTP Shopping / Rental Management System** (C# & Blazor & EntityFrameworkCore / SQL))
 **Description**: 
 **Note** I was responsible for **'SalesSystem'**, Sales refund related page for this team project. Each one had their own part.
 **POSystem is not my part.**
@@ -92,7 +118,7 @@ These projects demonstrate my understanding of C# and Blazor. They are based on 
 
 ---
 
-## 3. **WeatherInfo Simple Web App**  
+## 4. **WeatherInfo Simple Web App**  
 **Description**:  
 This is not a full-fledged project but rather my first attempt at using a free API to create a simple web application for tracking weather history.
 
@@ -102,7 +128,7 @@ These projects are works in progress or practice attempts. The code structure, u
 
 ---
 
-## 4. **Design-shopping-mall (MODAL & Form)**  
+## 5. **Design-shopping-mall (MODAL & Form)**  
 **Description**:  
 Through this project, I learned how to pop-up modal window to encourage customers to sign up for the site or submit their data. 
 This site has functionality for horizontally displaying products through scroll.
@@ -117,7 +143,7 @@ The purpose of this project for me was to practice modal and form.
 
 ---  
 
-## 5. **Design-responsive and navigation** 
+## 6. **Design-responsive and navigation** 
 **Description**:  
 Doing this project, I got to learn how and what to do with position absolute, relative, getting more used to flex and its usage for aligning items even when something doesn't need to be flexed.
 I made toggle-navigation as well using simple JS commands, and this navigation display changes depending on the viewport size, using media queries.
