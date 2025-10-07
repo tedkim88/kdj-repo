@@ -3,10 +3,8 @@
     "",
     "\\DMIT2018Project",
     "\\DMIT2018Project\\Components",
-    "\\LINQFiles",
-    "\\LINQFiles\\Rental",
-    "\\RentalSystem"
+    "\\LINQFiles\\Rental"
   ],
-  "SelectedNode": "\\DMIT2018Project\\Components\\Pages",
+  "SelectedNode": "\\DMIT2018Project\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

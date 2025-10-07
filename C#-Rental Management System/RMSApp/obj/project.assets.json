@@ -4661,11 +4661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\RMSApp.csproj",
+      "projectUniqueName": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\RMSApp.csproj",
       "projectName": "RMSApp",
-      "projectPath": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\RMSApp.csproj",
+      "projectPath": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\RMSApp.csproj",
       "packagesPath": "C:\\Users\\daejinkim\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\",
+      "outputPath": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4687,8 +4687,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSSystem\\RMSSystem.csproj": {
-              "projectPath": "C:\\git\\kdj-repo\\C#-Rental Management System\\RMSSystem\\RMSSystem.csproj"
+            "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSSystem\\RMSSystem.csproj": {
+              "projectPath": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSSystem\\RMSSystem.csproj"
             }
           }
         }
@@ -4750,19 +4750,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
+            "version": "[8.0.17, 8.0.17]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.15, 8.0.15]"
+            "version": "[8.0.17, 8.0.17]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
+            "version": "[8.0.17, 8.0.17]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
+            "version": "[8.0.17, 8.0.17]"
           }
         ],
         "frameworkReferences": {
@@ -4773,7 +4773,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

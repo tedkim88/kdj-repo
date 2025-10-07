@@ -70,3 +70,15 @@ C:\git\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.dl
 C:\git\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\refint\ServiceSystem.dll
 C:\git\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.pdb
 C:\git\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ref\ServiceSystem.dll
+C:\git\kdj-repo-new\kdj-repo\C#-OLTP-shopping\ServiceSystem\bin\Debug\net8.0\ServiceSystem.deps.json
+C:\git\kdj-repo-new\kdj-repo\C#-OLTP-shopping\ServiceSystem\bin\Debug\net8.0\ServiceSystem.dll
+C:\git\kdj-repo-new\kdj-repo\C#-OLTP-shopping\ServiceSystem\bin\Debug\net8.0\ServiceSystem.pdb
+C:\git\kdj-repo-new\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\kdj-repo-new\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.AssemblyInfoInputs.cache
+C:\git\kdj-repo-new\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.AssemblyInfo.cs
+C:\git\kdj-repo-new\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.csproj.CoreCompileInputs.cache
+C:\git\kdj-repo-new\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.sourcelink.json
+C:\git\kdj-repo-new\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.dll
+C:\git\kdj-repo-new\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\refint\ServiceSystem.dll
+C:\git\kdj-repo-new\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ServiceSystem.pdb
+C:\git\kdj-repo-new\kdj-repo\C#-OLTP-shopping\ServiceSystem\obj\Debug\net8.0\ref\ServiceSystem.dll
