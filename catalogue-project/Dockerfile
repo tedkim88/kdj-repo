@@ -29,10 +29,6 @@ RUN apt-get update && \
 # Apache URL 재작성 활성화
 RUN a2enmod rewrite
 
-# Create upload directories and fix permissions
-RUN chown -R www-data:www-data /var/www/html/public/images \
-    && chmod -R 755 /var/www/html/public/images
-
 # 커스텀 Apache 설정 적용 (디렉토리 리스팅, DocumentRoot 등)
 COPY apache-dirlist.conf /etc/apache2/sites-enabled/000-default.conf
 
@@ -44,9 +40,12 @@ COPY public/ /var/www/html/public/
 COPY private/ /var/www/html/private/
 COPY data/ /var/www/html/data/
 
+# 업로드 폴더 권한 설정 (COPY 이후)
+RUN chown -R www-data:www-data /var/www/html/public/images \
+    && chmod -R 755 /var/www/html/public/images
+
 # 웹 서비스 포트 (Render 기본 10000)
 EXPOSE 10000
 
 # Apache 포그라운드 실행
 CMD ["apache2-foreground"]
-
