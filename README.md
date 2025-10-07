@@ -13,19 +13,23 @@ Typescript(front) + Express(backend) +  Websocket(Real-time chat with online use
      https://php-catalogue-projcet.onrender.com/public/
    
 
-3. **OLTP Shopping (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
+3. **OLTP Shopping (C# / BlazorServer / EF Core)**  (Deployed through Azure)
+   Azure APP SERVICE & Azure DB Expired (currently not available)
+   Please check the code instead
    https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/  
 
-4. **Rental Management System (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
+5. **Rental Management System (C# / BlazorServer / EF Core)**  (Deployed through Azure)
+   Azure APP SERVICE & Azure DB Expired (currently not available)
+   Please check the code instead
    https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList  
 
-5. **Word-Smith Personal JS project (JavaSript & Firebase)** (Deployed through Render.com)  
+7. **Word-Smith Personal JS project (JavaSript & Firebase)** (Deployed through Render.com)  
    https://wordsmith-finished.onrender.com
 
-6. **Modal & Form (CSS)** (Deployed through Netlify)  
+8. **Modal & Form (CSS)** (Deployed through Netlify)  
    https://graceful-gecko-22ac0e.netlify.app/  
     
-7. **Responsive Design (CSS)**  (Deployed through Netlify)  
+9. **Responsive Design (CSS)**  (Deployed through Netlify)  
    https://jolly-lamington-d3ce51.netlify.app/
 
 
