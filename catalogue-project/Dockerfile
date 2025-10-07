@@ -1,7 +1,7 @@
-# PHP + Apache 베이스 이미지
+# Base image
 FROM php:8.4-apache
 
-# 필요한 OS 패키지와 PHP 확장 설치
+# Install required OS packages and PHP extensions
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
       curl \
@@ -26,22 +26,24 @@ RUN apt-get update && \
       mysqli \
     && rm -rf /var/lib/apt/lists/*
 
-# Apache URL 재작성 활성화
+# Enable Apache modules
 RUN a2enmod rewrite
 
-# 커스텀 Apache 설정 적용 (디렉토리 리스팅, DocumentRoot 등)
+# Copy Apache config (for directory listing, if needed)
 COPY apache-dirlist.conf /etc/apache2/sites-enabled/000-default.conf
 
-# 프로젝트 소스 복사
-# - public 폴더: 웹에서 접근 가능
-# - private 폴더: PHP 코드
-# - data 폴더: 외부에서 접근 불가
-COPY public/ /var/www/html/public/
-COPY private/ /var/www/html/private/
-COPY data/ /var/www/html/data/
+# Create upload directories and fix permissions
+RUN chown -R www-data:www-data /var/www/html/public/images \
+    && chmod -R 755 /var/www/html/public/images
 
-# 웹 서비스 포트 (Render 기본 10000)
-EXPOSE 10000
+# Copy your project into container
+COPY ./catalogue-project /var/www/html/
 
-# Apache 포그라운드 실행
+# Set ServerName to suppress Apache warnings
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
+# Expose default HTTP port
+EXPOSE 80
+
+# Start Apache in foreground
 CMD ["apache2-foreground"]

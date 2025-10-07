@@ -46,6 +46,7 @@ if (!empty($error)) echo "<p class=\"text-center text-danger\">$error</p>";
     <div class="mb-3">
         <label for="username" class="form-label">Username:</label>
         <input type="text" name="username" id="username" class="form-control" required>
+	<p>TestID : admin, Password : Password1! </p>
     </div>
 
     <!-- Password -->
