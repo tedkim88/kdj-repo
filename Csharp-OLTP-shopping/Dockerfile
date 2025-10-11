@@ -1,13 +1,13 @@
 # ---------------------------
-# 1️⃣ Build 단계 (8.0 SDK 사용)
+# 1️⃣ Build 단계
 # ---------------------------
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /app
+WORKDIR /src
 
 # 솔루션 파일 복사
 COPY DMIT2018Project.sln ./
 
-# 프로젝트 csproj 복사 (라이브러리 포함)
+# 프로젝트 csproj 복사
 COPY DMIT2018Project/*.csproj ./DMIT2018Project/
 COPY POSystem/*.csproj ./POSystem/
 COPY ReceivingSystem/*.csproj ./ReceivingSystem/
@@ -21,20 +21,20 @@ RUN dotnet restore
 # 전체 소스 복사
 COPY . .
 
-# Blazor 앱 publish (Release 모드, 출력: out)
-RUN dotnet publish DMIT2018Project/DMIT2018Project.csproj -c Release -o out
+# Blazor 앱 publish (Release 모드, 정적 파일 포함)
+RUN dotnet publish DMIT2018Project/DMIT2018Project.csproj -c Release -o /app/publish
 
 # ---------------------------
-# 2️⃣ Runtime 단계 (8.0 Runtime 사용)
+# 2️⃣ Runtime 단계
 # ---------------------------
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 
 # Publish 결과 복사
-COPY --from=build /app/out .
+COPY --from=build /app/publish .
 
-# 컨테이너 포트 열기
-EXPOSE 10000
+# 컨테이너 포트 (Render.com은 10000이 아니라 $PORT 환경변수 사용 가능)
+EXPOSE 80
 
 # 앱 실행
 ENTRYPOINT ["dotnet", "DMIT2018Project.dll"]
