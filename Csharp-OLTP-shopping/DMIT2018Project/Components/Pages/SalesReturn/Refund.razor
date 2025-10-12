@@ -1,4 +1,6 @@
 ﻿@page "/SalesReturn/Refund"
+@using System.Globalization
+
 <PageTitle>Refund Page</PageTitle>
 <h3>Returns</h3>
 
@@ -86,9 +88,9 @@
 
             </tbody>
         </table>
-        <p>Subtotal(Before discount) : @subTotalOfReturnItems.ToString("C2")</p>
-        <p>Tax(Before discount): @taxOfReturnItems.ToString("C2")        </p>
-        <p style="color:red;">Total Return(Discount applied if applicable): @totalReturn.ToString("C2")</p>
+        <p>Subtotal(Before discount) : @subTotalOfReturnItems.ToString("C2", CultureInfo.GetCultureInfo("en-US"))</p>
+        <p>Tax(Before discount): @taxOfReturnItems.ToString("C2", CultureInfo.GetCultureInfo("en-US"))</p>
+        <p style="color:red;">Total Return(Discount applied if applicable): @totalReturn.ToString("C2", CultureInfo.GetCultureInfo("en-US"))</p>
 
 
     }

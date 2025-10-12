@@ -1,5 +1,6 @@
 ﻿@page "/SalesReturn/Shopping"
 @rendermode InteractiveServer
+@using System.Globalization
 <h3>Shopping</h3>
 <PageTitle>Shopping</PageTitle>
 
@@ -71,7 +72,7 @@
             {
                 <tr>
                     <td>@stockItem.Description</td>
-                    <td>@stockItem.SellingPrice.ToString("C2")</td>
+                        <td>@stockItem.SellingPrice.ToString("C2", CultureInfo.GetCultureInfo("en-US"))</td>
                     <td>
                         <input type="number" @bind="stockItem.Quantity" min="1" class="form-control" />
                     </td>
@@ -108,8 +109,8 @@
                 <tr>
                     <td>@item.ProductName</td>
                     <td>@item.Quantity</td>
-                    <td>@item.UnitPrice.ToString("C2")</td>
-                    <td>@item.Subtotal.ToString("C2")</td>
+                    <td>@item.UnitPrice.ToString("C2", CultureInfo.GetCultureInfo("en-US"))</td>
+                    <td>@item.Subtotal.ToString("C2", CultureInfo.GetCultureInfo("en-US"))</td>
                 </tr>
             }
         </tbody>
