@@ -7,8 +7,15 @@ using Microsoft.EntityFrameworkCore;
 using MudBlazor.Services;
 using SalesSystem; //added
 using POSystem;
+using System.Text;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
+
+Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+Console.OutputEncoding = Encoding.UTF8;
+
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
