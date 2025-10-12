@@ -1,29 +1,16 @@
 ﻿@inherits LayoutComponentBase
-@using MudBlazor
 
-<MudThemeProvider />
-<MudDialogProvider />
-<MudPopoverProvider />
-<MudSnackbarProvider />
+<div class="d-flex">
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
+    <!-- 왼쪽 네브 메뉴 컴포넌트 -->
+    <NavMenu />
 
-    <main>
-        <div class="top-row px-4">
+    <!-- 메인 컨텐츠 영역 -->
+    <main class="flex-fill p-4">
+        <div class="top-row mb-3">
             <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
         </div>
 
-        <article class="content px-4">
-            @Body
-        </article>
+        @Body
     </main>
-</div>
-
-<div id="blazor-error-ui">
-    An unhandled error has occurred.
-    <a href="" class="reload">Reload</a>
-    <a class="dismiss">🗙</a>
 </div>

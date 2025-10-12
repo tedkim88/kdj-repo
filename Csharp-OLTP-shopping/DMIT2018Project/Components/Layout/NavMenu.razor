@@ -1,83 +1,71 @@
-﻿@using MudBlazor
-@inject NavigationManager NavigationManager
-@implements IDisposable
+﻿@inject NavigationManager NavigationManager
 @using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.Routing
 
-<MudNavMenu>
+<nav class="flex-column bg-light p-3" style="width:250px; min-height:100vh;">
+    <h5 class="mb-3">Menu</h5>
 
-    <!-- Home -->
-    <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">
-        Home
-    </MudNavLink>
+    <ul class="nav nav-pills flex-column mb-auto">
 
-    <!-- SalesAndReturn 섹션 -->
-    <MudNavGroup Text="SalesAndReturn" Icon="@Icons.Material.Filled.ShoppingCart">
-        <MudNavLink Href="/SalesReturn/Shopping">Shopping</MudNavLink>
-        <MudNavLink Href="/SalesReturn/Cart">Cart</MudNavLink>
-        <MudNavLink Href="/SalesReturn/Checkout">Checkout</MudNavLink>
-        <MudNavLink Href="/SalesReturn/Refund">Refund</MudNavLink>
-    </MudNavGroup>
+        <!-- Home -->
+        <li class="nav-item">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">Home</NavLink>
+        </li>
 
-    <!-- PurchaseOrder 섹션 -->
-    <MudNavGroup Text="PurchaseOrder" Icon="@Icons.Material.Filled.Inventory">
-        <MudNavLink Href="/PurchaseOrders/Vendors">Order Stock</MudNavLink>
-    </MudNavGroup>
+        <!-- SalesAndReturn 섹션 -->
+        <li>
+            <button class="nav-link dropdown-toggle btn btn-toggle align-items-center"
+                    data-bs-toggle="collapse" data-bs-target="#salesMenu"
+                    aria-expanded="false">
+                SalesAndReturn
+            </button>
+            <div class="collapse" id="salesMenu">
+                <ul class="list-unstyled ps-3">
+                    <li><NavLink class="nav-link" href="/SalesReturn/Shopping">Shopping</NavLink></li>
+                    <li><NavLink class="nav-link" href="/SalesReturn/Cart">Cart</NavLink></li>
+                    <li><NavLink class="nav-link" href="/SalesReturn/Checkout">Checkout</NavLink></li>
+                    <li><NavLink class="nav-link" href="/SalesReturn/Refund">Refund</NavLink></li>
+                </ul>
+            </div>
+        </li>
 
-    <!-- Other pages -->
-    <MudNavLink Href="counter" Icon="@Icons.Material.Filled.AddBox">
-        Counter
-    </MudNavLink>
-    <MudNavLink Href="weather" Icon="@Icons.Material.Filled.Cloud">
-        Weather
-    </MudNavLink>
-    <MudNavLink Href="auth" Icon="@Icons.Material.Filled.Lock">
-        Auth Required
-    </MudNavLink>
+        <!-- PurchaseOrder 섹션 -->
+        <li>
+            <button class="nav-link dropdown-toggle btn btn-toggle align-items-center"
+                    data-bs-toggle="collapse" data-bs-target="#purchaseMenu"
+                    aria-expanded="false">
+                PurchaseOrder
+            </button>
+            <div class="collapse" id="purchaseMenu">
+                <ul class="list-unstyled ps-3">
+                    <li><NavLink class="nav-link" href="/PurchaseOrders/Vendors">Order Stock</NavLink></li>
+                </ul>
+            </div>
+        </li>
 
-    <!-- Authentication -->
-    <AuthorizeView>
-        <Authorized>
-            <MudNavLink Href="Account/Manage" Icon="@Icons.Material.Filled.Person">
-                @context.User.Identity?.Name
-            </MudNavLink>
-            <MudNavLink OnClick="Logout" Icon="@Icons.Material.Filled.ExitToApp">
-                Logout
-            </MudNavLink>
-        </Authorized>
-        <NotAuthorized>
-            <MudNavLink Href="Account/Register" Icon="@Icons.Material.Filled.PersonAdd">
-                Register
-            </MudNavLink>
-            <MudNavLink Href="Account/Login" Icon="@Icons.Material.Filled.Login">
-                Login
-            </MudNavLink>
-        </NotAuthorized>
-    </AuthorizeView>
+        <!-- Other pages -->
+        <li><NavLink class="nav-link" href="counter">Counter</NavLink></li>
+        <li><NavLink class="nav-link" href="weather">Weather</NavLink></li>
+        <li><NavLink class="nav-link" href="auth">Auth Required</NavLink></li>
 
-</MudNavMenu>
+        <!-- Authentication -->
+        <AuthorizeView>
+            <Authorized>
+                <li><NavLink class="nav-link" href="Account/Manage">@context.User.Identity?.Name</NavLink></li>
+                <li><a href="#" class="nav-link" @onclick="Logout">Logout</a></li>
+            </Authorized>
+            <NotAuthorized>
+                <li><NavLink class="nav-link" href="Account/Register">Register</NavLink></li>
+                <li><NavLink class="nav-link" href="Account/Login">Login</NavLink></li>
+            </NotAuthorized>
+        </AuthorizeView>
+
+    </ul>
+</nav>
 
 @code {
-    private string? currentUrl;
-
-    protected override void OnInitialized()
-    {
-        currentUrl = NavigationManager.ToBaseRelativePath(NavigationManager.Uri);
-        NavigationManager.LocationChanged += OnLocationChanged;
-    }
-
-    private void OnLocationChanged(object? sender, Microsoft.AspNetCore.Components.Routing.LocationChangedEventArgs e)
-    {
-        currentUrl = NavigationManager.ToBaseRelativePath(e.Location);
-        StateHasChanged();
-    }
-
     private void Logout()
     {
         NavigationManager.NavigateTo("Account/Logout", true);
-    }
-
-    public void Dispose()
-    {
-        NavigationManager.LocationChanged -= OnLocationChanged;
     }
 }
