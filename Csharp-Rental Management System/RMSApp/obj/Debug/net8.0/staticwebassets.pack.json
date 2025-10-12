@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
+      "Id": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\RMSApp.g4myxcgrkg.bundle.scp.css"
     },
     {
-      "Id": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\app.css",
+      "Id": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
+      "Id": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

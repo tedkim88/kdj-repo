@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EhVi2v+iToqitJh9k62iLFk/FtGuUKRDdyf5eMXsqSo=",
+  "Hash": "0IYvFhxQENMTq3/GsHUQEp3R0XWF4WEaNTssp1ENjDY=",
   "Source": "RMSApp",
   "BasePath": "_content/RMSApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RMSApp\\wwwroot",
       "Source": "RMSApp",
-      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\",
       "BasePath": "_content/RMSApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css",
       "SourceId": "RMSApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/RMSApp",
       "RelativePath": "RMSApp#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "Ekwiyx0UxvGavpQwPFCMJimEQD4loOegnisZx3wsNCo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css"
+      "OriginalItemSpec": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css"
     },
     {
-      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
       "SourceId": "RMSApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RMSApp",
       "RelativePath": "RMSApp#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "gNWbIWbLQl9N+OyNqjCX9rNC6e6lLYZj5b/KkIGx4vM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\app.css",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\app.css",
       "SourceId": "RMSApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\",
       "BasePath": "_content/RMSApp",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "RMSApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\",
       "BasePath": "_content/RMSApp",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "RMSApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\",
       "BasePath": "_content/RMSApp",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
+      "Identity": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
       "SourceId": "RMSApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\",
+      "ContentRoot": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\",
       "BasePath": "_content/RMSApp",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -378,7 +378,7 @@
     },
     {
       "Route": "app.css",
-      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\app.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -415,7 +415,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\app.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -460,7 +460,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -505,7 +505,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -542,7 +542,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -587,7 +587,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -624,7 +624,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -669,7 +669,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -706,7 +706,7 @@
     },
     {
       "Route": "RMSApp.bundle.scp.css",
-      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -743,7 +743,7 @@
     },
     {
       "Route": "RMSApp.g4myxcgrkg.bundle.scp.css",
-      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RMSApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -788,7 +788,7 @@
     },
     {
       "Route": "RMSApp.if0r1qv1jq.styles.css",
-      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -837,7 +837,7 @@
     },
     {
       "Route": "RMSApp.styles.css",
-      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\C#-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css",
+      "AssetFile": "C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-Rental Management System\\RMSApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RMSApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
