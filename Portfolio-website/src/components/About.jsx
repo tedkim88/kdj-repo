@@ -9,11 +9,11 @@ const particlesInit = async (main) => {
 
 function About() {
   return (
-   <section
-  id="about"
-  className="relative min-h-screen flex flex-col md:flex-row items-center justify-center px-8 py-16 
-             bg-gradient-to-b from-black via-violet-500 to-black text-white"
->
+    <section
+      id="about"
+      className="relative min-h-screen flex flex-col md:flex-row items-center justify-center px-2 py-16 
+             bg-gradient-to-b from-black via-sky-700 to-black text-white"
+    >
       {/* 입자 배경 */}
       <Particles
         id="tsparticles-about"
@@ -61,14 +61,34 @@ function About() {
         <h2 className="text-4xl font-bold mb-4">About Me</h2>
         <p className="text-lg md:text-xl mb-4">
           Hi, I'm Daejin Kim, a passionate Fullstack Developer with experience
-          in React, .NET, Express, Next.js and many others. I love building modern, responsive web applications
-          and learning new backend & frontend technologies and architectures like clean architecture.
+          in{" "}
+          <span className="text-yellow-400">
+            React, Next.js, .NET, ASP .Net Core Web API, Express, and many
+            others.{" "}
+          </span>{" "}
+          I have done many portfolios using{" "}
+          <span className="text-yellow-400">
+            {" "}
+            Restful APIs with clean architecture{" "}
+          </span>{" "}
+          and used{" "}
+          <span className="text-yellow-400">
+            Web socket(socket.io) for real-time chat{" "}
+          </span>{" "}
+          in my recent project. More recently, I'm studying{" "}
+          <span className="text-yellow-400">
+            {" "}
+            AI integration with the concept of 'Agentic AI'.
+          </span>
+          I love building modern, responsive web applications and learning new
+          backend & frontend technologies and architectures like clean
+          architecture.
         </p>
         <p className="text-lg md:text-xl">
           I focus on writing clean, maintainable code and creating user-friendly
-          interfaces. When I'm not coding, I enjoy exploring a variety of projects that I can find on the Internet and
-          experimenting with creative projects that can help solve real-world problems.
-          
+          interfaces. When I'm not coding, I enjoy exploring a variety of
+          projects that I can find on the Internet and experimenting with
+          creative projects that can help solve real-world problems.
         </p>
       </div>
     </section>

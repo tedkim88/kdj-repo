@@ -8,53 +8,82 @@ function Skills() {
   };
 
   const skillCategories = [
-  {
-    title: "Web Dev(Full Stack)",
-    skills: [
-      "React(Next.js) with ASP.Net Core(Web API) or Express, Blazor WebApp with C# (Full stack)",
-      "RESTful APIs, Websocket for real-time function",
-      "Typescript, Javascript, HTML, CSS(Tailwind), PHP",
-      "Oracle DB with Oracle Form"
-    ],
-  },
-  {
-    title: "AI Integration to project",
-    skills: [
-      "OpenAI API integration to my personal app",
-      "Experience with Open source AI like ollama",
-      "Prompt Engineering for my project (System prompt, User prompt)"
-    ],
-  },
-  {
-    title: "Database & Backend",
-    skills: [
-      "MS SQL Server, Oracle, PostgreSQL, MySQL, MongoDB, Firestore",
-      "ASP.Net Core Web API, Express, Node.js, EntityFrameWorkCore, Prisma, Mongoose",
-      "JWT, Clerk Auth(Token management), Clerk Webhook, Firebase Auth & DB(Firestore), bcrypt-hashing"
-    ],
-  },
-  {
-    title: "DevOps (Practicing)",
-    skills: ["Docker (WSL-Ubuntu)", "Bash Scripting", "Vim", "CI/CD Pipelines"],
-  },
-  {
-    title: "Cloud & Deployment",
-    skills: ["Azure & AWS", "Deploy apps through Azure App Service & SQL DB", "Flyio", "Render", "Netlify"],
-  },
-  {
-    title: "Data Analytics",
-    skills: ["Data warehousing", "ETL, SSIS, SSAS, SSRS", "Excel"],
-  },
-  {
-    title: "Self-Learning & Testing",
-    skills: ["Angular", "Python", "LLMs(Large Language Models)", "Power BI", "xUnit Testing with C#"],
-  },
-  {
-    title: "Version Control & Tools",
-    skills: ["Git & Github", "Axios", "React Query", "Zustand", "Postman", "DaisyUI", "Shadcn UI", "Material UI", "Chakra UI", "Tailwind CSS", "Bootstrap", "MudBlazor"],
-  },
-];
-
+    {
+      title: "Web Dev(Full Stack)",
+      skills: [
+        "React(Next.js) with ASP.Net Core(Web API) or Express, Blazor WebApp with C# (Full stack)",
+        "RESTful APIs, Websocket for real-time function",
+        "Typescript, Javascript, HTML, CSS(Tailwind), PHP",
+        "Oracle DB with Oracle Form",
+      ],
+    },
+    {
+      title: "AI Integration to project",
+      skills: [
+        "OpenAI API integration to my personal app",
+        "Experience with Open source AI like ollama",
+        "Prompt Engineering for my project (System prompt, User prompt)",
+      ],
+    },
+    {
+      title: "Database & Backend",
+      skills: [
+        "MS SQL Server, Oracle, PostgreSQL, MySQL, MongoDB, Firestore",
+        "ASP.Net Core Web API, Express, Node.js, EntityFrameWorkCore, Prisma, Mongoose",
+        "JWT, Clerk Auth(Token management), Clerk Webhook, Firebase Auth & DB(Firestore), bcrypt-hashing",
+      ],
+    },
+    {
+      title: "DevOps (Practicing)",
+      skills: [
+        "Docker",
+        "Bash Scripting",
+        "Vim",
+        "CI/CD Pipelines",
+      ],
+    },
+    {
+      title: "Cloud & Deployment",
+      skills: [
+        "Azure & AWS",
+        "Deploy apps through Azure App Service & SQL DB",
+        "Flyio",
+        "Render",
+        "Netlify",
+      ],
+    },
+    {
+      title: "Data Analytics",
+      skills: ["Data warehousing", "ETL, SSIS, SSAS, SSRS", "Excel"],
+    },
+    {
+      title: "Self-Learning & Testing",
+      skills: [
+        "Angular",
+        "Python",
+        "LLMs(Large Language Models)",
+        "Power BI",
+        "xUnit Testing with C#",
+      ],
+    },
+    {
+      title: "Version Control & Tools",
+      skills: [
+        "Git & Github",
+        "Axios",
+        "React Query",
+        "Zustand",
+        "Postman",
+        "DaisyUI",
+        "Shadcn UI",
+        "Material UI",
+        "Chakra UI",
+        "Tailwind CSS",
+        "Bootstrap",
+        "MudBlazor",
+      ],
+    },
+  ];
 
   return (
     <section
@@ -76,7 +105,13 @@ function Skills() {
             shape: { type: ["circle", "triangle"] },
             size: { value: { min: 2, max: 4 } },
             move: { enable: true, speed: 1.5, outModes: "out" },
-            links: { enable: true, distance: 130, color: "#ffffff", opacity: 0.2, width: 1 },
+            links: {
+              enable: true,
+              distance: 130,
+              color: "#ffffff",
+              opacity: 0.2,
+              width: 1,
+            },
           },
           interactivity: {
             events: {
@@ -88,16 +123,19 @@ function Skills() {
       />
 
       {/* 섹션 콘텐츠 */}
-      <h2 className="text-4xl font-bold mb-12 text-center relative z-10">My Skills</h2>
+      <h2 className="text-4xl font-bold mb-12 text-center relative z-10">
+        My Skills
+      </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl relative z-10">
         {skillCategories.map((category, idx) => (
-        <div
-  key={idx}
-  className="bg-gray-900 bg-opacity-50 p-6 rounded-xl shadow-lg min-h-[280px] hover:scale-105 transition-transform flex flex-col"
->
-
-            <h3 className="text-2xl font-semibold mb-4 text-yellow-200">{category.title}</h3>
+          <div
+            key={idx}
+            className="bg-gray-900 bg-opacity-50 p-6 rounded-xl shadow-lg min-h-[280px] hover:scale-105 transition-transform flex flex-col"
+          >
+            <h3 className="text-2xl font-semibold mb-4 text-yellow-200">
+              {category.title}
+            </h3>
             <ul className="list-disc list-inside space-y-2">
               {category.skills.map((skill, i) => (
                 <li key={i}>{skill}</li>

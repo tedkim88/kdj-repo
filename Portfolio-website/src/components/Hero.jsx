@@ -78,7 +78,7 @@ function Hero() {
         <a
           target="_blank"
           href="https://github.com/tedkim88/kdj-repo"
-          className="btn btn-secondary"
+          className="btn btn-info"
         >
           Github Link
         </a>

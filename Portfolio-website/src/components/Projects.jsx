@@ -15,33 +15,8 @@ function Projects() {
       github: "https://rococo-chimera-697176.netlify.app/",
       image: "/react-app.png",
     },
-    {
-      name: "Shopping App(BLL/DAL)",
-      description: (
-        <>
-          OLTP C# backend and Blazor frontend using EF Core. BLL DAL concepts implemented. Deployed to Azure.{" "}
-          <span style={{ color: "red", fontWeight: "bold" }}>
-            (Azure DB App Service expired. Please visit my GitHub for checking codes.)
-          </span>{" "}
-         
-        </>
-      ),
-      github:
-        "https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/",
-      image: "/oltp-screenshot.png",
-    },
-    {
-      name: "Rental Management System ",
-      description: (
-        <>
-        C# Backend / BlazorServer / EF Core / BLL / DAL (Deployed through Azure).
-     <span style={{ color: "red", fontWeight: "bold" }}> {" "} (Azure DB App Service expired. Please visit my GitHub for checking codes.)</span>
-        </>
-      ),
-        
-      github: "https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList",
-      image: "/rental-app.png",
-    },
+
+    //나중에 여기 두번째로 AI 앱넣을거
     {
       name: "PHP Catalogue Project(Deployed through Render & AWS(Mysql DB)",
       description:
@@ -49,21 +24,55 @@ function Projects() {
       github: "https://php-catalogue-projcet.onrender.com/public/",
       image: "/php-screenshot.png",
     },
+
+    {
+      name: "Shopping App(BLL/DAL)",
+      description: (
+        <>
+          OLTP C# backend and Blazor frontend using EF Core. BLL DAL concepts
+          implemented. Deployed to DB-AWS App-Render.{" "}
+          <span style={{ color: "red", fontWeight: "bold" }}>
+            {" "}
+            (I'm using a free tier server so it is a bit slow. Style has not
+            been applied to this app.)
+          </span>{" "}
+        </>
+      ),
+      github: "https://kdj-repo.onrender.com/",
+      image: "/oltp-screenshot.png",
+    },
+    {
+      name: "Rental Management System ",
+      description: (
+        <>
+          C# Backend / BlazorServer / EF Core / BLL / DAL (Deployed through
+          DB-AWS & App-Render).
+          <span style={{ color: "red", fontWeight: "bold" }}>
+            {" "}
+            (I'm using a free tier server so it is a bit slow. Style has not
+            been applied to this app.)
+          </span>
+        </>
+      ),
+
+      github: "https://rmssystem.onrender.com",
+      image: "/rental-app.png",
+    },
+
     {
       name: "Modal & Form (CSS) (Deployed through Netlify)",
-      description:
-        "Modal popup and Form (CSS) (Deployed through Netlify).",
+      description: "Modal popup and Form (CSS) (Deployed through Netlify).",
       github: "https://graceful-gecko-22ac0e.netlify.app/",
       image: "/modal-design.png",
     },
-     {
+    {
       name: "Basic Responsive design & Navbar (CSS) (Deployed through Netlify)",
       description:
         "Basic Responsive design (CSS) with responsive Navbar (Deployed through Netlify).",
       github: "https://jolly-lamington-d3ce51.netlify.app/",
       image: "/responsive.png",
     },
-      {
+    {
       name: "My first beginner level self-project(Old one) Word-smith.",
       description:
         " Helps people learn,save English words with quiz. Javscript and Firebase used for serverless DB (Deployed through Render).",
@@ -71,10 +80,6 @@ function Projects() {
       image: "/word-smith.png",
     },
 
-
-
-
-   
     // 추가 프로젝트
   ];
 
