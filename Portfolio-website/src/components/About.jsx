@@ -26,8 +26,8 @@ function About() {
             color: {
               value: ["#ffffff", "#f5f3f4", "#c7d2fe", "#a78bfa", "#f472b6"],
             },
-            shape: { type: ["circle", "triangle", "star"] },
-            size: { value: { min: 2, max: 3 } },
+            shape: { type: ["circle", "triangle"] },
+            size: { value: { min: 1, max: 2 } },
             move: { enable: true, speed: 2, outModes: "out" },
             links: {
               enable: true,
@@ -62,21 +62,21 @@ function About() {
         <p className="text-lg md:text-xl mb-4">
           Hi, I'm Daejin Kim, a passionate Fullstack Developer with experience
           in{" "}
-          <span className="text-yellow-400">
+          <span className="text-yellow-400 font-bold">
             React, Next.js, .NET, ASP .Net Core Web API, Express, and many
             others.{" "}
           </span>{" "}
           I have done many portfolios using{" "}
-          <span className="text-yellow-400">
+          <span className="text-yellow-400 font-bold">
             {" "}
             Restful APIs with clean architecture{" "}
           </span>{" "}
           and used{" "}
-          <span className="text-yellow-400">
+          <span className="text-yellow-400 font-bold">
             Web socket(socket.io) for real-time chat{" "}
           </span>{" "}
           in my recent project. More recently, I'm studying{" "}
-          <span className="text-yellow-400">
+          <span className="text-yellow-400 font-bold">
             {" "}
             AI integration with the concept of 'Agentic AI'.
           </span>

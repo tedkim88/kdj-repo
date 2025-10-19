@@ -92,6 +92,10 @@
             "MudBlazor": {
               "target": "Package",
               "version": "[7.15.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [

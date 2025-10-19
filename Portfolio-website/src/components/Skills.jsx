@@ -103,8 +103,8 @@ function Skills() {
             number: { value: 25 },
             color: { value: ["#f5f3f4", "#c7d2fe", "#a78bfa", "#f472b6"] },
             shape: { type: ["circle", "triangle"] },
-            size: { value: { min: 2, max: 4 } },
-            move: { enable: true, speed: 1.5, outModes: "out" },
+            size: { value: { min: 1, max: 3 } },
+            move: { enable: true, speed: 2, outModes: "out" },
             links: {
               enable: true,
               distance: 130,

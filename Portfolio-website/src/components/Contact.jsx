@@ -20,10 +20,10 @@ function Contact() {
           fullScreen: { enable: false },
           background: { color: { value: "transparent" } },
           particles: {
-            number: { value: 20 },
+            number: { value: 25 },
             color: { value: ["#ffffff", "#a78bfa", "#f472b6"] },
             shape: { type: ["circle", "triangle"] },
-            size: { value: { min: 2, max: 4 } },
+            size: { value: { min: 2, max: 3 } },
             move: { enable: true, speed: 1.5, outModes: "out" },
             links: {
               enable: true,

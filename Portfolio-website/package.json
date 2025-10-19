@@ -12,8 +12,9 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
     "daisyui": "^5.1.13",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "framer-motion": "^12.23.24",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-tsparticles": "^2.12.2",
     "tsparticles": "^2.12.0"
   },

@@ -1601,3 +1601,5 @@ C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Debug\net8
 C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Debug\net8.0\wwwroot\img\refresh.png
 C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Debug\net8.0\wwwroot\img\remove.png
 C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Debug\net8.0\wwwroot\img\team-2-logo.png
+C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Debug\net8.0\Npgsql.dll
+C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

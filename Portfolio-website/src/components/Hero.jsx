@@ -8,7 +8,7 @@ function Hero() {
   };
 
   return (
-    <section className="relative min-h-[calc(100vh-64px)] flex flex-col items-center justify-center text-white text-center px-4 overflow-hidden bg-gradient-to-b from-black via-indigo-800 to-black">
+    <section className="relative min-h-[calc(100vh-64px)] flex flex-col items-center justify-center text-white text-center px-4 overflow-hidden bg-black">
       {/* 배경 입자 */}
       <Particles
         id="tsparticles"
@@ -17,16 +17,16 @@ function Hero() {
           fullScreen: { enable: false },
           background: { color: { value: "transparent" } },
           particles: {
-            number: { value: 30 },
+            number: { value: 12 },
             color: {
-              value: ["#ffffff", "#f5f3f4", "#c7d2fe", "#a78bfa", "#f472b6"],
+              value: ["#48E8DD", "#E8E548", "#e0e0e0", "#fafafa"],
             },
 
-            shape: { type: ["circle", "triangle", "star"] },
-            size: { value: { min: 2, max: 4 } },
+            shape: { type: ["circle", "triangle"] },
+            size: { value: { min: 1, max: 2 } },
             move: { enable: true, speed: 2, outModes: "out" },
             links: {
-              enable: true,
+              enable: false,
               distance: 150,
               color: "#ffffff",
               opacity: 0.3,
@@ -43,49 +43,55 @@ function Hero() {
         className="absolute inset-0 z-0"
       />
 
-      {/* 프로필 사진 */}
-      <img
-        src="/daejin.jpg"
-        alt="My Photo"
-        className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-white shadow-lg mb-6 relative z-10"
-      />
+      <div className="rounded-full inline-block relative">
+        <img
+          src="/daejin.jpg"
+          alt="My Photo"
+          className="w-64 h-64 md:w-80 md:h-80 rounded-full mb-6 relative z-10
+               shadow-[0_0_50px_25px_rgba(96,165,250,0.35),0_0_100px_50px_rgba(96,165,250,0.2)]"
+        />
+      </div>
 
       {/* 소개 텍스트 */}
-      <h1 className="text-5xl md:text-5xl font-bold mb-2 relative z-10 mb-4">
+      <h1 className="text-5xl md:text-5xl font-bold relative z-10 mb-4">
         Daejin Kim
       </h1>
       <p className="text-lg md:text-2xl mt-4 mb-4 relative z-10">
-        <span className="text-red-400">Fullstack</span> Developer |{" "}
-        <span className="text-red-400">React</span> &{" "}
-        <span className="text-red-400">.NET</span> &{" "}
-        <span className="text-red-400">Node.js</span> Enthusiast
+        <span className="text-yellow-400">Fullstack</span> Developer |{" "}
+        <span className="text-yellow-400">React</span> &{" "}
+        <span className="text-yellow-400">.NET</span> &{" "}
+        <span className="text-yellow-400">Node.js</span> Enthusiast
       </p>
       <p>
-        Northern Alberta Institute of Technology, Digital Media & IT (Computer
-        Software Development)
+        <span className="text-yellow-400">(NAIT)</span> Northern Alberta
+        Institute of Technology, Digital Media & IT{" "}
       </p>
+      <p className="text-yellow-400">(Computer Software Development)</p>
 
       {/* 버튼 */}
-      <div className="flex space-x-4 relative z-10 mt-5">
-        <a href="#skills" className="btn btn-success">
-          My Skills
-        </a>
+      <div className="flex flex-col md:flex-row gap-4 relative z-10 mt-5">
+        <div className="flex space-x-4">
+          <a href="#skills" className="btn btn-success w-30">
+            My Skills
+          </a>
 
-        <a href="#projects" className="btn btn-primary">
-          My Projects
-        </a>
+          <a href="#projects" className="btn btn-primary w-30">
+            My Projects
+          </a>
+        </div>
+        <div className="flex space-x-4">
+          <a
+            target="_blank"
+            href="https://github.com/tedkim88/kdj-repo"
+            className="btn btn-info w-30"
+          >
+            Github Link
+          </a>
 
-        <a
-          target="_blank"
-          href="https://github.com/tedkim88/kdj-repo"
-          className="btn btn-info"
-        >
-          Github Link
-        </a>
-
-        <a href="#contact" className="btn btn-secondary">
-          Contact
-        </a>
+          <a href="#contact" className="btn btn-secondary w-30">
+            Contact
+          </a>
+        </div>
       </div>
     </section>
   );

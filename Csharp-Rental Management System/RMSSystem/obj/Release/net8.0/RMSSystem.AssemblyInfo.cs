@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RMSSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d498a4d4a6abba8d6a0dba51a6aa762743817ab5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45c1a0bbfe5e6815bf899979ce00eef6034e61fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("RMSSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RMSSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

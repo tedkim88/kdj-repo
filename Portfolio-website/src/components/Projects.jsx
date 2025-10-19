@@ -19,9 +19,16 @@ function Projects() {
     //나중에 여기 두번째로 AI 앱넣을거
     {
       name: "PHP Catalogue Project(Deployed through Render & AWS(Mysql DB)",
-      description:
-        "PHP Catalogue Project with auth, crud, image upload, pagination and advanced filter.",
-      github: "https://php-catalogue-projcet.onrender.com/public/",
+   description: (
+  <>
+    PHP Catalogue Project with auth, CRUD, image upload, pagination and advanced filter.
+    (<span className="text-red-500">Available after Nov 1 free-tier db expiration</span>).
+  </>
+),
+
+
+      github: "https://php-catalogue-projcet.onrender.com/public/" 
+      ,
       image: "/php-screenshot.png",
     },
 
@@ -30,7 +37,7 @@ function Projects() {
       description: (
         <>
           OLTP C# backend and Blazor frontend using EF Core. BLL DAL concepts
-          implemented. Deployed to DB-AWS App-Render.{" "}
+          implemented. Deployed to Azure.{" "}
           <span style={{ color: "red", fontWeight: "bold" }}>
             {" "}
             (I'm using a free tier server so it is a bit slow. Style has not
@@ -38,15 +45,14 @@ function Projects() {
           </span>{" "}
         </>
       ),
-      github: "https://kdj-repo.onrender.com/",
+      github: "https://etoolsapp-gcd9bbh2fzc7c0fs.canadacentral-01.azurewebsites.net/SalesReturn/Shopping",
       image: "/oltp-screenshot.png",
     },
     {
       name: "Rental Management System ",
       description: (
         <>
-          C# Backend / BlazorServer / EF Core / BLL / DAL (Deployed through
-          DB-AWS & App-Render).
+          C# Backend / BlazorServer / EF Core / BLL / DAL (Deployed Azure).
           <span style={{ color: "red", fontWeight: "bold" }}>
             {" "}
             (I'm using a free tier server so it is a bit slow. Style has not
@@ -55,7 +61,7 @@ function Projects() {
         </>
       ),
 
-      github: "https://rmssystem.onrender.com",
+      github: "https://rmsapp20251017134502-dqenh3gchmbchmb2.canadacentral-01.azurewebsites.net/",
       image: "/rental-app.png",
     },
 
@@ -88,7 +94,7 @@ function Projects() {
       id="projects"
       className="relative min-h-screen px-8 py-16 
              bg-gradient-to-b to-gray-800 via-yellow-300 from-black text-950 
-             text-white overflow-hidden flex flex-col items-center justify-center"
+             text-white overflow-hidden flex flex-col items-center justify-center pt-50"
     >
       {/* 배경 입자 */}
       <Particles
