@@ -8,7 +8,7 @@ Typescript(front) + Express(backend) +  Websocket(Real-time chat with online use
   
    https://rococo-chimera-697176.netlify.app/
    
-2. **AI Integration (Speak with me) Webspeech API, OpenAI API, Prompt engineering (Still in development) (2025-Oct-22) (Deployed to Vercel(front) & Render(Backend))
+2. **AI Integration (Speak with me) Webspeech API, OpenAI API, Prompt engineering (Still in development) (2025-Oct-22) (Deployed to Vercel(front) & Render(Backend))**
      [https://php-catalogue-projcet.onrender.com/public/](https://speak-with-me-git-main-daejin-kims-projects.vercel.app/)
 
 3. **PHP Starcraft Unit catalogue project CRUD/BcryptHasing/Pagination/AdvancedFilters**  (Deployed through Render)
