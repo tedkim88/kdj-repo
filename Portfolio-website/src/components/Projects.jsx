@@ -16,19 +16,39 @@ function Projects() {
       image: "/react-app.png",
     },
 
+    {
+      name: "AI Integration Project - Speak With Me (Deployed to vercel)",
+      description: (
+        <>
+          WebSpeech API, Prompt engineering and OpenAI API integration to my
+          personal app ( This is{" "}
+          <span className="text-red-500">
+            still in development -- as of 2025-Oct-22. Features will be added
+            and bugs will be fixed.
+          </span>
+          ).
+        </>
+      ),
+
+      github: "https://speak-with-me-git-main-daejin-kims-projects.vercel.app/",
+      image: "/speak-with-me.png",
+    },
+
     //나중에 여기 두번째로 AI 앱넣을거
     {
       name: "PHP Catalogue Project(Deployed through Render & AWS(Mysql DB)",
-   description: (
-  <>
-    PHP Catalogue Project with auth, CRUD, image upload, pagination and advanced filter.
-    (<span className="text-red-500">Available after Nov 1 free-tier db expiration</span>).
-  </>
-),
+      description: (
+        <>
+          PHP Catalogue Project with auth, CRUD, image upload, pagination and
+          advanced filter. (
+          <span className="text-red-500">
+            Available after Nov 1 free-tier db expiration
+          </span>
+          ).
+        </>
+      ),
 
-
-      github: "https://php-catalogue-projcet.onrender.com/public/" 
-      ,
+      github: "https://php-catalogue-projcet.onrender.com/public/",
       image: "/php-screenshot.png",
     },
 
@@ -45,7 +65,8 @@ function Projects() {
           </span>{" "}
         </>
       ),
-      github: "https://etoolsapp-gcd9bbh2fzc7c0fs.canadacentral-01.azurewebsites.net/SalesReturn/Shopping",
+      github:
+        "https://etoolsapp-gcd9bbh2fzc7c0fs.canadacentral-01.azurewebsites.net/SalesReturn/Shopping",
       image: "/oltp-screenshot.png",
     },
     {
@@ -61,7 +82,8 @@ function Projects() {
         </>
       ),
 
-      github: "https://rmsapp20251017134502-dqenh3gchmbchmb2.canadacentral-01.azurewebsites.net/",
+      github:
+        "https://rmsapp20251017134502-dqenh3gchmbchmb2.canadacentral-01.azurewebsites.net/",
       image: "/rental-app.png",
     },
 
