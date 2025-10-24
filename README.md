@@ -23,20 +23,21 @@ https://speak-with-me-git-main-daejin-kims-projects.vercel.app/
 
 <br>
 
-3. **PHP Starcraft Unit Catalogue (CRUD + Pagination)**  
+3. **PHP Starcraft Unit Catalogue (CRUD + Pagination)**
+   (Currently MYSQL DB at AWS expired, so I stopped it. This will be reactivated starting November 1 2025.)
 https://php-catalogue-projcet.onrender.com/public/
 
 <br>
 
 4. **OLTP Shopping (C# / Blazor / EF Core)**  
-(Deployment expired — code only)  
-https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/
+(Deployment to Azure Appservice & SQL DB)  
+[https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/](https://etoolsapp-gcd9bbh2fzc7c0fs.canadacentral-01.azurewebsites.net/SalesReturn/Shopping)
 
 <br>
 
 5. **Rental Management System (Blazor / EF Core)**  
-(Deployment expired — code only)  
-https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList
+(Deployment to Azure Appservice & SQL DB)  
+[https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList](https://rmsapp20251017134502-dqenh3gchmbchmb2.canadacentral-01.azurewebsites.net/)
 
 <br>
 
