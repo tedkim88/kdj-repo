@@ -1,4 +1,4 @@
-# KDJ Portfolio
+# Daejin Kim Portfolio & Coding History!!
 
 Welcome to my portfolio repository! Below are the links of my portfolio
 
