@@ -40,8 +40,7 @@ Typescript(front) + Express(backend) +  Websocket(Real-time chat with online use
 
 
    
-   
-    
+       
 ----------------------------------------------  
 
 Project Introduction
@@ -74,9 +73,43 @@ Built with React and TypeScript on the frontend and Express.js on the backend, t
 
 ---------------------------------------
 
+2. **AI Integration (Speak with me) Webspeech API, OpenAI API, Prompt engineering**
+   **(Still in development) (2025-Oct-22) (Deployed to Vercel(front) & Render(Backend))**
+   **I was an English teacher before, so I wanted to make a good AI-feature-integrated app to help students practice speaking English.
+   <img width="1286" height="814" alt="image" src="https://github.com/user-attachments/assets/91a09d14-49b2-4db4-8063-e4c4b579e194" />
+
+I used webspeech API (free)
+and OPEN AI API gpt4omini.
+With this project, I gained experience of utilizing user prompt, systemp prompt, prompt engineering, expecting AI to give me responses in a consistent way.
+Users can have a conversation with AI in English, and they can get feedback and review the good sentences coming from AI in a quiz type of format.
 
 
-## 2. **WordSmith** (JavaScript-based Web App)
+----------------------------------------------  
+
+## 3. **OLTP Shopping / Rental Management System** (C# & Blazor & EntityFrameworkCore / SQL))
+**Description**: 
+**Note** I was responsible for **'SalesSystem'**, Sales refund related page for this team project. Each one had their own part.
+**POSystem is not my part.**
+
+These projects demonstrate my understanding of C# and Blazor. They are based on rough guidelines provided in my C# classes at NAIT. The applications are designed around Online Transaction Processing (OLTP) and rental management systems. These apps utilize Entity Framework Core for data management, SQL queries to extract data, and Blazor for rendering the front end.
+
+**Features**:
+- **Entity Framework Core**: Data handling and database management.
+- **Blazor**: Front-end rendering and UI interactions.
+- **SQL Queries**: Extracting and presenting data from a local SSMS database.
+
+![image](https://github.com/user-attachments/assets/473b9f8f-ddb2-47ba-bd51-3ab143616a71)
+![image](https://github.com/user-attachments/assets/3604d27f-fadb-413d-a63a-50663269f6de)
+![image](https://github.com/user-attachments/assets/bd1422d5-cb21-4279-8671-bea8020c6a52)
+![image](https://github.com/user-attachments/assets/9ac14bec-8e6e-4990-9959-cb72fe439f6a)
+![image](https://github.com/user-attachments/assets/cb16e5af-a97a-4931-ac00-0eee74b45ba8)
+![image](https://github.com/user-attachments/assets/8a9680d9-0ffb-4660-93dc-19f6bbe90c74)
+![image](https://github.com/user-attachments/assets/971d5216-6479-4085-878e-1b59e2de21a6)
+
+
+---
+
+## 4. **WordSmith** (My first Beginner Level app) (JavaScript-based Web App)
 **Description**:  
 WordSmith is my personal JavaScript-based web application designed to help users learn vocabulary and manage their own word lists using Firebase Database. The app includes a quiz feature, allowing users to search for words, view their meanings, add words to a personal list, and then quiz themselves on the saved words.
 
@@ -106,38 +139,6 @@ WordSmith is my personal JavaScript-based web application designed to help users
 
 **Refactoring finished** 2025/May/08
 
-----------------------------------------------  
-
-## 3. **OLTP Shopping / Rental Management System** (C# & Blazor & EntityFrameworkCore / SQL))
-**Description**: 
-**Note** I was responsible for **'SalesSystem'**, Sales refund related page for this team project. Each one had their own part.
-**POSystem is not my part.**
-
-These projects demonstrate my understanding of C# and Blazor. They are based on rough guidelines provided in my C# classes at NAIT. The applications are designed around Online Transaction Processing (OLTP) and rental management systems. These apps utilize Entity Framework Core for data management, SQL queries to extract data, and Blazor for rendering the front end.
-
-**Features**:
-- **Entity Framework Core**: Data handling and database management.
-- **Blazor**: Front-end rendering and UI interactions.
-- **SQL Queries**: Extracting and presenting data from a local SSMS database.
-
-![image](https://github.com/user-attachments/assets/473b9f8f-ddb2-47ba-bd51-3ab143616a71)
-![image](https://github.com/user-attachments/assets/3604d27f-fadb-413d-a63a-50663269f6de)
-![image](https://github.com/user-attachments/assets/bd1422d5-cb21-4279-8671-bea8020c6a52)
-![image](https://github.com/user-attachments/assets/9ac14bec-8e6e-4990-9959-cb72fe439f6a)
-![image](https://github.com/user-attachments/assets/cb16e5af-a97a-4931-ac00-0eee74b45ba8)
-![image](https://github.com/user-attachments/assets/8a9680d9-0ffb-4660-93dc-19f6bbe90c74)
-![image](https://github.com/user-attachments/assets/971d5216-6479-4085-878e-1b59e2de21a6)
-
-
----
-
-## 4. **WeatherInfo Simple Web App**  
-**Description**:  
-This is not a full-fledged project but rather my first attempt at using a free API to create a simple web application for tracking weather history.
-
-
-**Note**:  
-These projects are works in progress or practice attempts. The code structure, use of services, and data management techniques can be evaluated without the database files. I'll be uploading videos for some projects to demonstrate their functionality.
 
 ---
 
