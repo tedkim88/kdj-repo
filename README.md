@@ -23,13 +23,13 @@ https://speak-with-me-git-main-daejin-kims-projects.vercel.app/
 
 <br>
 
-3. **<span style="color:orange; font-weight:bold;">
-PHP Starcraft Unit Catalogue (CRUD + Pagination)  
+3. **PHP Starcraft Unit Catalogue (CRUD + Pagination)**  
+<span style="color:orange; font-weight:bold;">
 (Currently MYSQL DB at AWS expired, so I stopped it.  
 This will be reactivated starting <u>November 1 2025</u>.)
-</span>**
+</span>  
 
-https://php-catalogue-projcet.onrender.com/public/
+  https://php-catalogue-projcet.onrender.com/public/
 
 
 <br>
