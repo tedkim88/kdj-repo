@@ -4,7 +4,7 @@ Welcome to my portfolio repository! Below are the links of my portfolio
 
 0. **Portfolio Combine Site**  
 (Front: Netlify)  
-This includes all my projects, skills and knowledge, 
+This includes all my projects, skills and knowledge,
 https://iridescent-tulumba-4abf5f.netlify.app/
 
 <br>
