@@ -2,47 +2,49 @@
 
 Welcome to my portfolio repository! Below are the links of my portfolio
 
-1. **Game-Hub (Full Stack React-App) (the latest one) 2025/July/16**  
-(Front Deployed to Netlify & Backend Deployed to Render.com)  
-Typescript(front) + Express(backend) +  Websocket(Real-time chat with online users) + MongoDB(NOSQL) + jwtAuth + + Tailwind CSS + Daisy UI + ....
-  
-   https://rococo-chimera-697176.netlify.app/
+1. **Game-Hub (Full Stack React-App) (2025/July/16)**  
+(Front: Netlify / Backend: Render)  
+Typescript + Express + Websocket + MongoDB + JWT + Tailwind + DaisyUI  
+https://rococo-chimera-697176.netlify.app/
 
+<br>
 
-    
+2. **AI Integration (Speak with me)**  
+(Still in development, 2025-Oct-22, Vercel + Render)  
+WebSpeech API + OpenAI API + Prompt Engineering  
+https://speak-with-me-git-main-daejin-kims-projects.vercel.app/
 
-   
-2. **AI Integration (Speak with me) Webspeech API, OpenAI API, Prompt engineering**
-   **(Still in development) (2025-Oct-22) (Deployed to Vercel(front) & Render(Backend))**
-   https://speak-with-me-git-main-daejin-kims-projects.vercel.app/
+<br>
 
-  
-   
+3. **PHP Starcraft Unit Catalogue (CRUD + Pagination)**  
+https://php-catalogue-projcet.onrender.com/public/
 
-4. **PHP Starcraft Unit catalogue project CRUD/BcryptHasing/Pagination/AdvancedFilters**  (Deployed through Render)
-     https://php-catalogue-projcet.onrender.com/public/
-   
+<br>
 
-5. **OLTP Shopping (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
-   Azure APP SERVICE & Azure DB Expired (currently not available)  
-   Please check the code instead  
-   https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/  
+4. **OLTP Shopping (C# / Blazor / EF Core)**  
+(Deployment expired — code only)  
+https://dmit2018project20250507014855-g7b8hjdbhyb9dbht.canadacentral-01.azurewebsites.net/
 
-6. **Rental Management System (C# / BlazorServer / EF Core)**  (Deployed through Azure)  
-   Azure APP SERVICE & Azure DB Expired (currently not available)  
-   Please check the code instead  
-   https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList  
+<br>
 
-7. **Word-Smith Personal JS project (JavaSript & Firebase)** (Deployed through Render.com)  
-   https://wordsmith-finished.onrender.com
+5. **Rental Management System (Blazor / EF Core)**  
+(Deployment expired — code only)  
+https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList
 
-8. **Modal & Form (CSS)** (Deployed through Netlify)  
-   https://graceful-gecko-22ac0e.netlify.app/  
-    
-9. **Responsive Design (CSS)**  (Deployed through Netlify)  
-   https://jolly-lamington-d3ce51.netlify.app/
+<br>
 
+6. **WordSmith (JavaScript + Firebase)**  
+https://wordsmith-finished.onrender.com
 
+<br>
+
+7. **Modal & Form (CSS)**  
+https://graceful-gecko-22ac0e.netlify.app/
+
+<br>
+
+8. **Responsive Design (CSS)**  
+https://jolly-lamington-d3ce51.netlify.app/
 
    
        
@@ -78,8 +80,7 @@ Built with React and TypeScript on the frontend and Express.js on the backend, t
 
 ---------------------------------------
 
-2.
-## AI Integration (Speak with me) Webspeech API, OpenAI API, Prompt engineering
+## 2. AI Integration (Speak with me) Webspeech API, OpenAI API, Prompt engineering
    **(Still in development) (2025-Oct-22) (Deployed to Vercel(front) & Render(Backend))**
    **I was an English teacher before, so I wanted to make a good AI-feature-integrated app to help students practice speaking English.
    <img width="1286" height="814" alt="image" src="https://github.com/user-attachments/assets/91a09d14-49b2-4db4-8063-e4c4b579e194" />
