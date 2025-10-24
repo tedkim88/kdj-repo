@@ -1,8 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import "tailwindcss";
 @plugin "daisyui" {
-   themes: light --default, dark --prefersdark, cupcake, sunset;
- }
+  themes: light --default, dark --prefersdark, cupcake, sunset;
+}
 
- html {
+html {
   scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.btn-home:hover {
+  animation: expand 0.4s ease-in-out;
+}
+
+.btn {
+  transition: all 0.1s ease;
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+h1 {
+  animation: moveInLeft 1s ease-in-out;
+}
+
+@keyframes expand {
+  from {
+    transform: scale(1);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(1.4);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes moveInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    opacity: 0.8;
+    transform: translateX(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes movefromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -62,26 +62,25 @@ function Contact() {
         </div>
 
         {/* 버튼 영역 */}
-        
-          <div className="flex flex-col md:flex-row gap-2 md:gap-4 mt-4 md:mt-0">
-            <a
-              href="https://github.com/tedkim88/kdj-repo"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-secondary px-6 py-3"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/daejin-kim-2330b0312/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-accent px-6 py-3"
-            >
-              LinkedIn
-            </a>
-          </div>
-       
+
+        <div className="flex flex-col md:flex-row gap-2 md:gap-4 mt-4 md:mt-0">
+          <a
+            href="https://github.com/tedkim88/kdj-repo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-home btn-secondary px-6 py-3"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/daejin-kim-2330b0312/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-home btn-accent px-6 py-3"
+          >
+            LinkedIn
+          </a>
+        </div>
       </div>
     </section>
   );

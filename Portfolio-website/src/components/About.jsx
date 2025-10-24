@@ -57,7 +57,7 @@ function About() {
       </div>
 
       {/* 오른쪽: 소개 텍스트 */}
-      <div className="md:w-1/2 md:pl-12 relative z-10">
+      <div className="md:w-1/2 md:pl-12 relative z-10 font-oswald">
         <h2 className="text-4xl font-bold mb-4">About Me</h2>
         <p className="text-lg md:text-xl mb-4">
           Hi, I'm Daejin Kim, a passionate Fullstack Developer with experience

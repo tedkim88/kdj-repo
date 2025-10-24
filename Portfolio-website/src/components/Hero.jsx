@@ -53,9 +53,10 @@ function Hero() {
       </div>
 
       {/* 소개 텍스트 */}
-      <h1 className="text-5xl md:text-5xl font-bold relative z-10 mb-4">
+      <h1 className="text-5xl h-15 font-bold bg-gradient-to-br mb-4 from-cyan-100 via-cyan-400 to-cyan-700 bg-clip-text text-transparent">
         Daejin Kim
       </h1>
+
       <p className="text-lg md:text-2xl mt-4 mb-4 relative z-10">
         <span className="text-yellow-400">Fullstack</span> Developer |{" "}
         <span className="text-yellow-400">React</span> &{" "}
@@ -71,11 +72,11 @@ function Hero() {
       {/* 버튼 */}
       <div className="flex flex-col md:flex-row gap-4 relative z-10 mt-5">
         <div className="flex space-x-4">
-          <a href="#skills" className="btn btn-success w-30">
+          <a href="#skills" className="btn btn-success btn-home w-30">
             My Skills
           </a>
 
-          <a href="#projects" className="btn btn-primary w-30">
+          <a href="#projects" className="btn btn-primary btn-home w-30">
             My Projects
           </a>
         </div>
@@ -83,12 +84,12 @@ function Hero() {
           <a
             target="_blank"
             href="https://github.com/tedkim88/kdj-repo"
-            className="btn btn-info w-30"
+            className="btn btn-info w-30 btn-home"
           >
             Github Link
           </a>
 
-          <a href="#contact" className="btn btn-secondary w-30">
+          <a href="#contact" className="btn btn-secondary btn-home w-30">
             Contact
           </a>
         </div>

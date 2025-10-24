@@ -9,7 +9,7 @@ function Navbar() {
         {/* 로고 / 사이트 이름 */}
         <a
           href="#"
-          className="text-2xl  font-bold hover:text-blue-700 transition-colors"
+          className="text-2xl font-bold hover:text-indigo-700  transition-colors"
         >
           Daejin Kim's Portfolio
         </a>
@@ -19,7 +19,7 @@ function Navbar() {
           <li>
             <a
               href="#about"
-              className="text-black hover:text-blue-700 transition-colors"
+              className="text-black btn-home hover:text-indigo-700 hover:text-lg transition-colors"
             >
               About
             </a>
@@ -27,7 +27,7 @@ function Navbar() {
           <li>
             <a
               href="#skills"
-              className="text-black hover:text-blue-700 transition-colors"
+              className="text-black btn-home hover:text-indigo-700 hover:text-lg transition-colors"
             >
               Skills
             </a>
@@ -35,7 +35,7 @@ function Navbar() {
           <li>
             <a
               href="#projects"
-              className="text-black hover:text-blue-700 transition-colors"
+              className="text-black btn-home hover:text-indigo-700 hover:text-lg transition-colors"
             >
               Projects
             </a>
@@ -43,7 +43,7 @@ function Navbar() {
           <li>
             <a
               href="#contact"
-              className="text-black hover:text-blue-700 transition-colors"
+              className="text-black btn-home  hover:text-indigo-700 hover:text-lg transition-colors"
             >
               Contact
             </a>
@@ -52,7 +52,7 @@ function Navbar() {
 
         {/* 모바일 햄버거 버튼 */}
         <button
-          className="md:hidden bg-gray-900 text-yellow-400 hover:text-red-600 transition-colors px-4 py-2 rounded"
+          className="md:hidden btn bg-gray-900 text-yellow-400 hover:text-red-600 transition-colors px-4 py-2 rounded"
           onClick={() => setOpen(!open)}
         >
           ☰
