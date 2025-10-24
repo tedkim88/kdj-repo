@@ -109,7 +109,8 @@ These projects demonstrate my understanding of C# and Blazor. They are based on 
 
 ---
 
-## 4. **WordSmith** (My first Beginner Level app) (JavaScript-based Web App)
+## 4. **WordSmith** (**My first Beginner Level** app) (JavaScript-based Web App)
+**This is my oldest project, so I didn't do any design or anything for this. It was just for practice as a beginner.
 **Description**:  
 WordSmith is my personal JavaScript-based web application designed to help users learn vocabulary and manage their own word lists using Firebase Database. The app includes a quiz feature, allowing users to search for words, view their meanings, add words to a personal list, and then quiz themselves on the saved words.
 
@@ -152,6 +153,8 @@ This website, when it is in rendered in mobile(small) size, has a hamburger butt
 Submenu functions are shown in the project number 5 (responsive and navigation).
 
 The purpose of this project for me was to practice modal and form.
+<img width="1319" height="916" alt="image" src="https://github.com/user-attachments/assets/b69bcec4-d7ad-4175-9851-8cf87487503a" />
+
 ![image](https://github.com/user-attachments/assets/58204c41-088f-4c87-9d68-df90cde06367)
 
 
