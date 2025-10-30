@@ -23,6 +23,7 @@ function Skills() {
         "OpenAI API integration to my personal app",
         "Experience with Open source AI like ollama",
         "Prompt Engineering for my project (System prompt, User prompt)",
+        "Currently learning RAG and MCP to make a good agentic AI",
       ],
     },
     {
@@ -38,7 +39,7 @@ function Skills() {
       skills: [
         "Docker",
         "Bash Scripting",
-        "Vim",
+        // "Vim",
         "CI/CD Pipelines",
       ],
     },
@@ -54,22 +55,22 @@ function Skills() {
     },
     {
       title: "Data Analytics",
-      skills: ["Data warehousing", "ETL, SSIS, SSAS, SSRS", "Excel"],
+      skills: ["Data warehousing", "ETL, SSIS, SSAS, SSRS", "Excel", "Power BI"],
     },
     {
       title: "Self-Learning & Testing",
       skills: [
-        "Angular",
-        "Python",
+        "Angular(learning)",
+        "Python(learning)",
         "LLMs(Large Language Models)",
-        "Power BI",
+        "Cyber Security",
         "xUnit Testing with C#",
       ],
     },
     {
       title: "Version Control & Tools",
       skills: [
-        "Git & Github",
+        "Git & Github",        
         "Axios",
         "React Query",
         "Zustand",
