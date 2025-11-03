@@ -5,10 +5,12 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Content testing</Text>
-      <Link href="/about">Visit About Screen</Link>
+      {/* <Link href="/about">Visit About Screen</Link> */}
     </View>
   );
 }
+
+//react native is file-routing system unlike next.js
 
 const styles = StyleSheet.create({
   container: {
