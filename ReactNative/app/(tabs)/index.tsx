@@ -1,11 +1,17 @@
 import { Link } from "expo-router";
-import { Text, View, StyleSheet } from "react-native";
-
+import { Text, View, StyleSheet, TouchableOpacity } from "react-native";
+import useTheme from "@/hooks/useTheme";
 export default function Index() {
+  const { toggleDarkMode } = useTheme();
+//just like zustand. instead of getting this from store, I get this from useTheme
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Content testing</Text>
       {/* <Link href="/about">Visit About Screen</Link> */}
+      <TouchableOpacity onPress={toggleDarkMode}>
+        <Text>Toggle Theme</Text>        
+        </TouchableOpacity>
     </View>
   );
 }
