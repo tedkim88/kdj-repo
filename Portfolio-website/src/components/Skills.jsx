@@ -38,15 +38,18 @@ function Skills() {
       title: "DevOps (Practicing)",
       skills: [
         "Docker",
+        "Linux",
         "Bash Scripting",
         // "Vim",
         "CI/CD Pipelines",
+        "Jenkins",
       ],
     },
     {
       title: "Cloud & Deployment",
       skills: [
-        "Azure & AWS",
+        "Azure(Storage, App Service, SQLServer)",
+        "AWS(IAM, RDS)",
         "Deploy apps through Azure App Service & SQL DB",
         "Flyio",
         "Render",
@@ -55,14 +58,19 @@ function Skills() {
     },
     {
       title: "Data Analytics",
-      skills: ["Data warehousing", "ETL, SSIS, SSAS, SSRS", "Excel", "Power BI"],
+      skills: [
+        "Data warehousing",
+        "ETL, SSIS, SSAS, SSRS",
+        "Excel",
+        "Power BI",
+      ],
     },
     {
       title: "Self-Learning & Testing",
       skills: [
-        "Angular(learning)",
-        "Python(learning)",
-        "LLMs(Large Language Models)",
+        "Python & FastAPI (learning)",
+        "Angular(learning)",        
+        "LLMs(RAG, MCP, Agentic AI)",
         "Cyber Security",
         "xUnit Testing with C#",
       ],
@@ -70,7 +78,7 @@ function Skills() {
     {
       title: "Version Control & Tools",
       skills: [
-        "Git & Github",        
+        "Git & Github",
         "Axios",
         "React Query",
         "Zustand",
