@@ -48,7 +48,7 @@ function Projects() {
         </>
       ),
 
-      github: "https://php-catalogue-projcet.onrender.com/public/",
+      github: "https://php-catalogue.onrender.com/public/",
       image: "/php-screenshot.png",
     },
 
