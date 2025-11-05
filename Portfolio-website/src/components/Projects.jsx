@@ -20,17 +20,17 @@ function Projects() {
       name: "AI Integration Project - Speak With Me (Deployed to vercel)",
       description: (
         <>
-          WebSpeech API, Prompt engineering and OpenAI API integration to my
-          personal app ( This is{" "}
+          Customized MCP server, WebSpeech API, Prompt engineering and OpenAI API integration to my
+          personal app (This is{" "}
           <span className="text-red-500">
-            still in development -- as of 2025-Oct-22. Features will be added
+            still in development -- as of 2025-Nov-05. Features will be added
             and bugs will be fixed.
           </span>
           ).
         </>
       ),
 
-      github: "https://speak-with-me-git-main-daejin-kims-projects.vercel.app/",
+      github: "https://speak-with-me-six.vercel.app/",
       image: "/speak-with-me.png",
     },
 
