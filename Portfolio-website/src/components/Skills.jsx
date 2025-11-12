@@ -38,11 +38,10 @@ function Skills() {
       title: "DevOps (Practicing)",
       skills: [
         "Docker",
+        "CI/CD Experience (Github Actions)",
         "Linux",
-        "Bash Scripting",
-        // "Vim",
-        "CI/CD Pipelines",
-        "Jenkins",
+        "Bash Scripting",        // "Vim",
+        // Jenkins
       ],
     },
     {
