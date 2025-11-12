@@ -68,6 +68,7 @@ function Skills() {
     {
       title: "Self-Learning & Testing",
       skills: [
+        "React Native--Expo",
         "Python & FastAPI (learning)",
         "Angular(learning)",        
         "LLMs(RAG, MCP, Agentic AI)",
