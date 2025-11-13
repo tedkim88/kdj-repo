@@ -39,8 +39,8 @@ function Skills() {
       skills: [
         "Docker",
         "CI/CD Experience (Github Actions)",
-        "Linux",
-        "Bash Scripting",        // "Vim",
+        "Linux (WSL)",
+        "Bash Scripting for automation",        // "Vim",
         // Jenkins
       ],
     },
