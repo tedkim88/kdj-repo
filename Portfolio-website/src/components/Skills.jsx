@@ -37,10 +37,11 @@ function Skills() {
     {
       title: "DevOps (Practicing)",
       skills: [
+        "Bash Scripting for Automation",
+        "Vim",
         "Docker",
         "CI/CD Experience (Github Actions)",
         "Linux (WSL)",
-        "Bash Scripting for automation",        // "Vim",
         // Jenkins
       ],
     },
@@ -69,7 +70,7 @@ function Skills() {
       skills: [
         "React Native--Expo",
         "Python & FastAPI (learning)",
-        "Angular(learning)",        
+        "Angular(learning)",
         "LLMs(RAG, MCP, Agentic AI)",
         "Cyber Security",
         "xUnit Testing with C#",
