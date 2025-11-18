@@ -9,15 +9,6 @@ function Skills() {
 
   const skillCategories = [
     {
-      title: "Web Dev(Full Stack)",
-      skills: [
-        "React(Next.js) with ASP.Net Core(Web API) or Express, Blazor WebApp with C# (Full stack)",
-        "RESTful APIs, Websocket for real-time function",
-        "Typescript, Javascript, HTML, CSS(Tailwind), PHP",
-        "Oracle DB with Oracle Form",
-      ],
-    },
-    {
       title: "AI Integration to project",
       skills: [
         "OpenAI API integration to my personal app",
@@ -26,6 +17,16 @@ function Skills() {
         "Currently learning RAG and MCP to make a good agentic AI",
       ],
     },
+    {
+      title: "Web Dev(Full Stack)",
+      skills: [
+        "React(Next.js) with ASP.Net Core(Web API) or Express, Blazor WebApp with C# (Full stack)",
+        "RESTful APIs, Websocket for real-time function",
+        "Typescript, Javascript, HTML, CSS(Tailwind), PHP",
+        "Oracle DB with Oracle Form",
+      ],
+    },
+
     {
       title: "Database & Backend",
       skills: [
