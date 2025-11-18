@@ -40,11 +40,12 @@ function Projects() {
       description: (
         <>
           PHP Catalogue Project with auth, CRUD, image upload, pagination and
-          advanced filter. (
+          advanced filter. 
+          {/* (
           <span className="text-yellow-400">
             Available after Nov 1 free-tier db expiration
           </span>
-          ).
+          ). */}
         </>
       ),
 
