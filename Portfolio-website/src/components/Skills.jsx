@@ -8,15 +8,7 @@ function Skills() {
   };
 
   const skillCategories = [
-    {
-      title: "AI Integration to project",
-      skills: [
-        "OpenAI API integration to my personal app",
-        "Experience with Open source AI like ollama",
-        "Prompt Engineering for my project (System prompt, User prompt)",
-        "Currently learning RAG and MCP to make a good agentic AI",
-      ],
-    },
+    
     {
       title: "Web Dev(Full Stack)",
       skills: [
@@ -26,7 +18,7 @@ function Skills() {
         "Oracle DB with Oracle Form",
       ],
     },
-
+  
     {
       title: "Database & Backend",
       skills: [

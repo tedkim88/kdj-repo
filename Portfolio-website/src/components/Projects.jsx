@@ -8,22 +8,14 @@ const particlesInit = async (main) => {
 
 function Projects() {
   const projects = [
-    {
-      name: "Game Hub Website (Websocket Realtime)",
-      description:
-        "(Real-time chat through Websocket) FullStack with React(Typescript) and Node.js Backend(Express) with JWT Authentication (the latest one 2025-August).",
-      github: "https://rococo-chimera-697176.netlify.app/",
-      image: "/react-app.png",
-    },
-
-    {
-      name: "AI Integration Project - Speak With Me (Deployed to vercel)",
+      {
+      name: "Speak With Me - AI Integrated Project",
       description: (
         <>
           Customized MCP server, WebSpeech API, Prompt engineering and OpenAI API integration to my
           personal app (This is{" "}
-          <span className="text-red-500">
-            still in development -- as of 2025-Nov-05. Features will be added
+          <span className="text-yellow-400">
+            still in development -- as of 2025-Nov-18. Features will be added
             and bugs will be fixed.
           </span>
           ).
@@ -34,14 +26,22 @@ function Projects() {
       image: "/speak-with-me.png",
     },
 
-    //나중에 여기 두번째로 AI 앱넣을거
+      {
+      name: "Game Hub Website (Websocket Realtime)",
+      description:
+        "(Real-time chat through Websocket) FullStack with React(Typescript) and Node.js Backend(Express) with JWT Authentication (the latest one 2025-August).",
+      github: "https://rococo-chimera-697176.netlify.app/",
+      image: "/react-app.png",
+    },
+
+    
     {
       name: "PHP Catalogue Project(Deployed through Render & AWS(Mysql DB)",
       description: (
         <>
           PHP Catalogue Project with auth, CRUD, image upload, pagination and
           advanced filter. (
-          <span className="text-red-500">
+          <span className="text-yellow-400">
             Available after Nov 1 free-tier db expiration
           </span>
           ).
