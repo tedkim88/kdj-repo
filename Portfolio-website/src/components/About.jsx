@@ -62,28 +62,56 @@ function About() {
         <p className="text-lg md:text-xl mb-4">
           Hi, I'm Daejin Kim, a passionate Fullstack Developer with experience
           in{" "}
-          <span className="text-yellow-400 font-bold">
+          <span className="text-yellow-300 font-bold">
             React, Next.js, .NET, ASP .Net Core Web API, Express, and many
             others.{" "}
           </span>{" "}
           I have done many portfolios using{" "}
-          <span className="text-yellow-400 font-bold">
+          <span className="text-yellow-300 font-bold">
             {" "}
             Restful APIs with clean architecture{" "}
           </span>{" "}
           and used{" "}
-          <span className="text-yellow-400 font-bold">
+          <span className="text-yellow-300 font-bold">
             Web socket(socket.io) for real-time chat{" "}
           </span>{" "}
           in my recent project. More recently, I'm studying{" "}
-          <span className="text-yellow-400 font-bold">
+          <span className="text-yellow-300 font-bold">
             {" "}
             AI integration with the concept of 'Agentic AI'.
           </span>
-          I love building modern, responsive web applications and learning new
-          backend & frontend technologies and architectures like clean
-          architecture.
         </p>
+
+        <p className="text-lg md:text-xl mb-4">
+          <span className="text-yellow-300 font-bold">
+            My biggest strength is understanding the entire product lifecycle —
+            from data modeling and backend API design to frontend UX and
+            deployment.
+          </span>
+          <br />
+          <br />I usually begin by identifying the core data of a real-world
+          problem, designing the entities and database relations (usually with
+          dotnet migrations), and implementing backend APIs with proper testing
+          through Postman. I then build the frontend simultaneously to ensure
+          that the best user experience drives API design.
+          <span className="text-yellow-300 font-bold">
+            {" "}
+            I try to keep detailed notes of features and bugs, and I automate
+            repetitive tasks using bash scripts to improve development
+            efficiency.
+          </span>
+        </p>
+
+        <p className="text-lg md:text-xl mb-4">
+          <span className="text-yellow-300 font-bold">
+            For version control, I primarily use Git with GitHub. Everytime I
+            need a new feature, I create a new branch from the base one, and
+            after testing and code review, I merge it back to the base branch.{" "}
+          </span>
+          When I collaborate with others on GitHub, I make sure to assign each
+          one to work on different pages or components to avoid conflicts.
+        </p>
+
         <p className="text-lg md:text-xl">
           I focus on writing clean, maintainable code and creating user-friendly
           interfaces. When I'm not coding, I enjoy exploring a variety of
