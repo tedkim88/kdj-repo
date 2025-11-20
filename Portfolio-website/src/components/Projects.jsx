@@ -64,6 +64,10 @@ function Projects() {
             (I'm using a free tier server so it is a bit slow. Style has not
             been applied to this app.)
           </span>{" "}
+          <span style={{ color: "yellow", fontWeight: "bold" }}>
+            {" "}
+            (Temporarily down--free app service expired. This will be migrated to fly.io)
+          </span>
         </>
       ),
       github:
@@ -79,6 +83,10 @@ function Projects() {
             {" "}
             (I'm using a free tier server so it is a bit slow. Style has not
             been applied to this app.)
+          </span>
+          <span style={{ color: "yellow", fontWeight: "bold" }}>
+            {" "}
+            (Temporarily down--free app service expired. This will be migrated to fly.io)
           </span>
         </>
       ),
@@ -175,6 +183,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary mt-4"
+              disabled={idx===3 || idx===4}
             >
               Deployed Link
             </a>
