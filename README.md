@@ -9,30 +9,30 @@ https://iridescent-tulumba-4abf5f.netlify.app/
 
 <br>
 
-1. **Game-Hub (Full Stack React-App) (2025/July/16)**  
+1. **AI Integration (Speak with me)**  
+(Still in development, 2025-Nov-21, Vercel + Render)  
+WebSpeech API + OpenAI API + Prompt Engineering + MCP Server(Python)
+https://speak-with-me-git-main-daejin-kims-projects.vercel.app/
+
+<br>
+
+2. **Game-Hub (Full Stack React-App) (2025/July/16)**  
 (Front: Netlify / Backend: Render)  
 Typescript + Express + Websocket + MongoDB + JWT + Tailwind + DaisyUI  
 https://rococo-chimera-697176.netlify.app/
 
 <br>
 
-2. **AI Integration (Speak with me)**  
-(Still in development, 2025-Oct-22, Vercel + Render)  
-WebSpeech API + OpenAI API + Prompt Engineering  
-https://speak-with-me-git-main-daejin-kims-projects.vercel.app/
-
-<br>
 
 3. **PHP Starcraft Unit Catalogue (CRUD + Pagination)**  
 <span style="color:orange; font-weight:bold;">
-(Currently MYSQL DB at AWS expired, so I stopped it.  
-This will be reactivated starting <u>November 1 2025</u>.)
+Deployed through AWS RDS -- free tier so it may be a bit slow.
+Advanced Filter, Authentication, session management, CRUD, uploading pictures.
+https://php-catalogue.onrender.com/public/
 </span>  
 
-  https://php-catalogue.onrender.com/public/
+
   
-
-
 <br>
 
 4. **OLTP Shopping (C# / Blazor / EF Core)**  
@@ -42,12 +42,14 @@ This will be reactivated starting <u>November 1 2025</u>.)
 <br>
 
 5. **Rental Management System (Blazor / EF Core)**  
-(Deployment to Azure Appservice & SQL DB)  
+(Deployment to Azure Appservice & SQL DB)
+[This one is temporarily down -- free tier Azure DB server expired, number 4 OLTP shooping C# is available.]
 [https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList](https://rmsapp20251017134502-dqenh3gchmbchmb2.canadacentral-01.azurewebsites.net/)
 
 <br>
 
-6. **WordSmith (JavaScript + Firebase)**  
+6. **WordSmith (JavaScript + Firebase)**
+My first project as a beginner, when I first experienced Nosql, serverless concept through firebase.
 https://wordsmith-finished.onrender.com
 
 <br>
