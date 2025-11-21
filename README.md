@@ -1,6 +1,38 @@
 # Daejin Kim Portfolio & Coding History!!
 
-Welcome to my portfolio repository! Below are the links of my portfolio
+## About Me
+
+I am a fullstack developer and apply the **fullstack development cycle**, from planning and architecture to backend, frontend, database, deployment, and automation.
+
+### *Tech Stack & Knowledge**
+
+#### **Backend**
+- .NET Web API  
+- Languages: Javascript,Typescript,C#,PHP,Python
+- SQL Databases: MSSQL Server, OracleDB, PostgreSQL, MySQL  
+- NoSQL Databases: MongoDB, Convex, Firebase  
+- ORM: EF Core and similar ORM frameworks  
+- RESTful API Design  
+- Socket.io (real-time communication)  
+- Middleware Development  
+- JWT Authentication with token management
+- Clean Architecture  
+- CI/CD Deployment  
+- Bash scripting & Automation  
+- Linux environments, currently using WSL
+
+#### **Frontend / Mobile**
+- Next.js  
+- React.js  
+- React Native  
+
+#### **AI Integration**
+- MCP (Model Context Protocol)  
+- Prompt Engineering  
+- AI-assisted automation workflows  
+
+---
+
 
 0. **Portfolio Combine Site**  
 (Front: Netlify)  
