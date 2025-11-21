@@ -28,12 +28,11 @@ https://rococo-chimera-697176.netlify.app/
 <span style="color:orange; font-weight:bold;">
 Deployed through AWS RDS -- free tier so it may be a bit slow.
 Advanced Filter, Authentication, session management, CRUD, uploading pictures.
+</span>
+
 https://php-catalogue.onrender.com/public/
-</span>  
-
-
   
-<br>
+<br>  
 
 4. **OLTP Shopping (C# / Blazor / EF Core)**  
 (Deployment to Azure Appservice & SQL DB)  
