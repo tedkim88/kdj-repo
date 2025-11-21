@@ -42,7 +42,9 @@ https://php-catalogue.onrender.com/public/
 
 5. **Rental Management System (Blazor / EF Core)**  
 (Deployment to Azure Appservice & SQL DB)
-[This one is temporarily down -- free tier Azure DB server expired, number 4 OLTP shooping C# is available.]
+  
+[This one is temporarily down -- free tier Azure DB server expired, number 4 OLTP shooping C# is available.]  
+
 [https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList](https://rmsapp20251017134502-dqenh3gchmbchmb2.canadacentral-01.azurewebsites.net/)
 
 <br>
