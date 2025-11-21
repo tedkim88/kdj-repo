@@ -85,7 +85,7 @@ function About() {
         <p className="text-lg md:text-xl mb-4">
           <span className="text-yellow-300 font-bold">
             My biggest strength is understanding the entire product lifecycle —
-            from data modeling and backend API design to frontend UX and
+            from data modeling and backend API design to frontend UI & UX and
             deployment.
           </span>
           <br />
