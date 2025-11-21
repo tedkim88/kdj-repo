@@ -4,7 +4,7 @@
 
 I am a fullstack developer and apply the **fullstack development cycle**, from planning and architecture to backend, frontend, database, deployment, and automation.
 
-### *Tech Stack & Knowledge**
+### *Tech Stack & Knowledge*
 
 #### **Backend**
 - .NET Web API  
@@ -33,6 +33,7 @@ I am a fullstack developer and apply the **fullstack development cycle**, from p
 
 ---
 
+### *Projects*
 
 0. **Portfolio Combine Site**  
 (Front: Netlify)  
