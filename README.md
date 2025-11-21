@@ -43,14 +43,16 @@ https://php-catalogue.onrender.com/public/
 5. **Rental Management System (Blazor / EF Core)**  
 (Deployment to Azure Appservice & SQL DB)
   
-[This one is temporarily down -- free tier Azure DB server expired, number 4 OLTP shooping C# is available.]  
+[This one is temporarily down -- free tier Azure DB server expired, number 4 project C# OLTP shopping is available instead.]  
 
 [https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList](https://rmsapp20251017134502-dqenh3gchmbchmb2.canadacentral-01.azurewebsites.net/)
 
 <br>
 
 6. **WordSmith (JavaScript + Firebase)**
-My first project as a beginner, when I first experienced Nosql, serverless concept through firebase.
+
+My first project as a beginner, when I first experienced Nosql, serverless concept through firebase.  
+
 https://wordsmith-finished.onrender.com
 
 <br>
