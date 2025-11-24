@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <NameOfLastUsedPublishProfile>C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\DMIT2018Project\Properties\PublishProfiles\eToolsApp - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\git\kdj-repo-new\kdj-repo\.github\workflows\DMIT2018Project20251124111759.yml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

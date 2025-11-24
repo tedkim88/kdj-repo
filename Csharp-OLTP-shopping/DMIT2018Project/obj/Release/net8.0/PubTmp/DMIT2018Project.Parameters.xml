@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="eToolsApp" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="DMIT2018Project20251124103308" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\git\\kdj-repo-new\\kdj-repo\\Csharp-OLTP-shopping\\DMIT2018Project\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>
