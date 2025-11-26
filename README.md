@@ -1,39 +1,71 @@
 # Daejin Kim Portfolio & Coding History!!
 
-Welcome to my portfolio repository! Below are the links of my portfolio
+## About Me
+
+I am a fullstack developer and apply the **fullstack development cycle**, from planning and architecture to backend, frontend, database, deployment, and automation.
+
+### *Tech Stack & Knowledge*
+
+#### **Backend**
+- .NET Web API  
+- Languages: Javascript,Typescript,C#,PHP,Python
+- SQL Databases: MSSQL Server, OracleDB, PostgreSQL, MySQL  
+- NoSQL Databases: MongoDB, Convex, Firebase  
+- ORM: EF Core and similar ORM frameworks  
+- RESTful API Design  
+- Socket.io (real-time communication)  
+- Middleware Development  
+- JWT Authentication with token management
+- Clean Architecture  
+- CI/CD Deployment  
+- Bash scripting & Automation  
+- Linux environments, currently using WSL
+
+#### **Frontend / Mobile**
+- Next.js  
+- React.js  
+- React Native  
+
+#### **AI Integration**
+- MCP (Model Context Protocol)  
+- Prompt Engineering  
+- AI-assisted automation workflows  
+
+---
+
+### *Projects*
 
 0. **Portfolio Combine Site**  
 (Front: Netlify)  
 This includes all my projects, skills and knowledge,  
-https://iridescent-tulumba-4abf5f.netlify.app/
+https://devkdj.xyz
 
 <br>
 
-1. **Game-Hub (Full Stack React-App) (2025/July/16)**  
+1. **AI Integration (Speak with me)**  
+(Still in development, 2025-Nov-21, Vercel + Render)  
+WebSpeech API + OpenAI API + Prompt Engineering + MCP Server(Python)
+https://speak-with-me-git-main-daejin-kims-projects.vercel.app/
+
+<br>
+
+2. **Game-Hub (Full Stack React-App) (2025/July/16)**  
 (Front: Netlify / Backend: Render)  
 Typescript + Express + Websocket + MongoDB + JWT + Tailwind + DaisyUI  
 https://rococo-chimera-697176.netlify.app/
 
 <br>
 
-2. **AI Integration (Speak with me)**  
-(Still in development, 2025-Oct-22, Vercel + Render)  
-WebSpeech API + OpenAI API + Prompt Engineering  
-https://speak-with-me-git-main-daejin-kims-projects.vercel.app/
-
-<br>
 
 3. **PHP Starcraft Unit Catalogue (CRUD + Pagination)**  
 <span style="color:orange; font-weight:bold;">
-(Currently MYSQL DB at AWS expired, so I stopped it.  
-This will be reactivated starting <u>November 1 2025</u>.)
-</span>  
+Deployed through AWS RDS -- free tier so it may be a bit slow.
+Advanced Filter, Authentication, session management, CRUD, uploading pictures.
+</span>
 
-  https://php-catalogue.onrender.com/public/
+https://php-catalogue.onrender.com/public/
   
-
-
-<br>
+<br>  
 
 4. **OLTP Shopping (C# / Blazor / EF Core)**  
 (Deployment to Azure Appservice & SQL DB)  
@@ -42,12 +74,18 @@ This will be reactivated starting <u>November 1 2025</u>.)
 <br>
 
 5. **Rental Management System (Blazor / EF Core)**  
-(Deployment to Azure Appservice & SQL DB)  
+(Deployment to Azure Appservice & SQL DB)
+  
+[This one is temporarily down -- free tier Azure DB server expired, number 4 project C# OLTP shopping is available instead.]  
+
 [https://rmsapp20250507022951-d3geewamgpd5a6ah.canadacentral-01.azurewebsites.net/RentalList](https://rmsapp20251017134502-dqenh3gchmbchmb2.canadacentral-01.azurewebsites.net/)
 
 <br>
 
-6. **WordSmith (JavaScript + Firebase)**  
+6. **WordSmith (JavaScript + Firebase)**
+
+My first project as a beginner, when I first experienced Nosql, serverless concept through firebase.  
+
 https://wordsmith-finished.onrender.com
 
 <br>
