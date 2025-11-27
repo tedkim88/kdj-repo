@@ -8,12 +8,40 @@ const particlesInit = async (main) => {
 
 function Projects() {
   const projects = [
-      {
+    {
+      name: "Capstone Project(Nov 26): Athlete Baseline testing management system",
+      description: (
+        <>
+          As a Dev leader, involved in everything from frontend to
+          backend. <br />
+          <span className="italic text-blue-400">
+            DB-relation design, Clerk-token based auth, RBAC through middleware,
+            Scroll-detection for Terms and Conditions, PDF control, DB trigger
+            design, CRUD with filter and pagination, Azure deployment.
+          </span>{" "}
+          <p>This capstone project was for </p>
+          <a
+            className="text-blue-400 underline"
+            href="https://www.facebook.com/lldsports.ca/"
+            target="_blank"
+          >
+            LLD-sports Center.{" "}
+          </a>
+          <br />
+          App is confidential. Instead, Client Reference Letter is available.
+        </>
+      ),
+
+      github: "https://speak-with-me-six.vercel.app/",
+      image: "/capstone.png",
+    },
+
+    {
       name: "Speak With Me - AI Integrated Project",
       description: (
         <>
-          Customized MCP server, WebSpeech API, Prompt engineering and OpenAI API integration to my
-          personal app (This is{" "}
+          Customized MCP server, WebSpeech API, Prompt engineering and OpenAI
+          API integration to my personal app (This is{" "}
           <span className="text-yellow-400">
             still in development -- as of 2025-Nov-18. Features will be added
             and bugs will be fixed.
@@ -26,7 +54,7 @@ function Projects() {
       image: "/speak-with-me.png",
     },
 
-      {
+    {
       name: "Game Hub Website (Websocket Realtime)",
       description:
         "(Real-time chat through Websocket) FullStack with React(Typescript) and Node.js Backend(Express) with JWT Authentication (the latest one 2025-August).",
@@ -34,13 +62,12 @@ function Projects() {
       image: "/react-app.png",
     },
 
-    
     {
       name: "PHP Catalogue Project(Deployed through Render & AWS(Mysql DB)",
       description: (
         <>
           PHP Catalogue Project with auth, CRUD, image upload, pagination and
-          advanced filter. 
+          advanced filter.
           {/* (
           <span className="text-yellow-400">
             Available after Nov 1 free-tier db expiration
@@ -86,7 +113,8 @@ function Projects() {
           </span>
           <span style={{ color: "yellow", fontWeight: "bold" }}>
             {" "}
-            (Temporarily down--free Azure DB expired. This will be migrated to fly.io)
+            (Temporarily down--free Azure DB expired. This will be migrated to
+            fly.io)
           </span>
         </>
       ),
@@ -124,7 +152,7 @@ function Projects() {
     <section
       id="projects"
       className="relative min-h-screen px-8 py-16 
-             bg-gradient-to-b to-gray-800 via-yellow-300 from-black text-950 
+             bg-gradient-to-b to-gray-800 via-indigo-700 from-black text-950 
              text-white overflow-hidden flex flex-col items-center justify-center pt-50"
     >
       {/* 배경 입자 */}
@@ -165,7 +193,7 @@ function Projects() {
         {projects.map((proj, idx) => (
           <div
             key={idx}
-            className="bg-gray-900 bg-opacity-50 p-6 rounded-xl shadow-lg flex flex-col justify-between text-center hover:scale-105 hover:bg-indigo-700 transition-transform h-full"
+            className="bg-gray-900 bg-opacity-50 p-6 rounded-xl shadow-lg flex flex-col justify-between text-center hover:scale-105  transition-transform h-full"
           >
             <div>
               {proj.image && (
@@ -175,7 +203,9 @@ function Projects() {
                   className="w-full h-80 object-cover rounded-md mb-4"
                 />
               )}
-              <h3 className="text-2xl font-semibold mb-2">{proj.name}</h3>
+              <h3 className="text-2xl font-semibold mb-2 text-yellow-400">
+                {proj.name}
+              </h3>
               <p className="mb-4">{proj.description}</p>
             </div>
             <a
@@ -183,7 +213,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary mt-4"
-              disabled={idx===4}
+              disabled={idx === 4 || idx === 0}
             >
               Deployed Link
             </a>
