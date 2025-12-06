@@ -133,7 +133,7 @@ Built with React and TypeScript on the frontend and Express.js on the backend, t
 ---------------------------------------
 
 ## 2. AI Integration (Speak with me) Webspeech API, OpenAI API, Prompt engineering
-   **(Still in development) (2025-Oct-22) (Deployed to Vercel(front) & Render(Backend))**
+   **(Still in development) (2025-Dec-26) (Deployed to Vercel(front) & Render(Backend))**
    **I was an English teacher before, so I wanted to make a good AI-feature-integrated app to help students practice speaking English.
    <img width="1286" height="814" alt="image" src="https://github.com/user-attachments/assets/91a09d14-49b2-4db4-8063-e4c4b579e194" />
 
