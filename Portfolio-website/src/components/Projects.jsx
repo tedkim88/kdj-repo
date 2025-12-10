@@ -9,7 +9,7 @@ const particlesInit = async (main) => {
 function Projects() {
   const projects = [
     {
-      name: "Capstone Project(Nov 26): Athlete Baseline testing management system",
+      name: "Production-level Project for real client: Athlete Baseline testing management system",
       description: (
         <>
           As a Dev leader, involved in everything from frontend to
