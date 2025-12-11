@@ -213,7 +213,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary mt-4"
-              disabled={idx === 5 || idx === 0}
+              disabled={idx === 5}
             >
               Deployed Link
             </a>
