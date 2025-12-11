@@ -28,12 +28,12 @@ function Projects() {
             LLD-sports Center(Click).{" "}
           </a>
           <br />
-          App is confidential. Instead, Client Reference Letter is available.
+          App is confidential for internal features. Instead, Client Reference Letter is available.
         </>
       ),
 
-      github: "https://speak-with-me-six.vercel.app/",
-      image: "/capstone.png",
+      github: "https://www.proathletemetrics.com",
+      image: "/proathletemetrics.png",
     },
 
     {
