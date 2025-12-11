@@ -52,7 +52,7 @@ function About() {
         <img
           src="/presentation.png" // public 폴더에 넣은 사진
           alt="Daejin Kim"
-          className="w-64 h-64 rounded-full border-4 border-white shadow-lg"
+          className="w-100 h-75 border-1 shadow-lg"
         />
       </div>
 
