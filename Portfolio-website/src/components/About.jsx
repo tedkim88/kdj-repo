@@ -50,9 +50,9 @@ function About() {
       {/* 왼쪽: 프로필 이미지 */}
       <div className="md:w-1/3 flex justify-center mb-8 md:mb-0 relative z-10">
         <img
-          src="/daejin.jpg" // public 폴더에 넣은 사진
+          src="/presentation.png" // public 폴더에 넣은 사진
           alt="Daejin Kim"
-          className="w-64 h-64 rounded-full border-4 border-white shadow-lg"
+          className="w-100 h-75 border-1 shadow-lg"
         />
       </div>
 

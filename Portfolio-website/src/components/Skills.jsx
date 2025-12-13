@@ -12,9 +12,9 @@ function Skills() {
     {
       title: "Web Dev(Full Stack)",
       skills: [
-        "React(Next.js) with ASP.Net Core(Web API) or Express, Blazor WebApp with C# (Full stack)",
-        "RESTful APIs, Websocket for real-time function",
-        "Typescript, Javascript, HTML, CSS(Tailwind), PHP",
+        "React(Next.js) with ASP.Net Core(Web API), Express.js, FastAPI, Blazor WebApp with C# (Full stack)",
+        "RESTful APIs, Socket.IO for real-time messaging",
+        "Typescript, Javascript, CSS (Tailwind), PHP",
         "Oracle DB with Oracle Form",
       ],
     },

@@ -9,7 +9,7 @@ const particlesInit = async (main) => {
 function Projects() {
   const projects = [
     {
-      name: "Capstone Project(Nov 26): Athlete Baseline testing management system",
+      name: "Production-level Project for real client: Athlete Baseline testing management system",
       description: (
         <>
           As a Dev leader, involved in everything from frontend to
@@ -21,19 +21,19 @@ function Projects() {
           </span>{" "}
           <p>This capstone project was for </p>
           <a
-            className="text-blue-400 underline"
+            className="text-red-400 underline font-bold"
             href="https://www.facebook.com/lldsports.ca/"
             target="_blank"
           >
-            LLD-sports Center.{" "}
+            LLD-sports Center(Click).{" "}
           </a>
           <br />
-          App is confidential. Instead, Client Reference Letter is available.
+          App is confidential for internal features. Instead, Client Reference Letter is available.
         </>
       ),
 
-      github: "https://speak-with-me-six.vercel.app/",
-      image: "/capstone.png",
+      github: "https://www.proathletemetrics.com",
+      image: "/proathletemetrics.png",
     },
 
     {
@@ -55,9 +55,9 @@ function Projects() {
     },
 
     {
-      name: "Game Hub Website (Websocket Realtime)",
+      name: "Game Hub Website (Socket.io Real time Chat)",
       description:
-        "(Real-time chat through Websocket) FullStack with React(Typescript) and Node.js Backend(Express) with JWT Authentication (the latest one 2025-August).",
+        "(Real-time chat through Socket.io) FullStack with React(Typescript) and Node.js Backend(Express) with JWT Authentication (the latest one 2025-August).",
       github: "https://rococo-chimera-697176.netlify.app/",
       image: "/react-app.png",
     },
@@ -213,7 +213,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary mt-4"
-              disabled={idx === 5 || idx === 0}
+              disabled={idx === 5}
             >
               Deployed Link
             </a>
