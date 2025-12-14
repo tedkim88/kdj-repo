@@ -12,8 +12,8 @@ function Projects() {
       name: "Production-level Project for real client: Athlete Baseline testing management system",
       description: (
         <>
-          As a Dev leader, involved in everything from frontend to
-          backend. <br />
+          As a Dev leader, involved in everything from frontend to backend.{" "}
+          <br />
           <span className="italic text-blue-400">
             DB-relation design, Clerk-token based auth, RBAC through middleware,
             Scroll-detection for Terms and Conditions, PDF control, DB trigger
@@ -28,7 +28,8 @@ function Projects() {
             LLD-sports Center(Click).{" "}
           </a>
           <br />
-          App is confidential for internal features. Instead, Client Reference Letter is available.
+          App is confidential for internal features. Instead, Client Reference
+          Letter is available.
         </>
       ),
 
@@ -53,7 +54,29 @@ function Projects() {
       github: "https://speak-with-me-six.vercel.app/",
       image: "/speak-with-me.png",
     },
+    {
+      name: "React Native(EXPO) Diet Tracking App with AI Integration",
+      description: (
+        <>
+          Expo React Native with Python FAST API backend. AI integration for
+          analyzing diet and recommending meals or exercises, depending on users
+          calorie intake. (Deployed through EXPO EAS build).
+          <span className="text-yellow-400">
+            {" "}
+            (Currently this app is in testing phase, not a finished version.)
+          </span>
+          <br />
+          <span className="text-red-400 font-bold">
+            {" "}
+            Please install EXPO Go app on your phone and click 'Deployed Link',
+            and scan the QR. Only tested on Android as of now.
+          </span>
+        </>
+      ),
 
+      github: "/dietwithmeqr.png",
+      image: "/dietwithme.jpg",
+    },
     {
       name: "Game Hub Website (Socket.io Real time Chat)",
       description:
@@ -213,7 +236,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary mt-4"
-              disabled={idx === 5}
+              disabled={idx === 6}
             >
               Deployed Link
             </a>
