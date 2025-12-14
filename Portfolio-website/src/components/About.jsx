@@ -14,7 +14,7 @@ function About() {
       className="relative min-h-screen flex flex-col md:flex-row items-center justify-center px-2 py-16 
              bg-gradient-to-b from-black via-sky-700 to-black text-white"
     >
-      {/* 입자 배경 */}
+      
       <Particles
         id="tsparticles-about"
         init={particlesInit}
