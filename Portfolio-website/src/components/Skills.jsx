@@ -15,6 +15,7 @@ function Skills() {
         "React(Next.js) with ASP.Net Core(Web API), Express.js, FastAPI, Blazor WebApp with C# (Full stack)",
         "RESTful APIs, Socket.IO for real-time messaging",
         "Typescript, Javascript, CSS (Tailwind), PHP",
+        "Mobile-React Native(Expo)",
         "Oracle DB with Oracle Form",
       ],
     },
@@ -22,20 +23,19 @@ function Skills() {
     {
       title: "Database & Backend",
       skills: [
-        "MS SQL Server, Oracle, PostgreSQL, MySQL, MongoDB, Firestore",
+        "MS SQL Server, Oracle(Procedure, Function, Trigger), PostgreSQL, MySQL, MongoDB, Firestore",
         "ASP.Net Core Web API, Express, Node.js, EntityFrameWorkCore, Prisma, Mongoose",
         "JWT, Clerk Auth(Token management), Clerk Webhook, Firebase Auth & DB(Firestore), bcrypt-hashing",
+        "xUnit Testing",        
       ],
     },
     {
       title: "DevOps (Practicing)",
       skills: [
         "Bash Scripting for Automation",
-        "Vim",
-        "Docker",
-        "CI/CD Experience (Github Actions)",
         "Linux (WSL)",
-        // Jenkins
+        "Docker",
+        "CI/CD Experience (Github Actions)",      
       ],
     },
     {
@@ -59,14 +59,14 @@ function Skills() {
       ],
     },
     {
-      title: "Self-Learning & Testing",
-      skills: [
-        "React Native--Expo",
+      title: "Recently Learned & Testing",
+      skills: [        
         "Python & FastAPI (learning)",
+        "Java(Spring Boot) (learning)",
+        "Kubernetes(learning)",
         "Angular(learning)",
         "LLMs(RAG, MCP, Agentic AI)",
-        "Cyber Security",
-        "xUnit Testing with C#",
+        "Cyber Security",        
       ],
     },
     {
