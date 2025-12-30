@@ -8,7 +8,6 @@ function Skills() {
   };
 
   const skillCategories = [
-    
     {
       title: "Web Dev(Full Stack)",
       skills: [
@@ -19,29 +18,36 @@ function Skills() {
         "Oracle DB with Oracle Form",
       ],
     },
-  
+
     {
       title: "Database & Backend",
       skills: [
         "MS SQL Server, Oracle(Procedure, Function, Trigger), PostgreSQL, MySQL, MongoDB, Firestore",
         "ASP.Net Core Web API, Express, Node.js, EntityFrameWorkCore, Prisma, Mongoose",
         "JWT, Clerk Auth(Token management), Clerk Webhook, Firebase Auth & DB(Firestore), bcrypt-hashing",
-        "xUnit Testing",        
+        "xUnit Testing",
       ],
     },
     {
-      title: "DevOps (Practicing)",
+      title: "Certificate",
+      skills: [
+        "Azure Fundamentals AZ-900 (2025)",
+        
+      ],
+    },
+    {
+      title: "DevOps",
       skills: [
         "Bash Scripting for Automation",
         "Linux (WSL)",
         "Docker",
-        "CI/CD Experience (Github Actions)",      
+        "CI/CD Experience (Github Actions)",
       ],
     },
     {
       title: "Cloud & Deployment",
       skills: [
-        "Azure(Storage, App Service, SQLServer)",
+        "Azure(Storage, App Service, VM, SQLServer)",
         "AWS(IAM, RDS)",
         "Deploy apps through Azure App Service & SQL DB",
         "Flyio",
@@ -49,6 +55,7 @@ function Skills() {
         "Netlify",
       ],
     },
+    
     {
       title: "Data Analytics",
       skills: [
@@ -60,13 +67,13 @@ function Skills() {
     },
     {
       title: "Recently Learned & Testing",
-      skills: [        
+      skills: [
         "Python & FastAPI (learning)",
         "Java(Spring Boot) (learning)",
         "Kubernetes(learning)",
         "Angular(learning)",
         "LLMs(RAG, MCP, Agentic AI)",
-        "Cyber Security",        
+        "Cyber Security",
       ],
     },
     {
