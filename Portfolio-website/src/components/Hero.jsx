@@ -17,7 +17,7 @@ function Hero() {
           fullScreen: { enable: false },
           background: { color: { value: "transparent" } },
           particles: {
-            number: { value: 12 },
+            number: { value: 5 },
             color: {
               value: ["#48E8DD", "#E8E548", "#e0e0e0", "#fafafa"],
             },

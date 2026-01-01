@@ -32,7 +32,7 @@ function Skills() {
       title: "Certificate",
       skills: [
         "Azure Fundamentals AZ-900 (2025)",
-        
+
       ],
     },
     {
@@ -55,7 +55,7 @@ function Skills() {
         "Netlify",
       ],
     },
-    
+
     {
       title: "Data Analytics",
       skills: [
@@ -98,7 +98,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="relative min-h-screen px-8 py-4 
+      className="appear-animation relative min-h-screen px-8 py-4 
              bg-gradient-to-b to-black via-emerald-500 from-black text-950 
              text-white overflow-hidden flex flex-col items-center justify-center"
     >
@@ -133,27 +133,29 @@ function Skills() {
       />
 
       {/* 섹션 콘텐츠 */}
-      <h2 className="text-4xl font-bold mb-12 text-center relative z-10">
-        My Skills
-      </h2>
+      
+        <h2 className="text-4xl font-bold mb-12 text-center relative z-10">
+          My Skills
+        </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl relative z-10">
-        {skillCategories.map((category, idx) => (
-          <div
-            key={idx}
-            className="bg-gray-900 bg-opacity-50 p-6 rounded-xl shadow-lg min-h-[280px] hover:scale-105 transition-transform flex flex-col"
-          >
-            <h3 className="text-2xl font-semibold mb-4 text-yellow-200">
-              {category.title}
-            </h3>
-            <ul className="list-disc list-inside space-y-2">
-              {category.skills.map((skill, i) => (
-                <li key={i}>{skill}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl relative z-10">
+          {skillCategories.map((category, idx) => (
+            <div
+              key={idx}
+              className=" bg-gray-900 bg-opacity-50 p-6 rounded-xl shadow-lg min-h-[280px] hover:scale-105 transition-transform flex flex-col"
+            >
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-200">
+                {category.title}
+              </h3>
+              <ul className="list-disc list-inside space-y-2">
+                {category.skills.map((skill, i) => (
+                  <li key={i}>{skill}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
     </section>
   );
 }

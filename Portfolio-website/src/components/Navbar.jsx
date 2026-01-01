@@ -52,7 +52,7 @@ function Navbar() {
 
         {/* 모바일 햄버거 버튼 */}
         <button
-          className="md:hidden btn bg-gray-900 text-yellow-400 hover:text-red-600 transition-colors px-4 py-2 rounded"
+          className="md:hidden btn bg-gray-900 text-yellow-400 hover:text-red-600 px-4 py-2 rounded "
           onClick={() => setOpen(!open)}
         >
           ☰
@@ -61,7 +61,7 @@ function Navbar() {
 
       {/* 모바일 메뉴 */}
       {open && (
-        <ul className="md:hidden bg-base-100 text-white px-4 pb-4 space-y-2">
+        <ul className="md:hidden bg-base-100 text-white px-4 pb-4 space-y-2 mobile-menu">
           <li>
             <a
               href="#about"

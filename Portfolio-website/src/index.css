@@ -24,10 +24,51 @@ html {
 .btn:active {
   transform: translateY(2px);
 }
+
 h1 {
   animation: moveInLeft 1s ease-in-out;
 }
 
+.fade-in {
+  animation: fadeIn 3s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+
+.appear-animation{
+  animation: appearAnimation 1s ease-in-out;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+
+.mobile-menu {
+  animation: appearAnimation 0.7s ease-in-out;
+}
+
+
+
+@keyframes appearAnimation{
+from{
+opacity:0;
+}
+to{
+  opacity:1;
+
+}
+}
+
+@keyframes fadeIn{
+from {
+ opacity:0;
+ transform: translateX(200px);
+}
+to{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+}
 @keyframes expand {
   from {
     transform: scale(1);
@@ -39,6 +80,7 @@ h1 {
   }
   to {
     transform: scale(1);
+    opacity: 1;
   }
 }
 
