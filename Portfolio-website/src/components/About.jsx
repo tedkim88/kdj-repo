@@ -22,7 +22,7 @@ function About() {
           fullScreen: { enable: false },
           background: { color: { value: "transparent" } },
           particles: {
-            number: { value: 10 },
+            number: { value: 7 },
             color: {
               value: ["#ffffff", "#f5f3f4", "#c7d2fe", "#a78bfa", "#f472b6"],
             },
@@ -60,7 +60,7 @@ function About() {
       <div className="md:w-1/2 md:pl-12 relative z-10 font-oswald fade-in">
         <h2 className="text-4xl font-bold mb-4">About Me</h2>
         <p className="text-lg md:text-xl mb-4">
-          Hi, I'm Daejin Kim, a passionate Fullstack Developer with experience
+          Hi, I'm Daejin Kim, a passionate Fullstack developer with experience
           in{" "}
           <span className="text-yellow-300 font-bold">
             React, Next.js, .NET, ASP .Net Core Web API, Express, and many
@@ -69,16 +69,16 @@ function About() {
           I have done many portfolios using{" "}
           <span className="text-yellow-300 font-bold">
             {" "}
-            Restful APIs with clean architecture{" "}
+            Restful APIs{" "}
           </span>{" "}
           and used{" "}
           <span className="text-yellow-300 font-bold">
             Web socket(socket.io) for real-time chat{" "}
           </span>{" "}
-          in my recent project. More recently, I'm studying{" "}
+          in my recent project. More recently, I have been using{" "}
           <span className="text-yellow-300 font-bold">
             {" "}
-            AI integration with the concept of 'Agentic AI'.
+            AI integration with the concept of 'Agentic AI' for automation purpose.
           </span>
         </p>
 
@@ -89,11 +89,10 @@ function About() {
             deployment.
           </span>
           <br />
-          <br />I usually begin by identifying the core data of a real-world
-          problem, designing the entities and database relations (usually with
-          dotnet migrations), and implementing backend APIs with proper testing
-          through Postman. I then build the frontend simultaneously to ensure
-          that the best user experience drives API design.
+          <br />I begin by identifying real-world problems and the data needed to solve them.
+          I design the entities and database relations (usually with
+          dotnet migrations), and implement backend APIs with testing
+          through Postman. I make MVP models to validate ideas and gather feedback from clients.
           <span className="text-yellow-300 font-bold">
             {" "}
             I try to keep detailed notes of features and bugs, and I automate

@@ -29,9 +29,9 @@ function Skills() {
       ],
     },
     {
-      title: "Certificate",
+      title: "Certificate (Earned)",
       skills: [
-        "Azure Fundamentals AZ-900 (2025)",
+        "MS Azure Fundamentals AZ-900 (2025)",
 
       ],
     },
@@ -47,12 +47,11 @@ function Skills() {
     {
       title: "Cloud & Deployment",
       skills: [
-        "Azure(Storage, App Service, VM, SQLServer)",
-        "AWS(IAM, RDS)",
-        "Deploy apps through Azure App Service & SQL DB",
-        "Flyio",
-        "Render",
-        "Netlify",
+        "Azure (Storage, App Service, VM, SQLServer, Deployment)",
+        "AWS (IAM, RDS)",        
+        "Fly.io, Render, Netlify, Vercel",
+        "Cloud DB (Neon, MongoDB, Supabase)"
+
       ],
     },
 
@@ -66,12 +65,11 @@ function Skills() {
       ],
     },
     {
-      title: "Recently Learned & Testing",
+      title: "Learning",
       skills: [
-        "Python & FastAPI (learning)",
         "Java(Spring Boot) (learning)",
-        "Kubernetes(learning)",
-        "Angular(learning)",
+        "Kubernetes (learning)",
+        // "Angular(learning)",
         "LLMs(RAG, MCP, Agentic AI)",
         "Cyber Security",
       ],
@@ -89,7 +87,7 @@ function Skills() {
         "Material UI",
         // "Chakra UI",
         "Tailwind CSS",
-        "Bootstrap",
+        // "Bootstrap",
         "MudBlazor",
       ],
     },
@@ -110,7 +108,7 @@ function Skills() {
           fullScreen: { enable: false },
           background: { color: { value: "transparent" } },
           particles: {
-            number: { value: 25 },
+            number: { value: 7 },
             color: { value: ["#f5f3f4", "#c7d2fe", "#a78bfa", "#f472b6"] },
             shape: { type: ["circle", "triangle"] },
             size: { value: { min: 1, max: 3 } },

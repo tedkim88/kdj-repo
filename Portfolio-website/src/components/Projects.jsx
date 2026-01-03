@@ -186,7 +186,7 @@ function Projects() {
           fullScreen: { enable: false },
           background: { color: { value: "transparent" } },
           particles: {
-            number: { value: 20 },
+            number: { value: 7 },
             color: { value: ["#c7d2fe", "#a78bfa", "#f472b6"] },
             shape: { type: ["circle", "triangle"] },
             size: { value: { min: 2, max: 3 } },
