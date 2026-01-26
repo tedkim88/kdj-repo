@@ -22,7 +22,7 @@ namespace SalesSystem.BLL
         public int GetReturnedQty(int saleid, int stockitemid)
         {
             return _salesContext.SaleRefundDetails
-                              .Where(x => x.SaleRefund.SaleID == saleid && x.StockItemID == stockitemid)
+                              .Where(x => x.SaleRefundID == saleid && x.StockItemID == stockitemid)
                               .Sum(x => x.Quantity);
         }
 
