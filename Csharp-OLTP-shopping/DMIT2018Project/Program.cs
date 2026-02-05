@@ -1,3 +1,4 @@
+using Azure.Identity;
 using DMIT2018Project.Components;
 using DMIT2018Project.Components.Account;
 using DMIT2018Project.Data;
@@ -5,8 +6,8 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MudBlazor.Services;
-using SalesSystem; //added
 using POSystem;
+using SalesSystem; //added
 using System.Text;
 
 
@@ -15,6 +16,33 @@ var builder = WebApplication.CreateBuilder(args);
 
 Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 Console.OutputEncoding = Encoding.UTF8;
+
+
+var keyVaultUri = builder.Configuration["KeyVaultSettings:VaultUri"];
+if (!string.IsNullOrEmpty(keyVaultUri))
+{
+    builder.Configuration.AddAzureKeyVault(new Uri(keyVaultUri), new DefaultAzureCredential());
+}
+// ----------------------------------
+
+Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+Console.OutputEncoding = Encoding.UTF8;
+
+// APIM  HttpClient
+builder.Services.AddHttpClient("APIMClient", client =>
+{
+    // from appsettings.json
+    client.BaseAddress = new Uri(builder.Configuration["APIMSettings:BaseAddress"]);
+
+    // Key Vault Secret "APIMSubscriptionKey"   
+    client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", builder.Configuration["APIMSubscriptionKey"]);
+
+    client.DefaultRequestHeaders.Add("Accept", "application/json");
+});
+
+
+
+
 
 
 // Add services to the container.

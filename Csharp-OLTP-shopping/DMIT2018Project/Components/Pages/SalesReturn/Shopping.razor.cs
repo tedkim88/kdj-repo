@@ -38,6 +38,9 @@ namespace DMIT2018Project.Components.Pages.SalesReturn
         [Inject]
         protected NavigationManager NavigationManager { get; set; }
 
+        [Inject]
+        protected IHttpClientFactory ClientFactory { get; set; }
+
         protected override void OnInitialized()
         {
             GetCategories();
@@ -86,8 +89,21 @@ namespace DMIT2018Project.Components.Pages.SalesReturn
             }
         }
 
-        private void GetItems(int? categoryID)
+        private async Task GetItems(int? categoryID)
         {
+
+            //API Management rate limiting check using Azure API Management
+            var client = ClientFactory.CreateClient("APIMClient");
+            
+            var checkResponse = await client.GetAsync("check-access");
+
+            if ((int)checkResponse.StatusCode == 429) // 429 Too Many Requests
+            {
+                errorMessage = "Too many requests within a short amount of time";
+                await InvokeAsync(StateHasChanged);
+                return; //not allowing to proceed further
+            }
+
             try
             {
                 if (categoryID == null)
@@ -110,14 +126,17 @@ namespace DMIT2018Project.Components.Pages.SalesReturn
                 {
                     errorDetails.Add(innerException.Message);
                 }
+                await InvokeAsync(StateHasChanged);
             }
             catch (ArgumentNullException ex)
             {
                 errorMessage = BlazorHelperClass.GetInnerException(ex).Message;
+                await InvokeAsync(StateHasChanged);
             }
             catch (Exception ex)
             {
                 errorMessage = BlazorHelperClass.GetInnerException(ex).Message;
+                await InvokeAsync(StateHasChanged);
             }
         }
 
