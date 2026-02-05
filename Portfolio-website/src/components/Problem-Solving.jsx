@@ -16,6 +16,12 @@ function ProblemSolving() {
     • Outcome: Offloaded logging overhead from the main thread, ensuring system resilience and data integrity without sacrificing API performance.`,
     },
     {
+      title: "Azure API Management for rate limiting",
+      skills: `• Mission: Protect backend resources from DDoS attacks and excessive traffic by implementing a robust rate-limiting layer.
+    • Process: Designed inbound policy with Azure API management for rate-limiting. Interaction between resources done through Managed Identity and Key Vault for security.
+    • Outcome: Successfully handled traffic spikes by returning HTTP 429 (Too Many Requests), ensuring 100% backend availability.`,
+    },
+    {
       title: "Standardized API Response",
       skills: `• Mission: Eliminate inconsistent API response schemas coming from backend.
     • Process: Implemented Generic Response Wrappers(dealing with business rules) & Global Exception Middleware in .NET(network-related unexpected error).
@@ -30,7 +36,7 @@ function ProblemSolving() {
     {
       title: "Azure Devops Pipeline",
       skills: `• Mission: Automating Azure Function App deployment using Azure DevOps.
-    • Process: Used Azure Devops Classic Editor for pipeline configuration, managing artifacts and deployment stages.
+    • Process: Utilized Azure Devops Classic Editor for pipeline configuration, managing artifacts and deployment stages.
     • Outcome: Streamlined deployment process, reducing manual errors and deployment time.`,
     },
     {
