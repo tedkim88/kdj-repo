@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { useEffect } from "react";
 function Navbar() {
@@ -6,20 +6,18 @@ function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-
     window.addEventListener("scroll", () => {
       if (window.scrollY > 300) {
         setScrolled(true);
-
       } else {
         setScrolled(false);
-
       }
     });
-
-  }, [])
+  }, []);
   return (
-    <nav className={`bg-gradient-to-b py-3 from-black ${scrolled ? "via-blue-300" : "via-gray-200"} to-black text-black  shadow-md sticky top-0 z-50`}>
+    <nav
+      className={`bg-gradient-to-b py-3 from-black ${scrolled ? "via-blue-300" : "via-gray-200"} to-black text-black  shadow-md sticky top-0 z-50`}
+    >
       <div className="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
         {/* 로고 / 사이트 이름 */}
         <a
@@ -45,6 +43,14 @@ function Navbar() {
               className="text-black btn-home nav-link hover:text-indigo-700 hover:text-lg transition-colors"
             >
               Skills
+            </a>
+          </li>
+          <li>
+            <a
+              href="#problem-solving"
+              className="text-black btn-home nav-link hover:text-indigo-700 hover:text-lg transition-colors"
+            >
+              Problem Solving
             </a>
           </li>
           <li>
@@ -91,6 +97,14 @@ function Navbar() {
               className="block py-2 hover:text-yellow-500 transition-colors"
             >
               Skills
+            </a>
+          </li>
+          <li>
+            <a
+              href="#problem-solving"
+              className="block py-2 hover:text-yellow-500 transition-colors"
+            >
+              Problem Solving
             </a>
           </li>
           <li>

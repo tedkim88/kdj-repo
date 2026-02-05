@@ -25,7 +25,7 @@ function Skills() {
         "MS SQL Server, Oracle(Procedure, Function, Trigger), PostgreSQL, MySQL, MongoDB, Firestore",
         "ASP.Net Core Web API, Express, Node.js, EntityFrameWorkCore, Prisma, Mongoose",
         "JWT, Clerk Auth(Token management), Clerk Webhook, Firebase Auth & DB(Firestore), bcrypt-hashing",
-        "xUnit Testing",
+        "xUnit Testing (FluentAssertions)",
       ],
     },
     {
@@ -78,8 +78,8 @@ function Skills() {
       title: "Version Control & Tools",
       skills: [
         "Git & Github",
-        "Axios",
         "React Query",
+        "Axios",        
         "Zustand",
         "Postman",
         // "DaisyUI",
@@ -96,9 +96,9 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="appear-animation relative min-h-screen px-8 py-4 
+      className="pt-10 relative min-h-screen px-8 py-4 
              bg-gradient-to-b to-black via-emerald-500 from-black text-950 
-             text-white overflow-hidden flex flex-col items-center justify-center"
+             text-white overflow-hidden flex flex-col items-center justify-center pb-20"
     >
       {/* 배경 입자 */}
       <Particles
@@ -133,7 +133,7 @@ function Skills() {
       {/* 섹션 콘텐츠 */}
       
         <h2 className="text-4xl font-bold mb-12 text-center relative z-10">
-          My Skills
+          My Tech Skills
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl relative z-10">

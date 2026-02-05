@@ -8,7 +8,7 @@ function Hero() {
   };
 
   return (
-    <section className="relative min-h-[calc(100vh-64px)] flex flex-col items-center justify-center text-white text-center px-4 overflow-hidden bg-black">
+    <section className="relative min-h-[calc(100vh-64px)] flex flex-col items-center justify-center text-white text-center px-4 overflow-hidden bg-black ">
       {/* 배경 입자 */}
       <Particles
         id="tsparticles"
@@ -70,29 +70,29 @@ function Hero() {
       <p className="text-yellow-400">(Computer Software Development)</p>
 
       {/* 버튼 */}
-      <div className="flex flex-col md:flex-row gap-4 relative z-10 mt-5">
-        <div className="flex space-x-4">
-          <a href="#skills" className="btn btn-success btn-home w-30">
-            My Skills
-          </a>
+      <div className="grid grid-cols-2 gap-4 mt-8 md:grid-cols-3 lg:grid-cols-5 z-10">
+        <a href="#skills" className="btn btn-success btn-home w-30 hover:cursor-pointer">
+          My Skills
+        </a>
 
-          <a href="#projects" className="btn btn-primary btn-home w-30">
-            My Projects
-          </a>
-        </div>
-        <div className="flex space-x-4">
-          <a
-            target="_blank"
-            href="https://github.com/tedkim88/kdj-repo"
-            className="btn btn-info w-30 btn-home"
-          >
-            Github Link
-          </a>
+        <a href="#problem-solving" className="btn btn-warning btn-home w-30">
+          Problem Solving
+        </a>
+        <a href="#projects" className="btn btn-primary btn-home w-30">
+          My Projects
+        </a>
 
-          <a href="#contact" className="btn btn-secondary btn-home w-30">
-            Contact
-          </a>
-        </div>
+        <a
+          target="_blank"
+          href="https://github.com/tedkim88/kdj-repo"
+          className="btn btn-info w-30 btn-home"
+        >
+          Github Link
+        </a>
+
+        <a href="#contact" className="btn btn-secondary btn-home w-30">
+          Contact
+        </a>
       </div>
     </section>
   );
