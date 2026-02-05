@@ -42,7 +42,7 @@ function Contact() {
         className="absolute inset-0 z-0"
       />
 
-      {/* 섹션 콘텐츠 */}
+      
       <h2 className="text-4xl font-bold mb-8 relative z-10 text-center">
         Contact Me
       </h2>
