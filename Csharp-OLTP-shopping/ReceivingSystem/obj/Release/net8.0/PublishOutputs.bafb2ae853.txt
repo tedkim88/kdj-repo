@@ -1,3 +1,0 @@
-C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\out\ReceivingSystem.dll
-C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\out\ReceivingSystem.deps.json
-C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\out\ReceivingSystem.pdb

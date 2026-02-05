@@ -1,3 +1,0 @@
-C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\out\RentalSystem.dll
-C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\out\RentalSystem.deps.json
-C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\out\RentalSystem.pdb

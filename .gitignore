@@ -5,3 +5,8 @@ dist/
 build/
 .vs/
 .idea/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+.vs/

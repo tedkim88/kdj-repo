@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\DMIT2018Project.props" />
-</Project>

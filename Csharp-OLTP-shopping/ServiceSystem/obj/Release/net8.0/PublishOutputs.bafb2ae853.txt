@@ -1,3 +1,0 @@
-C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\out\ServiceSystem.dll
-C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\out\ServiceSystem.deps.json
-C:\git\kdj-repo-new\kdj-repo\Csharp-OLTP-shopping\out\ServiceSystem.pdb
