@@ -22,7 +22,7 @@ function Skills() {
     {
       title: "Database & Backend",
       skills: [
-        "MS SQL Server, Oracle(Procedure, Function, Trigger), PostgreSQL, MySQL, MongoDB, Firestore",
+        "MS SQL Server || Oracle || PostgreSQL (Procedure, Function, Trigger), MySQL, MongoDB, Firestore",
         "ASP.Net Core Web API, Express, Node.js, EntityFrameWorkCore, Prisma, Mongoose",
         "JWT, Clerk Auth(Token management), Clerk Webhook, Firebase Auth & DB(Firestore), bcrypt-hashing",
         "xUnit Testing (FluentAssertions)",
@@ -38,20 +38,19 @@ function Skills() {
     {
       title: "DevOps",
       skills: [
-        "Bash Scripting for Automation",
-        "Linux (WSL)",
-        "Docker",
-        "CI/CD Experience (Github Actions)",
+        "Azure DevOps (CI/CD Pipelines, Repos)",
+        "(WSL)Bash Scripting for Automation",        
+        "Kubernetes (learning)",
+        "Github Actions CI/CD",
       ],
     },
     {
       title: "Cloud & Deployment",
       skills: [
-        "Azure (Storage, App Service, VM, SQLServer, Deployment)",
+        "Azure (Entra ID, Azure DevOps, Event Grid Topic, Function App, Storage, App Service, VM, SQL)",
         "AWS (IAM, RDS)",        
         "Fly.io, Render, Netlify, Vercel",
         "Cloud DB (Neon, MongoDB, Supabase)"
-
       ],
     },
 

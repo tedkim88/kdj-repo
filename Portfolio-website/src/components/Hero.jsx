@@ -17,9 +17,9 @@ function Hero() {
           fullScreen: { enable: false },
           background: { color: { value: "transparent" } },
           particles: {
-            number: { value: 5 },
+            number: { value: 4 },
             color: {
-              value: ["#48E8DD", "#E8E548", "#e0e0e0", "#fafafa"],
+              value: ["#48E8DD", "#E8E548"],
             },
 
             shape: { type: ["circle", "triangle"] },
@@ -61,7 +61,8 @@ function Hero() {
         <span className="text-yellow-400">Fullstack</span> Developer |{" "}
         <span className="text-yellow-400">React</span> &{" "}
         <span className="text-yellow-400">.NET</span> &{" "}
-        <span className="text-yellow-400">Node.js</span> Enthusiast
+        <span className="text-yellow-400">Azure</span> &{" "}
+        <span className="text-yellow-400">AI</span> Enthusiast
       </p>
       <p>
         <span className="text-yellow-400">(NAIT)</span> Northern Alberta
