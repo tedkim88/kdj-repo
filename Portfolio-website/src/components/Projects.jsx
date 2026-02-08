@@ -86,7 +86,7 @@ function Projects() {
     },
 
     {
-      name: "PHP Catalogue Project(Deployed through Render & AWS(Mysql DB)",
+      name: "PHP Catalogue Project(Deployed through fly.io)",
       description: (
         <>
           PHP Catalogue Project with auth, CRUD, image upload, pagination and
@@ -99,7 +99,7 @@ function Projects() {
         </>
       ),
 
-      github: "https://php-catalogue.onrender.com/public/",
+      github: "https://dkim-php.fly.dev/",
       image: "/php-screenshot.png",
     },
 
