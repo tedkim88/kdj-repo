@@ -33,6 +33,7 @@ function Skills() {
       skills: [
         "MS Azure Fundamentals AZ-900 (2025)",
         "MS Azure Developer Associate AZ-204 (2026)",
+        "MS Azure Administrator Associate AZ-104 (2026)",
       ],
     },
     {
