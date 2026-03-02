@@ -34,6 +34,7 @@ function Skills() {
         "MS Azure Fundamentals AZ-900 (2025)",
         "MS Azure Developer Associate AZ-204 (2026)",
         "MS Azure Administrator Associate AZ-104 (2026)",
+        "MS Azure Solutions Architect Expert AZ-305 (2026)",
       ],
     },
     {
