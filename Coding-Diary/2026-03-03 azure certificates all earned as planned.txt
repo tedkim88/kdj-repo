@@ -1,0 +1,11 @@
+For 2 months after graduation from college,
+I earned AZ-900, AZ-204, AZ-104, AZ-305(Solution Architect Expert)
+
+It was a long journey, and indeed I had to study a huge range of Azure resources and how they work and how I can use them for making my own apps better.
+These days, I've been making my own references for codes and knowledge on my local pc,
+whether they be frontend, backend, DB, Cloud, Solution architectural mindset, or anything I want to leave a record of.
+
+For Azure resources, since it's almost impossible to memorize everything(too many!), I think I am gonna make a bit of summary of things I learned 
+during the journey to get all certs I wanted to earn.
+
+
